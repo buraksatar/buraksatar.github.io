@@ -14,6 +14,6 @@ I work on video understanding & machine learning by using multi modalities under
 
 Recent News
 ======
-* Submitted the first paper based on preliminary results, it is under review.
-* Finished the NTU lectures, including 'CE7454: Deep Learning for Data Science' and 'CE7455: Deep Learning for NLP'.
+* Submitted the first paper, it is under review, on Jan'21.
+* Finished the NTU lecture requirements, including 'CE7454: Deep Learning for Data Science' and 'CE7455: Deep Learning for Natural Language Processing', on Dec'20.
 * Started to do PhD on video understanding & machine learning in Nanyang Technological University, Singapore under SINGA by A*STAR, on Jan'20.
