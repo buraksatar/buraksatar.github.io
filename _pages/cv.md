@@ -45,11 +45,18 @@ Skills
 * Research
 * Self Motivation
 
-Achievements
+Achievements & News
 ======
-  * Nov 2018, Got IELTS Score as 6.5 out of 9.
-  * July 2018, Finished some [**Python based Courses**, Datacamp](https://www.datacamp.com/tracks/data-scientist-with-python) 
-  * Mar 2018, Finished [**Deep Learning Courses** of Andrew Ng, Coursera](https://www.coursera.org/specializations/deep-learning)
+  * Attended to Data Science Summer School ([VBYO 2019](https://sites.google.com/sabanciuniv.edu/vbyo2019)) in Sabanci University, Turkey, on Sep'19.
+  * Attended to [Applied AI Study Group](https://inzva.com/ai/studygroups/2019/applied-ai-study-group) at Inzva, Turkey, on Jul'19 (every Saturday).
+  * Attended to Machine Learning Summer School ([KBYÖYO 2019](http://midas.ku.edu.tr/kbyoyo19/)) in Koc University, Turkey, on Jun'19.
+  * Get involved in ICANN'19 as a [Programme Committee](https://e-nns.org/icann2019/organization/programme-committee/) Member and Reviewer.
+  * Get involved in [AI Projects #2](https://inzva.com/reports/2019/ai/ai-projects-2-report) programme at Inzva, Turkey, from Feb'19 to May'19. Focused on image restoration, the [project](https://github.com/inzva/image-restoration) we worked on.
+  * Got IELTS Score as 6.5 out of 9, on Nov'18.
+  * Presented [a paper](https://link.springer.com/chapter/10.1007/978-3-030-01424-7_53) from my master thesis in [ICANN'18](https://e-nns.org/icann2018/), on Oct'1818.
+  * Honored to get [Student Travel Grant](https://e-nns.org/student-awards/winners-2018/) to attend ICANN'18 by European Neural Network Society.
+  * Finished some [**Python based Courses**, Datacamp](https://www.datacamp.com/tracks/data-scientist-with-python), on Jul'18. 
+  * Finished [**Deep Learning Courses** of Andrew Ng, Coursera](https://www.coursera.org/specializations/deep-learning), Apr'18.
   * Finished online [**Nanodegree on Deep Learning**, Udacity](https://www.udacity.com/course/deep-learning-nanodegree--nd101), on May'17.
 
 Volunteer Experience
