@@ -1,7 +1,7 @@
 ---
 title: "An IoT Based Bus Stop System Design"
 collection: publications
-permalink: /publication/02_an-IoT-based-bus-stop-system-design
+permalink: /publication/01_an-IoT-based-bus-stop-system-design
 date: 2016-12-01
 venue: 'the Conference Book'
 paperurl: 'https://www.researchgate.net/publication/309250248_An_IoT_Based_Bus_Stop_System_Design'
