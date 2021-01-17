@@ -85,10 +85,10 @@ author:
   bio              : "PhD Student Researcher at NTU & A*STAR"
   location         : "Singapore"
   employer         :
-  pubmed           : "https://scholar.google.com/citations?user=qSgpP04AAAAJ"
-  googlescholar    : "buraksatar@gmail.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com/citations?user=qSgpP04AAAAJ"
+  email            : "buraksatar@gmail.com"
+  researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "hadibakalim"
   vine             :
   weibo            :
   xing             :
