@@ -11,10 +11,10 @@ redirect_from:
 
 Education
 ======
-* Ph.D Student in Computer Science, Nanyang Technological University, (ongoing)
+* Ph.D. Student in Computer Science, Nanyang Technological University, (ongoing)
 * M.Sc. in Electronics Engineering, Uludag University, 2018
 * B.Sc. in Electronics Engineering, Uludag University, 2014
-  * Being an exhange student in Siena and Napoli,Italy for 6 months.
+  * Being an exchange student in Siena and Napoli, Italy totally for 6 months.
 * English Preparation in School of Foreign Languages, Uludag University, 2010
 
 Work experience
@@ -45,7 +45,7 @@ Skills
 * Research
 * Self Motivation
 
-Achiements and Certificates
+Achievements
 ======
   * Nov 2018, Got IELTS Score as 6.5 out of 9.
   * July 2018, Finished some [**Python based Courses**, Datacamp](https://www.datacamp.com/tracks/data-scientist-with-python) 
@@ -56,7 +56,7 @@ Volunteer Experience
 ======
 * Nov 2012 - Nov 2014: Project Leader 
   * Young Guru Academy ([YGA](https://www.yga.org.tr/en))
-  *  Worked as a project leader on some projects to discovering future leaders and to cultivating them as “socially conscious leaders”.
+  *  Worked as a project leader for discovering future leaders and to cultivating them as “socially conscious leaders”.
 
 Organisations
 ======
