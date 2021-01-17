@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Burak Satar"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "PhD Student Researcher at NTU & A*STAR"
   location         : "Singapore"
   employer         :
@@ -102,8 +102,8 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "buraksatar/?locale=en_US"
+  linkedin         : "buraksatar/?locale=en_US"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
