@@ -11,49 +11,66 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D Student in Computer Science, Nanyang Technological University, (ongoing)
+* M.Sc. in Electronics Engineering, Uludag University, 2018
+* B.Sc. in Electronics Engineering, Uludag University, 2014
+  * Being an exhange student in Siena and Napoli,Italy for 6 months.
+* English Preparation in School of Foreign Languages, Uludag University, 2010
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Jan 2020 - Present: Student Researcher
+  * Agency for Science Technology and Research (A*STAR), Singapore
+  * Topic of the research: Learning from Visual Observation
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Sep 2019 - Present: ML Advisor
+  * Tuvis, Turkey (a startup in Istanbul)
+  * Advising on developing AI-based visual inspection systems for fabric manufacturing.
+
+* Feb 2019 - Sep 2019: ML Engineer
+  * Turkish Technic, Turkey
+
+* Sep 2016 - March 2017: Software Engineer
+  * University of Valencia, Spain
+  * Developing a dashboard to track sensors by designing an IoT architecture.
+
+* Dec 2014 - Sep 2015: Electronics Engineer
+  * TSV Energy (Start-up), Turkey
+  * A smart home application by developing a wireless sensor network.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+* Machine Learning & Computer Vision
+* Research
+* Self Motivation
 
-Publications
+Achiements and Certificates
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+  * Nov 2018, Got IELTS Score as 6.5 out of 9.
+  * July 2018, Finished some [**Python based Courses**, Datacamp](https://www.datacamp.com/tracks/data-scientist-with-python) 
+  * Mar 2018, Finished [**Deep Learning Courses** of Andrew Ng, Coursera](https://www.coursera.org/specializations/deep-learning)
+  * Finished online [**Nanodegree on Deep Learning**, Udacity](https://www.udacity.com/course/deep-learning-nanodegree--nd101), on May'17.
+
+Volunteer Experience
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
+* Nov 2012 - Nov 2014: Project Leader 
+  * Young Guru Academy ([YGA](https://www.yga.org.tr/en))
+  *  Worked as a project leader on some projects to discovering future leaders and to cultivating them as “socially conscious leaders”.
+
+Organisations
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+  * Attended various events of [Inzva](https://inzva.com/), Turkish Hacker Community 
+  * Lead various events of [Bursa I/O](http://www.bursaio.com/), Local Hackerspace
+
+Languages
 ======
-* Currently signed in to 43 different slack teams
+  * Turkish - Native
+  * English - Professional Working Proficiency
+  * Italian & Spanish - Elementary Proficiency
+
+Interests
+======
+  * History & Culture
+  * Hiking & Basketball & Tennis
+  * Listening to Podcasts
