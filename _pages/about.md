@@ -23,12 +23,13 @@ Recent News
 
 Publications
 ======
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
 
-{% include base_path %}
+Semantic Role Aware Correlation Transformer for Text to Video Retrieval
+**Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim
+ICIP 2021, Oral presentation
+[Paper (coming soon)] [Poster (coming soon)]
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+Deep Learning Based Vehicle Make-Model Classification
+**Burak Satar**, Ahmet Emir Dirik
+ICANN 2018, Oral presentation
+[Paper](https://arxiv.org/abs/1809.00953)
