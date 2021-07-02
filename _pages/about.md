@@ -20,6 +20,9 @@ Recent News
 * 08/2018: I successfully defended my MSc thesis. 
 * 06/2018: One paper accepted by ICANN 2018, with student travel award.
 
+
+Publications
+======
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
