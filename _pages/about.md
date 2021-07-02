@@ -24,9 +24,9 @@ Recent News
 Publications
 ======
 
-Semantic Role Aware Correlation Transformer for Text to Video Retrieval
-**Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim
-ICIP 2021, Oral presentation
+Semantic Role Aware Correlation Transformer for Text to Video Retrieval \\
+**Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim \\
+ICIP 2021, Oral presentation \\
 [Paper (coming soon)] [Poster (coming soon)]
 
 Deep Learning Based Vehicle Make-Model Classification \\
