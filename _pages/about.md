@@ -29,7 +29,7 @@ Semantic Role Aware Correlation Transformer for Text to Video Retrieval
 ICIP 2021, Oral presentation
 [Paper (coming soon)] [Poster (coming soon)]
 
-Deep Learning Based Vehicle Make-Model Classification
-**Burak Satar**, Ahmet Emir Dirik
-ICANN 2018, Oral presentation
-[Paper](https://arxiv.org/abs/1809.00953)
+Deep Learning Based Vehicle Make-Model Classification \\
+**Burak Satar**, Ahmet Emir Dirik \\
+ICANN 2018, Oral presentation \\
+[[Paper](https://arxiv.org/abs/1809.00953)][[Code](https://github.com/buraksatar/car-detection-model-prediction)]
