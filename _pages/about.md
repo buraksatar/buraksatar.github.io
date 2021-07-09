@@ -8,12 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year PhD student at the School of Computer Science and Engineering (SCSE) of Nanyang Technological University (NTU), Singapore. My scholarship is under Singapore International Graduate Award (SINGA) by Institute for Infocomm Research (I2R) of Agency for Science, Technology and Research (A*STAR).
+I am a second-year PhD student at NTU, Singapore. My scholarship is under SINGA by A*STAR.
 
 I work on **video understanding & machine learning** by using **multi modalities** under the supervision of [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en) and [Dr Zhu Hongyuan](https://hongyuanzhu.github.io/) from A*STAR and [Prof. Hanwang Zhang](https://personal.ntu.edu.sg/hanwangzhang) from NTU.
 
+I did my master under the supervision of [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) on vehicle detection. I also have various working experiences, from a start-up in Istanbul to Turkish Airlines Technology.
+
 Recent News
 ======
+* 07/2021: Attended [PAISS 2021](https://project.inria.fr/paiss/), and presented a poster.
 * 05/2021: One paper accepted by ICIP 2021.
 * 04/2021: I finished the lecture requirements of NTU for QE.
 * 01/2020: Started to do PhD.
