@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year PhD student at NTU, Singapore. My scholarship is under SINGA by A*STAR.
+I am a second-year PhD student at NTU & A*STAR, Singapore, under the SINGA scholarship.
 
 I work on **video understanding & machine learning** by using **multi modalities** under the supervision of [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en) and [Dr Zhu Hongyuan](https://hongyuanzhu.github.io/) from A*STAR and [Prof. Hanwang Zhang](https://personal.ntu.edu.sg/hanwangzhang) from NTU.
 
-I did my master under the supervision of [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) on vehicle detection. I also have various working experiences, from a start-up in Istanbul to Turkish Airlines Technology.
+I did my master under the supervision of [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) on vehicle detection. I have various working experiences, from a start-up in Istanbul to Turkish Airlines Technology and doing an internship at the University of Valencia.
 
 Recent News
 ======
