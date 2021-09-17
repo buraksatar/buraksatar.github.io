@@ -29,7 +29,7 @@ Publications
 
 **Semantic Role Aware Correlation Transformer for Text to Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim \\
-ICIP 2021, Oral presentation \\
+ICIP 2021 \\
 [[Paper](https://ieeexplore.ieee.org/abstract/document/9506267/)] [[Poster](https://drive.google.com/file/d/1zzQESvWLF6S5ylYxvUeGqe6uWZamWTCS/view?usp=sharing)] [Slides (soon)] [Video (soon)]
 
 **Deep Learning Based Vehicle Make-Model Classification** \\
