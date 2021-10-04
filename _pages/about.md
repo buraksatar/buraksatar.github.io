@@ -16,6 +16,7 @@ I did my master under the supervision of [Prof. Ahmet Emir Dirik](https://schola
 
 Recent News
 ======
+* 09/2021: Our previous paper is also accepted by [ICCV 2021 Workshop on Structured Representations for Video Understanding](https://sites.google.com/view/srvu-iccv21-workshop).
 * 07/2021: Attended [PAISS 2021](https://project.inria.fr/paiss/), and presented a poster.
 * 05/2021: One paper accepted by ICIP 2021.
 * 04/2021: I finished the lecture requirements of NTU for QE.
