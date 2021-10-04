@@ -22,7 +22,7 @@ Recent News
 * 04/2021: I finished the lecture requirements of NTU for QE.
 * 01/2020: Started to do PhD.
 * 08/2018: I successfully defended my MSc thesis. 
-* 06/2018: One paper accepted by ICANN 2018, with student travel award.
+* 06/2018: One paper accepted by ICANN 2018, with [student travel award](https://e-nns.org/student-awards/winners-2018/).
 
 
 Publications
