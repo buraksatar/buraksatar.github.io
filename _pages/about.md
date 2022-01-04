@@ -18,7 +18,7 @@ Recent News
 ======
 * 01/2022: The Qualification Exam (QE) will be done at the end of January.
 * 12/2021: Volunteering in NeurIPS 2021.
-* 09/2021: Our previous paper is also accepted by [ICCV 2021 Workshop on Structured Representations for Video Understanding](https://sites.google.com/view/srvu-iccv21-workshop).
+* 09/2021: Our previous paper is also accepted by [ICCV 2021 Workshop](https://sites.google.com/view/srvu-iccv21-workshop) on Structured Representations for Video Understanding under the published track.
 * 07/2021: Attended [PAISS 2021](https://project.inria.fr/paiss/), and presented a poster.
 * 05/2021: One paper accepted by ICIP 2021.
 * 04/2021: I finished the lecture requirements of NTU for QE.
