@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year PhD student at NTU & A*STAR, Singapore, under the SINGA scholarship.
+I am a third-year PhD student at NTU & A*STAR, Singapore, under the SINGA scholarship.
 
 I work on **video understanding & machine learning** by using **multi modalities** under the supervision of [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en) and [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR and [Prof. Hanwang Zhang](https://mreallab.github.io/people.html) from NTU.
 
@@ -16,6 +16,8 @@ I did my master under the supervision of [Prof. Ahmet Emir Dirik](https://schola
 
 Recent News
 ======
+* 01/2022: The Qualification Exam (QE) will be done at the end of January.
+* 12/2021: Volunteering in NeurIPS 2021.
 * 09/2021: Our previous paper is also accepted by [ICCV 2021 Workshop on Structured Representations for Video Understanding](https://sites.google.com/view/srvu-iccv21-workshop).
 * 07/2021: Attended [PAISS 2021](https://project.inria.fr/paiss/), and presented a poster.
 * 05/2021: One paper accepted by ICIP 2021.
