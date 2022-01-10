@@ -10,7 +10,7 @@ redirect_from:
 
 I am a third-year PhD student at NTU & A*STAR, Singapore, under the SINGA scholarship.
 
-I work on **video understanding & machine learning** by using **multi modalities** under the supervision of [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en) and [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR and [Prof. Hanwang Zhang](https://mreallab.github.io/people.html) from NTU.
+I work on **video understanding & machine learning** by using **multi modalities** under the supervision of [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en) and [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR and [Prof. Hanwang Zhang](https://mreallab.github.io/people.html) from NTU. My physical locations are S09W009 at Institute for Infocomm Research (I2R) and GS36 at Media and Interactive Computing Lab (MICL), NTU.
 
 I did my master under the supervision of [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) on vehicle detection. I have various working experiences, from a start-up in Istanbul to Turkish Airlines Technology and doing an internship at the University of Valencia.
 
