@@ -17,12 +17,12 @@ I did my master under the supervision of [Prof. Ahmet Emir Dirik](https://schola
 Recent News
 ======
 * 03/2022: A journal extension to be submitted.
-* 01/2022: Succesfully passed my Qualification Exam (QE).
+* 01/2022: Successfully passed my Qualification Exam (QE).
 * 12/2021: Volunteering in NeurIPS 2021.
 * 09/2021: Our first paper is also accepted by [ICCV 2021 Workshop](https://sites.google.com/view/srvu-iccv21-workshop) on Structured Representations for Video Understanding under the published track.
 * 07/2021: Attended [PAISS 2021](https://project.inria.fr/paiss/), and presented a poster.
 * 05/2021: One paper accepted by ICIP 2021.
-* 01/2020: Started to do PhD.
+* 01/2020: Started to do PhD in School of Computer Science and Engineering, NTU.
 * 08/2018: Successfully defended my MSc thesis. 
 * 06/2018: One paper accepted by ICANN 2018, with [student travel award](https://e-nns.org/student-awards/winners-2018/).
 
