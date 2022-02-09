@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year PhD student at NTU & A*STAR, Singapore, under the SINGA scholarship.
+I am a third-year PhD candidate at NTU & A*STAR, Singapore, under the SINGA scholarship.
 
 I work on **video understanding & machine learning** by using **multi modalities** under the supervision of [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en) and [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR and [Prof. Hanwang Zhang](https://mreallab.github.io/people.html) from NTU. My physical locations are S09W009 at Institute for Infocomm Research (I2R) and GS36 at Media and Interactive Computing Lab (MICL).
 
@@ -16,14 +16,14 @@ I did my master under the supervision of [Prof. Ahmet Emir Dirik](https://schola
 
 Recent News
 ======
-* 01/2022: The Qualification Exam (QE) will be done at the end of January.
+* 03/2022: A journal extension to be submitted.
+* 01/2022: Succesfully passed my Qualification Exam (QE).
 * 12/2021: Volunteering in NeurIPS 2021.
-* 09/2021: Our previous paper is also accepted by [ICCV 2021 Workshop](https://sites.google.com/view/srvu-iccv21-workshop) on Structured Representations for Video Understanding under the published track.
+* 09/2021: Our first paper is also accepted by [ICCV 2021 Workshop](https://sites.google.com/view/srvu-iccv21-workshop) on Structured Representations for Video Understanding under the published track.
 * 07/2021: Attended [PAISS 2021](https://project.inria.fr/paiss/), and presented a poster.
 * 05/2021: One paper accepted by ICIP 2021.
-* 04/2021: I finished the lecture requirements of NTU for QE.
 * 01/2020: Started to do PhD.
-* 08/2018: I successfully defended my MSc thesis. 
+* 08/2018: Successfully defended my MSc thesis. 
 * 06/2018: One paper accepted by ICANN 2018, with [student travel award](https://e-nns.org/student-awards/winners-2018/).
 
 
