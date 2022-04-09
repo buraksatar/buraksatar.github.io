@@ -16,7 +16,7 @@ I did my master under the supervision of [Prof. Ahmet Emir Dirik](https://schola
 
 Recent News
 ======
-* 03/2022: A journal extension to be submitted.
+* 04/2022: A journal extension to be submitted.
 * 01/2022: Successfully passed my Qualification Exam (QE).
 * 12/2021: Volunteering in NeurIPS 2021.
 * 09/2021: Our first paper is also accepted by [ICCV 2021 Workshop](https://sites.google.com/view/srvu-iccv21-workshop) on Structured Representations for Video Understanding under the published work track.
