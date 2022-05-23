@@ -16,7 +16,7 @@ I did my master under the supervision of [Prof. Ahmet Emir Dirik](https://schola
 
 Recent News
 ======
-* 07/2022: I will be attending the CIFAR Deep Learning + Reinforcement Learning (DLRL) Summer School.
+* 07/2022: I will be attending [CIFAR DLRL Summer School](https://dlrl.ca/).
 * 06/2022: A journal extension to be submitted.
 * 01/2022: Successfully passed my Qualification Exam (QE).
 * 12/2021: Volunteering in NeurIPS 2021.
