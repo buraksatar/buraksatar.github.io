@@ -19,14 +19,6 @@ Recent News
 * 07/2022: I will be attending [CIFAR DLRL Summer School](https://dlrl.ca/).
 * 06/2022: A journal extension to be submitted.
 * 01/2022: Successfully passed my Qualification Exam (QE).
-* 12/2021: Volunteering in NeurIPS 2021.
-* 09/2021: Our first paper is also accepted by [ICCV 2021 Workshop](https://sites.google.com/view/srvu-iccv21-workshop) on Structured Representations for Video Understanding under the published work track.
-* 07/2021: Attended [PAISS 2021](https://project.inria.fr/paiss/), and presented a poster.
-* 05/2021: One paper accepted by ICIP 2021.
-* 01/2020: Started to do PhD in School of Computer Science and Engineering, NTU.
-* 08/2018: Successfully defended my MSc thesis. 
-* 06/2018: One paper accepted by ICANN 2018, with [student travel award](https://e-nns.org/student-awards/winners-2018/).
-
 
 Publications
 ======
@@ -40,3 +32,13 @@ ICIP 2021 \\
 **Burak Satar**, Ahmet Emir Dirik \\
 ICANN 2018, Oral presentation \\
 [[Paper](https://arxiv.org/abs/1809.00953)] [[Code](https://github.com/buraksatar/car-detection-model-prediction)]
+
+Old News
+======
+* 12/2021: Volunteering in NeurIPS 2021.
+* 09/2021: Our first paper is also accepted by [ICCV 2021 Workshop](https://sites.google.com/view/srvu-iccv21-workshop) on Structured Representations for Video Understanding under the published work track.
+* 07/2021: Attended [PAISS 2021](https://project.inria.fr/paiss/), and presented a poster.
+* 05/2021: One paper accepted by ICIP 2021.
+* 01/2020: Started to do PhD in School of Computer Science and Engineering, NTU.
+* 08/2018: Successfully defended my MSc thesis. 
+* 06/2018: One paper accepted by ICANN 2018, with [student travel award](https://e-nns.org/student-awards/winners-2018/).
