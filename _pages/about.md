@@ -17,7 +17,9 @@ I did my master under the supervision of [Prof. Ahmet Emir Dirik](https://schola
 Recent News
 ======
 * 07/2022: I will be attending [CIFAR DLRL Summer School](https://dlrl.ca/).
-* 06/2022: A journal extension to be submitted.
+* 06/2022: Became 3rd in Epic Kitchens Multi-Instance Retrieval Challenge at CVPR'22 for nDCG (Normalised Discounted Cumulative Gain) evaluation metric. ( Technical report is under review.)
+* 06/2022: Became a finalist in the NTU 3-Minute Thesis (3MT) competition to represent my department. 
+* 06/2022: A journal extension is about to be submitted.
 * 01/2022: Successfully passed my Qualification Exam (QE).
 
 Publications
