@@ -18,7 +18,7 @@ Recent News
 ======
 * 07/2022: I will be attending [CIFAR DLRL Summer School](https://dlrl.ca/).
 * 06/2022: Received 3rd Place Award (Joint) in [EPIC-Kitchens Multi-Instance Retrieval Challenge](https://drive.google.com/file/d/1BNwSE7QbxwAawQr2VmxYp7m7QGt-XDE8/view?usp=sharing) at CVPR'22. (Technical report is submitted.)
-* 06/2022: Became a finalist in the NTU 3-Minute Thesis (3MT) competition to represent my department. 
+* 06/2022: Became a finalist in the NTU 3-Minute Thesis (3MT) competition by being selected from my department.  
 * 06/2022: A journal extension is about to be submitted.
 * 01/2022: Successfully passed my Qualification Exam (QE).
 
