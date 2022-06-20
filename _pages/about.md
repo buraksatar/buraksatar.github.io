@@ -39,7 +39,7 @@ Old News
 ======
 * 12/2021: Volunteering in NeurIPS 2021.
 * 09/2021: Our first paper is also accepted by [ICCV 2021 Workshop](https://sites.google.com/view/srvu-iccv21-workshop) on Structured Representations for Video Understanding under the published work track.
-* 07/2021: Attended [PAISS 2021](https://project.inria.fr/paiss/), and presented a poster.
+* 07/2021: Attended [PAISS AI Summer School 2021](https://project.inria.fr/paiss/), and presented a poster.
 * 05/2021: One paper accepted by ICIP 2021.
 * 01/2020: Started to do PhD in School of Computer Science and Engineering, NTU.
 * 08/2018: Successfully defended my MSc thesis. 
