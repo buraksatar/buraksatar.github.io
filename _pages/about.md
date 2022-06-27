@@ -33,7 +33,7 @@ TCSVT 2022 (under review) \\
 **Semantic Role Aware Correlation Transformer for Text to Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim \\
 ICIP 2021 \\
-[[Paper](https://ieeexplore.ieee.org/abstract/document/9506267/)] [(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval) [[Updated Slides](https://entuedu-my.sharepoint.com/:b:/g/personal/burak001_e_ntu_edu_sg/ESD3TCQfL1xNjBjKH_j68tEBtd6AK4J2jp4foPRkA7CZwg?e=n8XIZs)] [[Video](https://www.youtube.com/watch?v=M7dHgv8fIkU)]
+[[Paper](https://ieeexplore.ieee.org/abstract/document/9506267/)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)] [[Updated Slides](https://entuedu-my.sharepoint.com/:b:/g/personal/burak001_e_ntu_edu_sg/ESD3TCQfL1xNjBjKH_j68tEBtd6AK4J2jp4foPRkA7CZwg?e=n8XIZs)] [[Video](https://www.youtube.com/watch?v=M7dHgv8fIkU)]
 
 **Deep Learning Based Vehicle Make-Model Classification** \\
 **Burak Satar**, Ahmet Emir Dirik \\
