@@ -28,7 +28,7 @@ Publications
 **RoME: Role-aware Mixture-of-Expert Transformer for Text-to-Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
 TCSVT 2022 (under review) \\
-[[Paper](coming soon)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
+[Paper(coming soon)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
 
 **Semantic Role Aware Correlation Transformer for Text to Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim \\
