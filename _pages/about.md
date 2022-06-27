@@ -20,7 +20,6 @@ Recent News
 * 06/2022: Received [3rd Place Award (Joint)](https://entuedu-my.sharepoint.com/:i:/g/personal/burak001_e_ntu_edu_sg/ERBH8B-o72JMmw7pxfOJZe4BddGBO0EFIZMj4l6VoPnMdw?e=I1WzX9) in EPIC-Kitchens [Multi-Instance Retrieval Challenge](https://epic-kitchens.github.io/2022) at CVPR'22. (Technical report is submitted.)
 * 06/2022: Became a finalist in the NTU 3-Minute Thesis (3MT) competition by being selected from my department.  
 * 06/2022: A journal extension is submitted to TCSVT.
-* 01/2022: Successfully passed my Qualification Exam (QE).
 
 Publications
 ======
@@ -47,6 +46,7 @@ ICANN 2018, Oral presentation \\
 
 Old News
 ======
+* 01/2022: Successfully passed my Qualification Exam (QE).
 * 12/2021: Volunteering in NeurIPS 2021.
 * 09/2021: Our first paper is also accepted by [ICCV 2021 Workshop](https://sites.google.com/view/srvu-iccv21-workshop) on Structured Representations for Video Understanding under the published work track.
 * 07/2021: Attended [PAISS AI Summer School 2021](https://project.inria.fr/paiss/), and presented a poster.
