@@ -27,7 +27,7 @@ Publications
 **RoME: Role-aware Mixture-of-Expert Transformer for Text-to-Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
 TCSVT 2022 (under review) \\
-[Paper(coming soon)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
+[[arXiv Preprint](https://arxiv.org/abs/2206.12845)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
 
 **Exploiting Semantic Role Contextualized Video Features for Multi-Instance Text-Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
@@ -37,12 +37,12 @@ EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge, CVPR 2022 \\
 **Semantic Role Aware Correlation Transformer for Text to Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim \\
 ICIP 2021 \\
-[[Paper](https://ieeexplore.ieee.org/abstract/document/9506267/)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)] [[Updated Slides](https://entuedu-my.sharepoint.com/:b:/g/personal/burak001_e_ntu_edu_sg/ESD3TCQfL1xNjBjKH_j68tEBtd6AK4J2jp4foPRkA7CZwg?e=n8XIZs)] [[Video](https://www.youtube.com/watch?v=M7dHgv8fIkU)]
+[[arXiv Paper](https://arxiv.org/abs/2206.12849)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)] [[Updated Slides](https://entuedu-my.sharepoint.com/:b:/g/personal/burak001_e_ntu_edu_sg/ESD3TCQfL1xNjBjKH_j68tEBtd6AK4J2jp4foPRkA7CZwg?e=n8XIZs)] [[Video](https://www.youtube.com/watch?v=M7dHgv8fIkU)]
 
 **Deep Learning Based Vehicle Make-Model Classification** \\
 **Burak Satar**, Ahmet Emir Dirik \\
 ICANN 2018, Oral presentation \\
-[[Paper](https://arxiv.org/abs/1809.00953)] [[Code](https://github.com/buraksatar/car-detection-model-prediction)]
+[[arXiv Paper](https://arxiv.org/abs/1809.00953)] [[Code](https://github.com/buraksatar/car-detection-model-prediction)]
 
 Old News
 ======
