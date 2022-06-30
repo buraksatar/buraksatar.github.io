@@ -32,7 +32,7 @@ TCSVT 2022 (under review) \\
 **Exploiting Semantic Role Contextualized Video Features for Multi-Instance Text-Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
 EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge, CVPR 2022 \\
-[[Technical report](https://arxiv.org/abs/2206.14381)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
+[[Technical Report](https://arxiv.org/abs/2206.14381)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
 
 **Semantic Role Aware Correlation Transformer for Text to Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim \\
