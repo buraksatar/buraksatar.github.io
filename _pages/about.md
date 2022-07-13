@@ -18,7 +18,7 @@ Recent News
 ======
 * 07/2022: I will be attending [CIFAR DLRL Summer School](https://dlrl.ca/).
 * 06/2022: Received [3rd Place Award (Joint)](https://entuedu-my.sharepoint.com/:i:/g/personal/burak001_e_ntu_edu_sg/ERBH8B-o72JMmw7pxfOJZe4BddGBO0EFIZMj4l6VoPnMdw?e=I1WzX9) in EPIC-Kitchens [Multi-Instance Retrieval Challenge](https://epic-kitchens.github.io/2022) at CVPR'22. (Technical report is submitted.)
-* 06/2022: Became a finalist in the NTU 3-Minute Thesis (3MT) competition by being selected from my department.  
+* 06/2022: Being a finalist in the 3MT competition @ NTU representing SCSE.  
 * 06/2022: A journal extension is submitted to TCSVT.
 
 Publications
