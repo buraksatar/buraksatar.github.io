@@ -8,9 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-year PhD candidate at NTU, Singapore, under the SINGA scholarship by A*STAR.
-
-I work on **video retrieval** by addressing **biases via causal inference** under [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en) and [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) from I2R, A*STAR and [Prof. Hanwang Zhang](https://mreallab.github.io/people.html) from SCSE, NTU.
+I am a fourth-year PhD candidate at NTU, Singapore, under the SINGA scholarship by A*STAR. I work on **video retrieval** by addressing **biases via causal inference** under [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en) and [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) from I2R, A*STAR and [Prof. Hanwang Zhang](https://mreallab.github.io/people.html) from SCSE, NTU.
 
 I did my MSc under [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) on vehicle detection. I have various working experiences, from a start-up to the industry and a university internship during MSc. [Resume](https://entuedu-my.sharepoint.com/:b:/g/personal/burak001_e_ntu_edu_sg/EUqyyhbQbEhCuZp-cQEufbQBvlm62qiVWvop5FvLnq4cbQ?e=HApD3K)
 
