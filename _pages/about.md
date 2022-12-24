@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year PhD candidate at NTU & A*STAR, Singapore, under the SINGA scholarship.
+I am a fourth-year PhD candidate at NTU, Singapore, under the SINGA scholarship by A*STAR.
 
-I work on **video understanding with multi-modal features** by addressing **causal inference** under the supervision of [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en) and [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR and [Prof. Hanwang Zhang](https://mreallab.github.io/people.html) from NTU. My physical locations are Institute for Infocomm Research (I2R) and Media and Interactive Computing Lab (MICL).
+I work on **video understanding with multi-modal features** by addressing **causal inference** under the supervision of [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en) and [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) from I2R, A*STAR and [Prof. Hanwang Zhang](https://mreallab.github.io/people.html) from SCSE, NTU.
 
-I did my master's under the supervision of [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) on vehicle detection. I have various working experiences, from a start-up in Istanbul to Turkish Airlines Technology and doing an internship at the University of Valencia.
+I did my MSc under the supervision of [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) on vehicle detection. I have various working experiences, from a start-up in Istanbul to Turkish Airlines Technology and doing an internship at the University of Valencia during my MSc.
 
 Recent News
 ======
