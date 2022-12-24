@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Burak Satar"
 title_separator          : "-"
 name                     : &name "Burak Satar"
-description              : &description "PhD Student Researcher at NTU & A*STAR"
+description              : &description "PhD Candidate at NTU"
 url                      : https://buraksatar.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "buraksatar/buraksatar.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Burak Satar"
   avatar           : "DJI_0988_3.JPG"
-  bio              : "PhD Candidate at NTU & A*STAR"
+  bio              : "PhD Candidate at NTU"
   location         : "Singapore"
   employer         :
   pubmed           : 
