@@ -45,10 +45,10 @@ Old News
 ======
 * 07/2022: Attended [CIFAR DLRL Summer School](https://dlrl.ca/).
 * * 06/2022: Got [3rd Place Award](https://entuedu-my.sharepoint.com/:i:/g/personal/burak001_e_ntu_edu_sg/ERBH8B-o72JMmw7pxfOJZe4BddGBO0EFIZMj4l6VoPnMdw?e=I1WzX9) in EPIC-Kitchens [Multi-Instance Retrieval Challenge](https://epic-kitchens.github.io/2022) at CVPR.
-* 06/2022: Became a finalist in the [Three Minute Thesis](https://drive.google.com/file/d/1ZoJyU7PdyZafJ2V4fsils4WIgSIQ6xZq/view?usp=sharing) (3MT) @ NTU, representing School of Computer Science and Engineering.  
+* 06/2022: Became a finalist in the [Three Minute Thesis](https://drive.google.com/file/d/1ZoJyU7PdyZafJ2V4fsils4WIgSIQ6xZq/view?usp=sharing) (3MT) @ NTU, representing SCSE.  
 * 01/2022: Successfully passed my Qualification Exam (QE).
 * 12/2021: Volunteered in NeurIPS 2021.
-* 09/2021: Our first paper is also accepted by [ICCV 2021 Workshop](https://sites.google.com/view/srvu-iccv21-workshop) on Structured Representations for Video Understanding under the published work track.
+* 09/2021: Our first paper is also accepted by an [ICCV 2021 Workshop](https://sites.google.com/view/srvu-iccv21-workshop).
 * 07/2021: Attended [PAISS AI Summer School 2021](https://project.inria.fr/paiss/), and presented a poster.
 * 05/2021: One paper accepted by ICIP 2021.
 * 01/2020: Started to do PhD in School of Computer Science and Engineering, NTU.
