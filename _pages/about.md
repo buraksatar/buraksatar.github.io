@@ -16,7 +16,7 @@ I did my MSc under the supervision of [Prof. Ahmet Emir Dirik](https://scholar.g
 
 Recent News
 ======
-* 02/2023: Aiming to submit an ongoing (debiased video retrieval) work to [SIGIR'23](https://sigir.org/sigir2023/).
+* 02/2023: Aiming to submit an ongoing work, debiased video retrieval, to [SIGIR'23](https://sigir.org/sigir2023/).
 
 Publications
 ======
