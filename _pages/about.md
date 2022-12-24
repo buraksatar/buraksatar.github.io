@@ -23,10 +23,10 @@ Publications
 
 **RoME: Role-aware Mixture-of-Expert Transformer for Text-to-Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
-arXiv \\
+arXiv 2022 \\
 [[arXiv Preprint](https://arxiv.org/abs/2206.12845)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
 
-**Exploiting Semantic Role Contextualized Video Features for Multi-Instance Text-Video Retrieval** \\
+**Exploiting Semantic Role Contextualized Video Features for Multi-Instance Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
 EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge, CVPR 2022 \\
 [[Technical Report](https://arxiv.org/abs/2206.14381)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
