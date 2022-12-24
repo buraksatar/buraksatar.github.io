@@ -14,7 +14,7 @@ I work on **video retrieval** by addressing **biases via causal inference** unde
 
 I did my MSc under the supervision of [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) on vehicle detection. I have various working experiences, from a start-up in Istanbul to Turkish Airlines Technology and doing an internship at the University of Valencia during my MSc.
 
-I did my MSc under Prof. Ahmet Emir Dirik on vehicle detection. I have various working experiences, from a start-up to an industry job and an internship at a university.
+I did my MSc under [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) on vehicle detection. I have various working experiences, from a start-up to the industry and a university internship during MSc.
 
 Recent News
 ======
