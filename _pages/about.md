@@ -14,7 +14,8 @@ I did my MSc under [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations
 
 Recent News
 ======
-* 02/2023: Submitted an ongoing work to a conference.
+* 06/2023: Will visit [MaVi Research Group](https://uob-mavi.github.io/), University of Bristol for 3 months.
+* 05/2023: Will submit an ongoing work to a conference.
 
 Publications
 ======
