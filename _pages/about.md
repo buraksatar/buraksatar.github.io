@@ -30,18 +30,18 @@ arXiv 2022 \\
 
 **Exploiting Semantic Role Contextualized Video Features for Multi-Instance Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
-EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge, CVPR 2022 \\
+CVPR 2022, Epic-Kitchens-100 Multi-Instance Retrieval Challenge under [Ego4d/EPIC Workshop](https://sites.google.com/view/cvpr2022w-ego4d-epic/)  \\
 [[Technical Report](https://arxiv.org/abs/2206.14381)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
 
 **Semantic Role Aware Correlation Transformer for Text to Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim \\
 ICIP 2021 Full Paper (Oral presentation) and ICCV 2021 Workshop Paper (Oral presentation)\\
-[[arXiv Paper](https://arxiv.org/abs/2206.12849)] [[Workshop Link](https://sites.google.com/view/srvu-iccv21-workshop/papers?authuser=0)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)] [[Video](https://www.youtube.com/watch?v=M7dHgv8fIkU)]
+[[arXiv](https://arxiv.org/abs/2206.12849)] [[Workshop Link](https://sites.google.com/view/srvu-iccv21-workshop/papers?authuser=0)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)] [[Video](https://www.youtube.com/watch?v=M7dHgv8fIkU)]
 
 **Deep Learning Based Vehicle Make-Model Classification** \\
 **Burak Satar**, Ahmet Emir Dirik \\
 ICANN 2018 Full Paper (Oral presentation) \\
-[[arXiv Paper](https://arxiv.org/abs/1809.00953)] [[Code](https://github.com/buraksatar/car-detection-model-prediction)]
+[[arXiv](https://arxiv.org/abs/1809.00953)] [[Code](https://github.com/buraksatar/car-detection-model-prediction)]
 
 Previous News
 ======
