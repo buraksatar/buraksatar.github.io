@@ -35,12 +35,12 @@ EPIC-KITCHENS-100 Multi-Instance Retrieval Challenge, CVPR 2022 \\
 
 **Semantic Role Aware Correlation Transformer for Text to Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim \\
-ICIP 2021 and ICCV 2021 Workshop\\
-[[arXiv Paper](https://arxiv.org/abs/2206.12849)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)] [[Video](https://www.youtube.com/watch?v=M7dHgv8fIkU)]
+ICIP 2021 Full Paper (Oral presentation) and ICCV 2021 Workshop Paper (Oral presentation)\\
+[[arXiv Paper](https://arxiv.org/abs/2206.12849)] [[Workshop Link](https://sites.google.com/view/srvu-iccv21-workshop/papers?authuser=0)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)] [[Video](https://www.youtube.com/watch?v=M7dHgv8fIkU)]
 
 **Deep Learning Based Vehicle Make-Model Classification** \\
 **Burak Satar**, Ahmet Emir Dirik \\
-ICANN 2018, Oral presentation \\
+ICANN 2018 Full Paper (Oral presentation) \\
 [[arXiv Paper](https://arxiv.org/abs/1809.00953)] [[Code](https://github.com/buraksatar/car-detection-model-prediction)]
 
 Previous News
