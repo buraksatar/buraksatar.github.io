@@ -8,16 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-year PhD candidate at NTU, Singapore, under the SINGA scholarship by A\*STAR. I work on **video retrieval** by addressing **biases via causal inference** under [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en) and [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) from I2R, A\*STAR and [Prof. Hanwang Zhang](https://mreallab.github.io/people.html) from SCSE, NTU.
+I am a final year PhD candidate at NTU, Singapore, under the SINGA scholarship by A\*STAR. I work on **text-video retrieval** by addressing **biases via causal inference** under [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en) and [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) from I2R, A\*STAR and [Prof. Hanwang Zhang](https://mreallab.github.io/people.html) from SCSE, NTU.
 
 I did my MSc under [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) on vehicle detection. I have various working experiences, from a start-up to the industry and a university internship during MSc. 
 <!-- [view resume.](https://entuedu-my.sharepoint.com/:b:/g/personal/burak001_e_ntu_edu_sg/EUqyyhbQbEhCuZp-cQEufbQBvlm62qiVWvop5FvLnq4cbQ?e=HApD3K) -->
 
 Recent News
 ======
-* 07/2023: Will visit [MaVi Research Group](https://uob-mavi.github.io/), University of Bristol for three months under the supervision of [Dr Michael Wray](https://mwray.github.io/).
-* 06/2023: Will submit an extended work to a journal.
-* 05/2023: A tiny bit of this work is just accepted to [Ego4d/EPIC Workshop](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/) at CVPR 2023.
+* 07/2023: Will visit [MaVi Research Group](https://uob-mavi.github.io/), University of Bristol for three months under the supervision of [Dr Michael Wray](https://mwray.github.io/), on video corpus moment retrieval.
+* 06/2023: Will submit an extended work to a [IEEE Signal Processing Letters](https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters).
+* 06/2023: An extended abstract version of the recent work is accepted to [Ego4d/EPIC Workshop](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/) at CVPR 2023.
 * 05/2023: A recent work is submitted to a conference.
 
 Publications
