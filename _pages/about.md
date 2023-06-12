@@ -22,6 +22,10 @@ Recent News
 
 Publications
 ======
+**An Overview of Challenges in Egocentric Text-Video Retrieval** \\
+**Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
+CVPR 2023, [Joint Ego4d/EPIC Workshop]([https://sites.google.com/view/cvpr2022w-ego4d-epic/](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/)) (Oral presentation) \\
+[[Extended Abstract](https://arxiv.org/abs/2306.04345)]
 
 **RoME: Role-aware Mixture-of-Expert Transformer for Text-to-Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
@@ -29,7 +33,7 @@ Publications
 
 **Exploiting Semantic Role Contextualized Video Features for Multi-Instance Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
-CVPR 2022, Epic-Kitchens-100 Multi-Instance Retrieval Challenge under [Ego4d/EPIC Workshop](https://sites.google.com/view/cvpr2022w-ego4d-epic/)  \\
+CVPR 2022, Epic-Kitchens-100 Multi-Instance Retrieval Challenge under [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/cvpr2022w-ego4d-epic/)  \\
 [[Technical Report](https://arxiv.org/abs/2206.14381)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
 
 **Semantic Role Aware Correlation Transformer for Text to Video Retrieval** \\
