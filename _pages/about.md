@@ -24,7 +24,7 @@ Publications
 ======
 **An Overview of Challenges in Egocentric Text-Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
-CVPR 2023, [Joint Ego4d/EPIC Workshop]([https://sites.google.com/view/cvpr2022w-ego4d-epic/](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/)) (Oral presentation) \\
+CVPR 2023, [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/) (Oral presentation) \\
 [[Extended Abstract](https://arxiv.org/abs/2306.04345)]
 
 **RoME: Role-aware Mixture-of-Expert Transformer for Text-to-Video Retrieval** \\
