@@ -39,7 +39,7 @@ CVPR 2022, Epic-Kitchens-100 MIR Challenge under [Joint Ego4d/EPIC Workshop](htt
 **Semantic Role Aware Correlation Transformer for Text to Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim \\
 ICIP 2021 Full Paper (Oral presentation) and [ICCV 2021 Workshop](https://sites.google.com/view/srvu-iccv21-workshop/papers?authuser=0) Paper (Oral presentation)\\
-[[arXiv](https://arxiv.org/abs/2206.12849)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)] [[Video](https://www.youtube.com/watch?v=M7dHgv8fIkU)]
+[[arXiv](https://arxiv.org/abs/2206.12849)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)] [[YouTube Ppt](https://www.youtube.com/watch?v=M7dHgv8fIkU)]
 
 **Deep Learning Based Vehicle Make-Model Classification** \\
 **Burak Satar**, Ahmet Emir Dirik \\
