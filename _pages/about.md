@@ -16,8 +16,9 @@ I did my MSc under [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations
 Recent News
 ======
 * 07/2023: Will visit [MaVi Research Group](https://uob-mavi.github.io/), University of Bristol, for three months under the supervision of [Dr Michael Wray](https://mwray.github.io/) on video corpus moment retrieval.
-* 06/2023: Will submit an extended work to [IEEE Signal Processing Letters](https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters).
+* 07/2023: Will submit an extended work to [IEEE Signal Processing Letters](https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters).
 * 06/2023: An extended abstract version of the recent work is accepted to [Ego4d/EPIC Workshop](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/) at CVPR 2023.
+* 05/2023: A poster presentation at [Singapore Vision Day](https://www.comp.nus.edu.sg/~leegh/svd/) at NUS.
 * 05/2023: A recent work is submitted to a conference.
 
 Publications
