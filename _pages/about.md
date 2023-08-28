@@ -15,13 +15,18 @@ I did my MSc under [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations
 
 Recent News
 ======
-* 07/2023: Will visit [MaVi Research Group](https://uob-mavi.github.io/), University of Bristol, for three months under the supervision of [Dr Michael Wray](https://mwray.github.io/) on video corpus moment retrieval.
+* 08/2020: A paper is accepted to [BMVC 2023](https://bmvc2023.org/).
+* 07/2023: Join [MaVi Research Group](https://uob-mavi.github.io/), University of Bristol, for three months research visit under the supervision of [Dr Michael Wray](https://mwray.github.io/) on video corpus moment retrieval.
 * 06/2023: An extended abstract version of the recent work is accepted to [Ego4d/EPIC Workshop](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/) at CVPR 2023.
-* 05/2023: A poster presentation at [Singapore Vision Day](https://www.comp.nus.edu.sg/~leegh/svd/) at NUS.
-* 05/2023: A recent work is submitted to a conference.
 
 Publications
 ======
+
+**Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention** \\
+**Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
+BMVC 2023 Full Paper, (29% acceptance rate) \\
+[soon]
+
 **An Overview of Challenges in Egocentric Text-Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
 CVPR 2023, [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/) (Oral presentation) \\
@@ -48,6 +53,7 @@ ICANN 2018 Full Paper (Oral presentation) \\
 
 Previous News
 ======
+* 05/2023: A poster presentation at [Singapore Vision Day](https://www.comp.nus.edu.sg/~leegh/svd/) at NUS.
 * 07/2022: Attended [CIFAR DLRL Summer School](https://dlrl.ca/).
 * 06/2022: Got 3rd Place Award in EPIC-Kitchens [Multi-Instance Retrieval Challenge](https://epic-kitchens.github.io/2022) at CVPR.
 * 06/2022: Became a finalist in the [Three Minute Thesis](https://drive.google.com/file/d/1ZoJyU7PdyZafJ2V4fsils4WIgSIQ6xZq/view?usp=sharing) (3MT) @ NTU, representing SCSE.  
