@@ -17,7 +17,7 @@ Recent News
 ======
 * 07/2024: Expected date to submit the PhD Thesis.
 * 11/2023: Expected date to present my final progress to the Thesis Advisory Committee.
-* 08/2023: A paper is accepted to [BMVC 2023](https://bmvc2023.org/).
+* 08/2023: A recent work is accepted to [BMVC 2023](https://bmvc2023.org/).
 * 07/2023: Join [MaVi Research Group](https://uob-mavi.github.io/), University of Bristol, for three months research visit under the supervision of [Dr Michael Wray](https://mwray.github.io/) on video corpus moment retrieval.
 * 06/2023: An extended abstract is accepted to [Ego4d/EPIC Workshop](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/) at CVPR 2023.
 
