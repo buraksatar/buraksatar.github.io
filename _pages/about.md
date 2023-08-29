@@ -19,7 +19,6 @@ Recent News
 * 11/2023: Expected date to present my final progress to the Thesis Advisory Committee.
 * 08/2023: A recent work is accepted to [BMVC 2023](https://bmvc2023.org/).
 * 07/2023: Join [MaVi Research Group](https://uob-mavi.github.io/), University of Bristol, for three months research visit under the supervision of [Dr Michael Wray](https://mwray.github.io/) on video corpus moment retrieval.
-* 06/2023: An extended abstract is accepted to [Ego4d/EPIC Workshop](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/) at CVPR 2023.
 
 Publications
 ======
@@ -45,7 +44,7 @@ CVPR Workshop 2022, Epic-Kitchens-100 MIR Challenge under [Joint Ego4d/EPIC Work
 
 **Semantic Role Aware Correlation Transformer for Text to Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim \\
-ICIP 2021 Full Paper (Oral presentation) and [ICCV Workshop 2021](https://sites.google.com/view/srvu-iccv21-workshop/papers?authuser=0) Paper (Oral presentation)\\
+ICIP 2021 Full Paper (Oral presentation) and [ICCV Workshop 2021](https://sites.google.com/view/srvu-iccv21-workshop/papers?authuser=0) (Oral presentation)\\
 [[arXiv](https://arxiv.org/abs/2206.12849)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)] [[YouTube Ppt](https://www.youtube.com/watch?v=M7dHgv8fIkU)]
 
 **Deep Learning Based Vehicle Make-Model Classification** \\
@@ -55,6 +54,7 @@ ICANN 2018 Full Paper (Oral presentation) \\
 
 Previous News
 ======
+* 06/2023: An extended abstract is accepted to [Ego4d/EPIC Workshop](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/) at CVPR 2023.
 * 05/2023: A poster presentation at [Singapore Vision Day](https://www.comp.nus.edu.sg/~leegh/svd/) at NUS.
 * 07/2022: Attended [CIFAR DLRL Summer School](https://dlrl.ca/).
 * 06/2022: Got 3rd Place Award in EPIC-Kitchens [Multi-Instance Retrieval Challenge](https://epic-kitchens.github.io/2022) at CVPR.
