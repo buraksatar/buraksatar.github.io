@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 Education
 ======
 * Ph.D. Student in Computer Science, Nanyang Technological University, (ongoing)
