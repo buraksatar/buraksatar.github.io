@@ -16,7 +16,6 @@ I did my MSc under [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations
 Recent News
 ======
 * 07/2024: Expected date to submit the PhD Thesis.
-* 11/2023: Expected date to present my final progress to the Thesis Advisory Committee.
 * 08/2023: A recent work is accepted to [BMVC 2023](https://bmvc2023.org/).
 * 07/2023: Join [MaVi Research Group](https://uob-mavi.github.io/), University of Bristol, for three months research visit under the supervision of [Dr Michael Wray](https://mwray.github.io/) on video corpus moment retrieval.
 
@@ -25,8 +24,8 @@ Publications
 
 **Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
-BMVC 2023 Full Paper, (29% acceptance rate) \\
-[soon]
+BMVC 2023 Full Paper, (29% acceptance rate, Poster presentation) \\
+[[arXiv]()] [[YouTube Ppt]()] [[Poster]()]
 
 **An Overview of Challenges in Egocentric Text-Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
