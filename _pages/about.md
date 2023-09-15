@@ -25,7 +25,7 @@ Publications
 **Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
 BMVC 2023 Full Paper, (29% acceptance rate, Poster presentation) \\
-[[arXiv]()] [YouTube Ppt(soon)] [Poster(soon)] [Project Page(soon)]
+[arXiv(soon)] [YouTube Ppt(soon)] [Poster(soon)] [Project Page(soon)]
 
 **An Overview of Challenges in Egocentric Text-Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
