@@ -30,7 +30,7 @@ Video
 Files
 ======
 
-<a href=”https://www.google.com“> <img src=”https://banner2.cleanpng.com/20190312/zqt/kisspng-computer-icons-pdfa-computer-file-adobe-inc-5c873f6cf41dd2.9643895115523674689999.jpg” width=”100″ height=”132″> </a>, arXiv, Poster
+<a href=”https://www.google.com“> <img src=”https://buraksatar.github.io/images/scm_camready.png” width=”100″ height=”132″> </a>, arXiv, Poster
 
 
 
