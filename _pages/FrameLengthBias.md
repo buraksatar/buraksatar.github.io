@@ -35,14 +35,15 @@ arXiv, Poster
 
 Bibtex
 ======
+<font size="5">your_text_here</font>
 
+<font size="5">your_text_here
 ```
-<h3>
 @inproceedings{wray2021semantic,
   title={Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention},
   author={Satar, Burak and Zhu, Hongyuan and Zhang, Hanwang and Lim, Joo Hwee},
   booktitle={BMVC},
   year={2023}
 }
-</h3>
 ```
+</font>
