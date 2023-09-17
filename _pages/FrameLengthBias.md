@@ -7,11 +7,11 @@ redirect_from:
   - /framelength
 ---
 
-![Bias in Epic-Kitchens-100](images/epic_bias.png)
+![Bias in Epic-Kitchens-100](https://buraksatar.github.io/images/epic_bias.png)
 
-![Structural Causal Model](images/scm_camready.png)
+![Structural Causal Model](https://buraksatar.github.io/images/scm_camready.png)
 
-![Implementation of the Causal Model](images/model_camready.png)
+![Implementation of the Causal Model](https://buraksatar.github.io/images/model_camready.png)
 
 
 
