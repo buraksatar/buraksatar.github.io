@@ -1,6 +1,7 @@
 ---
 layout: archive
-title: "Towards Debiasing Frame Length Bias in Text-Video Retrieval \\ via Causal Intervention"
+title: "Towards Debiasing Frame Length Bias in Text-Video Retrieval
+via Causal Intervention"
 permalink: /FrameLengthBias/
 author_profile: true
 redirect_from:
@@ -32,9 +33,9 @@ Bibtex
 ======
 ```
 @inproceedings{wray2021semantic,
-  title={On Semantic Similarity in Video Retrieval},
-  author={Wray, Michael and Doughty, Hazel and Damen, Dima},
-  booktitle={CVPR},
-  year={2021}
+  title={Towards Debiasing Frame Length Bias in Text-Video Retrieval \ via Causal Intervention},
+  author={Satar, Burak and Zhu, Hongyuan and Zhang, Hanwang and Lim, Joo Hwee},
+  booktitle={BMVC},
+  year={2023}
 }
 ```
