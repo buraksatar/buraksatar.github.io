@@ -37,12 +37,12 @@ Files
 </a>
 <a href="https://www.google.com">
 <button type="button">arXiv
-<img src="https://buraksatar.github.io/images/arxiv2.jpg" width="50" alt="buttonpng" border="0"/>
+<img src="https://buraksatar.github.io/images/arxiv3.jpg" width="50" alt="buttonpng" border="0"/>
 </button>
 </a>
 <a href="https://www.google.com">
 <button type="button">Poster
-<img src="https://buraksatar.github.io/images/pposter.png" width="50" alt="buttonpng" border="0"/>
+<img src="https://buraksatar.github.io/images/pposter.png" width="50" height="100" alt="buttonpng" border="0"/>
 </button>
 </a>
 
