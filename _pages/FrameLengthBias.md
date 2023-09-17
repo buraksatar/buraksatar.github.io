@@ -40,7 +40,7 @@ Files
 <img src="https://buraksatar.github.io/images/arxiv3.jpg" width="40" alt="buttonpng" border="0"/>
 </button>
 </a>
-<a href="[https://www.google.com](https://drive.google.com/file/d/1CulEI4Tpau3ZY65solVJLNbXdBSJ-OIK/view?usp=sharing)">
+<a href="https://drive.google.com/file/d/1CulEI4Tpau3ZY65solVJLNbXdBSJ-OIK/view?usp=sharing">
 <button type="button">Poster
 <img src="https://buraksatar.github.io/images/pposter.png" width="70" alt="buttonpng" border="0"/>
 </button>
