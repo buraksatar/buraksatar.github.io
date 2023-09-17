@@ -7,7 +7,13 @@ redirect_from:
   - /framelength
 ---
 
-![alt text](http://url/to/img.png)
+![Bias in Epic-Kitchens-100](images/epic_bias.png)
+
+![Structural Causal Model](images/scm_camready.png)
+
+![Implementation of the Causal Model](images/model_camready.png)
+
+
 
 Education
 ======
