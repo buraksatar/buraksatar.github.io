@@ -9,6 +9,8 @@ redirect_from:
 ---
 <!--- <img src="https://buraksatar.github.io/images/epic_bias.png" alt="epic_bias" width="300"/> !--->
 
+# Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention
+
 Burak Satar $^{1,2}$, Hongyuan Zhu$^{1}$, Hanwang Zhang$^{2}$, Joo Hwee Lim$^{1,2}$\\
 $^{1}$Institute of Infocomm Research, A*STAR, $^{2}$SCSE, Nanyang Technological University 
 
@@ -37,7 +39,7 @@ Bibtex
 
 ```
 @inproceedings{wray2021semantic,
-  title={Towards Debiasing Frame Length Bias in Text-Video Retrieval \ via Causal Intervention},
+  title={Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention},
   author={Satar, Burak and Zhu, Hongyuan and Zhang, Hanwang and Lim, Joo Hwee},
   booktitle={BMVC},
   year={2023}
