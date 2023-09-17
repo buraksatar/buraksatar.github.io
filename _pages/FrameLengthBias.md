@@ -35,7 +35,7 @@ arXiv, Poster
 
 Bibtex
 ======
-$$
+'''
 <font size="7">
 @inproceedings{wray2021semantic,
   title={Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention},
@@ -44,4 +44,4 @@ $$
   year={2023}
 }
 </font>
-$$ 
+'''
