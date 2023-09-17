@@ -10,8 +10,8 @@ redirect_from:
 # Towards Debiasing Frame Length Bias in
 # Text-Video Retrieval via Causal Intervention
 
-Burak Satar $^{1,2}$, Hongyuan Zhu$^{1}$, Hanwang Zhang$^{2}$, Joo Hwee Lim$^{1,2}$\\
-$^{1}$Institute of Infocomm Research, A*STAR | $^{2}$SCSE, Nanyang Technological University 
+Burak Satar $^{1,2}$, Hongyuan Zhu$^{1}$, Hanwang Zhang$^{2}$, Joo Hwee Lim$^{1,2}$ \\
+$^{1}$Institute of Infocomm Research, A*STAR | $^{2}$SCSE, Nanyang Technological University \\
 British Machine Vision Conference (BMVC), 2023
 
 <img src="https://buraksatar.github.io/images/scm_camready.png" alt="Structural Causal Model" width="850"/>
