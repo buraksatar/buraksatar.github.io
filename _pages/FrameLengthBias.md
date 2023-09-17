@@ -14,7 +14,7 @@ Burak Satar $^{1,2}$, Hongyuan Zhu$^{1}$, Hanwang Zhang$^{2}$, Joo Hwee Lim$^{1,
 $^{1}$Institute of Infocomm Research, A*STAR | $^{2}$SCSE, Nanyang Technological University \\
 British Machine Vision Conference (BMVC), 2023
 
-<img src="https://buraksatar.github.io/images/scm_camready.png" alt="Structural Causal Model" width="850"/>
+<img src="https://buraksatar.github.io/images/scm_camready.png" alt="Structural Causal Model" width="750"/>
 
 
 Abstract
@@ -30,7 +30,7 @@ Video
 Files
 ======
 
-Paper, arXiv, Poster
+<a href=”https://www.google.com“> <img src=”https://banner2.cleanpng.com/20190312/zqt/kisspng-computer-icons-pdfa-computer-file-adobe-inc-5c873f6cf41dd2.9643895115523674689999.jpg” width=”100″ height=”132″> </a>, arXiv, Poster
 
 
 
