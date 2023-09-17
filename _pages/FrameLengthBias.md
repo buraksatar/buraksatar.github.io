@@ -11,9 +11,9 @@ redirect_from:
 # Text-Video Retrieval via Causal Intervention
 
 Burak Satar $^{1,2}$, Hongyuan Zhu$^{1}$, Hanwang Zhang$^{2}$, Joo Hwee Lim$^{1,2}$\\
-$^{1}$Institute of Infocomm Research, A*STAR, $^{2}$SCSE, Nanyang Technological University 
+$^{1}$Institute of Infocomm Research, A*STAR | $^{2}$SCSE, Nanyang Technological University 
 
-<img src="https://buraksatar.github.io/images/scm_camready.png" alt="Structural Causal Model" width="700"/>
+<img src="https://buraksatar.github.io/images/scm_camready.png" alt="Structural Causal Model" width="800"/>
 
 
 Abstract
@@ -37,7 +37,7 @@ Bibtex
 ======
 <font size="5">your_text_here</font>
 
-<font size="5">your_text_here
+<font size="8">your_text_here
 ```
 @inproceedings{wray2021semantic,
   title={Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention},
