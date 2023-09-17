@@ -6,7 +6,7 @@ author_profile: true
 redirect_from:
   - /framelength
 ---
-
+<img src="https://buraksatar.github.io/images/epic_bias.png" alt="epic_bias" width="200"/>
 ![Bias in Epic-Kitchens-100](https://buraksatar.github.io/images/epic_bias.png)
 
 ![Structural Causal Model](https://buraksatar.github.io/images/scm_camready.png)
