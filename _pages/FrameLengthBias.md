@@ -47,4 +47,5 @@ Bibtex
 
 Acknowledgements
 ======
-This research is supported by the Agency for Science, Technology and Research (A*STAR) \\ under its AME Programmatic Funding Scheme (Project A18A2b0046).
+This research is supported by the Agency for Science, Technology and Research (A*STAR) \\
+under its AME Programmatic Funding Scheme (Project A18A2b0046).
