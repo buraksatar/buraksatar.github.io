@@ -30,10 +30,11 @@ arXiv, Poster
 
 Bibtex
 ======
-
+```
 @inproceedings{wray2021semantic,
   title={On Semantic Similarity in Video Retrieval},
   author={Wray, Michael and Doughty, Hazel and Damen, Dima},
   booktitle={CVPR},
   year={2021}
 }
+```
