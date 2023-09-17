@@ -26,10 +26,10 @@ Video
 
 
 
-Paper
+Files
 ======
 
-arXiv, Poster
+Paper, arXiv, Poster
 
 
 
@@ -43,3 +43,7 @@ Bibtex
   year={2023}
 }
 ```
+
+Acknowledgements
+======
+This research is supported by the Agency for Science, Technology and Research (A*STAR) under its AME Programmatic Funding Scheme (Project A18A2b0046).
