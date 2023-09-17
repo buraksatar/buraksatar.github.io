@@ -8,7 +8,7 @@ redirect_from:
 ---
 <!--- <img src="https://buraksatar.github.io/images/epic_bias.png" alt="epic_bias" width="300"/> !--->
 
-Burak Satar^{1,2}, Hongyuan Zhu^1, Hanwang Zhang^2, Joo Hwee Lim^{1,2} \\
+Burak Satar$^{1,2}$, Hongyuan Zhu^1, Hanwang Zhang^2, Joo Hwee Lim^{1,2} \\
 ^1Institute of Infocomm Research, A*STAR, ^2SCSE, Nanyang Technological University 
 
 ![Structural Causal Model](https://buraksatar.github.io/images/scm_camready.png)
