@@ -30,7 +30,7 @@ Video
 Files
 ======
 
-<a href=”https://www.google.com“> <img src=”https://buraksatar.github.io/images/scm_camready.png” width=”100″ height=”132″> </a>, arXiv, Poster
+<a href="https://www.google.com"> <img src="https://buraksatar.github.io/images/scm_camready.png" width="100" height="132"> </a>, arXiv, Poster
 
 
 
