@@ -42,7 +42,7 @@ Files
 </a>
 <a href="https://www.google.com">
 <button type="button">Poster
-<img src="https://buraksatar.github.io/images/pposter.png" height="200" alt="buttonpng" border="0"/>
+<img src="https://buraksatar.github.io/images/pposter.png" height="20" alt="buttonpng" border="0"/>
 </button>
 </a>
 
