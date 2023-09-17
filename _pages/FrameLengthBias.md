@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Towards Debiasing Frame Length Bias in Text-Video Retrieval
+title: "Towards Debiasing Frame Length Bias in Text-Video Retrieval \
 via Causal Intervention"
 permalink: /FrameLengthBias/
 author_profile: true
