@@ -31,7 +31,21 @@ Files
 ======
 
 <a href="https://www.google.com"> <img src="https://buraksatar.github.io/images/scm_camready.png" width="100" height="132"> </a>, arXiv, Poster
-
+<a href="https://www.google.com">
+<button type="button">Paper
+<img src="https://buraksatar.github.io/images/adobe_logo.png" width="50" alt="buttonpng" border="0"/>
+</button>
+</a>
+<a href="https://www.google.com">
+<button type="button">arXiv
+<img src="https://buraksatar.github.io/images/arxiv2" width="50" alt="buttonpng" border="0"/>
+</button>
+</a>
+<a href="https://www.google.com">
+<button type="button">Poster
+<img src="https://buraksatar.github.io/images/pposter.png" width="50" alt="buttonpng" border="0"/>
+</button>
+</a>
 
 
 Bibtex
