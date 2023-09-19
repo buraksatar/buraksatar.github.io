@@ -30,12 +30,12 @@ Video
 Files
 ======
 
-<a href="https://www.google.com">
+<a href="https://arxiv.org/pdf/2309.09311">
 <button type="button">Paper
 <img src="https://buraksatar.github.io/images/adobe_logo.png" width="50" alt="buttonpng" border="0"/>
 </button>
 </a>
-<a href="https://www.google.com">
+<a href="https://arxiv.org/abs/2309.09311">
 <button type="button">arXiv
 <img src="https://buraksatar.github.io/images/arxiv3.jpg" width="40" alt="buttonpng" border="0"/>
 </button>
