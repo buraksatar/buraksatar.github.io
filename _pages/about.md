@@ -29,11 +29,15 @@ Publications
 BMVC 2023 Full Paper, (29% acceptance rate, Poster presentation) \\
 [[arXiv](https://arxiv.org/abs/2309.09311)] [[YouTube Ppt](https://youtu.be/aMhNvTCkT8Y)] [[Poster](https://drive.google.com/file/d/10aXgkCl4PowFelEOyxJp4X90cTtub6Pt/view?usp=sharing)] [[Project Page](https://buraksatar.github.io/FrameLengthBias/)]
 
+--------------------------------------------------------------------------------------------
+
 <img src="https://buraksatar.github.io/images/cvpr'23_workshop.png" alt="An Overview of Challenges" width="400"/> \\
 **An Overview of Challenges in Egocentric Text-Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
 CVPR Workshop 2023, [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/) (Oral presentation) \\
 [[Extended Abstract](https://arxiv.org/abs/2306.04345)] [[YouTube Ppt](https://youtu.be/XnUMScoOPvM)]
+
+--------------------------------------------------------------------------------------------
 
 <img src="https://buraksatar.github.io/images/cvpr'22_workshop.png" alt="Architecture" width="300"/> \\
 **Exploiting Semantic Role Contextualized Video Features**\\
@@ -42,7 +46,7 @@ CVPR Workshop 2023, [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/eg
 CVPR Workshop 2022, Epic-Kitchens-100 MIR Challenge under [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/cvpr2022w-ego4d-epic/)  \\
 [[Technical Report](https://arxiv.org/abs/2206.14381)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
 
---------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
 
 **RoME: Role-aware Mixture-of-Expert Transformer for Text-to-Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
@@ -53,6 +57,8 @@ CVPR Workshop 2022, Epic-Kitchens-100 MIR Challenge under [Joint Ego4d/EPIC Work
 **Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim \\
 ICIP 2021 Full Paper (Oral presentation) and [ICCV Workshop 2021](https://sites.google.com/view/srvu-iccv21-workshop/papers?authuser=0) (Oral presentation)\\
 [[arXiv](https://arxiv.org/abs/2206.12849)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)] [[YouTube Ppt](https://www.youtube.com/watch?v=M7dHgv8fIkU)]
+
+--------------------------------------------------------------------------------------------
 
 <img src="https://buraksatar.github.io/images/icann'18.png" alt="Detection and classification method" width="250"/> \\
 **Deep Learning Based Vehicle Make-Model Classification** \\
