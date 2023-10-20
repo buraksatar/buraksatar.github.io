@@ -36,10 +36,13 @@ CVPR Workshop 2023, [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/eg
 [[Extended Abstract](https://arxiv.org/abs/2306.04345)] [[YouTube Ppt](https://youtu.be/XnUMScoOPvM)]
 
 <img src="https://buraksatar.github.io/images/cvpr'22_workshop.png" alt="Architecture" width="300"/> \\
-**Exploiting Semantic Role Contextualized Video Features for Multi-Instance Video Retrieval** \\
+**Exploiting Semantic Role Contextualized Video Features**\\
+**for Multi-Instance Video Retrieval** (3rd Place Award) \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
 CVPR Workshop 2022, Epic-Kitchens-100 MIR Challenge under [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/cvpr2022w-ego4d-epic/)  \\
 [[Technical Report](https://arxiv.org/abs/2206.14381)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
+
+--------------------------------------------------------------------------------------
 
 **RoME: Role-aware Mixture-of-Expert Transformer for Text-to-Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
