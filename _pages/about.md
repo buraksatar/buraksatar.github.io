@@ -29,9 +29,9 @@ Publications
 BMVC 2023 Full Paper, (29% acceptance rate, Poster presentation) \\
 [[arXiv](https://arxiv.org/abs/2309.09311)] [[YouTube Ppt](https://youtu.be/aMhNvTCkT8Y)] [[Poster](https://drive.google.com/file/d/10aXgkCl4PowFelEOyxJp4X90cTtub6Pt/view?usp=sharing)] [[Project Page](https://buraksatar.github.io/FrameLengthBias/)]
 
-<span style="color:blue">some *blue* text</span>.
+<span style="color:blue"> -------------------------------------------------------------------------------------------- </span>
 
---------------------------------------------------------------------------------------------
+
 
 <img src="https://buraksatar.github.io/images/cvpr'23_workshop.png" alt="An Overview of Challenges" width="400"/> \\
 **An Overview of Challenges in Egocentric Text-Video Retrieval** \\
