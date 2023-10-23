@@ -71,7 +71,7 @@ Previous News
 * 06/2023: An extended abstract is accepted to [Ego4d/EPIC Workshop](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/) at CVPR 2023.
 * 05/2023: A poster presentation at [Singapore Vision Day](https://www.comp.nus.edu.sg/~leegh/svd/) at NUS.
 * 07/2022: Attended [CIFAR DLRL Summer School](https://dlrl.ca/).
-* 06/2022: Got 3rd Place Award in EPIC-Kitchens [Multi-Instance Retrieval Challenge](https://epic-kitchens.github.io/2022) at CVPR.
+* 06/2022: Got 3rd Place Award in EPIC-Kitchens [Multi-Instance Retrieval Challenge](https://epic-kitchens.github.io/2022), CVPR.
 * 06/2022: Became a finalist in the [Three Minute Thesis](https://drive.google.com/file/d/1ZoJyU7PdyZafJ2V4fsils4WIgSIQ6xZq/view?usp=sharing) (3MT) @ NTU, representing SCSE.  
 * 01/2022: Successfully passed my Qualification Exam (QE).
 * 12/2021: Volunteered in NeurIPS.
