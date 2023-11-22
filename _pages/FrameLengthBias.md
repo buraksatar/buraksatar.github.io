@@ -50,11 +50,13 @@ Files
 Bibtex
 ======
 ```
-@inproceedings{wray2021semantic,
-  title={Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention},
-  author={Satar, Burak and Zhu, Hongyuan and Zhang, Hanwang and Lim, Joo Hwee},
-  booktitle={BMVC},
-  year={2023}
+@inproceedings{Satar_2023_BMVC,
+author    = {Burak Satar and Hongyuan Zhu and Hanwang Zhang and Joo-Hwee Lim},
+title     = {Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention},
+booktitle = {34th British Machine Vision Conference 2023, {BMVC} 2023, Aberdeen, UK, November 20-24, 2023},
+publisher = {BMVA},
+year      = {2023},
+url       = {https://papers.bmvc2023.org/0650.pdf}
 }
 ```
 
