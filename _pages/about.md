@@ -26,7 +26,7 @@ Publications
 <img src="https://buraksatar.github.io/images/scm_camready.png" alt="Structural Causal Model" width="400"/> \\
 **Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
-BMVC 2023 Full Paper, (29% acceptance rate, Poster presentation) \\
+BMVC 2023 Full Paper, (Poster presentation) \\
 [[arXiv](https://arxiv.org/abs/2309.09311)] [[YouTube Ppt](https://youtu.be/aMhNvTCkT8Y)] [[Poster](https://drive.google.com/file/d/10aXgkCl4PowFelEOyxJp4X90cTtub6Pt/view?usp=sharing)] [[Project Page](https://buraksatar.github.io/FrameLengthBias/)]
 
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
