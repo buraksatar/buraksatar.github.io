@@ -16,7 +16,6 @@ I did my MSc under [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations
 Recent News
 ======
 * 07/2024: Expected date to submit the PhD Thesis.
-* 03/2024: Aim to submit our final work to ECCV'24.
 * 10/2023: Visited [MaVi Research Group](https://uob-mavi.github.io/), University of Bristol, for three months under the supervision of [Dr Michael Wray](https://mwray.github.io/) on video corpus moment retrieval.
 * 08/2023: A recent work is accepted to [BMVC 2023](https://bmvc2023.org/).
 
