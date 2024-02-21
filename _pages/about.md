@@ -71,7 +71,7 @@ Previous News
 * 05/2023: A poster presentation at [Singapore Vision Day](https://www.comp.nus.edu.sg/~leegh/svd/) at NUS.
 * 07/2022: Attended [CIFAR DLRL Summer School](https://dlrl.ca/).
 * 06/2022: Got 3rd Place Award in EPIC-Kitchens [Multi-Instance Retrieval Challenge](https://epic-kitchens.github.io/2022), CVPR.
-* 06/2022: Became a finalist in the [Three Minute Thesis](https://drive.google.com/file/d/1ZoJyU7PdyZafJ2V4fsils4WIgSIQ6xZq/view?usp=sharing) (3MT) @ NTU, representing SCSE.  
+* 06/2022: Became a finalist in the [Three Minute Thesis](https://entuedu-my.sharepoint.com/:i:/g/personal/burak001_e_ntu_edu_sg/EQ0kK2wvx_NCozw2x-2rvDEBPNcEA507M4YHG-aEzVZgTA?e=ZuLwTs) (3MT) @ NTU, representing SCSE.  
 * 01/2022: Successfully passed my Qualification Exam (QE).
 * 12/2021: Volunteered in NeurIPS.
 * 09/2021: Our first paper is also accepted by an [ICCV Workshop](https://sites.google.com/view/srvu-iccv21-workshop).
