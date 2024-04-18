@@ -16,11 +16,24 @@ I did my MSc under [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations
 Recent News
 ======
 * 07/2024: Expected date to submit the PhD Thesis.
+* 2024: Our recent work, **Enhancing Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion**, is under review.
 * 10/2023: Visited [MaVi Research Group](https://uob-mavi.github.io/), University of Bristol, for three months under the supervision of [Dr Michael Wray](https://mwray.github.io/) on video corpus moment retrieval.
 * 08/2023: A recent work is accepted to [BMVC 2023](https://bmvc2023.org/).
 
 Publications
 ======
+
+**Enhancing Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion** \\
+**Burak Satar**, Joo Hwee Lim, Hanwang Zhang, Muhammet Furkan Ilaslan, Hongyuan Zhu, Michael Wray \\
+Under review \\
+
+<span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
+
+**VG-TVP: Multimodal Procedural Planning via Visually Grounded Text-Video Prompting** \\
+Muhammet Furkan Ilaslan, Ali Koksal, Kevin Qinghong Lin, **Burak Satar**, Mike Zheng Shou, Qianli Xu \\
+Under review \\
+
+<span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
 
 <img src="https://buraksatar.github.io/images/scm_camready.png" alt="Structural Causal Model" width="400"/> \\
 **Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention** \\
