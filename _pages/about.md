@@ -20,26 +20,25 @@ Recent News
 
 Publications
 ======
+<span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
+# PhD Research Topic 3: Multimodal and Generative Video Retrieval
 
 **Enhancing Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion** \\
 **Burak Satar**, Joo Hwee Lim, Hanwang Zhang, M Furkan Ilaslan, Hongyuan Zhu, Michael Wray \\
 Under review 
-
-<span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
 
 **VG-TVP: Multimodal Procedural Planning via Visually Grounded Text-Video Prompting** \\
 M Furkan Ilaslan, Ali Koksal, Kevin Qinghong Lin, **Burak Satar**, Mike Zheng Shou, Qianli Xu \\
 Under review 
 
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
+# PhD Research Topic 2: Debiased Text-to-Video Retrieval
 
 <img src="https://buraksatar.github.io/images/scm_camready.png" alt="Structural Causal Model" width="400"/> \\
 **Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
 BMVC 2023 Full Paper, (Poster presentation) \\
 [[arXiv](https://arxiv.org/abs/2309.09311)] [[YouTube Ppt](https://youtu.be/aMhNvTCkT8Y)] [[Poster](https://drive.google.com/file/d/10aXgkCl4PowFelEOyxJp4X90cTtub6Pt/view?usp=sharing)] [[Project Page](https://buraksatar.github.io/FrameLengthBias/)]
-
-<span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
 
 <img src="https://buraksatar.github.io/images/cvpr'23_workshop.png" alt="An Overview of Challenges" width="400"/> \\
 **An Overview of Challenges in Egocentric Text-Video Retrieval** \\
@@ -48,8 +47,21 @@ CVPR Workshop 2023, [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/eg
 [[Extended Abstract](https://arxiv.org/abs/2306.04345)] [[YouTube Ppt](https://youtu.be/XnUMScoOPvM)]
 
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
-# Research Topic 1: Semantic Text-to-Video Retrieval
+# PhD Research Topic 1: Semantic Text-to-Video Retrieval
+
+**Semantic Role Aware Correlation Transformer for Text to Video Retrieval** \\
+**Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim \\
+ICIP 2021 Full Paper (Oral presentation) and [ICCV Workshop 2021](https://sites.google.com/view/srvu-iccv21-workshop/papers?authuser=0) (Oral presentation)\\
+[[arXiv](https://arxiv.org/abs/2206.12849)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)] [[YouTube Ppt](https://www.youtube.com/watch?v=M7dHgv8fIkU)]
+
+<img src="https://buraksatar.github.io/images/icip'21.png" alt="Overview of our model on text-to-video retrieval" width="400"/> \\
+
+**RoME: Role-aware Mixture-of-Expert Transformer for Text-to-Video Retrieval** \\
+**Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
+[[arXiv 2022 Preprint](https://arxiv.org/abs/2206.12845)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
+
 <img src="https://buraksatar.github.io/images/cvpr'22_workshop.png" alt="Architecture" width="300"/> \\
+
 **Exploiting Semantic Role Contextualized Video Features**\\
 **for Multi-Instance Video Retrieval** (3rd Place Award) \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
@@ -58,17 +70,7 @@ CVPR Workshop 2022, Epic-Kitchens-100 MIR Challenge under [Joint Ego4d/EPIC Work
 
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
 
-**RoME: Role-aware Mixture-of-Expert Transformer for Text-to-Video Retrieval** \\
-**Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
-[[arXiv 2022 Preprint](https://arxiv.org/abs/2206.12845)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
-
-<img src="https://buraksatar.github.io/images/icip'21.png" alt="Overview of our model on text-to-video retrieval" width="400"/> \\
-**Semantic Role Aware Correlation Transformer for Text to Video Retrieval** \\
-**Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim \\
-ICIP 2021 Full Paper (Oral presentation) and [ICCV Workshop 2021](https://sites.google.com/view/srvu-iccv21-workshop/papers?authuser=0) (Oral presentation)\\
-[[arXiv](https://arxiv.org/abs/2206.12849)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)] [[YouTube Ppt](https://www.youtube.com/watch?v=M7dHgv8fIkU)]
-
-<span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
+# MSc Research Topic
 
 <img src="https://buraksatar.github.io/images/icann'18.png" alt="Detection and classification method" width="250"/> \\
 **Deep Learning Based Vehicle Make-Model Classification** \\
