@@ -18,9 +18,11 @@ Recent News
 * 07/2024: Our recent work, **Enhancing Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion**, is under review.
 * 10/2023: Visited [MaVi Research Group](https://uob-mavi.github.io/), University of Bristol, for three months under the supervision of [Dr Michael Wray](https://mwray.github.io/) on video corpus moment retrieval.
 
+<span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
+
 Publications
 ======
-<span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
+
 ## PhD Research Topic 3: Multimodal and Generative Video Retrieval
 
 **Enhancing Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion** \\
@@ -32,7 +34,7 @@ M Furkan Ilaslan, Ali Koksal, Kevin Qinghong Lin, **Burak Satar**, Mike Zheng Sh
 Under review 
 
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
-# PhD Research Topic 2: Debiased Text-to-Video Retrieval
+## PhD Research Topic 2: Debiased Text-to-Video Retrieval
 
 <img src="https://buraksatar.github.io/images/scm_camready.png" alt="Structural Causal Model" width="400"/> \\
 **Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention** \\
@@ -47,7 +49,7 @@ CVPR Workshop 2023, [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/eg
 [[Extended Abstract](https://arxiv.org/abs/2306.04345)] [[YouTube Ppt](https://youtu.be/XnUMScoOPvM)]
 
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
-# PhD Research Topic 1: Semantic Text-to-Video Retrieval
+## PhD Research Topic 1: Semantic Text-to-Video Retrieval
 
 **Semantic Role Aware Correlation Transformer for Text to Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim \\
