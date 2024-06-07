@@ -23,8 +23,7 @@ Recent News
 Publications
 ======
 
-## #PhD Research Topic 3: 
-## Multimodal and Generative Text-to-Video Retrieval
+## #PhD Research Topic 3: Multimodal and Generative Text-to-Video Retrieval
 
 **Enhancing Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion** \\
 **Burak Satar**, Joo Hwee Lim, Hanwang Zhang, M Furkan Ilaslan, Hongyuan Zhu, Michael Wray \\
@@ -34,9 +33,7 @@ Under review
 M Furkan Ilaslan, Ali Koksal, Kevin Qinghong Lin, **Burak Satar**, Mike Zheng Shou, Qianli Xu \\
 Under review 
 
-<span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
-## PhD Research Topic 2: 
-## Debiased Text-to-Video Retrieval
+## #PhD Research Topic 2: Debiased Text-to-Video Retrieval
 
 <img src="https://buraksatar.github.io/images/scm_camready.png" alt="Structural Causal Model" width="400"/> \\
 **Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention** \\
@@ -50,8 +47,7 @@ BMVC 2023 Full Paper, (Poster presentation) \\
 CVPR Workshop 2023, [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/) (Oral presentation) \\
 [[Extended Abstract](https://arxiv.org/abs/2306.04345)] [[YouTube Ppt](https://youtu.be/XnUMScoOPvM)]
 
-<span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
-## PhD Research Topic 1: Semantic Text-to-Video Retrieval
+## #PhD Research Topic 1: Semantic Text-to-Video Retrieval
 
 **Semantic Role Aware Correlation Transformer for Text to Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim \\
@@ -72,15 +68,15 @@ ICIP 2021 Full Paper (Oral presentation) and [ICCV Workshop 2021](https://sites.
 CVPR Workshop 2022, Epic-Kitchens-100 MIR Challenge under [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/cvpr2022w-ego4d-epic/)  \\
 [[Technical Report](https://arxiv.org/abs/2206.14381)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
 
-<span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
-
-# MSc Research Topic
+## #MSc Research Topic
 
 <img src="https://buraksatar.github.io/images/icann'18.png" alt="Detection and classification method" width="250"/> \\
 **Deep Learning Based Vehicle Make-Model Classification** \\
 **Burak Satar**, Ahmet Emir Dirik \\
 ICANN 2018 Full Paper (Oral presentation) \\
 [[arXiv](https://arxiv.org/abs/1809.00953)] [[Code](https://github.com/buraksatar/car-detection-model-prediction)]
+
+<span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
 
 Previous News
 ======
