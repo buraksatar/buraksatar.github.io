@@ -21,7 +21,7 @@ Recent News
 Publications
 ======
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
-# PhD Research Topic 3: Multimodal and Generative Video Retrieval
+## PhD Research Topic 3: Multimodal and Generative Video Retrieval
 
 **Enhancing Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion** \\
 **Burak Satar**, Joo Hwee Lim, Hanwang Zhang, M Furkan Ilaslan, Hongyuan Zhu, Michael Wray \\
