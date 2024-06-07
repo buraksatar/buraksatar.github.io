@@ -23,7 +23,8 @@ Recent News
 Publications
 ======
 
-## PhD Research Topic 3: Multimodal and Generative Video Retrieval
+## #PhD Research Topic 3: 
+## Multimodal and Generative Text-to-Video Retrieval
 
 **Enhancing Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion** \\
 **Burak Satar**, Joo Hwee Lim, Hanwang Zhang, M Furkan Ilaslan, Hongyuan Zhu, Michael Wray \\
@@ -34,7 +35,8 @@ M Furkan Ilaslan, Ali Koksal, Kevin Qinghong Lin, **Burak Satar**, Mike Zheng Sh
 Under review 
 
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
-## PhD Research Topic 2: Debiased Text-to-Video Retrieval
+## PhD Research Topic 2: 
+## Debiased Text-to-Video Retrieval
 
 <img src="https://buraksatar.github.io/images/scm_camready.png" alt="Structural Causal Model" width="400"/> \\
 **Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention** \\
