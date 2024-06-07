@@ -48,7 +48,7 @@ CVPR Workshop 2023, [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/eg
 [[Extended Abstract](https://arxiv.org/abs/2306.04345)] [[YouTube Ppt](https://youtu.be/XnUMScoOPvM)]
 
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
-
+# Research Topic 1: Semantic Text-to-Video Retrieval
 <img src="https://buraksatar.github.io/images/cvpr'22_workshop.png" alt="Architecture" width="300"/> \\
 **Exploiting Semantic Role Contextualized Video Features**\\
 **for Multi-Instance Video Retrieval** (3rd Place Award) \\
