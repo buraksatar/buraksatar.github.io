@@ -24,7 +24,7 @@ Publications
 
 ## #PhD Research 3: Multimodal and Generative Video/Moment Retrieval
 
-**Enhancing Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion** \\
+**Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion** \\
 **Burak Satar**, Joo Hwee Lim, Hanwang Zhang, M Furkan Ilaslan, Hongyuan Zhu, Michael Wray \\
 Under review 
 
@@ -61,7 +61,7 @@ ICIP 2021 Full Paper (Oral presentation) and [ICCV Workshop 2021](https://sites.
 
 <img src="https://buraksatar.github.io/images/cvpr'22_workshop.png" alt="Architecture" width="300"/> \\
 
-(3rd Place Award) **Exploiting Semantic Role Contextualized Video Features**\\
+(✅ 3rd Place Award) **Exploiting Semantic Role Contextualized Video Features**\\
 **for Multi-Instance Video Retrieval**  \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
 CVPR Workshop 2022, Epic-Kitchens-100 MIR Challenge under [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/cvpr2022w-ego4d-epic/)  \\
@@ -83,7 +83,7 @@ Previous News
 * 10/2023: Visited [MaVi Research Group](https://uob-mavi.github.io/), University of Bristol, for three months under the supervision of [Dr Michael Wray](https://mwray.github.io/) on video corpus moment retrieval.
 * 05/2023: A poster presentation at [Singapore Vision Day](https://www.comp.nus.edu.sg/~leegh/svd/) at NUS.
 * 07/2022: Attended [CIFAR DLRL Summer School](https://dlrl.ca/).
-* 06/2022: Got 3rd Place Award in EPIC-Kitchens [Multi-Instance Retrieval Challenge](https://epic-kitchens.github.io/2022), CVPR.
+* 06/2022: 3rd Place Award in EPIC-Kitchens [Multi-Instance Retrieval Challenge](https://epic-kitchens.github.io/2022), CVPR.
 * 06/2022: Became a finalist in the [Three Minute Thesis](https://entuedu-my.sharepoint.com/:i:/g/personal/burak001_e_ntu_edu_sg/EQ0kK2wvx_NCozw2x-2rvDEBPNcEA507M4YHG-aEzVZgTA?e=ZuLwTs) (3MT) @ NTU, representing SCSE.  
 * 01/2022: Successfully passed my Qualification Exam (QE).
 * 12/2021: Volunteered in NeurIPS.
