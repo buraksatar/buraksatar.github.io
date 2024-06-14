@@ -10,13 +10,12 @@ redirect_from:
 
 I am a final year PhD candidate at NTU, Singapore, under the SINGA scholarship by A\*STAR. My PhD work is on **Towards Semantic, Debiased and Moment Video Retrieval with Multi-modal Features** under [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en) and [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) from I2R, A\*STAR and [Prof. Hanwang Zhang](https://mreallab.github.io/people.html) from SCSE, NTU.
 
-During my PhD, I was also a visiting researcher at the University of Bristol, UK, under [Prof. Michael Wray](https://mwray.github.io/) in Dima Damen's group. I did my MSc under [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) on vehicle detection. I have various working experiences, from a start-up in Istanbul to the industry (Turkish Airlines Technology) and a university internship during my MSc (Univeristy of Valencia). I also advised two award-winning start-ups. [You can view my resume here.](https://entuedu-my.sharepoint.com/:b:/g/personal/burak001_e_ntu_edu_sg/EfAQHMfXoOxGnsg9HPC0_lABVyggqbBE6N14rVdnHdZkGg?e=WIuGSR)
+During my PhD, I was also a visiting researcher at the University of Bristol, UK, under [Prof. Michael Wray](https://mwray.github.io/) in Dima Damen's group. I did my MSc under [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) on vehicle detection. I have various working experiences, from a start-up in Istanbul to the industry (Turkish Airlines Technology) and a university internship during my MSc (Univeristy of Valencia). I also advised two award-winning start-ups.
 
 Recent News
 ======
 * 07/2024: Expected date to submit the PhD Thesis.
 * 07/2024: Our recent work, **Enhancing Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion**, is under review.
-* 10/2023: Visited [MaVi Research Group](https://uob-mavi.github.io/), University of Bristol, for three months under the supervision of [Dr Michael Wray](https://mwray.github.io/) on video corpus moment retrieval.
 
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
 
@@ -80,8 +79,7 @@ ICANN 2018 Full Paper (Oral presentation) \\
 
 Previous News
 ======
-* 08/2023: A recent work is accepted to [BMVC 2023](https://bmvc2023.org/).
-* 06/2023: An extended abstract is accepted to [Ego4d/EPIC Workshop](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/) at CVPR 2023.
+* 10/2023: Visited [MaVi Research Group](https://uob-mavi.github.io/), University of Bristol, for three months under the supervision of [Dr Michael Wray](https://mwray.github.io/) on video corpus moment retrieval.
 * 05/2023: A poster presentation at [Singapore Vision Day](https://www.comp.nus.edu.sg/~leegh/svd/) at NUS.
 * 07/2022: Attended [CIFAR DLRL Summer School](https://dlrl.ca/).
 * 06/2022: Got 3rd Place Award in EPIC-Kitchens [Multi-Instance Retrieval Challenge](https://epic-kitchens.github.io/2022), CVPR.
@@ -93,4 +91,4 @@ Previous News
 * 05/2021: One paper accepted by ICIP.
 * 01/2020: Started to do PhD in the School of Computer Science and Engineering, NTU.
 * 08/2018: Successfully defended my MSc thesis. 
-* 06/2018: One paper accepted by ICANN, with [student travel award](https://e-nns.org/student-awards/winners-2018/).
+* 06/2018: Got [student travel award](https://e-nns.org/student-awards/winners-2018/) by European Neural Network Society to attend ICANN.
