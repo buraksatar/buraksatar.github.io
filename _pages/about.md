@@ -61,8 +61,8 @@ ICIP 2021 Full Paper (Oral presentation) and [ICCV Workshop 2021](https://sites.
 
 <img src="https://buraksatar.github.io/images/cvpr'22_workshop.png" alt="Architecture" width="300"/> \\
 
-**Exploiting Semantic Role Contextualized Video Features**\\
-**for Multi-Instance Video Retrieval** (3rd Place Award) \\
+(3rd Place Award) **Exploiting Semantic Role Contextualized Video Features**\\
+**for Multi-Instance Video Retrieval**  \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
 CVPR Workshop 2022, Epic-Kitchens-100 MIR Challenge under [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/cvpr2022w-ego4d-epic/)  \\
 [[Technical Report](https://arxiv.org/abs/2206.14381)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
