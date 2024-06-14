@@ -8,9 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a final year PhD candidate at NTU, Singapore, under the SINGA scholarship by A\*STAR. My PhD work is on **Towards Semantic, Debiased and Moment Video Retrieval with Multi-modal Features** under [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en) and [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) from I2R, A\*STAR and [Prof. Hanwang Zhang](https://mreallab.github.io/people.html) from CCDS, NTU.
-
-During my PhD, I was also a visiting researcher at the University of Bristol, UK, under [Prof. Michael Wray](https://mwray.github.io/) in Dima Damen's group. I did my MSc under [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) on vehicle detection. I have various working experiences, from a start-up in Istanbul to the industry (Turkish Airlines Technology) and a university internship during my MSc (Univeristy of Valencia). I also advised two award-winning start-ups.
+I am a final year PhD candidate at CCDS, NTU, Singapore, under the SINGA scholarship by I2R, A\*STAR. My PhD work is on **Towards Semantic, Debiased and Moment Video Retrieval with Multi-modal Features** under [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en), [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) and [Prof. Hanwang Zhang](https://mreallab.github.io/people.html). During my PhD, I visited the University of Bristol, UK, under [Prof. Michael Wray](https://mwray.github.io/) in Dima Damen's group. I did my MSc under [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) on vehicle detection. My working experiences vary from a start-up in Istanbul to Turkish Airlines Technology and an internship at the University of Valencia. I also advised two award-winning start-ups based in London and Istanbul.
 
 Recent News
 ======
