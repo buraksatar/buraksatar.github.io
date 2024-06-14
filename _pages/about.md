@@ -15,7 +15,7 @@ During my PhD, I was also a visiting researcher at the University of Bristol, UK
 Recent News
 ======
 * 07/2024: Expected date to submit the PhD Thesis.
-* 07/2024: Our recent work, **Enhancing Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion**, is under review.
+* 07/2024: Our recent work is under review.
 
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
 
