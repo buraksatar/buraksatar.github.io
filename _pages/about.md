@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a final year PhD candidate at NTU, Singapore, under the SINGA scholarship by A\*STAR. My PhD work is on **Towards Semantic, Debiased and Moment Video Retrieval with Multi-modal Features** under [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en) and [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) from I2R, A\*STAR and [Prof. Hanwang Zhang](https://mreallab.github.io/people.html) from SCSE, NTU.
+I am a final year PhD candidate at NTU, Singapore, under the SINGA scholarship by A\*STAR. My PhD work is on **Towards Semantic, Debiased and Moment Video Retrieval with Multi-modal Features** under [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en) and [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) from I2R, A\*STAR and [Prof. Hanwang Zhang](https://mreallab.github.io/people.html) from CCDS, NTU.
 
 During my PhD, I was also a visiting researcher at the University of Bristol, UK, under [Prof. Michael Wray](https://mwray.github.io/) in Dima Damen's group. I did my MSc under [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) on vehicle detection. I have various working experiences, from a start-up in Istanbul to the industry (Turkish Airlines Technology) and a university internship during my MSc (Univeristy of Valencia). I also advised two award-winning start-ups.
 
@@ -89,6 +89,6 @@ Previous News
 * 09/2021: Our first paper is also accepted by an [ICCV Workshop](https://sites.google.com/view/srvu-iccv21-workshop).
 * 07/2021: Attended [PAISS AI Summer School](https://project.inria.fr/paiss/), and presented a poster.
 * 05/2021: One paper accepted by ICIP.
-* 01/2020: Started to do PhD in the School of Computer Science and Engineering, NTU.
+* 2020: Started my PhD journey in the College of Computing and Data Science, NTU.
 * 08/2018: Successfully defended my MSc thesis. 
 * 06/2018: Got [student travel award](https://e-nns.org/student-awards/winners-2018/) by European Neural Network Society to attend ICANN.
