@@ -86,6 +86,6 @@ Previous News
 * 01/2022: Successfully passed my Qualification Exam (QE).
 * 12/2021: Volunteered in NeurIPS.
 * 07/2021: Attended [PAISS AI Summer School](https://project.inria.fr/paiss/), and presented a poster.
-* 2020: Started my PhD journey in the College of Computing and Data Science (CCDS), NTU.
+* 2020: Started my PhD journey in the College of Computing and Data Science(CCDS), NTU.
 * 08/2018: Successfully defended my MSc thesis. 
 * 06/2018: Got [student travel award](https://e-nns.org/student-awards/winners-2018/) by European Neural Network Society to attend ICANN.
