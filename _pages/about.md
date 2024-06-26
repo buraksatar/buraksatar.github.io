@@ -82,10 +82,10 @@ Previous News
 * 05/2023: A poster presentation at [Singapore Vision Day](https://www.comp.nus.edu.sg/~leegh/svd/) at NUS.
 * 07/2022: Attended [CIFAR DLRL Summer School](https://dlrl.ca/).
 * 06/2022: 3rd Place Award in EPIC-Kitchens [Multi-Instance Retrieval Challenge](https://epic-kitchens.github.io/2022), CVPR.
-* 06/2022: Became a finalist in the [Three Minute Thesis](https://entuedu-my.sharepoint.com/:i:/g/personal/burak001_e_ntu_edu_sg/EQ0kK2wvx_NCozw2x-2rvDEBPNcEA507M4YHG-aEzVZgTA?e=ZuLwTs) (3MT) @ NTU, representing SCSE.  
+* 06/2022: Became a finalist in the [Three Minute Thesis](https://entuedu-my.sharepoint.com/:i:/g/personal/burak001_e_ntu_edu_sg/EQ0kK2wvx_NCozw2x-2rvDEBPNcEA507M4YHG-aEzVZgTA?e=ZuLwTs) (3MT) @ NTU, representing CCDS.  
 * 01/2022: Successfully passed my Qualification Exam (QE).
 * 12/2021: Volunteered in NeurIPS.
 * 07/2021: Attended [PAISS AI Summer School](https://project.inria.fr/paiss/), and presented a poster.
-* 2020: Started my PhD journey in the College of Computing and Data Science, NTU.
+* 2020: Started my PhD journey in the College of Computing and Data Science (CCDS), NTU.
 * 08/2018: Successfully defended my MSc thesis. 
 * 06/2018: Got [student travel award](https://e-nns.org/student-awards/winners-2018/) by European Neural Network Society to attend ICANN.
