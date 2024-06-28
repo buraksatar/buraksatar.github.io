@@ -22,7 +22,7 @@ Publications
 ## #PhD Research 3: Multimodal and Generative Video/Moment Retrieval
 
 **Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion** \\
-**Burak Satar**, Joo Hwee Lim, Hanwang Zhang, M Furkan Ilaslan, Hongyuan Zhu, Michael Wray \\ 
+**Burak Satar**, Joo Hwee Lim, Hanwang Zhang, M Furkan Ilaslan, Hongyuan Zhu, Michael Wray 
 TBA
 
 **VG-TVP: Multimodal Procedural Planning via Visually Grounded Text-Video Prompting** \\
