@@ -26,7 +26,7 @@ Publications
 TBA
 
 **VG-TVP: Multimodal Procedural Planning via Visually Grounded Text-Video Prompting** \\
-M Furkan Ilaslan, Ali Koksal, Kevin Qinghong Lin, **Burak Satar**, Mike Zheng Shou, Qianli Xu \\
+M Furkan Ilaslan, Ali Koksal, Kevin Qinghong Lin, **Burak Satar**, Mike Zheng Shou, Qianli Xu
 TBA 
 
 ## #PhD Research 2: Debiased Text-to-Video Retrieval
@@ -51,13 +51,13 @@ CVPR Workshop 2023, [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/eg
 CVPR Workshop 2022, Epic-Kitchens-100 MIR Challenge under [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/cvpr2022w-ego4d-epic/)  \\
 [[Technical Report](https://arxiv.org/abs/2206.14381)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
 
-<img src="https://buraksatar.github.io/images/cvpr'22_workshop.png" alt="Architecture" width="300"/> \\
+<img src="https://buraksatar.github.io/images/cvpr'22_workshop.png" alt="Architecture" width="300"/>
 
 **RoME: Role-aware Mixture-of-Expert Transformer for Text-to-Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
 [[arXiv 2022 Preprint](https://arxiv.org/abs/2206.12845)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
 
-<img src="https://buraksatar.github.io/images/icip'21.png" alt="Overview of our model on text-to-video retrieval" width="400"/> \\
+<img src="https://buraksatar.github.io/images/icip'21.png" alt="Overview of our model on text-to-video retrieval" width="400"/>
 
 **Semantic Role Aware Correlation Transformer for Text to Video Retrieval** \\
 **Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim \\
