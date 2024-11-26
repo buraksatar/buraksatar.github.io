@@ -12,6 +12,8 @@ I am a final year PhD candidate at CCDS, NTU, Singapore, under the SINGA scholar
 
 Recent News
 ======
+* 12/2024: PhD Thesis to be defended.
+* 11/2024: Got minor amendments from the PhD Thesis Committee.
 * 07/2024: Submitted my PhD Thesis.
 
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
