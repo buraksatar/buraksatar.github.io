@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a final year PhD candidate at CCDS, NTU, Singapore, under the SINGA scholarship by I2R, A\*STAR. My PhD work is on **Towards Semantic, Debiased and Moment Video Retrieval with Multi-modal Features** under [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en), [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) and [Prof. Hanwang Zhang](https://mreallab.github.io/people.html). During my PhD, I visited the University of Bristol, UK, under [Prof. Michael Wray](https://mwray.github.io/) in Dima Damen's group. I did my MSc under [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) on vehicle detection. My working experiences vary from a start-up in Istanbul to Turkish Airlines Technology and an internship at the University of Valencia. I also advised two award-winning start-ups based in London and Istanbul. **I am considering the opportunities for the next step**.
+I have just completed my PhD at CCDS, NTU, Singapore, under the SINGA scholarship by I2R, A\*STAR. My PhD work is on **Towards Semantic, Debiased and Moment Video Retrieval with Multi-modal Features** under [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en), [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) and [Prof. Hanwang Zhang](https://mreallab.github.io/people.html). During my PhD, I visited the University of Bristol, UK, under [Prof. Michael Wray](https://mwray.github.io/) in Dima Damen's group. I did my MSc under [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) on vehicle detection. My working experiences vary from a start-up in Istanbul to Turkish Airlines Technology and an internship at the University of Valencia. I also advised two award-winning start-ups based in London and Istanbul. **I am considering the opportunities for the next step**.
 
 Recent News
 ======
-* 12/2024: PhD Thesis to be defended.
+* 12/2024: Successfully defended my PhD Thesis.
 * 11/2024: Got minor amendments from the PhD Thesis Committee.
 * 07/2024: Submitted my PhD Thesis.
 
