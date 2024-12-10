@@ -25,11 +25,11 @@ Publications
 
 **Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion** \\
 **Burak Satar**, Joo Hwee Lim, Hanwang Zhang, M Furkan Ilaslan, Hongyuan Zhu, Michael Wray 
-TBA
+IEEE Transactions on Multimedia (TMM) (Under Review)
 
 **VG-TVP: Multimodal Procedural Planning via Visually Grounded Text-Video Prompting** \\
 M Furkan Ilaslan, Ali Koksal, Kevin Qinghong Lin, **Burak Satar**, Mike Zheng Shou, Qianli Xu
-TBA 
+AAAI 2025 Full Paper 
 
 ## #PhD Research 2: Debiased Text-to-Video Retrieval
 
