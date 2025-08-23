@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Burak Satar"
 title_separator          : "-"
 name                     : &name "Burak Satar"
-description              : &description "PhD at NTU"
+description              : &description "AI Research Scientist at Singapore Management University (SMU)"
 url                      : https://buraksatar.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "buraksatar/buraksatar.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Burak Satar"
   avatar           : "1714612274337.jpeg"
-  bio              : "PhD at NTU"
+  bio              : "AI Research Scientist at Singapore Management University (SMU)"
   location         : "Singapore"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=qSgpP04AAAAJ"
-  email            : "burak001@e.ntu.edu.sg"
+  email            : "buraks@smu.edu.sg"
   researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
