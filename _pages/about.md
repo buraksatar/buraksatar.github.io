@@ -23,13 +23,15 @@ Recent News
 
 Publications
 ======
-# Research during Post-Doctorate
+# Research during Post-Doctoral Work
+
 **<TBA>** \\
 **Burak Satar**, Zhixin Ma, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo \\
 EMNLP 2025 Main Conference
+[[arXiv](to be updated)]
 
 # Research during Doctoral Study
-## Research Topic 3: Multimodal and Generative Video/Moment Retrieval
+## PhD Research Topic 3: Multimodal and Generative Video/Moment Retrieval
 
 **Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion** \\
 **Burak Satar**, Joo Hwee Lim, Hanwang Zhang, M Furkan Ilaslan, Hongyuan Zhu, Michael Wray \\
@@ -40,7 +42,7 @@ M Furkan Ilaslan, Ali Koksal, Kevin Qinghong Lin, **Burak Satar**, Mike Zheng Sh
 AAAI 2025 Full Paper
 [[arXiv](https://arxiv.org/abs/2412.11621)] [[Dataset Link](https://drive.google.com/drive/folders/1-Lka5F-Dh-Fz6CwHDJYjUqieXlt2GCR6)] [[Github](https://github.com/mfurkanilaslan/VG-TVP?tab=readme-ov-file)]
 
-## Research Topic 2: Debiased Text-to-Video Retrieval
+## PhD Research Topic 2: Debiased Text-to-Video Retrieval
 
 <img src="https://buraksatar.github.io/images/scm_camready.png" alt="Structural Causal Model" width="400"/> \\
 **Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention** \\
@@ -54,7 +56,7 @@ BMVC 2023 Full Paper, (Poster presentation) \\
 CVPR Workshop 2023, [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/) (Oral presentation) \\
 [[Extended Abstract](https://arxiv.org/abs/2306.04345)] [[YouTube Ppt](https://youtu.be/XnUMScoOPvM)]
 
-## Research Topic 1: Semantic Text-to-Video Retrieval
+## PhD Research Topic 1: Semantic Text-to-Video Retrieval
 
 (✅ 3rd Place Award) **Exploiting Semantic Role Contextualized Video Features**\\
 **for Multi-Instance Video Retrieval**  \\
