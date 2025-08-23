@@ -8,13 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I have just completed my PhD at CCDS, NTU, Singapore, under the SINGA scholarship by I2R, A\*STAR. My PhD work is on **Towards Semantic, Debiased and Moment Video Retrieval with Multi-modal Features** under [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en), [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) and [Prof. Hanwang Zhang](https://mreallab.github.io/people.html). During my PhD, I visited the University of Bristol, UK, under [Prof. Michael Wray](https://mwray.github.io/) in Dima Damen's group. I did my MSc under [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) on vehicle detection. My working experiences vary from a start-up in Istanbul to Turkish Airlines Technology and an internship at the University of Valencia. I also advised two award-winning start-ups based in London and Istanbul. **I am considering the opportunities for the next step**.
+I obtained my PhD from the College of Computing and Data Science (CCDS) at Nanyang Technological University (NTU) in Singapore, supported by the SINGA scholarship from the Institute for Infocomm Research (I2R), Agency for Science, Technology and Research (A\*STAR). My doctoral research focused on **Towards Semantic, Debiased and Moment Video Retrieval with Multi-modal Features** conducted under the supervision of [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en), [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) and [Prof. Hanwang Zhang](https://scholar.google.com.sg/citations?user=YG0DFyYAAAAJ&hl=en&inst=14102473421921925766). During my PhD studies, I had the opportunity to visit the University of Bristol, in the UK, collaborating with [Prof. Michael Wray](https://scholar.google.com/citations?user=gFQcKZMAAAAJ&hl=en&oi=ao&inst=14102473421921925766) in Dima Damen's research group. I completed my Master’s degree under the guidance of [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr), specializing in vehicle detection. My professional experiences span a range of roles, including work at a start-up in Istanbul, Turkish Airlines Technology, and an internship at the University of Valencia. Additionally, I have provided advisory support to two award-winning start-ups located in London and Istanbul.
 
 Recent News
 ======
+* 08/2025: A paper is accepted to EMNLP 2025!
+* 08/2025: A paper is submitted to AAAI 2025.
+* 03/2025: Started to work at Singapore Management University (SMU) under the guidance of [Prof Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en).
 * 12/2024: Successfully defended my PhD Thesis.
-* 11/2024: Got minor amendments from the PhD Thesis Committee.
-* 07/2024: Submitted my PhD Thesis.
 
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
 
