@@ -28,7 +28,7 @@ Publications
 ** TBA ** \\
 **Burak Satar**, Zhixin Ma, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo \\
 EMNLP 2025 Main Conference \\
-[arXiv](to be updated)]
+[arXiv](to be updated)
 
 # Research during Doctoral Study
 ## PhD Research Topic 3: Multimodal and Generative Video/Moment Retrieval
