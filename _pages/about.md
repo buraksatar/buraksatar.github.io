@@ -15,7 +15,7 @@ I obtained my PhD from the College of Computing and Data Science (CCDS) at Nanya
 Recent News
 ======
 * 08/2025: A paper is accepted to EMNLP 2025!
-* 08/2025: A paper is submitted to AAAI 2025.
+* 08/2025: A paper is submitted to AAAI 2026.
 * 03/2025: Started to work as a Research Scientist at SMU.
 * 12/2024: Successfully defended my PhD Thesis.
 
