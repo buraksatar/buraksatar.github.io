@@ -16,7 +16,7 @@ Recent News
 ======
 * 08/2025: A paper is accepted to EMNLP 2025!
 * 08/2025: A paper is submitted to AAAI 2025.
-* 03/2025: Started to work as a Research Scientist at Singapore Management University (SMU).
+* 03/2025: Started to work as a Research Scientist at SMU.
 * 12/2024: Successfully defended my PhD Thesis.
 
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
