@@ -8,21 +8,28 @@ redirect_from:
   - /about.html
 ---
 
+I am currently working as a Research Scientist under the guidance of [Prof Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en) at Singapore Management University (SMU), focusing on culturally aware multimodal Vision-Language Models (VLMs) via reasoning queries.
+
 I obtained my PhD from the College of Computing and Data Science (CCDS) at Nanyang Technological University (NTU) in Singapore, supported by the SINGA scholarship from the Institute for Infocomm Research (I2R), Agency for Science, Technology and Research (A\*STAR). My doctoral research focused on **Towards Semantic, Debiased and Moment Video Retrieval with Multi-modal Features** conducted under the supervision of [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en), [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) and [Prof. Hanwang Zhang](https://scholar.google.com.sg/citations?user=YG0DFyYAAAAJ&hl=en&inst=14102473421921925766). During my PhD studies, I had the opportunity to visit the University of Bristol, in the UK, collaborating with [Prof. Michael Wray](https://scholar.google.com/citations?user=gFQcKZMAAAAJ&hl=en&oi=ao&inst=14102473421921925766) in Dima Damen's research group. I completed my Master’s degree under the guidance of [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr), specializing in vehicle detection. My professional experiences span a range of roles, including work at a start-up in Istanbul, Turkish Airlines Technology, and an internship at the University of Valencia. Additionally, I have provided advisory support to two award-winning start-ups located in London and Istanbul.
 
 Recent News
 ======
 * 08/2025: A paper is accepted to EMNLP 2025!
 * 08/2025: A paper is submitted to AAAI 2025.
-* 03/2025: Started to work at Singapore Management University (SMU) under the guidance of [Prof Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en).
+* 03/2025: Started to work as a Research Scientist at Singapore Management University (SMU).
 * 12/2024: Successfully defended my PhD Thesis.
 
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
 
 Publications
 ======
+# Research during Post-Doctorate
+**<TBA>** \\
+**Burak Satar**, Zhixin Ma, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo \\
+EMNLP 2025 Main Conference
+
 # Research during Doctoral Study
-## #PhD Research 3: Multimodal and Generative Video/Moment Retrieval
+## Research Topic 3: Multimodal and Generative Video/Moment Retrieval
 
 **Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion** \\
 **Burak Satar**, Joo Hwee Lim, Hanwang Zhang, M Furkan Ilaslan, Hongyuan Zhu, Michael Wray \\
@@ -30,9 +37,10 @@ Publications
 
 **VG-TVP: Multimodal Procedural Planning via Visually Grounded Text-Video Prompting** \\
 M Furkan Ilaslan, Ali Koksal, Kevin Qinghong Lin, **Burak Satar**, Mike Zheng Shou, Qianli Xu \\
-AAAI 2025 Full Paper 
+AAAI 2025 Full Paper
+[[arXiv](https://arxiv.org/abs/2412.11621)] [[Dataset Link](https://drive.google.com/drive/folders/1-Lka5F-Dh-Fz6CwHDJYjUqieXlt2GCR6)] [[Github](https://github.com/mfurkanilaslan/VG-TVP?tab=readme-ov-file)]
 
-## #PhD Research 2: Debiased Text-to-Video Retrieval
+## Research Topic 2: Debiased Text-to-Video Retrieval
 
 <img src="https://buraksatar.github.io/images/scm_camready.png" alt="Structural Causal Model" width="400"/> \\
 **Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention** \\
@@ -46,7 +54,7 @@ BMVC 2023 Full Paper, (Poster presentation) \\
 CVPR Workshop 2023, [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/) (Oral presentation) \\
 [[Extended Abstract](https://arxiv.org/abs/2306.04345)] [[YouTube Ppt](https://youtu.be/XnUMScoOPvM)]
 
-## #PhD Research 1: Semantic Text-to-Video Retrieval
+## Research Topic 1: Semantic Text-to-Video Retrieval
 
 (✅ 3rd Place Award) **Exploiting Semantic Role Contextualized Video Features**\\
 **for Multi-Instance Video Retrieval**  \\
@@ -67,7 +75,7 @@ CVPR Workshop 2022, Epic-Kitchens-100 MIR Challenge under [Joint Ego4d/EPIC Work
 ICIP 2021 Full Paper (Oral presentation) and [ICCV Workshop 2021](https://sites.google.com/view/srvu-iccv21-workshop/papers?authuser=0) (Oral presentation)\\
 [[arXiv](https://arxiv.org/abs/2206.12849)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)] [[YouTube Ppt](https://www.youtube.com/watch?v=M7dHgv8fIkU)]
 
-## Research during Master Study
+# Research during Master's Study
 
 <img src="https://buraksatar.github.io/images/icann'18.png" alt="Detection and classification method" width="250"/> \\
 **Deep Learning Based Vehicle Make-Model Classification** \\
@@ -77,7 +85,7 @@ ICANN 2018 Full Paper (Oral presentation) \\
 
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
 
-Previous News
+# Previous News
 ======
 * 05/2024: Volunteered at ACM Web Conference.
 * 10/2023: Visited [MaVi Research Group](https://uob-mavi.github.io/), University of Bristol, for three months under the supervision of [Dr Michael Wray](https://mwray.github.io/) on video corpus moment retrieval.
