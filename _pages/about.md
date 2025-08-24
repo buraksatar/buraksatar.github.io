@@ -17,7 +17,6 @@ Recent News
 * 08/2025: A paper is accepted to EMNLP 2025!
 * 08/2025: A paper is submitted to AAAI 2026.
 * 03/2025: Started to work as a Research Scientist at SMU.
-* 12/2024: Successfully defended my PhD Thesis.
 
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
 
@@ -93,7 +92,7 @@ ICANN 2018 Full Paper (Oral presentation) \\
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
 
 # Previous News
-======
+* 12/2024: Successfully defended my PhD Thesis.
 * 05/2024: Volunteered at ACM Web Conference.
 * 10/2023: Visited [MaVi Research Group](https://uob-mavi.github.io/), University of Bristol, for three months under the supervision of [Dr Michael Wray](https://mwray.github.io/) on video corpus moment retrieval.
 * 05/2023: A poster presentation at [Singapore Vision Day](https://www.comp.nus.edu.sg/~leegh/svd/) at NUS.
