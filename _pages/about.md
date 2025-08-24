@@ -24,12 +24,12 @@ Publications
 ======
 # Research during Post-Doctoral Work
 
-** TBA ** \\
+**TBA** \\
 **Burak Satar**, Zhixin Ma, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo \\
 EMNLP 2025 Main Conference \\
 [arXiv] (to be updated)
 
-** TBA ** \\
+**TBA** \\
 Zhixin Ma, **Burak Satar**, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Phuong Anh Nguyen, Chong-Wah Ngo \\
 Submitted to AAAI 2026 \\
 [arXiv] (to be updated)
