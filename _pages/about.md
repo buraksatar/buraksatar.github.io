@@ -27,7 +27,7 @@ Publications
 **Seeing Culture: A Benchmark for Visual Reasoning and Grounding** \\
 **Burak Satar**, Zhixin Ma, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo \\
 EMNLP 2025 Main Conference \\
-[Project Website](https://seeingculture-benchmark.github.io/)[arXiv][Dataset] (links to be updated)
+[Project Website](https://seeingculture-benchmark.github.io/)[arXiv][Dataset] (links to be updated by 19 Sep)
 
 **Title to be updated** \\
 Zhixin Ma, **Burak Satar**, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Phuong Anh Nguyen, Chong-Wah Ngo \\
