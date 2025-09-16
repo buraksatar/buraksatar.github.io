@@ -14,8 +14,8 @@ I obtained my PhD from the College of Computing and Data Science (CCDS) at Nanya
 
 Recent News
 ======
+* 08/2025: Another paper is submitted.
 * 08/2025: A paper is accepted to EMNLP 2025!
-* 08/2025: A paper is submitted to AAAI 2026.
 * 03/2025: Started to work as a Research Scientist at SMU.
 
 <span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
@@ -27,11 +27,11 @@ Publications
 **Seeing Culture: A Benchmark for Visual Reasoning and Grounding** \\
 **Burak Satar**, Zhixin Ma, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo \\
 EMNLP 2025 Main Conference \\
-[Project Website](https://seeingculture-benchmark.github.io/)[arXiv][Code][Dataset] (links to be updated by 19 Sep)
+[Project Website](https://seeingculture-benchmark.github.io/)[arXiv][Code][Dataset](https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark) (links to be updated by 19 Sep)
 
 **Title to be updated** \\
 Zhixin Ma, **Burak Satar**, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Phuong Anh Nguyen, Chong-Wah Ngo \\
-Submitted to AAAI 2026 \\
+Under review \\
 [arXiv] (link to be updated)
 
 # Research during Doctoral Study
