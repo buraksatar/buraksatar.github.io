@@ -25,12 +25,12 @@ Publications
 # Research during Post-Doctoral Work
 
 **Seeing Culture: A Benchmark for Visual Reasoning and Grounding** \\
-**Burak Satar***, Zhixin Ma*, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo \\
+**Burak Satar\***, Zhixin Ma\*, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo \\
 EMNLP 2025 Main Conference \\
 [Website](https://seeingculture-benchmark.github.io/) [arXiv] [Code](https://github.com/buraksatar/seeingculture) [Dataset](https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark) (links to be updated soon)
 
 **Title to be updated** \\
-Zhixin Ma*, **Burak Satar***, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Phuong Anh Nguyen, Chong-Wah Ngo \\
+Zhixin Ma\*, **Burak Satar\***, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Phuong Anh Nguyen, Chong-Wah Ngo \\
 Under review \\
 [arXiv] (link to be updated)
 
