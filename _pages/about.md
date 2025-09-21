@@ -24,7 +24,7 @@ Publications
 ======
 # Research during Post-Doctoral Work
 
-<img src="https://seeingculture-benchmark.github.io/static/images/teaser.png" alt="Seeing Culture Benchmark" width="300"/>
+<img src="https://seeingculture-benchmark.github.io/static/images/teaser.png" alt="Seeing Culture Benchmark" width="400"/>
 
 **Seeing Culture: A Benchmark for Visual Reasoning and Grounding** \\
 **Burak Satar\***, Zhixin Ma\*, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo \\
