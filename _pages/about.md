@@ -24,23 +24,12 @@ Publications
 ======
 # Research during Post-Doctoral Work
 
-<img src="https://seeingculture-benchmark.github.io/static/images/teaser.png" alt="Seeing Culture Benchmark" width="500"/>
+<img src="https://seeingculture-benchmark.github.io/static/images/teaser.png" alt="Seeing Culture Benchmark" width="700"/>
 
 **Seeing Culture: A Benchmark for Visual Reasoning and Grounding** \\
 **Burak Satar\***, Zhixin Ma\*, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo \\
 EMNLP 2025 Main Conference \\
 [[Project Website](https://seeingculture-benchmark.github.io/)] [arXiv] [[Code](https://github.com/buraksatar/seeingculture)] [[🤗 Dataset](https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark)] (links to be updated soon)
-
-<span class="link-block">
-  <a href="https://huggingface.co/datasets/Uni-MoE/VideoVista-CulturalLingo"
-    class="external-link button is-normal is-rounded is-dark">
-    <span class="icon">
-      <p style="font-size:18px">🤗</p>
-    </span>
-    <span>Huggingface</span>
-  </a>
-</span>
-
 
 **Title to be updated** \\
 Zhixin Ma\*, **Burak Satar\***, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Phuong Anh Nguyen, Chong-Wah Ngo \\
