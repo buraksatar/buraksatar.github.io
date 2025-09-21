@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Burak Satar"
 title_separator          : "-"
 name                     : &name "Burak Satar"
-description              : &description "AI Research Scientist at Singapore Management University (SMU)"
+description              : &description "Research Scientist @ SMU | PhD @ NTU"
 url                      : https://buraksatar.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "buraksatar/buraksatar.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Burak Satar"
   avatar           : "1714612274337.jpeg"
-  bio              : "AI Research Scientist at Singapore Management University (SMU)"
+  bio              : "Research Scientist @ SMU | PhD @ NTU"
   location         : "Singapore"
   employer         :
   pubmed           : 
@@ -255,7 +255,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Singapore # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
