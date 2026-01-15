@@ -24,6 +24,11 @@ Publications
 ======
 # Research during Post-Doctoral Work
 
+**Cultural Moment Benchmark: Evaluating Video Cultural Reasoning and Grounding in Southeast Asia** \\
+**Burak Satar\***, Zhixin Ma\*, Cheng Yu-Tong, Huy Hoang Tran, Phuong Anh Nguyen, Chong-Wah Ngo \\
+Under peer review \\
+[arXiv] (link to be updated)
+
 <img src="https://seeingculture-benchmark.github.io/static/images/teaser.png" alt="Seeing Culture Benchmark" width="700"/>
 
 **Seeing Culture: A Benchmark for Visual Reasoning and Grounding** \\
@@ -33,8 +38,7 @@ EMNLP 2025 Main Conference \\
 
 **Retrieval Augmented Reasoning Segmentation in Cultural Context** \\
 Zhixin Ma\*, **Burak Satar\***, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Phuong Anh Nguyen, Chong-Wah Ngo \\
-Under peer review \\
-[arXiv] (link to be updated)
+(Under development) \\
 
 # Research during Doctoral Study
 ## PhD Research Topic 3: Multimodal and Generative Video/Moment Retrieval
