@@ -14,7 +14,7 @@ I obtained my PhD from the College of Computing and Data Science (CCDS) at Nanya
 
 Recent News
 ======
-* 01/2026: Another paper is submitted.
+* 05/2026: Another paper is submitted to EMNLP 2026.
 * 08/2025: **Seeing Culture Benchmark** is accepted to EMNLP 2025!
 * 03/2025: Started to work as a Research Scientist at Singapore Management University.
 
@@ -25,7 +25,7 @@ Publications
 # Research during Post-Doctoral Work
 
 **Cultural Moment Benchmark: Evaluating Video Cultural Reasoning and Grounding in Southeast Asia** \\
-**Burak Satar\***, Zhixin Ma\*, Cheng Yu-Tong, Huy Hoang Tran, Phuong Anh Nguyen, Chong-Wah Ngo \\
+**Burak Satar**, Zhixin Ma, Cheng Yu-Tong, Huy Hoang Tran, Phuong Anh Nguyen, Chong-Wah Ngo \\
 Under peer review \\
 [arXiv] (link to be updated)
 
