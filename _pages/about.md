@@ -8,7 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am currently working as a Research Scientist at Singapore Management University (SMU), under the guidance of [Prof Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en). My focus is on making Vision-Language Models (VLMs) culturally aware and equipped with reasoning capabilities across multimodal domains (image, video, audio, text), starting in Southeast Asia, given the region's diversity. <code style="color : LightSkyBlue">Reach out to me for collaboration on cultural context!</code>
+I am currently working as a Research Scientist at Singapore Management University (SMU), under the guidance of [Prof Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en). My focus is on making Vision-Language Models (VLMs) culturally aware and equipped with reasoning capabilities across multimodal domains (image, video, audio, text), starting in Southeast Asia, given the region's diversity.
+
+**Reach out to me for collaboration on cultural context** — [email me](mailto:buraks@smu.edu.sg).
+{: .notice--info}
 
 I obtained my PhD from the College of Computing and Data Science (CCDS) at Nanyang Technological University (NTU) in Singapore, supported by the SINGA scholarship from the Institute for Infocomm Research (I2R), Agency for Science, Technology and Research (A\*STAR). My doctoral research focused on **Towards Semantic, Debiased and Moment Video Retrieval with Multi-modal Features** conducted under the supervision of [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en), [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) and [Prof. Hanwang Zhang](https://scholar.google.com.sg/citations?user=YG0DFyYAAAAJ&hl=en&inst=14102473421921925766). During my PhD studies, I had the opportunity to visit the University of Bristol, in the UK, collaborating with [Prof. Michael Wray](https://scholar.google.com/citations?user=gFQcKZMAAAAJ&hl=en&oi=ao&inst=14102473421921925766) in Dima Damen's research group. I completed my Master’s degree under the guidance of [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr), specializing in vehicle detection. My professional experience spans roles at a start-up in Istanbul, Turkish Airlines Technology, and an internship at the University of Valencia. Additionally, I have provided advisory support to two award-winning start-ups located in London and Istanbul.
 
@@ -18,7 +21,7 @@ Recent News
 * 08/2025: **Seeing Culture Benchmark** is accepted to EMNLP 2025!
 * 03/2025: Started to work as a Research Scientist at Singapore Management University.
 
-<span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
+---
 
 Publications
 ======
@@ -26,19 +29,18 @@ Publications
 
 **Cultural Moment Benchmark: Evaluating Video Cultural Reasoning and Grounding in Southeast Asia** \\
 **Burak Satar**, Zhixin Ma, Cheng Yu-Tong, Huy Hoang Tran, Phuong Anh Nguyen, Chong-Wah Ngo \\
-Under peer review \\
-[arXiv] (link to be updated)
-
-<img src="https://seeingculture-benchmark.github.io/static/images/teaser.png" alt="Seeing Culture Benchmark" width="700"/>
+Under peer review — *arXiv preprint coming soon*
 
 **Seeing Culture: A Benchmark for Visual Reasoning and Grounding** \\
 **Burak Satar\***, Zhixin Ma\*, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo \\
 EMNLP 2025 Main Conference \\
 [[Project Website](https://seeingculture-benchmark.github.io/)] [[Paper](https://aclanthology.org/2025.emnlp-main.1131)] [[arXiv](https://arxiv.org/abs/2509.16517)] [[Code](https://github.com/buraksatar/seeingculture)] [[🤗 Dataset](https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark)]
 
+<img src="https://seeingculture-benchmark.github.io/static/images/teaser.png" alt="Seeing Culture Benchmark teaser" width="700"/>
+
 **Retrieval Augmented Reasoning Segmentation in Cultural Context** \\
 Zhixin Ma\*, **Burak Satar\***, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Phuong Anh Nguyen, Chong-Wah Ngo \\
-(Under development) \\
+(Under development)
 
 # Research during Doctoral Study
 ## PhD Research Topic 3: Multimodal and Generative Video/Moment Retrieval
@@ -95,7 +97,7 @@ ICIP 2021 Full Paper (Oral presentation) and [ICCV Workshop 2021](https://sites.
 ICANN 2018 Full Paper (Oral presentation) \\
 [[arXiv](https://arxiv.org/abs/1809.00953)] [[Code](https://github.com/buraksatar/car-detection-model-prediction)]
 
-<span style="color:blue"> -------------------------------------------------------------------------------------------------- </span>
+---
 
 # Previous News
 * 12/2024: Successfully defended my PhD Thesis.
