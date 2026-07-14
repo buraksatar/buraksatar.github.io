@@ -1,0 +1,192 @@
+/* ==========================================================================
+   DARK THEME OVERRIDES
+   Applied when <html data-theme="dark">. Toggled by the masthead button
+   (see _includes/masthead.html + _includes/footer/custom.html); default
+   theme is dark, persisted in localStorage.
+   ========================================================================== */
+
+html[data-theme="dark"] {
+  background-color: #0f1216;
+
+  body {
+    background-color: #0f1216;
+    color: #c9d1d9;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #e6edf3;
+  }
+
+  a {
+    color: #63bfdd;
+
+    &:visited {
+      color: #8ed0e6;
+    }
+
+    &:hover {
+      color: #9adcef;
+    }
+  }
+
+  hr {
+    border-color: #30363d;
+  }
+
+  blockquote {
+    color: #8b949e;
+    border-left-color: #30363d;
+  }
+
+  /* Masthead & navigation */
+  .masthead {
+    background-color: #161b22;
+    border-bottom-color: #30363d;
+
+    &__inner-wrap {
+      background-color: #161b22;
+    }
+  }
+
+  .greedy-nav {
+    background-color: #161b22;
+
+    a {
+      color: #c9d1d9;
+
+      &:hover {
+        color: #e6edf3;
+      }
+    }
+
+    .hidden-links {
+      background-color: #161b22;
+      border-color: #30363d;
+
+      a {
+        color: #c9d1d9;
+
+        &:hover {
+          background-color: #21262d;
+        }
+      }
+
+      &:before {
+        border-color: transparent transparent #30363d transparent;
+      }
+    }
+  }
+
+  /* Sidebar / author profile */
+  .author__name {
+    color: #e6edf3;
+  }
+
+  .author__bio {
+    color: #c9d1d9;
+  }
+
+  .author__urls {
+    li {
+      color: #c9d1d9;
+    }
+
+    &:before {
+      border-color: transparent transparent #30363d transparent;
+    }
+
+    background-color: transparent;
+  }
+
+  .page__meta,
+  .page__date,
+  .archive__item-excerpt {
+    color: #8b949e;
+  }
+
+  .archive__item-title {
+    color: #e6edf3;
+
+    a {
+      color: #e6edf3;
+
+      &:hover {
+        color: #9adcef;
+      }
+    }
+  }
+
+  /* Buttons */
+  .btn--inverse {
+    color: #c9d1d9 !important;
+    border: 1px solid #30363d !important;
+    background-color: #21262d;
+
+    &:hover {
+      color: #0f1216 !important;
+      background-color: #c9d1d9;
+      border-color: #c9d1d9;
+    }
+  }
+
+  /* Notices */
+  .notice--info {
+    background-color: rgba(82, 173, 200, 0.12);
+    color: #c9d1d9;
+    box-shadow: 0 1px 1px rgba(82, 173, 200, 0.25);
+  }
+
+  /* Code & pre (incl. BibTeX blocks) */
+  code {
+    background-color: #21262d;
+    color: #c9d1d9;
+  }
+
+  pre {
+    background-color: #161b22;
+    color: #c9d1d9;
+    border-color: #30363d;
+
+    code {
+      background-color: transparent;
+    }
+  }
+
+  .highlight {
+    background-color: #161b22;
+  }
+
+  /* Tables */
+  th, td {
+    border-color: #30363d;
+  }
+
+  th {
+    background-color: #161b22;
+  }
+
+  /* Content images: keep white backing so figures stay readable */
+  .page__content img:not(.author__avatar) {
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+  }
+
+  /* Footer */
+  .page__footer {
+    background-color: #161b22;
+    color: #8b949e;
+
+    footer {
+      color: #8b949e;
+    }
+
+    a {
+      color: #c9d1d9;
+    }
+  }
+
+  .page__footer-copyright {
+    color: #8b949e;
+  }
+}
