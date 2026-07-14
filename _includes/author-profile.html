@@ -37,6 +37,9 @@
       {% if author.cv %}
         <li><a href="{{ author.cv | prepend: base_path }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Download CV</a></li>
       {% endif %}
+      {% if author.calendly %}
+        <li><a href="{{ '/meeting/' | prepend: base_path }}"><i class="fas fa-fw fa-calendar-check" aria-hidden="true"></i> Book a meeting</a></li>
+      {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
       {% endif %}
