@@ -1,0 +1,26 @@
+# Burak Satar
+
+> Research Scientist at Singapore Management University (SMU), Singapore. PhD in Computer Science from Nanyang Technological University (NTU), 2024, supported by the A*STAR SINGA scholarship. Research focus: making vision-language models (VLMs) culturally aware, starting with Southeast Asia; multimodal reasoning across image, video, audio and text; text-to-video retrieval; benchmark and dataset construction.
+
+Key facts:
+- Current role: Research Scientist, School of Computing and Information Systems, SMU (since March 2025), working with Prof. Chong-Wah Ngo.
+- Flagship work: "Seeing Culture: A Benchmark for Visual Reasoning and Grounding" (EMNLP 2025 Main Conference), with a public dataset on HuggingFace.
+- Awards: Joint 3rd place, EPIC-Kitchens Multi-Instance Retrieval Challenge at CVPR 2022; Three Minute Thesis finalist at NTU 2022; ENNS student travel award 2018.
+- Open to: research collaboration on culturally-aware VLMs and Southeast Asia benchmarks, student internships and mentorship at SMU, industry talks and projects.
+- Contact: buraks@smu.edu.sg, or book a meeting at https://buraksatar.github.io/meeting/
+
+## Pages
+
+- [About and publications](https://buraksatar.github.io/): bio, news, full publication list
+- [CV](https://buraksatar.github.io/cv/): education, roles, awards ([PDF](https://buraksatar.github.io/files/cv.pdf))
+- [Talks](https://buraksatar.github.io/talks/): conference talks with recordings
+- [News](https://buraksatar.github.io/news/): dated timeline since 2018
+- [Book a meeting](https://buraksatar.github.io/meeting/): 30-minute slots via Calendly
+
+## Profiles
+
+- [Google Scholar](https://scholar.google.com/citations?user=qSgpP04AAAAJ)
+- [GitHub](https://github.com/buraksatar)
+- [LinkedIn](https://www.linkedin.com/in/buraksatar/)
+- [Seeing Culture dataset on HuggingFace](https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark)
+- [Seeing Culture project site](https://seeingculture-benchmark.github.io/)
