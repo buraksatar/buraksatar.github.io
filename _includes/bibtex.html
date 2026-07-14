@@ -1,0 +1,11 @@
+{% comment %}
+Collapsible BibTeX block with a copy button. Reads page.bibtex from front matter.
+{% endcomment %}
+{% if page.bibtex %}
+<details class="bibtex-block">
+  <summary><strong>BibTeX</strong></summary>
+  <pre id="bibtex-entry" style="white-space: pre-wrap; overflow-x: auto;"><code>{{ page.bibtex | strip }}</code></pre>
+  <button type="button" class="btn btn--info btn--small"
+    onclick="navigator.clipboard.writeText(document.getElementById('bibtex-entry').innerText).then(() => { this.innerText = 'Copied!'; setTimeout(() => { this.innerText = 'Copy BibTeX'; }, 1500); });">Copy BibTeX</button>
+</details>
+{% endif %}
