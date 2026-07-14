@@ -14,7 +14,7 @@ Education
 ======
 * Ph.D. in Computer Science, Nanyang Technological University (NTU), Singapore (thesis defended Dec 2024)
   * College of Computing and Data Science (CCDS); thesis: *Towards Semantic, Debiased and Moment Video Retrieval with Multi-modal Features*
-  * Supervised by Prof. Joo Hwee Lim, Dr Hongyuan Zhu and Prof. Hanwang Zhang; supported by the SINGA scholarship (A\*STAR)
+  * Supervised by Prof. Joo-Hwee Lim, Dr Hongyuan Zhu and Prof. Hanwang Zhang; supported by the SINGA scholarship (A\*STAR)
 * M.Sc. in Electronics Engineering, Uludag University, Turkey, 2018
 * B.Sc. in Electronics Engineering, Uludag University, Turkey, 2014
   * Exchange semesters in Siena and Naples, Italy
@@ -26,7 +26,7 @@ Work experience
 * Jan 2020 - Dec 2024: **Doctoral Researcher (SINGA Scholar)**, Institute for Infocomm Research (I2R), A\*STAR, Singapore
   * Semantic, debiased and moment-level text-to-video retrieval with multi-modal features
 * Oct 2023 - Dec 2023: **Visiting Researcher**, MaVi Research Group, University of Bristol, UK
-  * Video corpus moment retrieval, with Prof. Michael Wray in Dima Damen's group
+  * Video corpus moment retrieval, with Dr Michael Wray in Dima Damen's group
 * Feb 2019 - Sep 2019: **Machine Learning Engineer**, Turkish Technic (Turkish Airlines), Turkey
 * Sep 2016 - Mar 2017: **Software Engineer**, University of Valencia, Spain
 * Dec 2014 - Sep 2015: **Electronics Engineer**, TSV Energy (start-up), Turkey

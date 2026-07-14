@@ -10,7 +10,7 @@ authors:
   - "Burak Satar"
   - "Hongyuan Zhu"
   - "Hanwang Zhang"
-  - "Joo Hwee Lim"
+  - "Joo-Hwee Lim"
 pdfurl: "https://arxiv.org/pdf/2206.14381"
 bibtex: |
   @article{DBLP:journals/corr/abs-2206-14381,
@@ -34,7 +34,7 @@ bibtex: |
   }
 ---
 
-**Burak Satar**, Hongyuan Zhu, Hanwang Zhang, Joo Hwee Lim
+**Burak Satar**, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim
 
 *Joint 3rd place in the EPIC-Kitchens-100 Multi-Instance Retrieval Challenge at CVPR 2022.*
 

@@ -10,7 +10,7 @@ authors:
   - "Burak Satar"
   - "Hongyuan Zhu"
   - "Xavier Bresson"
-  - "Joo Hwee Lim"
+  - "Joo-Hwee Lim"
 pdfurl: "https://arxiv.org/pdf/2206.12849"
 bibtex: |
   @inproceedings{DBLP:conf/icip/SatarZBL21,
@@ -32,7 +32,7 @@ bibtex: |
   }
 ---
 
-**Burak Satar**, Hongyuan Zhu, Xavier Bresson, Joo Hwee Lim
+**Burak Satar**, Hongyuan Zhu, Xavier Bresson, Joo-Hwee Lim
 
 *Aligns semantic roles between text and video with a correlation transformer for retrieval.*
 
