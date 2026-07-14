@@ -5,6 +5,7 @@ author_profile: true
 excerpt: "News timeline for Burak Satar: papers, awards, talks, and milestones from 2018 to today."
 ---
 
+* 07/2026: New blog post: [Why Vision-Language Models Fail Outside the West](/blog/why-vlms-fail-outside-the-west/), with a maintained [resource list](/resources/).
 * 05/2026: Another paper is submitted to EMNLP 2026.
 * 08/2025: **Seeing Culture Benchmark** is accepted to EMNLP 2025!
 * 03/2025: Started to work as a Research Scientist at Singapore Management University.
