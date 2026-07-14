@@ -10,6 +10,15 @@ redirect_from:
 
 I make Vision-Language Models (VLMs) culturally aware, starting with Southeast Asia, one of the world's most culturally diverse regions. I am a Research Scientist at Singapore Management University (SMU), working with [Prof Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en) on multimodal reasoning across image, video, audio and text.
 
+<p>
+<a href="/publications/seeing-culture/" class="btn btn--inverse btn--small">EMNLP 2025</a>
+<a href="/publications/vg-tvp/" class="btn btn--inverse btn--small">AAAI 2025</a>
+<a href="/publications/semantic-role-epic-challenge/" class="btn btn--inverse btn--small">🏆 Joint 3rd Place, CVPR'22 Challenge</a>
+<a href="/talks/" class="btn btn--inverse btn--small">4 Oral Presentations</a>
+<a href="/cv/" class="btn btn--inverse btn--small">SINGA Scholar</a>
+<a href="https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark" class="btn btn--inverse btn--small">🤗 Benchmark Dataset</a>
+</p>
+
 **I am actively looking for collaborators and student interns** on culturally-aware multimodal AI. [Book a 30-minute chat](/meeting/) or [email me](mailto:buraks@smu.edu.sg).
 {: .notice--info}
 
@@ -34,24 +43,24 @@ Recent News
 
 # Selected Publications {#publications}
 
-**Seeing Culture: A Benchmark for Visual Reasoning and Grounding** \\
-**Burak Satar\***, Zhixin Ma\*, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo \\
+**[Seeing Culture: A Benchmark for Visual Reasoning and Grounding](/publications/seeing-culture/)** \\
+**Burak Satar\***, Zhixin Ma\*, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo (\* equal contribution) \\
 **EMNLP 2025 Main Conference** \\
 *A two-stage benchmark where models must first reason about a cultural artifact, then visually ground it, exposing systematic gaps in how VLMs handle Southeast Asian cultural context.* \\
 [[Project Website](https://seeingculture-benchmark.github.io/)] [[Paper](https://aclanthology.org/2025.emnlp-main.1131)] [[arXiv](https://arxiv.org/abs/2509.16517)] [[Code](https://github.com/buraksatar/seeingculture)] [[🤗 Dataset](https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark)]
 
 <img src="https://seeingculture-benchmark.github.io/static/images/teaser.png" alt="Seeing Culture Benchmark teaser" width="700"/>
 
-**Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention** \\
-**Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
+**[Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention](/publications/frame-length-bias/)** \\
+**Burak Satar**, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim \\
 **BMVC 2023** \\
 *Shows that text-video retrieval models exploit clip length as a shortcut, and mitigates the bias with causal intervention.* \\
-[[arXiv](https://arxiv.org/abs/2309.09311)] [[YouTube Ppt](https://youtu.be/aMhNvTCkT8Y)] [[Poster](https://drive.google.com/file/d/10aXgkCl4PowFelEOyxJp4X90cTtub6Pt/view?usp=sharing)] [[Project Page](https://buraksatar.github.io/FrameLengthBias/)]
+[[arXiv](https://arxiv.org/abs/2309.09311)] [[YouTube Ppt](https://youtu.be/aMhNvTCkT8Y)] [[Project Page](https://buraksatar.github.io/FrameLengthBias/)]
 
-**Exploiting Semantic Role Contextualized Video Features for Multi-Instance Video Retrieval** \\
-**Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
-**🏆 3rd Place, EPIC-Kitchens Challenge @ CVPR 2022 Workshop** \\
-*Ranked 3rd worldwide in the EPIC-Kitchens-100 Multi-Instance Retrieval Challenge.* \\
+**[Exploiting Semantic Role Contextualized Video Features for Multi-Instance Text-Video Retrieval](/publications/semantic-role-epic-challenge/)** \\
+**Burak Satar**, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim \\
+**🏆 Joint 3rd Place, EPIC-Kitchens Challenge @ CVPR 2022 Workshop** \\
+*Took joint 3rd place in the EPIC-Kitchens-100 Multi-Instance Retrieval Challenge.* \\
 [[Technical Report](https://arxiv.org/abs/2206.14381)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
 
 # All Publications
@@ -88,34 +97,34 @@ AAAI 2025 Full Paper \\
 
 <img src="https://buraksatar.github.io/images/scm_camready.png" alt="Structural Causal Model" width="400"/> \\
 **Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention** \\
-**Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
+**Burak Satar**, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim \\
 BMVC 2023 Full Paper, (Poster presentation) \\
-[[arXiv](https://arxiv.org/abs/2309.09311)] [[YouTube Ppt](https://youtu.be/aMhNvTCkT8Y)] [[Poster](https://drive.google.com/file/d/10aXgkCl4PowFelEOyxJp4X90cTtub6Pt/view?usp=sharing)] [[Project Page](https://buraksatar.github.io/FrameLengthBias/)]
+[[arXiv](https://arxiv.org/abs/2309.09311)] [[YouTube Ppt](https://youtu.be/aMhNvTCkT8Y)] [[Project Page](https://buraksatar.github.io/FrameLengthBias/)]
 
 <img src="https://buraksatar.github.io/images/cvpr'23_workshop.png" alt="An Overview of Challenges" width="400"/> \\
 **An Overview of Challenges in Egocentric Text-Video Retrieval** \\
-**Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
+**Burak Satar**, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim \\
 CVPR Workshop 2023, [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/) (Oral presentation) \\
 [[Extended Abstract](https://arxiv.org/abs/2306.04345)] [[YouTube Ppt](https://youtu.be/XnUMScoOPvM)]
 
 ### PhD Research Topic 1: Semantic Text-to-Video Retrieval
 
-(✅ 3rd Place Award) **Exploiting Semantic Role Contextualized Video Features**\\
-**for Multi-Instance Video Retrieval**  \\
-**Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
+(✅ Joint 3rd Place Award) **Exploiting Semantic Role Contextualized Video Features**\\
+**for Multi-Instance Text-Video Retrieval**  \\
+**Burak Satar**, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim \\
 CVPR Workshop 2022, Epic-Kitchens-100 MIR Challenge under [Joint Ego4d/EPIC Workshop](https://sites.google.com/view/cvpr2022w-ego4d-epic/)  \\
 [[Technical Report](https://arxiv.org/abs/2206.14381)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
 
 <img src="https://buraksatar.github.io/images/cvpr'22_workshop.png" alt="Architecture" width="300"/>
 
 **RoME: Role-aware Mixture-of-Expert Transformer for Text-to-Video Retrieval** \\
-**Burak Satar**, Zhu Hongyuan, Hanwang Zhang, Joo-Hwee Lim \\
+**Burak Satar**, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim \\
 [[arXiv 2022 Preprint](https://arxiv.org/abs/2206.12845)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
 
 <img src="https://buraksatar.github.io/images/icip'21.png" alt="Overview of our model on text-to-video retrieval" width="400"/>
 
 **Semantic Role Aware Correlation Transformer for Text to Video Retrieval** \\
-**Burak Satar**, Zhu Hongyuan, Xavier Bresson, Joo-Hwee Lim \\
+**Burak Satar**, Hongyuan Zhu, Xavier Bresson, Joo-Hwee Lim \\
 ICIP 2021 Full Paper (Oral presentation) and [ICCV Workshop 2021](https://sites.google.com/view/srvu-iccv21-workshop/papers?authuser=0) (Oral presentation)\\
 [[arXiv](https://arxiv.org/abs/2206.12849)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)] [[YouTube Ppt](https://www.youtube.com/watch?v=M7dHgv8fIkU)]
 

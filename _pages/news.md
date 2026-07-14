@@ -13,7 +13,7 @@ excerpt: "News timeline for Burak Satar: papers, awards, talks, and milestones f
 * 10/2023: Visited [MaVi Research Group](https://uob-mavi.github.io/), University of Bristol, for three months under the supervision of [Dr Michael Wray](https://mwray.github.io/) on video corpus moment retrieval.
 * 05/2023: A poster presentation at [Singapore Vision Day](https://www.comp.nus.edu.sg/~leegh/svd/) at NUS.
 * 07/2022: Attended [CIFAR DLRL Summer School](https://dlrl.ca/).
-* 06/2022: 3rd Place Award in EPIC-Kitchens [Multi-Instance Retrieval Challenge](https://epic-kitchens.github.io/2022), CVPR.
+* 06/2022: Joint 3rd Place Award in EPIC-Kitchens [Multi-Instance Retrieval Challenge](https://epic-kitchens.github.io/2022), CVPR.
 * 06/2022: Became a finalist in the [Three Minute Thesis](https://entuedu-my.sharepoint.com/:i:/g/personal/burak001_e_ntu_edu_sg/EQ0kK2wvx_NCozw2x-2rvDEBPNcEA507M4YHG-aEzVZgTA?e=ZuLwTs) (3MT) @ NTU, representing CCDS.
 * 01/2022: Successfully passed my Qualification Exam (QE).
 * 12/2021: Volunteered in NeurIPS.
