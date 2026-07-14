@@ -3,4 +3,13 @@
 <!-- Support for MathJax -->
 <script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>
 
+{% if site.mapmyvisitors.d %}
+<!-- Visitor map (mapmyvisitors.com) -->
+<div style="text-align: center; padding: 0.75em 0 0.25em;">
+  <a href="https://mapmyvisitors.com/web/{{ site.mapmyvisitors.id }}" title="Visitor map">
+    <img src="https://mapmyvisitors.com/map.png?d={{ site.mapmyvisitors.d }}&cl=ffffff" alt="Map showing where site visitors come from" style="max-width: 100%;" loading="lazy" />
+  </a>
+</div>
+{% endif %}
+
 <!-- end custom footer snippets -->
