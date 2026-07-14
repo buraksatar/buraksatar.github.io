@@ -40,7 +40,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=qSgpP04AAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            :
+  orcid            : "https://orcid.org/0000-0003-2850-7367"
   semantic         : # URL
   ssrn             : # URL
   pubmed           :
@@ -157,6 +157,7 @@ social:
     - "https://www.linkedin.com/in/buraksatar/"
     - "https://github.com/buraksatar"
     - "https://twitter.com/hadibakalim"
+    - "https://orcid.org/0000-0003-2850-7367"
     - "https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark"
 
 
