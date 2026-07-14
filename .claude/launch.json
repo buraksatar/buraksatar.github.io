@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "migration-preview",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "4173", "--directory", "/private/tmp/claude-501/-Users-buraks-My-Drive-buraksatar-github-io/39f73f9d-0b38-465a-8071-8b1a27192c8e/scratchpad/preview/site"],
+      "port": 4173
+    }
+  ]
+}
