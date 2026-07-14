@@ -164,8 +164,8 @@ social:
 # this site in the MapMyVisitors dashboard, then paste the values from the
 # embed snippet: id is the short code in the /web/ link, d is the long key.
 mapmyvisitors:
-  id               :
-  d                :
+  id               : "1c6jj"
+  d                : "U9EdoERBMjWbx0dtCcwdYMtW9DemMiY6dQDklIgdvu4"
 
 # Analytics
 analytics:
