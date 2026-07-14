@@ -3,6 +3,7 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+excerpt: "CV of Burak Satar — Research Scientist at Singapore Management University; PhD in Computer Science from NTU; culturally-aware vision-language models."
 redirect_from:
   - /resume
 ---
