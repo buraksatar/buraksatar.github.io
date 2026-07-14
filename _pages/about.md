@@ -8,18 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-I make Vision-Language Models (VLMs) culturally aware — starting with Southeast Asia, one of the world's most culturally diverse regions. I am a Research Scientist at Singapore Management University (SMU), working with [Prof Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en) on multimodal reasoning across image, video, audio and text.
+I make Vision-Language Models (VLMs) culturally aware, starting with Southeast Asia, one of the world's most culturally diverse regions. I am a Research Scientist at Singapore Management University (SMU), working with [Prof Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en) on multimodal reasoning across image, video, audio and text.
 
-**I am actively looking for collaborators and student interns** on culturally-aware multimodal AI — [book a 30-minute chat](/meeting/) or [email me](mailto:buraks@smu.edu.sg).
+**I am actively looking for collaborators and student interns** on culturally-aware multimodal AI. [Book a 30-minute chat](/meeting/) or [email me](mailto:buraks@smu.edu.sg).
 {: .notice--info}
 
 I obtained my PhD from the College of Computing and Data Science (CCDS) at Nanyang Technological University (NTU) in Singapore, supported by the SINGA scholarship from the Institute for Infocomm Research (I2R), Agency for Science, Technology and Research (A\*STAR). My doctoral research focused on **Towards Semantic, Debiased and Moment Video Retrieval with Multi-modal Features** conducted under the supervision of [Prof. Joo Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en), [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) and [Prof. Hanwang Zhang](https://scholar.google.com.sg/citations?user=YG0DFyYAAAAJ&hl=en&inst=14102473421921925766). During my PhD studies, I had the opportunity to visit the University of Bristol, in the UK, collaborating with [Prof. Michael Wray](https://scholar.google.com/citations?user=gFQcKZMAAAAJ&hl=en&oi=ao&inst=14102473421921925766) in Dima Damen's research group. I completed my Master's degree under the guidance of [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr), specializing in vehicle detection. My professional experience spans roles at a start-up in Istanbul, Turkish Airlines Technology, and an internship at the University of Valencia. Additionally, I have provided advisory support to two award-winning start-ups located in London and Istanbul.
 
 Work with me
 ======
-* **Research collaborators** — cultural reasoning and grounding benchmarks, culturally-aware VLMs, Southeast Asia datasets: [book a 30-minute chat](/meeting/).
-* **Students** — internships and research mentorship at SMU on multimodal AI: [email me](mailto:buraks@smu.edu.sg) with your CV and a short note on what you would like to work on.
-* **Industry & talks** — invited talks, media, and projects on cultural AI evaluation: [email me](mailto:buraks@smu.edu.sg) or [book a slot](/meeting/).
+* **Research collaborators**: cultural reasoning and grounding benchmarks, culturally-aware VLMs, Southeast Asia datasets. [Book a 30-minute chat](/meeting/).
+* **Students**: internships and research mentorship at SMU on multimodal AI. [Email me](mailto:buraks@smu.edu.sg) with your CV and a short note on what you would like to work on.
+* **Industry & talks**: invited talks, media, and projects on cultural AI evaluation. [Email me](mailto:buraks@smu.edu.sg) or [book a slot](/meeting/).
 
 Recent News
 ======
@@ -37,7 +37,7 @@ Recent News
 **Seeing Culture: A Benchmark for Visual Reasoning and Grounding** \\
 **Burak Satar\***, Zhixin Ma\*, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo \\
 **EMNLP 2025 Main Conference** \\
-*A two-stage benchmark where models must first reason about a cultural artifact, then visually ground it — exposing systematic gaps in how VLMs handle Southeast Asian cultural context.* \\
+*A two-stage benchmark where models must first reason about a cultural artifact, then visually ground it, exposing systematic gaps in how VLMs handle Southeast Asian cultural context.* \\
 [[Project Website](https://seeingculture-benchmark.github.io/)] [[Paper](https://aclanthology.org/2025.emnlp-main.1131)] [[arXiv](https://arxiv.org/abs/2509.16517)] [[Code](https://github.com/buraksatar/seeingculture)] [[🤗 Dataset](https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark)]
 
 <img src="https://seeingculture-benchmark.github.io/static/images/teaser.png" alt="Seeing Culture Benchmark teaser" width="700"/>
@@ -60,7 +60,7 @@ Recent News
 
 **Cultural Moment Benchmark: Evaluating Video Cultural Reasoning and Grounding in Southeast Asia** \\
 **Burak Satar**, Zhixin Ma, Cheng Yu-Tong, Huy Hoang Tran, Phuong Anh Nguyen, Chong-Wah Ngo \\
-Under peer review — *arXiv preprint coming soon*
+Under peer review. *arXiv preprint coming soon*
 
 **Seeing Culture: A Benchmark for Visual Reasoning and Grounding** \\
 **Burak Satar\***, Zhixin Ma\*, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo \\
