@@ -1,24 +1,6 @@
 <!-- start custom footer snippets -->
-<script>
-(function(){
-  var root=document.documentElement;
-  var toggle=document.getElementById("theme-toggle");
-  var icon=document.getElementById("theme-icon");
-  if(!toggle){return;}
-  function render(){
-    var dark=root.getAttribute("data-theme")==="dark";
-    if(icon){icon.className=dark?"fas fa-sun":"fas fa-moon";}
-    var m=document.querySelector('meta[name="theme-color"]');
-    if(m){m.setAttribute("content",dark?"#0f1216":"#ffffff");}
-  }
-  toggle.addEventListener("click",function(e){
-    e.preventDefault();
-    var next=root.getAttribute("data-theme")==="dark"?"light":"dark";
-    root.setAttribute("data-theme",next);
-    try{localStorage.setItem("theme",next);}catch(err){}
-    render();
-  });
-  render();
-})();
-</script>
+
+<!-- Support for MathJax -->
+<script id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-mml-chtml.js"></script>
+
 <!-- end custom footer snippets -->

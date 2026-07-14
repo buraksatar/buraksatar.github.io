@@ -1,0 +1,33 @@
+name: Build preview
+on:
+  push:
+    branches: [template-upgrade]
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      - name: Build site
+        run: |
+          bundle exec jekyll build --strict_front_matter 2>&1 | tee build.log
+      - name: Push built site to ci-preview branch
+        if: always()
+        run: |
+          git config user.name "ci-preview"
+          git config user.email "ci@localhost"
+          mkdir -p /tmp/out
+          [ -d _site ] && cp -r _site /tmp/out/site || true
+          [ -f build.log ] && cp build.log /tmp/out/ || true
+          git checkout --orphan ci-preview
+          git rm -rfq . || true
+          [ -d /tmp/out/site ] && cp -r /tmp/out/site . || true
+          [ -f /tmp/out/build.log ] && cp /tmp/out/build.log . || true
+          git add -A
+          git commit -q -m "ci preview $GITHUB_SHA"
+          git push -f origin ci-preview
