@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Talks and presentations"
+permalink: /talks/
+author_profile: true
+excerpt: "Conference talks and presentations by Burak Satar, with recordings where available."
+---
+
+{% include base_path %}
+
+{% assign talks_sorted = site.talks | sort: 'date' | reverse %}
+{% for post in talks_sorted %}
+  {% include archive-single-talk.html %}
+{% endfor %}
