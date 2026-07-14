@@ -40,11 +40,6 @@ Files
 <img src="https://buraksatar.github.io/images/arxiv3.jpg" width="40" alt="buttonpng" border="0"/>
 </button>
 </a>
-<a href="https://drive.google.com/file/d/10aXgkCl4PowFelEOyxJp4X90cTtub6Pt/view?usp=sharing">
-<button type="button">Poster
-<img src="https://buraksatar.github.io/images/pposter.png" width="70" alt="buttonpng" border="0"/>
-</button>
-</a>
 
 
 Bibtex

@@ -34,7 +34,7 @@ Work experience
 
 Awards & honors
 ======
-* 3rd Place, EPIC-Kitchens Multi-Instance Retrieval Challenge, CVPR 2022
+* Joint 3rd Place, EPIC-Kitchens Multi-Instance Retrieval Challenge, CVPR 2022
 * Finalist, Three Minute Thesis (3MT) @ NTU, representing CCDS, 2022
 * SINGA Ph.D. Scholarship, A\*STAR, 2020-2024
 * Student Travel Award, European Neural Network Society (ICANN), 2018
