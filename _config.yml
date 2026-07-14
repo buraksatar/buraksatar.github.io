@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Research Scientist @ SMU | PhD @ NTU"
   location         : "Singapore"
-  employer         : "Red Brick University"
+  employer         :
   uri              : # URL
   email            : "buraks@smu.edu.sg"
   cv               : "/files/cv.pdf" # sidebar Download CV link (custom)
@@ -40,10 +40,10 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=qSgpP04AAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            :
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -59,7 +59,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          :
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
