@@ -10,7 +10,7 @@ authors:
   - "Burak Satar"
   - "Hongyuan Zhu"
   - "Hanwang Zhang"
-  - "Joo Hwee Lim"
+  - "Joo-Hwee Lim"
 pdfurl: "https://arxiv.org/pdf/2306.04345"
 bibtex: |
   @article{DBLP:journals/corr/abs-2306-04345,
@@ -32,7 +32,7 @@ bibtex: |
   }
 ---
 
-**Burak Satar**, Hongyuan Zhu, Hanwang Zhang, Joo Hwee Lim
+**Burak Satar**, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim
 
 *An extended abstract mapping open challenges in egocentric text-video retrieval.*
 
