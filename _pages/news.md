@@ -2,7 +2,7 @@
 title: "News"
 permalink: /news/
 author_profile: true
-excerpt: "News timeline for Burak Satar — papers, awards, talks, and milestones from 2018 to today."
+excerpt: "News timeline for Burak Satar: papers, awards, talks, and milestones from 2018 to today."
 ---
 
 * 05/2026: Another paper is submitted to EMNLP 2026.
