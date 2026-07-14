@@ -20,6 +20,7 @@ Key facts:
 ## Profiles
 
 - [Google Scholar](https://scholar.google.com/citations?user=qSgpP04AAAAJ)
+- [ORCID](https://orcid.org/0000-0003-2850-7367)
 - [GitHub](https://github.com/buraksatar)
 - [LinkedIn](https://www.linkedin.com/in/buraksatar/)
 - [Seeing Culture dataset on HuggingFace](https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark)
