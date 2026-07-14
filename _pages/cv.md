@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+<a href="/files/cv.pdf" class="btn btn--primary"><i class="fas fa-file-pdf" aria-hidden="true"></i> Download CV (PDF)</a>
+
 Education
 ======
 * Ph.D. in Computer Science, Nanyang Technological University (NTU), Singapore — thesis defended Dec 2024
