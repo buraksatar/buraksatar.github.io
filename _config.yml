@@ -50,7 +50,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : # TODO: paste the token from https://search.google.com/search-console (Settings > Ownership verification > HTML tag), then submit sitemap.xml
+google_site_verification : aR6briDF5WLSCZpNZTImlRpzQ5bBiXlCEo8sg2NMx9w
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
