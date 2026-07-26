@@ -17,8 +17,7 @@ excerpt: "Peer-reviewed publications by Burak Satar on culturally-aware vision-l
 {% endcomment %}
 
 <p>
-Also on <a href="{{ site.author.googlescholar }}">Google Scholar</a>
-and <a href="{{ site.author.orcid }}">ORCID</a>.
+Also on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
 An asterisk marks equal contribution.
 </p>
 
