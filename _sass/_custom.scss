@@ -666,6 +666,16 @@ html[data-theme="dark"] .pub__venue { color: var(--accent-strong); }
 .author__urls a {
   display: flex;
   align-items: baseline;
+  /* Upstream sets `white-space: nowrap` on these list items and the sidebar is
+     capped at 250px, so "Singapore Management University" was clipped mid-word.
+     It only showed up once author.employer was filled in. */
+  white-space: normal;
+}
+
+.author__urls li > span:not(.icon-emoji),
+.author__urls a > span {
+  /* let the label shrink and wrap inside the flex row */
+  min-width: 0;
 }
 
 /* Below $large the list is display:none and the "Links" button reveals it.

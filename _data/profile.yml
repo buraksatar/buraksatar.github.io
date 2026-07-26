@@ -59,6 +59,21 @@ awards:
   - "SINGA Ph.D. Scholarship, A*STAR, 2020-2024"
   - "Student Travel Award, European Neural Network Society (ICANN), 2018"
 
+# Keep in step with the "Academic service" and "Invited talks" sections of
+# _pages/cv.md. The CV renders these as markdown with links; profile.txt renders
+# them as plain text from here.
+service:
+  - "Registration Chair, SSNLP 2026"
+  - "Judge, Singapore Science and Engineering Fair (SSEF) 2025"
+  - "Programme Committee member and reviewer, ICANN 2019"
+  - "Volunteer: ACM Web Conference 2024, NeurIPS 2021"
+  - "Founder, Turquoise Dot, a meetup community for Turkish and Turkic researchers and tech professionals in Singapore (2025)"
+  - "Summer schools: CIFAR DLRL 2022; PAISS 2021 (poster)"
+
+invited_talks:
+  - "Developing Research Skills: From Process to Paper. CCDS Graduate Students' Club, NTU, March 2026"
+  - "Seeing Culture. ResearchTrend.AI, December 2025"
+
 languages:
   - "Turkish (native)"
   - "English (professional working proficiency)"

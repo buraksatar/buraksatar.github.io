@@ -35,12 +35,15 @@ from fontTools.pens.svgPathPen import SVGPathPen
 
 ROOT = "/Users/buraks/My Drive/buraksatar.github.io"
 VARS = os.path.join(ROOT, "_sass/vendor/font-awesome/_variables.scss")
+# Source fonts are not in the repo (that was the point). Restore them from git
+# history into a directory and point ICON_SRC at it; see the docstring.
+SRC = os.environ.get("ICON_SRC", "/tmp/icsrc")
 FONTS = {
-    "solid": os.path.join(ROOT, "assets/webfonts/fa-solid-900.ttf"),
-    "brands": os.path.join(ROOT, "assets/webfonts/fa-brands-400.ttf"),
+    "solid": os.path.join(SRC, "fa-solid-900.ttf"),
+    "brands": os.path.join(SRC, "fa-brands-400.ttf"),
     # Academicons ships in the repo but was superseded by a CDN load; using the
     # local copy for the only two glyphs we need drops the third-party request.
-    "academicons": os.path.join(ROOT, "assets/fonts/academicons.ttf"),
+    "academicons": os.path.join(SRC, "academicons.ttf"),
 }
 
 # Academicons has no $fa-var-* table, so its codepoints are given directly.
@@ -57,7 +60,8 @@ WANT = [
     ("calendar",   "calendar-check",    "solid"),
     ("link",       "link",              "solid"),
     ("clock",      "clock",             "solid"),
-    ("calendar",   "calendar-days",     "solid"),
+    ("calendar",   "calendar",          "solid"),   # plain: for dates
+    ("calendar-check", "calendar-check", "solid"),  # for "Book a meeting"
     ("rss",        "rss",               "solid"),
     ("sun",        "sun",               "solid"),
     ("moon",       "moon",              "solid"),
@@ -134,7 +138,7 @@ io.open(dest, "w", encoding="utf-8").write("\n".join(lines) + "\n")
 print("\nwrote %s (%.1f KB, %d icons)" % (dest, os.path.getsize(dest) / 1024.0, len(icons)))
 
 # ---- standalone SVGs so the shapes can be eyeballed --------------------------
-prev = os.path.join(os.path.dirname(os.path.abspath(__file__)), "icon_preview")
+prev = os.environ.get("ICON_PREVIEW", "/tmp/icon_preview")  # never inside the repo
 if not os.path.isdir(prev):
     os.makedirs(prev)
 for key, faname, d, width, height, asc in icons:

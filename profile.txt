@@ -49,11 +49,12 @@ TEACHING AND MENTORING
 {% endfor %}- Supervises student interns and research projects at SMU.
 
 ACADEMIC SERVICE
-- Volunteer: ACM Web Conference 2024, NeurIPS 2021.
-- Programme Committee member and reviewer, ICANN 2019.
-- Summer schools: CIFAR DLRL 2022; PAISS 2021 (poster).
-
-INVITED AND CONFERENCE TALKS
+{% for x in p.service %}- {{ x }}.
+{% endfor %}
+INVITED TALKS
+{% for x in p.invited_talks %}- {{ x }}.
+{% endfor %}
+CONFERENCE TALKS AND PRESENTATIONS
 {% assign talks = site.talks | sort: "date" | reverse %}{% for t in talks %}- {{ t.title }} — {{ t.venue }}, {{ t.location }}, {{ t.date | date: "%b %Y" }}.
 {% endfor %}
 LANGUAGES
