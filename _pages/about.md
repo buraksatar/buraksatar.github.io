@@ -24,11 +24,10 @@ I am a Research Scientist at Singapore Management University (SMU), working with
 <a href="/publications/cultural-moment/" class="chip">EMNLP 2026</a>
 <a href="/publications/seeing-culture/" class="chip">EMNLP 2025</a>
 <a href="/publications/vg-tvp/" class="chip">AAAI 2025</a>
-<a href="/publications/semantic-role-epic-challenge/" class="chip chip--award">Joint 3rd Place, CVPR&rsquo;22 Challenge</a>
 <a href="/cv/" class="chip">A*STAR SINGA Scholar</a>
 </div>
 
-**I am actively looking for collaborators and student interns** on culturally-aware multimodal AI. 
+**I am actively looking for collaborators and student interns** on culturally-aware multimodal AI.\\
 [Book a 30-minute chat](/meeting/) or [email me](mailto:buraks@smu.edu.sg).
 {: .notice--info}
 
