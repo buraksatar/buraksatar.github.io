@@ -12,6 +12,14 @@ authors:
   - "Hanwang Zhang"
   - "Joo-Hwee Lim"
 pdfurl: "https://arxiv.org/pdf/2306.04345"
+theme: debiased-retrieval
+teaser: "teasers/egocentric-challenges.webp"
+doi: "10.48550/arXiv.2306.04345"
+links:
+  - label: "arXiv"
+    url: "https://arxiv.org/abs/2306.04345"
+  - label: "Talk"
+    url: "https://youtu.be/XnUMScoOPvM"
 bibtex: |
   @article{DBLP:journals/corr/abs-2306-04345,
     author       = {Burak Satar and
@@ -36,8 +44,8 @@ bibtex: |
 
 *An extended abstract mapping open challenges in egocentric text-video retrieval.*
 
-<a href="https://arxiv.org/abs/2306.04345" class="btn btn--info btn--small">Extended Abstract (arXiv)</a> <a href="https://youtu.be/XnUMScoOPvM" class="btn btn--info btn--small">Talk Recording</a>
+{% include pub-links.html %}
 
-<img src="/images/cvpr'23_workshop.png" alt="An Overview of Challenges in Egocentric Text-Video Retrieval figure" width="600"/>
+<img src="/images/fig-egocentric-challenges.webp" alt="An Overview of Challenges in Egocentric Text-Video Retrieval figure" width="800" loading="lazy"/>
 
 {% include bibtex.html %}

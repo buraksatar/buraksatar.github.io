@@ -1,11 +1,12 @@
 ---
-title: "AI Working Group"
+title: "Deep Learning Study Group"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/ai-working-group
-venue: "Uludag University"
+type: "Study group"
+permalink: /teaching/ai-working-group/
+venue: "Uludağ University"
 date: 2018-04-30
 location: "Bursa, Turkey"
+excerpt: "Founded and led a student study group working through Andrew Ng's Deep Learning specialisation over a semester."
 ---
 
-Leading a working group to follow Coursera Course of Andrew Ng for Deep learning. 
+I founded and led a student study group at Uludağ University that worked through Andrew Ng's Deep Learning specialisation over a semester. Each week one member presented the material and the group implemented the exercises together.

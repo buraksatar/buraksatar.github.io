@@ -35,5 +35,10 @@
     "layout/page",
     "layout/archive",
     "layout/sidebar",
-    "layout/json_cv"
+
+    /* Site overrides. Must be last: it is the only place that can override
+       compiled upstream rules. Sass scalars go in theme/_burak_tokens.scss.
+       (layout/json_cv dropped - 239 lines compiled into every page for the
+       unused JSON-CV feature. The partial is left on disk for merge hygiene.) */
+    "custom"
 ;

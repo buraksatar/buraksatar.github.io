@@ -11,6 +11,14 @@ authors:
   - "Hanwang Zhang"
   - "Joo-Hwee Lim"
 pdfurl: "https://arxiv.org/pdf/2206.12845"
+theme: debiased-retrieval
+teaser: "teasers/rome.webp"
+doi: "10.48550/arXiv.2206.12845"
+links:
+  - label: "arXiv"
+    url: "https://arxiv.org/abs/2206.12845"
+  - label: "Code"
+    url: "https://github.com/buraksatar/RoME_video_retrieval"
 bibtex: |
   @article{DBLP:journals/corr/abs-2206-12845,
     author       = {Burak Satar and
@@ -35,8 +43,8 @@ bibtex: |
 
 *A role-aware mixture-of-experts transformer that separates verbs, objects and context for text-to-video retrieval.*
 
-<a href="https://arxiv.org/abs/2206.12845" class="btn btn--info btn--small">arXiv</a> <a href="https://github.com/buraksatar/RoME_video_retrieval" class="btn btn--info btn--small">Code</a>
+{% include pub-links.html %}
 
-<img src="/images/cvpr'22_workshop.png" alt="RoME: Role-aware Mixture-of-Expert Transformer for Text-to-Video Retrieval figure" width="600"/>
+<img src="/images/fig-rome.webp" alt="RoME: Role-aware Mixture-of-Expert Transformer for Text-to-Video Retrieval figure" width="800" loading="lazy"/>
 
 {% include bibtex.html %}

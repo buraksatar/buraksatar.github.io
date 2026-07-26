@@ -1,0 +1,56 @@
+# Single source of truth for news. Rendered in full on /news/ and limited to the
+# most recent few on the homepage. Newest first.
+#
+#   date: short human date, "Mon YYYY" (unambiguous internationally)
+#   text: markdown, one sentence, past tense
+
+- date: "Jul 2026"
+  text: "New essay: [Why Vision-Language Models Fail Outside the West](/blog/why-vlms-fail-outside-the-west/), alongside a maintained [list of cultural VLM resources](/resources/)."
+
+- date: "May 2026"
+  text: "Submitted a paper on video cultural reasoning to EMNLP 2026."
+
+- date: "Aug 2025"
+  text: "**Seeing Culture** accepted to **EMNLP 2025** (Main Conference)."
+
+- date: "Mar 2025"
+  text: "Joined Singapore Management University as a Research Scientist."
+
+- date: "Dec 2024"
+  text: "Defended my PhD thesis at NTU."
+
+- date: "May 2024"
+  text: "Volunteered at the ACM Web Conference."
+
+- date: "Oct 2023"
+  text: "Visited the [MaVi Research Group](https://uob-mavi.github.io/) at the University of Bristol for three months, working with [Dr Michael Wray](https://mwray.github.io/) on video corpus moment retrieval."
+
+- date: "May 2023"
+  text: "Presented a poster at [Singapore Vision Day](https://www.comp.nus.edu.sg/~leegh/svd/), NUS."
+
+- date: "Jul 2022"
+  text: "Attended the [CIFAR DLRL Summer School](https://dlrl.ca/)."
+
+- date: "Jun 2022"
+  text: "Took joint 3rd place in the EPIC-Kitchens [Multi-Instance Retrieval Challenge](https://epic-kitchens.github.io/2022) at CVPR."
+
+- date: "Jun 2022"
+  text: "Reached the final of the [Three Minute Thesis](/talks/2022-06-01-three-minute-thesis-ntu/) (3MT) competition at NTU, representing CCDS."
+
+- date: "Jan 2022"
+  text: "Passed my PhD Qualification Exam."
+
+- date: "Dec 2021"
+  text: "Volunteered at NeurIPS."
+
+- date: "Jul 2021"
+  text: "Attended the [PAISS AI Summer School](https://project.inria.fr/paiss/) and presented a poster."
+
+- date: "Jan 2020"
+  text: "Started my PhD at the College of Computing and Data Science (CCDS), NTU."
+
+- date: "Aug 2018"
+  text: "Defended my MSc thesis at Uludağ University."
+
+- date: "Jun 2018"
+  text: "Received a [student travel award](https://e-nns.org/student-awards/winners-2018/) from the European Neural Network Society to attend ICANN."

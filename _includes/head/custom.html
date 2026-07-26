@@ -2,26 +2,46 @@
 
 <!-- start custom head snippets -->
 
-<script>(function(){var t;try{t=localStorage.getItem("theme")}catch(e){}if(t!=="light"){document.documentElement.setAttribute("data-theme","dark");}})();</script>
+{% comment %}
+  Pre-paint theme resolution. Runs before first paint so there is no flash.
+
+  This follows the OS preference and only overrides it when the visitor has
+  explicitly chosen via the masthead toggle. The previous version forced dark on
+  everyone unless localStorage said "light", which ignored prefers-color-scheme
+  and fought the site's own determineComputedTheme().
+
+  Light matters here: every paper figure is a white-background diagram and the CV
+  is a black-on-white PDF, so readers arriving from ACL Anthology or Scholar are
+  usually in light mode.
+{% endcomment %}
+<script>(function(){var t=null;try{t=localStorage.getItem("theme")}catch(e){}
+var d=(t==="dark")||(t!=="light"&&window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches);
+var r=document.documentElement;
+if(d){r.setAttribute("data-theme","dark")}else{r.removeAttribute("data-theme")}})();</script>
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151922" media="(prefers-color-scheme: dark)">
 
 {% include citation-meta.html %}
 
-<!-- Support for Academicons -->
-<link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></noscript>
+{% comment %}
+  Self-hosted fonts, subsetted to latin + latin-ext + Vietnamese (co-author names
+  include Köksal and Phương; the site writes İstanbul and Uludağ). Only the two
+  used above the fold are preloaded; the italic loads on demand.
 
-<!-- Support for Font Awesome -->
- <link rel="preload" href="{{ base_path }}/assets/css/fontawesome.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ base_path }}/assets/css/fontawesome.css"></noscript>
+  No Academicons or FontAwesome links: icons are inline SVG via _includes/icon.html.
+{% endcomment %}
+<link rel="preload" href="{{ base_path }}/assets/fonts/site/newsreader-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ base_path }}/assets/fonts/site/inter-var.woff2" as="font" type="font/woff2" crossorigin>
 
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png?v=bs2026"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png?v=bs2026" sizes="32x32"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/android-chrome-192x192.png?v=bs2026" sizes="192x192"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-16x16.png?v=bs2026" sizes="16x16"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json?v=bs2026"/>
-<link rel="icon" href="/images/favicon.ico?v=bs2026"/>
+<link rel="icon" href="{{ base_path }}/images/favicon.ico?v=bs2026"/>
 <meta name="msapplication-TileColor" content="#1d4ed8"/>
 <meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml?v=bs2026"/>
-<meta name="theme-color" content="#1d4ed8"/>
 
 <!-- end custom head snippets -->

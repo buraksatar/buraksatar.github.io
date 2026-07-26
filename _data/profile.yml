@@ -1,0 +1,72 @@
+# Structured facts about the site owner.
+#
+# One source of truth for three consumers:
+#   - _includes/seo.html   -> schema.org JSON-LD @graph (Person / ProfilePage)
+#   - profile.txt          -> plain-text profile for ATS and AI agents
+#   - llms.txt             -> summary for LLM crawlers
+#
+# Keep this in sync with /cv/ when a role, degree or award changes.
+
+given_name: "Burak"
+family_name: "Satar"
+job_title: "Research Scientist"
+headline: "Research Scientist at Singapore Management University working on culturally-aware vision-language models, with a focus on Southeast Asia."
+
+address:
+  locality: "Singapore"
+  country: "SG"
+
+works_for:
+  - name: "Singapore Management University"
+    department: "School of Computing and Information Systems"
+    url: "https://www.smu.edu.sg/"
+    from: "March 2025"
+
+alumni_of:
+  - name: "Nanyang Technological University, Singapore"
+    url: "https://www.ntu.edu.sg/"
+    degree: "Ph.D. in Computer Science"
+    years: "2020-2024"
+  - name: "Uludağ University, Türkiye"
+    url: "https://www.uludag.edu.tr/"
+    degree: "M.Sc. in Electronics Engineering"
+    years: "2018"
+  - name: "Uludağ University, Türkiye"
+    url: "https://www.uludag.edu.tr/"
+    degree: "B.Sc. in Electronics Engineering"
+    years: "2014"
+
+# Search and AI retrieval hooks. Concepts, benchmarks and venues a query about
+# this work would plausibly use.
+knows_about:
+  - "Vision-language models"
+  - "Culturally-aware artificial intelligence"
+  - "Cultural reasoning and visual grounding"
+  - "Multimodal benchmarks and dataset construction"
+  - "Southeast Asian AI evaluation"
+  - "Text-to-video retrieval"
+  - "Video corpus moment retrieval"
+  - "Causal intervention and debiasing"
+  - "Multimodal large language models"
+  - "Seeing Culture benchmark"
+  - "EPIC-Kitchens multi-instance retrieval"
+  - "Computer vision"
+  - "Natural language processing"
+
+awards:
+  - "Joint 3rd Place, EPIC-Kitchens-100 Multi-Instance Retrieval Challenge, CVPR 2022"
+  - "Finalist, Three Minute Thesis (3MT), Nanyang Technological University, 2022"
+  - "SINGA Ph.D. Scholarship, A*STAR, 2020-2024"
+  - "Student Travel Award, European Neural Network Society (ICANN), 2018"
+
+languages:
+  - "Turkish (native)"
+  - "English (professional working proficiency)"
+  - "Italian (elementary)"
+  - "Spanish (elementary)"
+
+# Roles this profile is open to, stated plainly for agents that summarise it.
+open_to:
+  - "Research collaborations on culturally-aware multimodal AI and Southeast Asia benchmarks"
+  - "Student internships and research mentorship at SMU"
+  - "Invited talks and industry projects on cultural AI evaluation"

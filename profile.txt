@@ -1,0 +1,61 @@
+---
+permalink: /profile.txt
+sitemap: false
+---
+{%- assign p = site.data.profile -%}
+{%- assign pubs = site.publications | sort: "date" | reverse -%}
+MACHINE-READABLE PROFESSIONAL PROFILE
+Generated from https://buraksatar.github.io/ — plain text, no markup.
+
+Name: {{ site.author.name }}
+Location: {{ p.address.locality }}
+Email: {{ site.author.email }}
+Website: {{ site.url }}/
+Google Scholar: {{ site.author.googlescholar }}
+ORCID: {{ site.author.orcid }}
+GitHub: https://github.com/{{ site.author.github }}
+LinkedIn: https://www.linkedin.com/in/{{ site.author.linkedin }}/
+Hugging Face: https://huggingface.co/{{ site.author.huggingface }}
+
+SUMMARY
+{{ p.headline }}
+
+CURRENT ROLE
+- {{ p.job_title }}, {{ p.works_for[0].department }}, {{ p.works_for[0].name }}, {{ p.address.locality }} (since {{ p.works_for[0].from }}). Works with Prof Chong-Wah Ngo on multimodal reasoning across image, video, audio and text.
+
+RESEARCH THEMES
+{% for t in site.data.research_themes %}- {{ t.title }}: {{ t.blurb }}
+{% endfor %}
+RESEARCH DOMAINS AND KEYWORDS
+{{ p.knows_about | join: "; " }}.
+
+EDUCATION
+{% for a in p.alumni_of %}- {{ a.degree }}, {{ a.name }} ({{ a.years }}).
+{% endfor %}
+PUBLICATIONS
+{% for pub in pubs %}- {{ pub.title }}. {{ pub.authors | join: ", " }}. {{ pub.citation_venue | default: pub.venue }}, {{ pub.date | date: "%Y" }}.{% if pub.doi %} DOI: {{ pub.doi }}.{% endif %} {{ site.url }}{{ pub.url }}
+{% endfor %}
+Under review: a video benchmark for cultural reasoning and grounding in Southeast Asia; retrieval-augmented reasoning segmentation in a cultural context. Drafts on request.
+
+AWARDS AND HONOURS
+{% for a in p.awards %}- {{ a }}.
+{% endfor %}
+TEACHING AND MENTORING
+{% assign teach = site.teaching | sort: "date" | reverse %}{% for t in teach %}- {{ t.title }}, {{ t.venue }}, {{ t.date | date: "%Y" }}.
+{% endfor %}- Supervises student interns and research projects at SMU.
+
+ACADEMIC SERVICE
+- Volunteer: ACM Web Conference 2024, NeurIPS 2021.
+- Programme Committee member and reviewer, ICANN 2019.
+- Summer schools: CIFAR DLRL 2022; PAISS 2021 (poster).
+
+INVITED AND CONFERENCE TALKS
+{% assign talks = site.talks | sort: "date" | reverse %}{% for t in talks %}- {{ t.title }} — {{ t.venue }}, {{ t.location }}, {{ t.date | date: "%b %Y" }}.
+{% endfor %}
+LANGUAGES
+{{ p.languages | join: "; " }}.
+
+OPEN TO
+{% for o in p.open_to %}- {{ o }}.
+{% endfor %}
+END OF PROFILE
