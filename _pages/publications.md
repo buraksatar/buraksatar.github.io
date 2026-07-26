@@ -23,20 +23,23 @@ An asterisk marks equal contribution.
 
 {% assign pubs = site.publications | sort: "date" | reverse %}
 
+{% comment %}
+  Within each theme: published work first, then under review, then under
+  development. Ordering by date alone would bury the published papers under the
+  unpublished ones, since the in-progress work is the most recent.
+{% endcomment %}
 {% for t in site.data.research_themes %}
   {% assign theme_pubs = pubs | where: "theme", t.id %}
   {% if theme_pubs.size > 0 %}
   <h2 id="{{ t.id }}">{{ t.title }}</h2>
   {% if t.blurb %}<p class="theme-blurb">{{ t.blurb }}</p>{% endif %}
   <div class="pub-list">
-    {% for pub in theme_pubs %}{% include pub-entry.html pub=pub %}{% endfor %}
+    {% assign published = theme_pubs | where: "status", "published" %}
+    {% for pub in published %}{% include pub-entry.html pub=pub %}{% endfor %}
+    {% assign reviewing = theme_pubs | where: "status", "under-review" %}
+    {% for pub in reviewing %}{% include pub-entry.html pub=pub %}{% endfor %}
+    {% assign developing = theme_pubs | where: "status", "under-development" %}
+    {% for pub in developing %}{% include pub-entry.html pub=pub %}{% endfor %}
   </div>
   {% endif %}
 {% endfor %}
-
-<h2 id="in-progress">Also in progress</h2>
-
-<p>
-Retrieval-augmented reasoning segmentation in a cultural context, with Zhixin Ma.
-Drafts on request &mdash; <a href="mailto:{{ site.author.email }}">email me</a>.
-</p>

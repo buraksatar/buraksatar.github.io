@@ -12,6 +12,7 @@ authors:
   - "Joo-Hwee Lim"
 pdfurl: "https://arxiv.org/pdf/2206.12845"
 theme: debiased-retrieval
+status: published
 teaser: "teasers/rome.webp"
 doi: "10.48550/arXiv.2206.12845"
 links:

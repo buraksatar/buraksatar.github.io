@@ -43,7 +43,7 @@ Key facts:
 - {{ pub.title }}. {{ pub.authors | join: ", " }}. {{ pub.citation_venue | default: pub.venue }}, {{ pub.date | date: "%Y" }}.{% if pub.doi %} doi:{{ pub.doi }}.{% endif %} {{ site.url }}{{ pub.url }}
 {%- endfor %}
 
-Two further papers are under review: a video benchmark for cultural reasoning and grounding in Southeast Asia, and retrieval-augmented reasoning segmentation in a cultural context.
+Entries marked "Under review" or "In preparation" above are not yet published; there is no preprint for them. Drafts are available on request.
 
 ## Profiles
 
