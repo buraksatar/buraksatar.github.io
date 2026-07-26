@@ -20,9 +20,6 @@ status: published
 selected: 1
 teaser: "teasers/seeing-culture.webp"
 doi: "10.18653/v1/2025.emnlp-main.1131"
-equal_contrib:
-  - "Burak Satar"
-  - "Zhixin Ma"
 links:
   - label: "Paper (ACL)"
     url: "https://aclanthology.org/2025.emnlp-main.1131/"
@@ -60,7 +57,7 @@ bibtex: |
   }
 ---
 
-**Burak Satar\***, Zhixin Ma\*, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo (\* equal contribution)
+**Burak Satar**, Zhixin Ma, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo
 
 *A two-stage benchmark where models must first reason about a cultural artifact, then visually ground it, built across Southeast Asia.*
 
