@@ -32,7 +32,7 @@ author:
   employer         : "Singapore Management University"
   uri              : # URL
   email            : "buraks@smu.edu.sg"
-  cv               : "/files/cv.pdf" # sidebar Download CV link (custom)
+  #cv               : "/files/cv.pdf" # sidebar Download CV link (custom)
   calendly         : "https://calendly.com/buraks-smu" # sidebar links to /meeting/ (custom)
 
   # Academic websites
