@@ -1,0 +1,12 @@
+{% comment %}
+  Chip row for a publication page, generated from the `links:` front matter so
+  it cannot drift from the same list rendered by pub-entry.html on /publications/
+  and the homepage. Falls back to pdfurl if links: is absent.
+{% endcomment %}
+<p class="pub__links">
+  {%- if page.links -%}
+    {%- for l in page.links %}<a class="chip" href="{{ l.url }}">{{ l.label }}</a>{% endfor -%}
+  {%- elsif page.pdfurl -%}
+    <a class="chip" href="{{ page.pdfurl }}">PDF</a>
+  {%- endif -%}
+</p>

@@ -1,0 +1,56 @@
+/* ==========================================================================
+   BURAK THEME - DARK ("ink")
+
+   A designed dark theme, not an inversion. Three deliberate choices:
+
+   1. The background is a blue-cast near-black (#151922), not the flat #474747
+      the stock theme uses. Flat mid-grey makes text look washed out and gives
+      the page no depth.
+   2. Body text is #D7DCE5, never pure white. White on near-black vibrates and
+      is tiring over the length of a paper abstract.
+   3. --surface-figure is LIGHT. Every figure on this site is a white-background
+      line diagram; without a mat they become glowing rectangles. Matting them
+      on warm paper with a hairline border reads as paper on a desk.
+
+   Contrast ratios are against --global-bg-color (#151922).
+
+   NOTE: this file is imported after _burak_light.scss. It must not assign any
+   Sass scalar, or that value would leak into the rest of the compile. Shared
+   scalars live in _burak_tokens.scss.
+   ========================================================================== */
+
+@import "burak_tokens";
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+
+  /* --- upstream contract ------------------------------------------------ */
+  --global-base-color                 : #8ab4ff;
+  --global-bg-color                   : #151922;
+  --global-footer-bg-color            : #1d222d;
+  --global-border-color               : #2b3242;
+  --global-dark-border-color          : #3a4356;
+  --global-code-background-color      : #1d222d;  /* was #fafafa: a white slab */
+  --global-code-text-color            : #d7dce5;  /* was near-black on it */
+  --global-fig-caption-color          : #98a2b8;  /*  6.9:1 */
+  --global-link-color                 : #8ab4ff;  /*  8.4:1  (was 3.11:1) */
+  --global-link-color-hover           : #b6ceff;  /* 12.0:1 */
+  --global-link-color-visited         : #c3b6ff;  /* 10.4:1 */
+  --global-masthead-link-color        : #d7dce5;
+  --global-masthead-link-color-hover  : #8ab4ff;
+  --global-text-color                 : #d7dce5;  /* 12.8:1 */
+  --global-text-color-light           : #98a2b8;  /*  6.9:1 */
+  --global-thead-color                : #232a38;
+
+  /* --- tokens owned by this site ---------------------------------------- */
+  --surface        : #1d222d;
+  --surface-figure : #edeae3;
+  --accent         : #8ab4ff;
+  --accent-strong  : #b6ceff;
+  --accent-soft    : #1e2a47;
+  --warm           : #e8894a;  /* 6.8:1 - awards only */
+  --warm-soft      : #33231a;
+  --focus          : #8ab4ff;
+  --focus-halo     : #151922;
+  --selection      : #2b3b63;
+}

@@ -1,0 +1,21 @@
+# Co-author name -> homepage or profile.
+#
+# _includes/pub-entry.html hyperlinks any name it finds here and leaves the rest
+# as plain text, so this can be filled in gradually. Linking co-authors is a
+# small courtesy that gets noticed and reciprocated.
+#
+# Keys must match the strings in each publication's `authors:` list exactly.
+#
+# Every URL below was already used somewhere on the site. Still to add, when you
+# have the right link to hand: Jing Jiang, Ee-Peng Lim, Xavier Bresson,
+# Mike Zheng Shou, Kevin Qinghong Lin, Ali Köksal, Qianli Xu,
+# Muhammet Furkan Ilaslan, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan,
+# Phuong Anh Nguyen, Huy Hoang Tran, Cheng Yu-Tong.
+
+"Chong-Wah Ngo": "https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en"
+"Zhixin Ma": "https://zhixinma.github.io/"
+"Hongyuan Zhu": "https://hongyuanzhu.github.io/"
+"Hanwang Zhang": "https://scholar.google.com.sg/citations?user=YG0DFyYAAAAJ&hl=en"
+"Joo-Hwee Lim": "https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en"
+"Michael Wray": "https://mwray.github.io/"
+"Ahmet Emir Dirik": "https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr"

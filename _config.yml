@@ -8,11 +8,12 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "burak" # Custom theme: _sass/theme/_burak_{tokens,light,dark}.scss
+                                   # Upstream also ships "default", "air", "sunrise", "mint", "dirt", "contrast"
 title                    : "Burak Satar"
 title_separator          : "-"
 name                     : &name "Burak Satar"
-description              : &description "Research Scientist @ SMU | PhD @ NTU"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Burak Satar is a Research Scientist at Singapore Management University working on culturally-aware vision-language models, with a focus on Southeast Asia."
 url                      : https://buraksatar.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,12 +24,12 @@ repository               : "buraksatar/buraksatar.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "1714612274337.jpeg"
+  avatar           : "burak-satar-400.webp"
   name             : "Burak Satar"
   pronouns         : # example: "she/her"  
-  bio              : "Research Scientist @ SMU | PhD @ NTU"
+  bio              : "Making vision-language models culturally aware, starting with Southeast Asia."
   location         : "Singapore"
-  employer         :
+  employer         : "Singapore Management University"
   uri              : # URL
   email            : "buraks@smu.edu.sg"
   cv               : "/files/cv.pdf" # sidebar Download CV link (custom)
@@ -41,7 +42,8 @@ author:
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0003-2850-7367"
-  semantic         : # URL
+  huggingface      : "Multimedia-SMU" # sidebar Hugging Face link (custom)
+  semantic         : # URL - add your Semantic Scholar author page here
   ssrn             : # URL
   pubmed           :
   researchgate     : # URL
@@ -84,14 +86,8 @@ author:
   youtube          : # Username
   zhihu            : # Username
 
-# Publication Category - The following the list of publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+# Publications are grouped by research theme, not by publication type.
+# See _data/research_themes.yml and the `theme:` key in _publications/*.md.
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -110,22 +106,6 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
@@ -146,7 +126,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : "og-card.png"  # Social media default site image (1200x630, in /images/)
-og_description           :  # Social media default site image description
+og_description           : *description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -160,13 +140,6 @@ social:
     - "https://orcid.org/0000-0003-2850-7367"
     - "https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark"
 
-
-# Visitor map widget in the footer (mapmyvisitors.com). Create a widget for
-# this site in the MapMyVisitors dashboard, then paste the values from the
-# embed snippet: id is the short code in the /web/ link, d is the long key.
-mapmyvisitors:
-  id               : "1c6jj"
-  d                : "U9EdoERBMjWbx0dtCcwdYMtW9DemMiY6dQDklIgdvu4"
 
 # Analytics
 analytics:
@@ -248,9 +221,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -266,8 +236,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
+      comments: false
+      share: false
       related: true
   # _pages
   - scope:
@@ -283,8 +253,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _publications
   - scope:
       path: ""
@@ -292,17 +262,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+      share: false
+      comments: false
   # _talks
   - scope:
       path: ""
@@ -310,7 +271,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
+      share: false
 
 
 # Sass/SCSS
@@ -330,7 +291,6 @@ timezone: Asia/Singapore # https://en.wikipedia.org/wiki/List_of_tz_database_tim
 plugins:
   - jekyll-feed
   - jekyll-gist
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
@@ -339,7 +299,6 @@ plugins:
 whitelist:
   - jekyll-feed
   - jekyll-gist
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
@@ -355,11 +314,15 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
+# Taxonomy archives are disabled: there are no /categories/ or /tags/ index pages,
+# so leaving `type` set made every tag on a post render a link to a 404.
+# _includes/page__taxonomy.html guards on `type`, so blanking it removes the links.
+# Tags stay in post front matter; re-enable once the blog justifies an archive page.
 category_archive:
-  type: liquid
+  type:
   path: /categories/
 tag_archive:
-  type: liquid
+  type:
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:

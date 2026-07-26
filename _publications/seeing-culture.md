@@ -15,6 +15,24 @@ authors:
   - "Ee-Peng Lim"
   - "Chong-Wah Ngo"
 pdfurl: "https://aclanthology.org/2025.emnlp-main.1131.pdf"
+theme: cultural-multimodal
+selected: 1
+teaser: "teasers/seeing-culture.webp"
+doi: "10.18653/v1/2025.emnlp-main.1131"
+equal_contrib:
+  - "Burak Satar"
+  - "Zhixin Ma"
+links:
+  - label: "Paper (ACL)"
+    url: "https://aclanthology.org/2025.emnlp-main.1131/"
+  - label: "arXiv"
+    url: "https://arxiv.org/abs/2509.16517"
+  - label: "Project site"
+    url: "https://seeingculture-benchmark.github.io/"
+  - label: "Code"
+    url: "https://github.com/buraksatar/seeingculture"
+  - label: "Dataset"
+    url: "https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark"
 bibtex: |
   @inproceedings{satar-etal-2025-seeing,
       title = "Seeing Culture: A Benchmark for Visual Reasoning and Grounding",
@@ -45,12 +63,11 @@ bibtex: |
 
 *A two-stage benchmark where models must first reason about a cultural artifact, then visually ground it, built across Southeast Asia.*
 
-<a href="https://aclanthology.org/2025.emnlp-main.1131/" class="btn btn--info btn--small">Paper (ACL)</a> <a href="https://aclanthology.org/2025.emnlp-main.1131.pdf" class="btn btn--info btn--small">PDF</a> <a href="https://arxiv.org/abs/2509.16517" class="btn btn--info btn--small">arXiv</a> <a href="https://seeingculture-benchmark.github.io/" class="btn btn--info btn--small">Project Website</a> <a href="https://github.com/buraksatar/seeingculture" class="btn btn--info btn--small">Code</a> <a href="https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark" class="btn btn--info btn--small">🤗 Dataset</a>
+{% include pub-links.html %}
 
-<img src="https://seeingculture-benchmark.github.io/static/images/teaser.png" alt="Seeing Culture: A Benchmark for Visual Reasoning and Grounding figure" width="600"/>
+<img src="/images/seeing-culture-teaser.webp" alt="Seeing Culture: A Benchmark for Visual Reasoning and Grounding figure" width="800" loading="lazy"/>
 
-## Browse the dataset
-
-<iframe src="https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark/embed/viewer" frameborder="0" width="100%" height="560px"></iframe>
+Browse the 1,065 images and 3,000+ questions in the
+[dataset viewer on Hugging Face](https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark).
 
 {% include bibtex.html %}

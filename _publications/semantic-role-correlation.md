@@ -12,6 +12,18 @@ authors:
   - "Xavier Bresson"
   - "Joo-Hwee Lim"
 pdfurl: "https://arxiv.org/pdf/2206.12849"
+theme: debiased-retrieval
+teaser: "teasers/semantic-role-correlation.webp"
+doi: "10.1109/ICIP42928.2021.9506267"
+links:
+  - label: "Paper (IEEE)"
+    url: "https://doi.org/10.1109/ICIP42928.2021.9506267"
+  - label: "arXiv"
+    url: "https://arxiv.org/abs/2206.12849"
+  - label: "Code"
+    url: "https://github.com/buraksatar/RoME_video_retrieval"
+  - label: "Talk"
+    url: "https://www.youtube.com/watch?v=M7dHgv8fIkU"
 bibtex: |
   @inproceedings{DBLP:conf/icip/SatarZBL21,
     author       = {Burak Satar and
@@ -36,8 +48,8 @@ bibtex: |
 
 *Aligns semantic roles between text and video with a correlation transformer for retrieval.*
 
-<a href="https://doi.org/10.1109/ICIP42928.2021.9506267" class="btn btn--info btn--small">Paper (IEEE)</a> <a href="https://arxiv.org/abs/2206.12849" class="btn btn--info btn--small">arXiv</a> <a href="https://github.com/buraksatar/RoME_video_retrieval" class="btn btn--info btn--small">Code</a> <a href="https://www.youtube.com/watch?v=M7dHgv8fIkU" class="btn btn--info btn--small">Talk Recording</a>
+{% include pub-links.html %}
 
-<img src="/images/icip'21.png" alt="Semantic Role Aware Correlation Transformer for Text to Video Retrieval figure" width="600"/>
+<img src="/images/fig-semantic-role-correlation.webp" alt="Semantic Role Aware Correlation Transformer for Text to Video Retrieval figure" width="800" loading="lazy"/>
 
 {% include bibtex.html %}

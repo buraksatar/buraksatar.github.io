@@ -1,138 +1,88 @@
 ---
 permalink: /
-title: "About me"
+title: "Burak Satar"
+seo_title: "Burak Satar — Research Scientist, culturally-aware vision-language models"
 excerpt: "Burak Satar is a Research Scientist at Singapore Management University making vision-language models culturally aware, starting with Southeast Asia."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I make Vision-Language Models (VLMs) culturally aware, starting with Southeast Asia, one of the world's most culturally diverse regions. I am a Research Scientist at Singapore Management University (SMU), working with [Prof Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en) on multimodal reasoning across image, video, audio and text.
+{% comment %}
+  This page used to be ~139 lines and carried the entire publication list by
+  hand, duplicating the _publications/ collection. Selected work and news are
+  now generated from _publications/ and _data/news.yml.
+{% endcomment %}
 
-<p>
-<a href="/publications/seeing-culture/" class="btn btn--inverse btn--small">EMNLP 2025</a>
-<a href="/publications/vg-tvp/" class="btn btn--inverse btn--small">AAAI 2025</a>
-<a href="/publications/semantic-role-epic-challenge/" class="btn btn--inverse btn--small">🏆 Joint 3rd Place, CVPR'22 Challenge</a>
-<a href="/talks/" class="btn btn--inverse btn--small">4 Oral Presentations</a>
-<a href="/cv/" class="btn btn--inverse btn--small">SINGA Scholar</a>
-<a href="https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark" class="btn btn--inverse btn--small">🤗 Benchmark Dataset</a>
-</p>
+I make Vision-Language Models (VLMs) culturally aware, starting with Southeast Asia, one of the world's most culturally diverse regions.
+{: .hero__lede}
+
+I am a Research Scientist at Singapore Management University (SMU), working with [Prof Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en) on multimodal reasoning across image, video, audio and text.
+
+<div class="hero__chips">
+<a href="/publications/seeing-culture/" class="chip">EMNLP 2025</a>
+<a href="/publications/vg-tvp/" class="chip">AAAI 2025</a>
+<a href="/publications/semantic-role-epic-challenge/" class="chip chip--award">Joint 3rd Place, CVPR&rsquo;22 Challenge</a>
+<a href="/talks/" class="chip">4 oral presentations</a>
+<a href="/cv/" class="chip">SINGA Scholar</a>
+<a href="https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark" class="chip">&#129303; Benchmark dataset</a>
+</div>
 
 **I am actively looking for collaborators and student interns** on culturally-aware multimodal AI. [Book a 30-minute chat](/meeting/) or [email me](mailto:buraks@smu.edu.sg).
 {: .notice--info}
 
-I obtained my PhD from the College of Computing and Data Science (CCDS) at Nanyang Technological University (NTU) in Singapore, supported by the SINGA scholarship from the Institute for Infocomm Research (I2R), Agency for Science, Technology and Research (A\*STAR). My doctoral research focused on **Towards Semantic, Debiased and Moment Video Retrieval with Multi-modal Features** conducted under the supervision of [Prof. Joo-Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en), [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) and [Prof. Hanwang Zhang](https://scholar.google.com.sg/citations?user=YG0DFyYAAAAJ&hl=en&inst=14102473421921925766). During my PhD studies, I had the opportunity to visit the University of Bristol, in the UK, collaborating with [Dr Michael Wray](https://scholar.google.com/citations?user=gFQcKZMAAAAJ&hl=en&oi=ao&inst=14102473421921925766) in Dima Damen's research group. I completed my Master's degree under the guidance of [Prof. Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr), specializing in vehicle detection. My professional experience spans roles at a start-up in Istanbul, Turkish Airlines Technology, and an internship at the University of Valencia. Additionally, I have provided advisory support to two award-winning start-ups located in London and Istanbul.
+I build tests that vision-language models fail. When a model describes a festival, a dish or a ritual from Southeast Asia, does it understand what it is looking at, or has it only learned what confidence sounds like? Our EMNLP 2025 benchmark, [Seeing Culture](/publications/seeing-culture/), makes models show their work: answer a culturally grounded question, then point to the evidence in the image. A model that names the right artifact while highlighting the wrong one did not know the answer; it guessed well. The gaps we measure are systematic, not noise.
 
-Work with me
-======
-* **Research collaborators**: cultural reasoning and grounding benchmarks, culturally-aware VLMs, Southeast Asia datasets. [Book a 30-minute chat](/meeting/).
-* **Students**: internships and research mentorship at SMU on multimodal AI. [Email me](mailto:buraks@smu.edu.sg) with your CV and a short note on what you would like to work on.
-* **Industry & talks**: invited talks, media, and projects on cultural AI evaluation. [Email me](mailto:buraks@smu.edu.sg) or [book a slot](/meeting/).
+Before SMU I spent five years at NTU and A\*STAR's Institute for Infocomm Research on an A\*STAR SINGA scholarship, working on semantic, debiased and moment-level text-video retrieval, with a research visit to Dima Damen's group at the University of Bristol. I grew up in Bursa, studied on exchange in Siena and Naples, worked in Valencia and Istanbul, and have lived in Singapore since 2020. Being the person in the room who does not get the reference is good preparation for noticing when a machine is doing the same thing.
 
-Recent News
-======
-* 07/2026: New blog post: [Why Vision-Language Models Fail Outside the West](/blog/why-vlms-fail-outside-the-west/), with a maintained [resource list](/resources/).
-* 05/2026: Another paper is submitted to EMNLP 2026.
-* 08/2025: **Seeing Culture Benchmark** is accepted to EMNLP 2025!
-* 03/2025: Started to work as a Research Scientist at Singapore Management University.
-* 12/2024: Successfully defended my PhD Thesis.
+## What I work on
 
-[Full news archive →](/news/)
+<ul class="themes">
+{%- for t in site.data.research_themes -%}
+  {%- if t.id != 'earlier' -%}
+  {%- assign n = site.publications | where: "theme", t.id -%}
+  <li class="themes__item">
+    <a class="themes__title" href="/publications/#{{ t.id }}">{{ t.title }}</a>
+    {%- if n.size > 0 %} <span class="pub__note">{{ n.size }} paper{% if n.size != 1 %}s{% endif %}</span>{% endif %}
+    <p class="themes__blurb">{{ t.blurb }}</p>
+  </li>
+  {%- endif -%}
+{%- endfor -%}
+</ul>
 
----
+## Selected work
 
-# Selected Publications {#publications}
+{% assign selected = site.publications | where_exp: "p", "p.selected" | sort: "selected" %}
+<div class="pub-list">
+{% for pub in selected %}{% include pub-entry.html pub=pub %}{% endfor %}
+</div>
 
-**[Seeing Culture: A Benchmark for Visual Reasoning and Grounding](/publications/seeing-culture/)** \\
-**Burak Satar\***, Zhixin Ma\*, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo (\* equal contribution) \\
-**EMNLP 2025 Main Conference** \\
-*A two-stage benchmark where models must first reason about a cultural artifact, then visually ground it, exposing systematic gaps in how VLMs handle Southeast Asian cultural context.* \\
-[[Project Website](https://seeingculture-benchmark.github.io/)] [[Paper](https://aclanthology.org/2025.emnlp-main.1131)] [[arXiv](https://arxiv.org/abs/2509.16517)] [[Code](https://github.com/buraksatar/seeingculture)] [[🤗 Dataset](https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark)]
+[All publications &rarr;](/publications/)
 
-<img src="https://seeingculture-benchmark.github.io/static/images/teaser.png" alt="Seeing Culture Benchmark teaser" width="700"/>
+## Awards and honours
 
-**[Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention](/publications/frame-length-bias/)** \\
-**Burak Satar**, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim \\
-**BMVC 2023** \\
-*Shows that text-video retrieval models exploit clip length as a shortcut, and mitigates the bias with causal intervention.* \\
-[[arXiv](https://arxiv.org/abs/2309.09311)] [[YouTube Ppt](https://youtu.be/aMhNvTCkT8Y)] [[Project Page](https://buraksatar.github.io/FrameLengthBias/)]
+<ul class="awards">
+{% for a in site.data.profile.awards %}
+  <li class="awards__item"><span>{{ a }}</span></li>
+{% endfor %}
+</ul>
 
-**[Exploiting Semantic Role Contextualized Video Features for Multi-Instance Text-Video Retrieval](/publications/semantic-role-epic-challenge/)** \\
-**Burak Satar**, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim \\
-**🏆 Joint 3rd Place, EPIC-Kitchens Challenge @ CVPR 2022 Workshop** \\
-*Took joint 3rd place in the EPIC-Kitchens-100 Multi-Instance Retrieval Challenge.* \\
-[[Technical Report](https://arxiv.org/abs/2206.14381)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
+## Recent news
 
-# All Publications
+<ul class="news-list">
+{% for item in site.data.news limit: 5 %}
+  <li class="news-list__item">
+    <span class="news-list__date">{{ item.date }}</span>
+    <span class="news-list__text">{{ item.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>
+  </li>
+{% endfor %}
+</ul>
 
-## Research during Post-Doctoral Work
+[Full news archive &rarr;](/news/)
 
-**Cultural Moment Benchmark: Evaluating Video Cultural Reasoning and Grounding in Southeast Asia** \\
-**Burak Satar**, Zhixin Ma, Cheng Yu-Tong, Huy Hoang Tran, Phuong Anh Nguyen, Chong-Wah Ngo \\
-Under peer review. *arXiv preprint coming soon*
+## Work with me
 
-**Seeing Culture: A Benchmark for Visual Reasoning and Grounding** \\
-**Burak Satar\***, Zhixin Ma\*, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo \\
-EMNLP 2025 Main Conference \\
-[[Project Website](https://seeingculture-benchmark.github.io/)] [[Paper](https://aclanthology.org/2025.emnlp-main.1131)] [[arXiv](https://arxiv.org/abs/2509.16517)] [[Code](https://github.com/buraksatar/seeingculture)] [[🤗 Dataset](https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark)]
-
-**Retrieval Augmented Reasoning Segmentation in Cultural Context** \\
-Zhixin Ma\*, **Burak Satar\***, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Phuong Anh Nguyen, Chong-Wah Ngo \\
-(Under development)
-
-## Research during Doctoral Study
-
-### PhD Research Topic 3: Multimodal and Generative Video/Moment Retrieval
-
-**Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion** \\
-**Burak Satar**, Joo-Hwee Lim, Hanwang Zhang, M Furkan Ilaslan, Hongyuan Zhu, Michael Wray \\
-(Under development)
-
-**VG-TVP: Multimodal Procedural Planning via Visually Grounded Text-Video Prompting** \\
-Muhammet Furkan Ilaslan, Ali Köksal, Kevin Qinghong Lin, **Burak Satar**, Mike Zheng Shou, Qianli Xu \\
-AAAI 2025 Full Paper \\
-[[arXiv](https://arxiv.org/abs/2412.11621)] [[Dataset Link](https://drive.google.com/drive/folders/1-Lka5F-Dh-Fz6CwHDJYjUqieXlt2GCR6)] [[Github](https://github.com/mfurkanilaslan/VG-TVP?tab=readme-ov-file)]
-
-### PhD Research Topic 2: Debiased Text-to-Video Retrieval
-
-<img src="https://buraksatar.github.io/images/scm_camready.png" alt="Structural Causal Model" width="400"/> \\
-**Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention** \\
-**Burak Satar**, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim \\
-BMVC 2023 Full Paper, (Poster presentation) \\
-[[arXiv](https://arxiv.org/abs/2309.09311)] [[YouTube Ppt](https://youtu.be/aMhNvTCkT8Y)] [[Project Page](https://buraksatar.github.io/FrameLengthBias/)]
-
-<img src="https://buraksatar.github.io/images/cvpr'23_workshop.png" alt="An Overview of Challenges" width="400"/> \\
-**An Overview of Challenges in Egocentric Text-Video Retrieval** \\
-**Burak Satar**, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim \\
-CVPR Workshop 2023, [Joint Ego4D/EPIC Workshop](https://sites.google.com/view/ego4d-epic-cvpr2023-workshop/) (Oral presentation) \\
-[[Extended Abstract](https://arxiv.org/abs/2306.04345)] [[YouTube Ppt](https://youtu.be/XnUMScoOPvM)]
-
-### PhD Research Topic 1: Semantic Text-to-Video Retrieval
-
-(✅ Joint 3rd Place Award) **Exploiting Semantic Role Contextualized Video Features**\\
-**for Multi-Instance Text-Video Retrieval**  \\
-**Burak Satar**, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim \\
-CVPR Workshop 2022, Epic-Kitchens-100 MIR Challenge under [Joint Ego4D/EPIC Workshop](https://sites.google.com/view/cvpr2022w-ego4d-epic/)  \\
-[[Technical Report](https://arxiv.org/abs/2206.14381)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
-
-<img src="https://buraksatar.github.io/images/cvpr'22_workshop.png" alt="Architecture" width="300"/>
-
-**RoME: Role-aware Mixture-of-Expert Transformer for Text-to-Video Retrieval** \\
-**Burak Satar**, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim \\
-[[arXiv 2022 Preprint](https://arxiv.org/abs/2206.12845)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)]
-
-<img src="https://buraksatar.github.io/images/icip'21.png" alt="Overview of our model on text-to-video retrieval" width="400"/>
-
-**Semantic Role Aware Correlation Transformer for Text to Video Retrieval** \\
-**Burak Satar**, Hongyuan Zhu, Xavier Bresson, Joo-Hwee Lim \\
-ICIP 2021 Full Paper (Oral presentation) and [ICCV Workshop 2021](https://sites.google.com/view/srvu-iccv21-workshop/papers?authuser=0) (Oral presentation)\\
-[[arXiv](https://arxiv.org/abs/2206.12849)] [[(pseudo)Code](https://github.com/buraksatar/RoME_video_retrieval)] [[YouTube Ppt](https://www.youtube.com/watch?v=M7dHgv8fIkU)]
-
-## Research during Master's Study
-
-<img src="https://buraksatar.github.io/images/icann'18.png" alt="Detection and classification method" width="250"/> \\
-**Deep Learning Based Vehicle Make-Model Classification** \\
-**Burak Satar**, Ahmet Emir Dirik \\
-ICANN 2018 Full Paper (Oral presentation) \\
-[[arXiv](https://arxiv.org/abs/1809.00953)] [[Code](https://github.com/buraksatar/car-detection-model-prediction)]
+* **Research collaborators** — cultural reasoning and grounding benchmarks, culturally-aware VLMs, Southeast Asia datasets. [Book a 30-minute chat](/meeting/).
+* **Students** — internships and research mentorship at SMU on multimodal AI. [Email me](mailto:buraks@smu.edu.sg) with your CV and a short note on what you would like to work on.
+* **Industry and talks** — invited talks, media, and projects on cultural AI evaluation. [Email me](mailto:buraks@smu.edu.sg) or [book a slot](/meeting/).

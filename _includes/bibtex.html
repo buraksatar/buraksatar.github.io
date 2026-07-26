@@ -1,11 +1,27 @@
 {% comment %}
-Collapsible BibTeX block with a copy button. Reads page.bibtex from front matter.
+  Collapsible BibTeX block with a copy button.
+
+  Reads page.bibtex by default; pass `entry` and `uid` to render an arbitrary
+  one, which is what _includes/pub-entry.html does when several papers appear on
+  the same page.
+
+  The id is derived from the page or the caller's uid. It used to be a hardcoded
+  id="bibtex-entry", which was fine on a single paper page but meant every copy
+  button on /publications/ would have copied the first entry.
+
+  The copy handler lives in assets/js/site.js as one delegated listener, rather
+  than an inline onclick (which any future CSP would block) with no failure path.
 {% endcomment %}
-{% if page.bibtex %}
-<details class="bibtex-block">
-  <summary><strong>BibTeX</strong></summary>
-  <pre id="bibtex-entry" style="white-space: pre-wrap; overflow-x: auto;"><code>{{ page.bibtex | strip }}</code></pre>
-  <button type="button" class="btn btn--info btn--small"
-    onclick="navigator.clipboard.writeText(document.getElementById('bibtex-entry').innerText).then(() => { this.innerText = 'Copied!'; setTimeout(() => { this.innerText = 'Copy BibTeX'; }, 1500); });">Copy BibTeX</button>
-</details>
+
+{% assign bib = include.entry | default: page.bibtex %}
+{% if bib %}
+  {% assign uid = include.uid | default: page.url | slugify %}
+  <details class="bibtex-block">
+    <summary><strong>BibTeX</strong></summary>
+    <pre class="pub__bibtex" id="bib-{{ uid }}"><code>{{ bib | strip }}</code></pre>
+    <p class="bibtex-block__actions">
+      <button type="button" class="chip" data-copy-target="bib-{{ uid }}" data-label="Copy BibTeX">Copy BibTeX</button>
+      <span class="sr-only" role="status" aria-live="polite" data-copy-status></span>
+    </p>
+  </details>
 {% endif %}

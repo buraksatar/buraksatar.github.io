@@ -1,0 +1,78 @@
+/* ==========================================================================
+   BURAK THEME - SHARED SCALARS
+
+   Variables only, no CSS output, so it is safe to @import from both the light
+   and the dark partial.
+
+   Why this file exists: assets/css/main.scss imports the light theme and then
+   the dark theme. Sass scalars are global and last-assignment-wins, so anything
+   set in _burak_dark.scss would silently override the light file for the whole
+   rest of the compile. Shared scalars live here; the light and dark partials
+   contain nothing but their custom-property block.
+   ========================================================================== */
+
+/* --- Brand ------------------------------------------------------------- */
+/* Indigo. Already the favicon and manifest colour, so promoting it to the
+   accent makes the tab icon, the monogram and the site one brand. */
+$primary-color   : #1d4ed8;
+$info-color      : #1d4ed8;
+$warning-color   : #9a4310;
+$danger-color    : #b3261e;
+$success-color   : #1b7f4f;
+$notice-color    : #5b6172;
+$link-color      : $primary-color;
+
+/* --- Greys still referenced by upstream partials ------------------------ */
+$gray            : #6b7280;
+$dark-gray       : mix(#000, $gray, 40%);
+$darker-gray     : mix(#000, $gray, 60%);
+$light-gray      : mix(#fff, $gray, 50%);
+$lighter-gray    : mix(#fff, $gray, 90%);
+$background-color: #fbfaf7;
+$text-color      : #1f2430;
+$border-color    : #e2ded4;
+$code-background-color        : #f4f1ea;
+$code-background-color-dark   : #1d222d;
+$form-background-color        : #f4f1ea;
+$footer-background-color      : #f4f1ea;
+$masthead-link-color          : $text-color;
+$masthead-link-color-hover    : $primary-color;
+$navicon-link-color-hover     : mix(#fff, $primary-color, 75%);
+
+/* --- Shape and motion --------------------------------------------------- */
+$border-radius     : 6px;
+$box-shadow        : 0 1px 2px rgba(31, 36, 48, 0.06);
+/* Scoped, unlike upstream's `transition: all`, which forces style recalculation
+   on p/span/img for unrelated property changes. */
+$global-transition : color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+$masthead-height   : 62px;
+$navicon-width     : 24px;
+$navicon-height    : 3px;
+$sidebar-link-max-width   : 250px;
+$sidebar-screen-min-width : 1024px;
+
+/* --- Type families ------------------------------------------------------ */
+/* Self-hosted, subsetted to latin + latin-ext + Vietnamese: co-author names
+   include Köksal, Uludağ, Phương, and the site writes İstanbul. */
+$newsreader          : "Newsreader", Iowan Old Style, Charter, Georgia, Cambria, "Times New Roman", serif;
+$inter               : "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$monospace           : ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+
+$serif               : $newsreader;
+$sans-serif          : $inter;
+$sans-serif-narrow   : $inter;
+$global-font-family  : $inter;
+$header-font-family  : $newsreader;
+$caption-font-family : $inter;
+
+/* --- Type scale --------------------------------------------------------- */
+/* Upstream's 2.441/1.953 ratio is too steep for a 68ch measure. */
+$doc-font-size : 16;
+$type-size-1   : 2.5rem;
+$type-size-2   : 1.875rem;
+$type-size-3   : 1.5rem;
+$type-size-4   : 1.1875rem;
+$type-size-5   : 1rem;
+$type-size-6   : 0.8125rem;
+$type-size-7   : 0.75rem;
+$type-size-8   : 0.6875rem;
