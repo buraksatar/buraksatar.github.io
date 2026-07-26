@@ -52,9 +52,12 @@ My PhD thesis, *Towards Semantic, Debiased and Moment Video Retrieval with Multi
     {%- comment -%}
       Published and in-progress counted separately, so a theme with one paper out
       and three in the pipeline does not read as four published papers.
+
+      The published count says "published" rather than "paper": "1 paper, 1 in
+      progress" reads as though the single paper is the in-progress one.
     {%- endcomment -%}
     {%- if done.size > 0 or wip > 0 %} <span class="pub__note">
-      {%- if done.size > 0 %}{{ done.size }} paper{% if done.size != 1 %}s{% endif %}{% endif -%}
+      {%- if done.size > 0 %}{{ done.size }} published{% endif -%}
       {%- if done.size > 0 and wip > 0 %} &middot; {% endif -%}
       {%- if wip > 0 %}{{ wip }} in progress{% endif -%}
     </span>{% endif %}
