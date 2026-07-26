@@ -68,7 +68,7 @@
         <li><a href="{{ author.cv | prepend: base_path }}">{% include icon.html name="file-pdf" %}<span class="icon-pad-left">Download CV</span></a></li>
       {% endif %}
       {% if author.calendly %}
-        <li><a href="{{ '/meeting/' | prepend: base_path }}">{% include icon.html name="calendar" %}<span class="icon-pad-left">Book a meeting</span></a></li>
+        <li><a href="{{ '/meeting/' | prepend: base_path }}">{% include icon.html name="calendar-check" %}<span class="icon-pad-left">Book a meeting</span></a></li>
       {% endif %}
 
       {% if author.googlescholar %}

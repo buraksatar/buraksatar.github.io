@@ -163,7 +163,7 @@
       "award": {{ p.awards | jsonify }},
       "knowsLanguage": ["tr", "en"],
       "sameAs": {{ site.social.links | jsonify }}
-    }{% if page.collection == "publications" %},
+    }{% if page.collection == "publications" and page.status != "under-review" %},
     {
       "@type": "ScholarlyArticle",
       "@id": {{ canonical_url | append: "#article" | jsonify }},

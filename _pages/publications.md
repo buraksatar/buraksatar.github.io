@@ -35,11 +35,9 @@ An asterisk marks equal contribution.
   {% endif %}
 {% endfor %}
 
-<h2 id="in-progress">In progress</h2>
+<h2 id="in-progress">Also in progress</h2>
 
 <p>
-Two papers are under review: a video benchmark for cultural reasoning and
-grounding in Southeast Asia, and retrieval-augmented reasoning segmentation in a
-cultural context. Drafts on request &mdash;
-<a href="mailto:{{ site.author.email }}">email me</a>.
+Retrieval-augmented reasoning segmentation in a cultural context, with Zhixin Ma.
+Drafts on request &mdash; <a href="mailto:{{ site.author.email }}">email me</a>.
 </p>
