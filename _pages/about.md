@@ -2,7 +2,7 @@
 permalink: /
 title: "Burak Satar"
 seo_title: "Burak Satar — Research Scientist, culturally-aware vision-language models"
-excerpt: "Burak Satar is a Research Scientist at Singapore Management University making vision-language models culturally aware, starting with Southeast Asia."
+excerpt: "Burak Satar is a Research Scientist at Singapore Management University fdfdfdmaking vision-language models culturally aware, starting with Southeast Asia."
 author_profile: true
 redirect_from:
   - /about/
