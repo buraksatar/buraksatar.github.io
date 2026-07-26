@@ -3,4 +3,24 @@
 <!-- No MathJax: the site has no maths. Re-add here if a post ever needs it,
      ideally gated on a `mathjax: true` front-matter flag rather than sitewide. -->
 
+{% if site.mapmyvisitors.d %}
+{% comment %}
+  Visitor map (mapmyvisitors.com). A single lazy-loaded image, so it costs
+  nothing until the footer is near the viewport.
+
+  The widget draws its own blue card, so it does not need a light and a dark
+  variant. `cl` is the landmass colour, not the text colour: ffffff gives white
+  continents on the blue ground, which reads the same in both site themes.
+
+  Explicit width and height stop it shifting the footer as it loads.
+{% endcomment %}
+<div class="visitor-map">
+  <a href="https://mapmyvisitors.com/web/{{ site.mapmyvisitors.id }}" title="Where visitors to this site come from">
+    <img src="https://mapmyvisitors.com/map.png?d={{ site.mapmyvisitors.d }}&amp;cl={{ site.mapmyvisitors.cl | default: 'ffffff' }}"
+         alt="Map of recent visitor locations"
+         width="180" height="112" loading="lazy" decoding="async" />
+  </a>
+</div>
+{% endif %}
+
 <!-- end custom footer snippets -->

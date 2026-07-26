@@ -141,6 +141,16 @@ social:
     - "https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark"
 
 
+# Visitor map widget in the footer (mapmyvisitors.com). Create a widget for this
+# site in the MapMyVisitors dashboard, then paste the values from the embed
+# snippet: id is the short code in the /web/ link, d is the long key.
+# cl is the landmass colour on the widget's own blue card; blank it to hide the
+# map without touching the template.
+mapmyvisitors:
+  id               : "1c6jj"
+  d                : "U9EdoERBMjWbx0dtCcwdYMtW9DemMiY6dQDklIgdvu4"
+  cl               : "ffffff"
+
 # Analytics
 analytics:
   provider               :  "custom" # custom = GoatCounter, see _includes/analytics-providers/custom.html
