@@ -21,20 +21,22 @@ I make Vision-Language Models (VLMs) culturally aware, starting with Southeast A
 I am a Research Scientist at Singapore Management University (SMU), working with [Prof Chong-Wah Ngo](https://scholar.google.com/citations?user=HM39HrUAAAAJ&hl=en) on multimodal reasoning across image, video, audio and text.
 
 <div class="hero__chips">
+<a href="/publications/cultural-moment/" class="chip">EMNLP 2026</a>
 <a href="/publications/seeing-culture/" class="chip">EMNLP 2025</a>
 <a href="/publications/vg-tvp/" class="chip">AAAI 2025</a>
 <a href="/publications/semantic-role-epic-challenge/" class="chip chip--award">Joint 3rd Place, CVPR&rsquo;22 Challenge</a>
-<a href="/talks/" class="chip">4 oral presentations</a>
-<a href="/cv/" class="chip">SINGA Scholar</a>
-<a href="https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark" class="chip">&#129303; Benchmark dataset</a>
+<a href="/cv/" class="chip">A*STAR SINGA Scholar</a>
 </div>
 
-**I am actively looking for collaborators and student interns** on culturally-aware multimodal AI. [Book a 30-minute chat](/meeting/) or [email me](mailto:buraks@smu.edu.sg).
+**I am actively looking for collaborators and student interns** on culturally-aware multimodal AI. 
+[Book a 30-minute chat](/meeting/) or [email me](mailto:buraks@smu.edu.sg).
 {: .notice--info}
+
+Wait for our recent work that submitteed to EMNLP 2026.
 
 I build tests that vision-language models fail. When a model describes a festival, a dish or a ritual from Southeast Asia, does it understand what it is looking at, or has it only learned what confidence sounds like? Our EMNLP 2025 benchmark, [Seeing Culture](/publications/seeing-culture/), makes models show their work: answer a culturally grounded question, then point to the evidence in the image. A model that names the right artifact while highlighting the wrong one did not know the answer; it guessed well. The gaps we measure are systematic, not noise.
 
-Before SMU I spent five years at NTU and A\*STAR's Institute for Infocomm Research on an A\*STAR SINGA scholarship, working on semantic, debiased and moment-level text-video retrieval, with a research visit to Dima Damen's group at the University of Bristol. I grew up in Bursa, studied on exchange in Siena and Naples, worked in Valencia and Istanbul, and have lived in Singapore since 2020. Being the person in the room who does not get the reference is good preparation for noticing when a machine is doing the same thing.
+Before SMU I spent five years at NTU and A\*STAR's Institute for Infocomm Research on an A\*STAR SINGA scholarship, working on semantic, debiased and moment-level text-video retrieval, with a research visit to Dima Damen's group at the University of Bristol. I grew up in Bursa, studied on exchange in Siena and Naples/Italy, worked in Valencia/Spain and Istanbul, and have lived in Singapore since 2020. I have often been the person in the room who does not get the reference. The difference is that I knew it. The models I test do not.
 
 ## What I work on
 
@@ -85,4 +87,4 @@ Before SMU I spent five years at NTU and A\*STAR's Institute for Infocomm Resear
 
 * **Research collaborators** — cultural reasoning and grounding benchmarks, culturally-aware VLMs, Southeast Asia datasets. [Book a 30-minute chat](/meeting/).
 * **Students** — internships and research mentorship at SMU on multimodal AI. [Email me](mailto:buraks@smu.edu.sg) with your CV and a short note on what you would like to work on.
-* **Industry and talks** — invited talks, media, and projects on cultural AI evaluation. [Email me](mailto:buraks@smu.edu.sg) or [book a slot](/meeting/).
+* **Industry and talks** — invited talks, media, and projects on cultural AI evaluation and model design. [Email me](mailto:buraks@smu.edu.sg) or [book a slot](/meeting/).
