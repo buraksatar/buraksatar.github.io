@@ -41,7 +41,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=qSgpP04AAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0003-2850-7367"
+  # orcid            : "https://orcid.org/0000-0003-2850-7367"
   huggingface      : "Multimedia-SMU" # sidebar Hugging Face link (custom)
   semantic         : # URL - add your Semantic Scholar author page here
   ssrn             : # URL
