@@ -18,11 +18,14 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Writing"
-    url: /blog/
+  # - title: "Writing" # publish after awsome-cultural-vlms blog post
+  #   url: /blog/
 
-  - title: "Resources"
-    url: /resources/
+  # - title: "Resources" # publish after awsome-cultural-vlms blog post
+  #   url: /resources/
+
+  - title: "News"
+    url: /news/
 
   - title: "Talks"
     url: /talks/
