@@ -10,6 +10,16 @@ authors:
   - "Burak Satar"
   - "Ahmet Emir Dirik"
 pdfurl: "https://arxiv.org/pdf/1809.00953"
+theme: earlier
+teaser: "teasers/vehicle-make-model.webp"
+doi: "10.1007/978-3-030-01424-7_53"
+links:
+  - label: "Paper (Springer)"
+    url: "https://doi.org/10.1007/978-3-030-01424-7_53"
+  - label: "arXiv"
+    url: "https://arxiv.org/abs/1809.00953"
+  - label: "Code"
+    url: "https://github.com/buraksatar/car-detection-model-prediction"
 bibtex: |
   @inproceedings{DBLP:conf/icann/SatarD18,
     author       = {Burak Satar and
@@ -40,8 +50,8 @@ bibtex: |
 
 *CNN-based vehicle make and model classification from my MSc research.*
 
-<a href="https://doi.org/10.1007/978-3-030-01424-7_53" class="btn btn--info btn--small">Paper (Springer)</a> <a href="https://arxiv.org/abs/1809.00953" class="btn btn--info btn--small">arXiv</a> <a href="https://github.com/buraksatar/car-detection-model-prediction" class="btn btn--info btn--small">Code</a>
+{% include pub-links.html %}
 
-<img src="/images/icann'18.png" alt="Deep Learning Based Vehicle Make-Model Classification figure" width="600"/>
+<img src="/images/fig-vehicle-make-model.webp" alt="Deep Learning Based Vehicle Make-Model Classification figure" width="800" loading="lazy"/>
 
 {% include bibtex.html %}

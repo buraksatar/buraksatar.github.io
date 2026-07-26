@@ -14,6 +14,15 @@ authors:
   - "Mike Zheng Shou"
   - "Qianli Xu"
 pdfurl: "https://arxiv.org/pdf/2412.11621"
+theme: multimodal-planning
+doi: "10.1609/aaai.v39i4.32406"
+links:
+  - label: "Paper (AAAI)"
+    url: "https://ojs.aaai.org/index.php/AAAI/article/view/32406"
+  - label: "arXiv"
+    url: "https://arxiv.org/abs/2412.11621"
+  - label: "Code"
+    url: "https://github.com/mfurkanilaslan/VG-TVP"
 bibtex: |
   @inproceedings{DBLP:conf/aaai/IlaslanKLSSX25,
     author       = {Muhammet Furkan Ilaslan and
@@ -46,6 +55,6 @@ Muhammet Furkan Ilaslan, Ali Köksal, Kevin Qinghong Lin, **Burak Satar**, Mike 
 
 *Procedural planning with LLMs improves when text and video prompts are visually grounded together.*
 
-<a href="https://arxiv.org/abs/2412.11621" class="btn btn--info btn--small">arXiv</a> <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32406" class="btn btn--info btn--small">Paper (AAAI)</a> <a href="https://github.com/mfurkanilaslan/VG-TVP" class="btn btn--info btn--small">Code</a> <a href="https://drive.google.com/drive/folders/1-Lka5F-Dh-Fz6CwHDJYjUqieXlt2GCR6" class="btn btn--info btn--small">Dataset</a>
+{% include pub-links.html %}
 
 {% include bibtex.html %}

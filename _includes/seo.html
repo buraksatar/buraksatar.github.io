@@ -6,7 +6,14 @@
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
 
-{% if page.title %}
+{% comment %}
+  `seo_title` in front matter wins, so a page's <h1> and its <title> can differ.
+  The homepage needs this: its heading is "Burak Satar" but its title should
+  carry the role for search results.
+{% endcomment %}
+{% if page.seo_title %}
+  {% assign seo_title = page.seo_title %}
+{% elsif page.title %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
 {% endif %}
 
@@ -57,6 +64,9 @@
   {% if page.header.image %}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
+  {% elsif page.teaser %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ page.teaser | prepend: "/images/" | prepend: site.url }}">
   {% elsif site.og_image %}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="{{ site.og_image | prepend: "/images/" | prepend: base_path }}">
@@ -86,17 +96,105 @@
   <link rel="next" href="{{ paginator.next_page_path | prepend: seo_url }}">
 {% endif %}
 
-{% if site.social %}
-  <script type="application/ld+json">
+{% comment %}
+  schema.org JSON-LD as a single @graph, generated from _data/profile.yml and
+  _config.yml so it cannot drift from the visible pages. Gives search engines and
+  AI crawlers the affiliation, education and topic coverage that a bare Person
+  node leaves out. Publication pages additionally emit a ScholarlyArticle.
+{% endcomment %}
+{% assign p = site.data.profile %}
+{% assign person_id = seo_url | append: "/#person" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context" : "http://schema.org",
-      "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
-      "name" : "{{ site.social.name | default: site.name }}",
-      "url" : {{ seo_url | jsonify }},
-      "sameAs" : {{ site.social.links | jsonify }}
-    }
-  </script>
-{% endif %}
+      "@type": "WebSite",
+      "@id": {{ seo_url | append: "/#website" | jsonify }},
+      "url": {{ seo_url | append: "/" | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "inLanguage": "en",
+      "publisher": { "@id": {{ person_id | jsonify }} }
+    },
+    {
+      "@type": {% if page.url == "/" %}["WebPage", "ProfilePage"]{% else %}"WebPage"{% endif %},
+      "@id": {{ canonical_url | append: "#webpage" | jsonify }},
+      "url": {{ canonical_url | jsonify }},
+      "name": {{ seo_title | default: site.title | jsonify }},
+      "description": {{ seo_description | jsonify }},
+      "inLanguage": "en",
+      "isPartOf": { "@id": {{ seo_url | append: "/#website" | jsonify }} },
+      "about": { "@id": {{ person_id | jsonify }} }{% if page.url == "/" %},
+      "mainEntity": { "@id": {{ person_id | jsonify }} }{% endif %}
+    },
+    {
+      "@type": "Person",
+      "@id": {{ person_id | jsonify }},
+      "url": {{ seo_url | append: "/" | jsonify }},
+      "name": {{ site.author.name | jsonify }},
+      "givenName": {{ p.given_name | jsonify }},
+      "familyName": {{ p.family_name | jsonify }},
+      "jobTitle": {{ p.job_title | jsonify }},
+      "description": {{ p.headline | jsonify }},
+      "email": {{ site.author.email | prepend: "mailto:" | jsonify }},
+      "image": {{ site.author.avatar | prepend: "/images/" | prepend: seo_url | jsonify }},
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": {{ p.address.locality | jsonify }},
+        "addressCountry": {{ p.address.country | jsonify }}
+      },
+      "worksFor": [
+        {% for w in p.works_for %}{
+          "@type": "Organization",
+          "name": {{ w.name | jsonify }},
+          "url": {{ w.url | jsonify }}{% if w.department %},
+          "department": { "@type": "Organization", "name": {{ w.department | jsonify }} }{% endif %}
+        }{% unless forloop.last %},{% endunless %}{% endfor %}
+      ],
+      "alumniOf": [
+        {% for a in p.alumni_of %}{
+          "@type": "EducationalOrganization",
+          "name": {{ a.name | jsonify }},
+          "url": {{ a.url | jsonify }}
+        }{% unless forloop.last %},{% endunless %}{% endfor %}
+      ],
+      "knowsAbout": {{ p.knows_about | jsonify }},
+      "award": {{ p.awards | jsonify }},
+      "knowsLanguage": ["tr", "en"],
+      "sameAs": {{ site.social.links | jsonify }}
+    }{% if page.collection == "publications" %},
+    {
+      "@type": "ScholarlyArticle",
+      "@id": {{ canonical_url | append: "#article" | jsonify }},
+      "headline": {{ page.title | jsonify }},
+      "name": {{ page.title | jsonify }},
+      "author": [
+        {% for a in page.authors %}{
+          "@type": "Person",
+          "name": {{ a | jsonify }}{% if a == site.author.name %},
+          "@id": {{ person_id | jsonify }}{% endif %}
+        }{% unless forloop.last %},{% endunless %}{% endfor %}
+      ],
+      "datePublished": {{ page.date | date: "%Y-%m-%d" | jsonify }},
+      "publication": {{ page.citation_venue | default: page.venue | jsonify }},
+      "isPartOf": {
+        "@type": "PublicationEvent",
+        "name": {{ page.venue | jsonify }}
+      },
+      "inLanguage": "en",
+      "url": {{ canonical_url | jsonify }}{% if page.pdfurl %},
+      "sameAs": {{ page.pdfurl | jsonify }}{% endif %}{% if page.doi %},
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": {{ page.doi | jsonify }}
+      }{% endif %}{% if page.excerpt %},
+      "abstract": {{ page.excerpt | strip_html | strip_newlines | jsonify }}{% endif %}
+    }{% endif %}
+  ]
+}
+</script>
 
 {% if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
@@ -128,19 +226,23 @@
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
 {% endif %}
 
-{% if site.og_image %}
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Organization",
-      "url": {{ seo_url | jsonify }},
-      "logo": {{ site.og_image | prepend: "/images/" | prepend: base_path | jsonify }}
-    }
-  </script>
-{% endif %}
+{% comment %}
+  No Organization node here: this is one person's site, and declaring an
+  Organization whose logo is a personal social card confuses the entity graph.
+  The Person node above carries the identity.
+{% endcomment %}
 
+{% comment %}
+  page.teaser is checked here so a publication's teaser doubles as its social
+  card. Without it every share of every page fell back to the one site-wide
+  og-card.png.
+{% endcomment %}
 {% if page.header.image %}
   <meta property="og:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
+{% elsif page.teaser %}
+  <meta property="og:image" content="{{ page.teaser | prepend: "/images/" | prepend: site.url }}">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="500">
 {% elsif page.header.overlay_image %}
   <meta property="og:image" content="{% if page.header.overlay_image contains "://" %}{{ page.header.overlay_image }}{% else %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endif %}">
 {% elsif site.og_image %}

@@ -1,0 +1,63 @@
+/* ==========================================================================
+   BURAK THEME - LIGHT ("paper")
+
+   Warm unbleached background rather than pure white, deep indigo ink, one
+   terracotta accent reserved for awards.
+
+   Every value below is a pre-computed hex on purpose. Sass does NOT evaluate
+   functions inside a custom-property value unless they are wrapped in an
+   interpolation, which is why upstream's _default_light.scss ships four
+   literally invalid declarations (mix() calls emitted verbatim), leaving light
+   mode with no link hover colour, no visited colour and broken figure captions.
+
+   Contrast ratios are against --global-bg-color (#FBFAF7) unless noted.
+   ========================================================================== */
+
+@import "burak_tokens";
+
+:root {
+  color-scheme: light;
+
+  /* --- upstream contract ------------------------------------------------ */
+  --global-base-color                 : #1d4ed8;
+  --global-bg-color                   : #fbfaf7;
+  --global-footer-bg-color            : #f4f1ea;
+  --global-border-color               : #e2ded4;
+  --global-dark-border-color          : #c9c3b6;
+  --global-code-background-color      : #f4f1ea;
+  --global-code-text-color            : #1f2430;  /* 14.6:1 on code bg */
+  --global-fig-caption-color          : #5b6172;  /*  5.9:1 */
+  --global-link-color                 : #1d4ed8;  /*  6.4:1  (was 2.57:1) */
+  --global-link-color-hover           : #16308a;  /* 11.4:1 */
+  --global-link-color-visited         : #4b3fa8;  /*  7.9:1 */
+  --global-masthead-link-color        : #1f2430;
+  --global-masthead-link-color-hover  : #1d4ed8;
+  --global-text-color                 : #1f2430;  /* 14.9:1 */
+  --global-text-color-light           : #5b6172;  /*  5.9:1 */
+  --global-thead-color                : #ede9e0;
+
+  /* --- tokens owned by this site ---------------------------------------- */
+  --surface        : #f4f1ea;
+  /* Paper figures are white-background diagrams. In light mode the mat is
+     invisible; in dark mode it is what stops them glowing. */
+  --surface-figure : #ffffff;
+  --accent         : #1d4ed8;
+  --accent-strong  : #16308a;
+  --accent-soft    : #e7ebfb;
+  --warm           : #9a4310;  /* 6.3:1 - awards only */
+  --warm-soft      : #f7ece3;
+  --focus          : #1d4ed8;
+  --focus-halo     : #fbfaf7;
+  --selection      : #d7defa;
+
+  --measure : 68ch;
+
+  --s1: 0.25rem;
+  --s2: 0.5rem;
+  --s3: 0.75rem;
+  --s4: 1rem;
+  --s5: 1.5rem;
+  --s6: 2rem;
+  --s7: 3rem;
+  --s8: 4rem;
+}

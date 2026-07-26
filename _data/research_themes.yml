@@ -1,0 +1,33 @@
+# Research themes. The single source for both the homepage summary and the
+# grouping on /publications/.
+#
+# Each publication carries a matching `theme:` key in its front matter. Order
+# here is the order they appear; papers within a theme sort newest first.
+#
+# This replaced headings like "PhD Research Topic 3", which read like a thesis
+# table of contents. Themes are how a reader thinks about the work.
+
+- id: cultural-multimodal
+  title: "Cultural multimodal reasoning and grounding"
+  blurb: >-
+    Benchmarks and methods that test whether a vision-language model understands
+    a cultural scene or has only learned to sound confident about it. Southeast
+    Asia first, because it is the hardest available test case.
+
+- id: debiased-retrieval
+  title: "Debiased and semantic text-video retrieval"
+  blurb: >-
+    Video retrieval models take shortcuts: clip length, object co-occurrence,
+    verb priors. My doctoral work identified these shortcuts and removed them
+    with semantic role structure and causal intervention.
+
+- id: multimodal-planning
+  title: "Multimodal planning and long-video retrieval"
+  blurb: >-
+    Grounding language-model plans in video, and finding the right moment inside
+    hours of egocentric footage.
+
+- id: earlier
+  title: "Earlier work"
+  blurb: >-
+    Vehicle detection and recognition, from my master's.

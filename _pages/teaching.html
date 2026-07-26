@@ -1,12 +1,18 @@
 ---
 layout: archive
-title: "Teaching"
+title: "Teaching &amp; mentoring"
 permalink: /teaching/
 author_profile: true
+excerpt: "Teaching and mentoring by Burak Satar: lab instruction at NTU, machine learning codelabs, and student study groups."
 ---
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
+<p>I supervise student interns and mentor research projects at SMU. If you would like to
+work on culturally-aware multimodal AI, <a href="mailto:buraks@smu.edu.sg">email me</a>
+with your CV and a short note on what interests you.</p>
+
+{% assign entries = site.teaching | sort: 'date' | reverse %}
+{% for post in entries %}
   {% include archive-single.html %}
 {% endfor %}

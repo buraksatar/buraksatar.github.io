@@ -13,6 +13,12 @@ layout: compress
 
   <body>
 
+    {% comment %}
+      _sass/include/_utilities.scss has styled .skip-link since forever, but no
+      layout ever emitted one. It must be the first focusable thing on the page.
+    {% endcomment %}
+    <a class="skip-link" href="#main">Skip to main content</a>
+
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
