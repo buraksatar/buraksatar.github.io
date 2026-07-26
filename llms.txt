@@ -1,4 +1,8 @@
 ---
+# layout: none is required. The _config.yml `pages` default applies
+# layout: single to every file with front matter, which wrapped this plain-text
+# file in the full HTML page shell.
+layout: none
 permalink: /llms.txt
 sitemap: false
 ---
