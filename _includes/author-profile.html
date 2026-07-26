@@ -6,8 +6,11 @@
   1. Icons are inline SVG via _includes/icon.html instead of FontAwesome and
      Academicons webfonts, which removes ~277 KB of fonts and a CDN request.
   2. Only the profiles this site actually sets are listed. Upstream carried ~40
-     `{% if author.x %}` branches for services that are blank here; they were
-     dead weight in the template and made the file hard to edit.
+     conditional branches for services that are blank here; they were dead
+     weight in the template and made the file hard to edit.
+
+  Do not write Liquid block tags inside a comment block: Liquid still tokenises
+  them, so an "if" in here would collide with the endcomment and break the build.
 
   Add a profile by adding its branch below and an icon to icon.html.
 {% endcomment %}
