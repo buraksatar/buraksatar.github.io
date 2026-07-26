@@ -1,27 +1,62 @@
-# Burak Satar
+---
+# layout: none is required. The _config.yml `pages` default applies
+# layout: single to every file with front matter, which wrapped this plain-text
+# file in the full HTML page shell.
+layout: none
+permalink: /llms.txt
+sitemap: false
+---
+{%- assign p = site.data.profile -%}
+{%- assign pubs = site.publications | sort: "date" | reverse -%}
+# {{ site.author.name }}
 
-> Research Scientist at Singapore Management University (SMU), Singapore. PhD in Computer Science from Nanyang Technological University (NTU), 2024, supported by the A*STAR SINGA scholarship. Research focus: making vision-language models (VLMs) culturally aware, starting with Southeast Asia; multimodal reasoning across image, video, audio and text; text-to-video retrieval; benchmark and dataset construction.
+> {{ p.headline }} PhD in Computer Science from Nanyang Technological University (2024), supported by the A*STAR SINGA scholarship. Works on multimodal reasoning across image, video, audio and text; text-video retrieval; benchmark and dataset construction.
 
 Key facts:
-- Current role: Research Scientist, School of Computing and Information Systems, SMU (since March 2025), working with Prof. Chong-Wah Ngo.
-- Flagship work: "Seeing Culture: A Benchmark for Visual Reasoning and Grounding" (EMNLP 2025 Main Conference), with a public dataset on HuggingFace.
-- Awards: Joint 3rd place, EPIC-Kitchens Multi-Instance Retrieval Challenge at CVPR 2022; Three Minute Thesis finalist at NTU 2022; ENNS student travel award 2018.
-- Open to: research collaboration on culturally-aware VLMs and Southeast Asia benchmarks, student internships and mentorship at SMU, industry talks and projects.
-- Contact: buraks@smu.edu.sg, or book a meeting at https://buraksatar.github.io/meeting/
+- Current role: {{ p.job_title }}, {{ p.works_for[0].department }}, {{ p.works_for[0].name }} (since March 2025), working with Prof Chong-Wah Ngo.
+- Flagship work: "Seeing Culture: A Benchmark for Visual Reasoning and Grounding" (EMNLP 2025 Main Conference), doi:10.18653/v1/2025.emnlp-main.1131, with a public dataset on Hugging Face.
+- Based in {{ p.address.locality }}. Turkish; grew up in Bursa.
+- Awards: {% for a in p.awards %}{{ a }}{% unless forloop.last %}; {% endunless %}{% endfor %}.
+- Open to: {% for o in p.open_to %}{{ o | downcase }}{% unless forloop.last %}; {% endunless %}{% endfor %}.
+- Contact: {{ site.author.email }}, or book a meeting at {{ site.url }}/meeting/
+
+## Research themes
+{% for t in site.data.research_themes %}{% if t.id != 'earlier' %}
+- **{{ t.title }}**: {{ t.blurb }}
+{%- endif %}{% endfor %}
 
 ## Pages
 
-- [About and publications](https://buraksatar.github.io/): bio, news, full publication list
-- [CV](https://buraksatar.github.io/cv/): education, roles, awards ([PDF](https://buraksatar.github.io/files/cv.pdf))
-- [Talks](https://buraksatar.github.io/talks/): conference talks with recordings
-- [News](https://buraksatar.github.io/news/): dated timeline since 2018
-- [Book a meeting](https://buraksatar.github.io/meeting/): 30-minute slots via Calendly
+- [Home]({{ site.url }}/): positioning, research themes, selected publications, awards, recent news
+- [Publications]({{ site.url }}/publications/): full list grouped by research theme, each with BibTeX
+- [Writing]({{ site.url }}/blog/): essays on culturally-aware multimodal AI
+- [Cultural VLM resources]({{ site.url }}/resources/): maintained list of benchmarks and datasets for cultural and geographic robustness in vision-language models
+- [CV]({{ site.url }}/cv/): education, roles, awards, service ([PDF]({{ site.url }}/files/cv.pdf))
+- [Talks]({{ site.url }}/talks/): conference talks, several with recordings
+- [Teaching and mentoring]({{ site.url }}/teaching/)
+- [News]({{ site.url }}/news/): dated timeline since 2018
+- [Book a meeting]({{ site.url }}/meeting/): 30-minute slots via Calendly
+- [Sitemap]({{ site.url }}/sitemap/)
+
+## Publications
+{% for pub in pubs %}
+- {{ pub.title }}. {{ pub.authors | join: ", " }}. {{ pub.citation_venue | default: pub.venue }}, {{ pub.date | date: "%Y" }}.{% if pub.doi %} doi:{{ pub.doi }}.{% endif %} {{ site.url }}{{ pub.url }}
+{%- endfor %}
+
+Two further papers are under review: a video benchmark for cultural reasoning and grounding in Southeast Asia, and retrieval-augmented reasoning segmentation in a cultural context.
 
 ## Profiles
 
-- [Google Scholar](https://scholar.google.com/citations?user=qSgpP04AAAAJ)
-- [ORCID](https://orcid.org/0000-0003-2850-7367)
-- [GitHub](https://github.com/buraksatar)
-- [LinkedIn](https://www.linkedin.com/in/buraksatar/)
-- [Seeing Culture dataset on HuggingFace](https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark)
+- [Google Scholar]({{ site.author.googlescholar }})
+- [ORCID]({{ site.author.orcid }})
+- [GitHub](https://github.com/{{ site.author.github }})
+- [LinkedIn](https://www.linkedin.com/in/{{ site.author.linkedin }}/)
+- [Hugging Face](https://huggingface.co/{{ site.author.huggingface }})
+- [Seeing Culture dataset](https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark)
 - [Seeing Culture project site](https://seeingculture-benchmark.github.io/)
+
+## Machine-readable
+
+- [Plain-text profile]({{ site.url }}/profile.txt): factual summary and keywords for ATS and AI agents
+- [sitemap.xml]({{ site.url }}/sitemap.xml), [feed.xml]({{ site.url }}/feed.xml)
+- Every page embeds schema.org JSON-LD (WebSite / WebPage / ProfilePage / Person); publication pages add ScholarlyArticle. Generated from the same data as the visible pages.

@@ -1,0 +1,16 @@
+{% comment %}
+  Fallback teaser for papers with no figure yet. An inline SVG rather than a
+  stock image: zero network cost, theme-aware for free through var(), and it
+  reads as deliberate rather than as a missing asset.
+{% endcomment %}
+<svg viewBox="0 0 400 250" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <pattern id="pubhatch" width="9" height="9" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="9" stroke="var(--accent)" stroke-width="1.5" opacity="0.16"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="250" fill="var(--accent-soft)"/>
+  <rect width="400" height="250" fill="url(#pubhatch)"/>
+  <text x="200" y="133" text-anchor="middle" font-family="Newsreader, Georgia, serif"
+        font-size="26" fill="var(--accent)">{{ include.venue | default: "Preprint" }}</text>
+</svg>

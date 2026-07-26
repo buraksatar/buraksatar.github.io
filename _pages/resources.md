@@ -3,13 +3,16 @@ title: "Cultural VLM Resources"
 permalink: /resources/
 author_profile: true
 excerpt: "A curated, maintained list of benchmarks and datasets for culturally-aware and geographically robust vision-language models, with a focus on Southeast Asia."
+# Bump this when you actually add or change an entry. Deliberately NOT site.time,
+# which would claim the page was updated on every unrelated rebuild.
+last_updated: 2026-07-14
 ---
 
 A curated list of benchmarks and datasets for measuring how well vision-language models (and multimodal AI generally) handle cultural and geographic diversity. I maintain this page as the field moves; it accompanies my post [Why Vision-Language Models Fail Outside the West](/blog/why-vlms-fail-outside-the-west/).
 
 Missing something? [Email me](mailto:buraks@smu.edu.sg) and I will add it.
 
-*Last updated: July 2026.*
+*Last updated: {{ page.last_updated | date: "%B %Y" }}.*
 
 ## Southeast Asia
 

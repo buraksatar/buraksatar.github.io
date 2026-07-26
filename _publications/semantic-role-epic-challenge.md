@@ -12,6 +12,15 @@ authors:
   - "Hanwang Zhang"
   - "Joo-Hwee Lim"
 pdfurl: "https://arxiv.org/pdf/2206.14381"
+theme: debiased-retrieval
+selected: 3
+award: "Joint 3rd place"
+doi: "10.48550/arXiv.2206.14381"
+links:
+  - label: "Technical report"
+    url: "https://arxiv.org/abs/2206.14381"
+  - label: "Code"
+    url: "https://github.com/buraksatar/RoME_video_retrieval"
 bibtex: |
   @article{DBLP:journals/corr/abs-2206-14381,
     author       = {Burak Satar and
@@ -38,6 +47,6 @@ bibtex: |
 
 *Joint 3rd place in the EPIC-Kitchens-100 Multi-Instance Retrieval Challenge at CVPR 2022.*
 
-<a href="https://arxiv.org/abs/2206.14381" class="btn btn--info btn--small">Technical Report (arXiv)</a> <a href="https://github.com/buraksatar/RoME_video_retrieval" class="btn btn--info btn--small">Code</a>
+{% include pub-links.html %}
 
 {% include bibtex.html %}
