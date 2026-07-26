@@ -11,6 +11,7 @@ authors:
   - "Ahmet Emir Dirik"
 pdfurl: "https://arxiv.org/pdf/1809.00953"
 theme: earlier
+status: published
 teaser: "teasers/vehicle-make-model.webp"
 doi: "10.1007/978-3-030-01424-7_53"
 links:

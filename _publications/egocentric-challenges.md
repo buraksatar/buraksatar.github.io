@@ -13,6 +13,7 @@ authors:
   - "Joo-Hwee Lim"
 pdfurl: "https://arxiv.org/pdf/2306.04345"
 theme: debiased-retrieval
+status: published
 teaser: "teasers/egocentric-challenges.webp"
 doi: "10.48550/arXiv.2306.04345"
 links:

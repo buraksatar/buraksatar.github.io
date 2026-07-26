@@ -13,6 +13,7 @@ authors:
   - "Joo-Hwee Lim"
 pdfurl: "https://arxiv.org/pdf/2206.12849"
 theme: debiased-retrieval
+status: published
 teaser: "teasers/semantic-role-correlation.webp"
 doi: "10.1109/ICIP42928.2021.9506267"
 links:

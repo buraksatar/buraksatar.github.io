@@ -16,6 +16,7 @@ authors:
   - "Joo-Hwee Lim"
 pdfurl: "https://papers.bmvc2023.org/0650.pdf"
 theme: debiased-retrieval
+status: published
 selected: 2
 teaser: "teasers/frame-length-bias.webp"
 links:

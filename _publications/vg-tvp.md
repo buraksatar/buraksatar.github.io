@@ -14,7 +14,8 @@ authors:
   - "Mike Zheng Shou"
   - "Qianli Xu"
 pdfurl: "https://arxiv.org/pdf/2412.11621"
-theme: multimodal-planning
+theme: long-video-retrieval
+status: published
 doi: "10.1609/aaai.v39i4.32406"
 links:
   - label: "Paper (AAAI)"

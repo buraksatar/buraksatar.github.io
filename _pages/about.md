@@ -44,10 +44,20 @@ My PhD thesis, *Towards Semantic, Debiased and Moment Video Retrieval with Multi
 <ul class="themes">
 {%- for t in site.data.research_themes -%}
   {%- if t.id != 'earlier' -%}
-  {%- assign n = site.publications | where: "theme", t.id -%}
+  {%- assign themed = site.publications | where: "theme", t.id -%}
+  {%- assign done = themed | where: "status", "published" -%}
+  {%- assign wip = themed.size | minus: done.size -%}
   <li class="themes__item">
     <a class="themes__title" href="/publications/#{{ t.id }}">{{ t.title }}</a>
-    {%- if n.size > 0 %} <span class="pub__note">{{ n.size }} paper{% if n.size != 1 %}s{% endif %}</span>{% endif %}
+    {%- comment -%}
+      Published and in-progress counted separately, so a theme with one paper out
+      and three in the pipeline does not read as four published papers.
+    {%- endcomment -%}
+    {%- if done.size > 0 or wip > 0 %} <span class="pub__note">
+      {%- if done.size > 0 %}{{ done.size }} paper{% if done.size != 1 %}s{% endif %}{% endif -%}
+      {%- if done.size > 0 and wip > 0 %} &middot; {% endif -%}
+      {%- if wip > 0 %}{{ wip }} in progress{% endif -%}
+    </span>{% endif %}
     <p class="themes__blurb">{{ t.blurb }}</p>
   </li>
   {%- endif -%}
