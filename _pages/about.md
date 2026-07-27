@@ -4,8 +4,9 @@ title: "Burak Satar"
 seo_title: "Burak Satar — Research Scientist, culturally-aware vision-language models"
 excerpt: "Burak Satar is a Research Scientist at Singapore Management University making vision-language models culturally aware, starting with Southeast Asia."
 author_profile: true
+# /about/ is a real page now (_pages/about-me.md), so the homepage must not
+# also claim that URL — two documents targeting /about/index.html breaks the build.
 redirect_from:
-  - /about/
   - /about.html
 ---
 
@@ -35,7 +36,7 @@ Watch this space: our newest benchmark, [Cultural Moment](/publications/cultural
 
 I build tests that vision-language models fail. When a model describes a festival, a dish or a ritual from Southeast Asia, does it understand what it is looking at, or has it only learned what confidence sounds like? Our EMNLP 2025 benchmark, [Seeing Culture](/publications/seeing-culture/), makes models show their work: answer a culturally grounded question, then point to the evidence in the image. A model that names the right artifact while highlighting the wrong one did not know the answer; it guessed well. The gaps we measure are systematic, not noise.
 
-Before SMU I spent five years at Nanyang Technological University (NTU) and A\*STAR's Institute for Infocomm Research on an A\*STAR SINGA scholarship, working on semantic, debiased and moment-level text-video retrieval. I grew up in Bursa (Türkiye), studied on exchange in Siena and Naples (Italy), worked in Valencia (Spain) and Istanbul (Türkiye), and have lived in Singapore since 2020. I have often been the person in the room who does not get the reference. The difference is that I knew it. The models I test do not.
+Before SMU I spent five years at Nanyang Technological University (NTU) and A\*STAR's Institute for Infocomm Research on an A\*STAR SINGA scholarship, working on semantic, debiased and moment-level text-video retrieval. I grew up in Bursa (Türkiye), studied on exchange in Siena and Naples (Italy), worked in Valencia (Spain) and Istanbul (Türkiye), and have lived in Singapore since 2020. I have often been the person in the room who does not get the reference. The difference is that I knew it. The models I test do not. [More about how I got here &rarr;](/about/)
 
 My PhD thesis, *Towards Semantic, Debiased and Moment Video Retrieval with Multi-modal Features*, was supervised by [Prof Joo-Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en), [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) and [Prof Hanwang Zhang](https://scholar.google.com.sg/citations?user=YG0DFyYAAAAJ&hl=en). During it I spent three months with [Dr Michael Wray](https://mwray.github.io/) in Dima Damen's group at the University of Bristol. My master's, on vehicle detection, was supervised by [Prof Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr) at Uludağ University.
 

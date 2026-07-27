@@ -536,6 +536,93 @@ html[data-theme="dark"] .pub__venue { color: var(--accent-strong); }
 
 
 /* ==========================================================================
+   SEA COVERAGE MAP  (_includes/sea-map.html)
+   ========================================================================== */
+
+.seamap {
+  margin: var(--s5) 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--s4);
+  align-items: center;
+
+  @include breakpoint($medium) {
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    gap: var(--s5);
+  }
+}
+
+.seamap__svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* opt out of the global figure matting: this is a diagram, not a photo */
+  background: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+}
+
+.seamap__c {
+  fill: var(--global-border-color);
+  stroke: var(--global-bg-color);
+  stroke-width: 1;
+  stroke-linejoin: round;
+}
+
+/* --w is set per country by scripts/make_sea_map.py, scaled to question count */
+.seamap__c.is-covered {
+  fill: var(--accent);
+  fill-opacity: var(--w, 0.7);
+}
+
+.seamap__pin {
+  fill: var(--warm);
+  stroke: var(--global-bg-color);
+  stroke-width: 1.5;
+}
+
+.seamap__cap {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--global-text-color-light);
+}
+
+.seamap__lede {
+  margin: 0 0 var(--s3);
+  color: var(--global-text-color);
+}
+
+.seamap__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.3em;
+}
+
+.seamap__list li {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--s3);
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.seamap__list li:last-child { border-bottom: 0; }
+
+.seamap__country { color: var(--global-text-color); }
+
+.seamap__n {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  font-size: 0.8125rem;
+}
+
+
+/* ==========================================================================
    NEWS LIST
    ========================================================================== */
 
