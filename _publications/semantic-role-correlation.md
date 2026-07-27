@@ -26,7 +26,7 @@ links:
   - label: "Talk"
     url: "https://www.youtube.com/watch?v=M7dHgv8fIkU"
 bibtex: |
-  @inproceedings{DBLP:conf/icip/SatarZBL21,
+  @inproceedings{satar-etal-2021-semantic-role,
     author       = {Burak Satar and
                     Hongyuan Zhu and
                     Xavier Bresson and
@@ -51,6 +51,6 @@ bibtex: |
 
 {% include pub-links.html %}
 
-<img src="/images/fig-semantic-role-correlation.webp" alt="Semantic Role Aware Correlation Transformer for Text to Video Retrieval figure" width="800" loading="lazy"/>
+<img src="/images/fig-semantic-role-correlation.webp" alt="Overview of the semantic-role-aware correlation transformer aligning roles in the caption with regions in the video." width="800" loading="lazy"/>
 
 {% include bibtex.html %}

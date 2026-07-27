@@ -351,5 +351,10 @@ tag_archive:
 # - https://jch.penibelst.de/
 compress_html:
   clippings: all
+  # Strip HTML comments from the output. Authoring notes are for the repo, not
+  # for every visitor: they were ~1 KB, 2.7% of the homepage.
+  # The IE conditional in browser-upgrade.html opens "<!--[if" with no space
+  # after the dashes, so it does not match this opener and survives.
+  comments: ["<!-- ", " -->"]
   ignore:
     envs: development

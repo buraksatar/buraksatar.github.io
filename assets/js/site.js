@@ -235,6 +235,42 @@
     }
   }
 
+  /* -------------------------------------------------------- Singapore clock
+
+     Footer signature. Hidden until it has a value, so nothing shifts and no
+     empty brackets appear if Intl is unavailable. Ticks once a minute, not
+     once a second: it shows minutes.
+  */
+
+  function initClock() {
+    var el = document.getElementById("sg-clock");
+    if (!el || typeof Intl === "undefined" || !Intl.DateTimeFormat) return;
+
+    var fmt;
+    try {
+      fmt = new Intl.DateTimeFormat("en-GB", {
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false,
+        timeZone: "Asia/Singapore"
+      });
+    } catch (e) {
+      return; // no IANA time zone data
+    }
+
+    function tick() {
+      el.textContent = " · " + fmt.format(new Date()) + " here";
+      el.hidden = false;
+    }
+
+    tick();
+    // align to the next minute, then every minute
+    setTimeout(function () {
+      tick();
+      setInterval(tick, 60000);
+    }, (60 - new Date().getSeconds()) * 1000);
+  }
+
   /* ------------------------------------------------------------------- boot */
 
   function ready(fn) {
@@ -251,5 +287,6 @@
     initNav();
     initAuthorLinks();
     initCopyButtons();
+    initClock();
   });
 })();
