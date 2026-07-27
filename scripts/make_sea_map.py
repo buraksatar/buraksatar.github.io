@@ -156,16 +156,16 @@ parts.append("  </svg>")
 
 ordered = sorted(qs, key=lambda x: -qs[x])
 parts.append('  <figcaption class="seamap__cap">')
-parts.append('    <p class="seamap__lede"><strong>%d questions</strong> on <strong>%d cultural artifacts</strong> '
+parts.append('    <p class="seamap__lede"><strong>%s questions</strong> on <strong>%d cultural artifacts</strong> '
              'across <strong>%d countries</strong>, counted from the public question set of the '
              '<a href="/publications/seeing-culture/">Seeing Culture</a> benchmark. '
              'The paper reports 138 artifacts in total; a few do not appear in the released questions.</p>'
-             % (len(rows), sum(len(v) for v in concepts.values()), len(qs)))
+             % ("{:,}".format(len(rows)), sum(len(v) for v in concepts.values()), len(qs)))
 parts.append('    <ul class="seamap__list">')
 for c in ordered:
     parts.append('      <li><span class="seamap__country">%s</span>'
-                 '<span class="seamap__n">%d questions &middot; %d artifacts</span></li>'
-                 % (c, qs[c], len(concepts[c])))
+                 '<span class="seamap__n">%s questions &middot; %d artifacts</span></li>'
+                 % (c, "{:,}".format(qs[c]), len(concepts[c])))
 parts.append("    </ul>")
 parts.append("  </figcaption>")
 parts.append("</figure>")
