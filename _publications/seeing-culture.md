@@ -65,7 +65,11 @@ bibtex: |
 
 <img src="/images/seeing-culture-teaser.webp" alt="Seeing Culture: A Benchmark for Visual Reasoning and Grounding figure" width="800" loading="lazy"/>
 
-Browse the 1,065 images and 3,000+ questions in the
+## What it covers
+
+{% include sea-map.html %}
+
+Browse the 1,065 images and 3,178 questions in the
 [dataset viewer on Hugging Face](https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark).
 
 {% include bibtex.html %}

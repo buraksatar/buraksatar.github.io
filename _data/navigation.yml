@@ -30,5 +30,8 @@ main:
   #- title: "Talks"
   #  url: /talks/
 
+  - title: "About"
+    url: /about/
+
   - title: "CV"
     url: /cv/
