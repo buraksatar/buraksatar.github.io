@@ -10,7 +10,9 @@ theme: cultural-multimodal
 status: under-development
 # TODO: add the co-authors. Listing only Burak Satar for now rather than guessing.
 authors:
+  - "Zhixin Ma"
   - "Burak Satar"
+  - "Chong-Wah Ngo"
 ---
 
 *Tracking and segmenting culturally significant objects through video, where the object's identity depends on cultural knowledge rather than appearance alone.*

@@ -2,7 +2,7 @@
 title: "Retrieval-Augmented Reasoning Segmentation in Cultural Context"
 collection: publications
 permalink: /publications/rarseg/
-excerpt: "Retrieval-augmented reasoning segmentation for culturally grounded scenes, so a model must retrieve the right cultural knowledge before it segments."
+excerpt: "Retrieval-augmented reasoning segmentation for culturally grounded scenes, so a model must retrieve the right cultural knowledge before it segments. Under review for ACM TOMM."
 date: 2026-04-01
 venue: "Under review"
 citation_venue: "Under review"
