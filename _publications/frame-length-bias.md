@@ -17,7 +17,7 @@ authors:
 pdfurl: "https://papers.bmvc2023.org/0650.pdf"
 theme: debiased-retrieval
 status: published
-selected: 2
+selected: 3
 teaser: "teasers/frame-length-bias.webp"
 links:
   - label: "PDF (BMVC)"

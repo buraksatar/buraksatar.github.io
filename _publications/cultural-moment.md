@@ -8,6 +8,7 @@ venue: "Under review"
 citation_venue: "Under review"
 theme: cultural-multimodal
 status: under-review
+selected: 1
 authors:
   - "Burak Satar"
   - "Zhixin Ma"
