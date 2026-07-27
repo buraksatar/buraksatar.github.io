@@ -2,7 +2,7 @@
 title: "Cultural Moment Benchmark: Evaluating Video Cultural Reasoning and Grounding in Southeast Asia"
 collection: publications
 permalink: /publications/cultural-moment/
-excerpt: "Extends cultural reasoning and grounding from still images to video, across Southeast Asia. Under review for EMNLP 2026."
+excerpt: "Extends cultural reasoning and grounding from still images to video, across Southeast Asia. EMNLP 2026."
 date: 2026-05-01
 venue: "Under review"
 citation_venue: "Under review"
