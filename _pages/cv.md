@@ -15,9 +15,9 @@ redirect_from:
 * **Ph.D. in Computer Science**, Nanyang Technological University (NTU), Singapore, 2020–2024
   * College of Computing and Data Science (CCDS, formerly SCSE); thesis: *Towards Semantic, Debiased and Moment Video Retrieval with Multi-modal Features* (defended Dec 2024)
   * Supervised by [Prof Joo-Hwee Lim](https://scholar.google.com/citations?user=BjEDX4EAAAAJ&hl=en), [Dr Hongyuan Zhu](https://hongyuanzhu.github.io/) and [Prof Hanwang Zhang](https://scholar.google.com.sg/citations?user=YG0DFyYAAAAJ&hl=en); supported by the A\*STAR SINGA scholarship
-* **M.Sc. in Electronics Engineering**, Uludağ University, Turkey, 2018
+* **M.Sc. in Electronics Engineering**, Uludağ University, Türkiye, 2018
   * Supervised by [Prof Ahmet Emir Dirik](https://scholar.google.com/citations?user=cfgcBIEAAAAJ&hl=tr); thesis on vehicle detection and make-model classification
-* **B.Sc. in Electronics Engineering**, Uludağ University, Turkey, 2014
+* **B.Sc. in Electronics Engineering**, Uludağ University, Türkiye, 2014
   * Exchange semesters in Siena and Naples, Italy
 
 ## Work experience
@@ -28,9 +28,9 @@ redirect_from:
   * Semantic, debiased and moment-level text-to-video retrieval with multi-modal features
 * **Oct 2023 – Dec 2023: Visiting Researcher**, MaVi Research Group, University of Bristol, UK
   * Video corpus moment retrieval, with [Dr Michael Wray](https://mwray.github.io/) in Dima Damen's group
-* **Feb 2019 – Sep 2019: Machine Learning Engineer**, Turkish Technic (Turkish Airlines), Istanbul, Turkey
+* **Feb 2019 – Sep 2019: Machine Learning Engineer**, Turkish Technic (Turkish Airlines), İstanbul, Türkiye
 * **Sep 2016 – Mar 2017: Software Engineer** (Erasmus+ traineeship), University of Valencia, Spain
-* **Dec 2014 – Sep 2015: Electronics Engineer**, TSV Energy (start-up), Turkey
+* **Dec 2014 – Sep 2015: Electronics Engineer**, TSV Energy (start-up), Türkiye
 * **Advisory**: machine learning advisor to two award-winning start-ups in London and Istanbul
 
 ## Awards & honours
