@@ -19,7 +19,7 @@ excerpt: "Burak Satar: the route from Bursa to Singapore, and a plain-language e
 
 Show a computer a photo of a wedding in Ohio and it will tell you about the
 dress, the cake, the first dance. Show it a Barong dance in Bali and ask which
-figure represents good, and it will still answer — fluently, immediately, and
+figure represents good, and it will still answer; fluently, immediately, and
 often wrongly. It has learned what confident text looks like, not what it is
 looking at.
 
@@ -32,7 +32,7 @@ The one I care most about, [Seeing Culture](/publications/seeing-culture/), does
 something most tests do not: it makes the model show its work. First answer the
 question about the artifact; then point to that artifact in the picture. A model
 that names the right thing while circling the wrong part of the image did not
-know the answer — it guessed well. Ordinary accuracy scores cannot tell those two
+know the answer; it guessed well. Ordinary accuracy scores cannot tell those two
 apart. Ours can.
 
 The result is not subtle. On our benchmark GPT-o3 answers **91%** of
@@ -64,9 +64,7 @@ it. Cultural AI built only by people who visited is the problem, not the fix.
 
 ## What I think the field should do
 
-This is the checklist I ended
-[Why Vision-Language Models Fail Outside the West](/blog/why-vlms-fail-outside-the-west/)
-with, and it is still what I would argue for:
+This is the checklist that I would argue for:
 
 1. **Source data from the region, with the people of the region.** Representation
    is a data collection decision, not a fine-tuning trick.
