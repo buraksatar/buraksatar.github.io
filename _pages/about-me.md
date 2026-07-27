@@ -39,9 +39,6 @@ The result is not subtle. On our benchmark GPT-o3 answers **91%** of
 across-culture questions correctly, and yet its grounding never rises above
 **32.5 mean IoU**. It says the right word and points at the wrong thing.
 
-*(I was a finalist in NTU's Three Minute Thesis competition in 2022, which is
-where I learned to do this without slides.)*
-
 ## How I got here
 
 I grew up in **Bursa**, in northwest Türkiye, and studied electronics engineering
