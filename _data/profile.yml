@@ -63,9 +63,10 @@ awards:
 # _pages/cv.md. The CV renders these as markdown with links; profile.txt renders
 # them as plain text from here.
 service:
+  - "Workshop Organizer, ICMR 2027"
   - "Registration Chair, SSNLP 2026"
   - "Judge, Singapore Science and Engineering Fair (SSEF) 2025"
-  - "Programme Committee member and reviewer, ICANN 2019"
+  - "Programme Committee member and reviewer: AAAI 2026 and 2027, ACM MM 2026, ICANN 2019, IEEE Transactions on Artificial Intelligence"
   - "Volunteer: ACM Web Conference 2024, NeurIPS 2021"
   - "Founder, Turquoise Dot, a meetup community for Turkish and Turkic researchers and tech professionals in Singapore (2025)"
   - "Summer schools: CIFAR DLRL 2022; PAISS 2021 (poster)"
@@ -79,6 +80,7 @@ languages:
   - "English (professional working proficiency)"
   - "Italian (elementary)"
   - "Spanish (elementary)"
+  - "Bahasa Indonesia (elementary)"
 
 # Roles this profile is open to, stated plainly for agents that summarise it.
 open_to:

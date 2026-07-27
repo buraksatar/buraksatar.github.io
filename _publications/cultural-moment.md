@@ -4,8 +4,8 @@ collection: publications
 permalink: /publications/cultural-moment/
 excerpt: "Extends cultural reasoning and grounding from still images to video, across Southeast Asia. EMNLP 2026."
 date: 2026-05-01
-venue: "Under review"
-citation_venue: "Under review"
+venue: "EMNLP 2026 (under review)"
+citation_venue: "EMNLP 2026 (under review)"
 theme: cultural-multimodal
 status: under-review
 selected: 1
