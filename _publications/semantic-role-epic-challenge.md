@@ -14,7 +14,6 @@ authors:
 pdfurl: "https://arxiv.org/pdf/2206.14381"
 theme: debiased-retrieval
 status: published
-selected: 3
 award: "Joint 3rd place"
 doi: "10.48550/arXiv.2206.14381"
 links:

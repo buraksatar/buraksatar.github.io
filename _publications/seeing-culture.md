@@ -17,7 +17,7 @@ authors:
 pdfurl: "https://aclanthology.org/2025.emnlp-main.1131.pdf"
 theme: cultural-multimodal
 status: published
-selected: 1
+selected: 2
 teaser: "teasers/seeing-culture.webp"
 doi: "10.18653/v1/2025.emnlp-main.1131"
 links:
