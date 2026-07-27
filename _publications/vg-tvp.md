@@ -25,7 +25,7 @@ links:
   - label: "Code"
     url: "https://github.com/mfurkanilaslan/VG-TVP"
 bibtex: |
-  @inproceedings{DBLP:conf/aaai/IlaslanKLSSX25,
+  @inproceedings{ilaslan-etal-2025-vg-tvp,
     author       = {Muhammet Furkan Ilaslan and
                     Ali K{\"{o}}ksal and
                     Kevin Qinghong Lin and

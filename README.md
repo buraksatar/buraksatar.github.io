@@ -1,101 +1,123 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# buraksatar.github.io
 
-![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example")
+Personal and academic site for **Burak Satar**, Research Scientist at Singapore
+Management University, working on culturally-aware vision-language models.
 
-# Getting Started
+Live at **<https://buraksatar.github.io>**.
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your public repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Edit site-wide configuration in `_config.yml` and double check that the `url` is the one that you just selected in the previous step and that `repository` reflects the correct path for your repository.
-1. Add your site content, upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
-
-See more info at https://academicpages.github.io/
-
-### Additional Tutorials
-
-Additional tutorials for working with the Academic Pages template can be found at the following sites:
-- https://jayrobwilliams.com/posts/2020/06/academic-website/
-
-## Running locally
-
-When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
-
-1. Clone the repository and made updates as detailed above.
-
-### Using a different IDE
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distributions and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
-    ```bash
-    sudo apt update && sudo apt upgrade -y
-    ```
-    then try running `sudo apt install ruby-dev ruby-bundler nodejs` again.
-
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-
-    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
-    Install Gems Locally (Recommended):
-    ```bash
-    bundle config set --local path 'vendor/bundle'
-    ```
-    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and `.bundle`.
-
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change to Markdown (*.md) and HTML files, while changes to the core template and configuration (i.e., `_config.yml`) will require stopping and restarting Jekyll.
-    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
-
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
-
-## Using Docker
-
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
-
-You can build and execute the container by running the following command in the repository:
-
-```bash
-chmod -R 777 .
-docker compose up
-```
-
-You should now be able to access the website from `localhost:4000`.
-
-### Using the DevContainer in VS Code
-
-If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development container configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1->DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your academic page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
-
-# Maintenance
-
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
-
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii), and additional maintainers would be welcome.
-
-## Bugfixes and enhancements
-
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of the template to your fork as well.
-
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize, although [rebasing](https://git-scm.com/docs/git-rebase) the changes from this template will work along with manually [cherry picking](https://git-scm.com/docs/git-cherry-pick) the relevant commits. If you are not comfortable with the Git command line, you can save your various `.yml` configuration files and Markdown files, delete the repository, and fork it again. 
+Built with Jekyll on a fork of [academicpages](https://github.com/academicpages/academicpages.github.io),
+itself a fork of [Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/).
+Deployed by GitHub Pages from `master`.
 
 ---
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
 
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
-</div>
+## Editing content
+
+Most things are data-driven, so an edit in one place updates everywhere it appears.
+
+| To change | Edit |
+|---|---|
+| Bio, hero line, "Work with me" | `_pages/about.md` (the homepage) |
+| The About page | `_pages/about-me.md` |
+| A news item | `_data/news.yml` — feeds the homepage *and* `/news/` |
+| Awards, service, invited talks, languages | `_data/profile.yml` — feeds the homepage, `/profile.txt` and the JSON-LD |
+| A paper | its file in `_publications/` — feeds the homepage, `/publications/` and its own page |
+| Research themes | `_data/research_themes.yml` |
+| Co-author links | `_data/coauthors.yml` |
+| CV | `_pages/cv.md` (the PDF at `files/cv.pdf` is separate and hand-made) |
+| Nav | `_data/navigation.yml` |
+
+### Publication front matter
+
+```yaml
+theme: cultural-multimodal        # must match an id in _data/research_themes.yml
+status: published                 # published | under-review | under-development
+selected: 1                       # optional: 1-3, appears in "Selected work" on the homepage
+teaser: "teasers/name.webp"       # optional: falls back to a generated SVG placeholder
+award: "Joint 3rd place"          # optional
+equal_contrib: ["A", "B"]         # optional: marks these authors with an asterisk
+links:                            # optional: falls back to pdfurl
+  - {label: "Paper", url: "..."}
+```
+
+Two things that will bite you:
+
+- **`theme` must match an id in `_data/research_themes.yml`.** Rename a theme
+  without updating the papers and they vanish from `/publications/` — their own
+  pages still build, so it is easy to miss. This has happened once.
+- **Author names must match the keys in `_data/coauthors.yml` exactly**, or the
+  name renders as plain text instead of a link. Watch for `Joo-Hwee` vs
+  `Joo Hwee`, and for all-caps surnames.
+
+---
+
+## Two files that must be kept in step
+
+`_pages/cv.md` and `_data/profile.yml` both list academic service and invited
+talks. The CV needs markdown links, `/profile.txt` needs plain text, and there is
+no clean way to generate one from the other — so if you add service to one, add
+it to the other.
+
+Everything else has exactly one source.
+
+---
+
+## Running it locally
+
+```bash
+bundle install
+bundle exec jekyll serve --config _config.yml,_config_preview.yml
+```
+
+The preview config sets `url: http://localhost:4173`, so serve on that port or
+absolute links will point at production.
+
+Needs Ruby 3.x. The `github-pages` gem will not install on the macOS system Ruby.
+
+---
+
+## CI
+
+`.github/workflows/ci-preview.yml` builds on every branch and pull request with
+`--strict_front_matter`, then pushes the built site to the `ci-preview` branch so
+a build can be inspected without deploying it:
+
+```bash
+git clone --depth 1 --branch ci-preview https://github.com/buraksatar/buraksatar.github.io.git preview
+cd preview/site && python3 -m http.server 4173
+```
+
+---
+
+## Generated files
+
+These are generated and should not be hand-edited:
+
+| File | Regenerate with |
+|---|---|
+| `_includes/icon.html` | `python3 scripts/make_icons.py` |
+| `_includes/sea-map.html` | `python3 scripts/make_sea_map.py` |
+
+Both scripts document their inputs at the top. The icons are inline SVG extracted
+from the FontAwesome and Academicons fonts, which are no longer in the repo — the
+script explains how to restore them from git history.
+
+---
+
+## Theme notes
+
+- Colours, type and spacing live in `_sass/theme/_burak_{tokens,light,dark}.scss`.
+  Everything else is `_sass/_custom.scss`, imported last so it can override
+  compiled upstream rules.
+- Fonts (Newsreader, Inter) are self-hosted in `assets/fonts/site/`, subset to
+  Latin, Latin Extended and Vietnamese. Licences sit alongside them.
+- No Node toolchain. `assets/js/site.js` is served as written.
+- Ruby Sass compiles this: no `@use`, no `math.div`, and never write CSS
+  `min()`/`max()` in SCSS, as Sass shadows them. `clamp()` passes through.
+- Never put a Liquid block tag (`if`, `for`, …) inside a Liquid comment block.
+  Liquid still tokenises it, so the tag collides with the closing `endcomment`
+  and the build fails.
+
+## Licence
+
+Site content © Burak Satar. Template code MIT, per `LICENSE`.

@@ -63,7 +63,7 @@ bibtex: |
 
 {% include pub-links.html %}
 
-<img src="/images/seeing-culture-teaser.webp" alt="Seeing Culture: A Benchmark for Visual Reasoning and Grounding figure" width="800" loading="lazy"/>
+<img src="/images/seeing-culture-teaser.webp" alt="Seeing Culture's two-stage task: a culturally grounded question with four image options, then a segmentation mask marking the artifact the model reasoned about." width="800" loading="lazy"/>
 
 ## What it covers
 

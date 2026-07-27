@@ -22,7 +22,7 @@ links:
   - label: "Code"
     url: "https://github.com/buraksatar/RoME_video_retrieval"
 bibtex: |
-  @article{DBLP:journals/corr/abs-2206-14381,
+  @article{satar-etal-2022-epic-kitchens,
     author       = {Burak Satar and
                     Hongyuan Zhu and
                     Hanwang Zhang and

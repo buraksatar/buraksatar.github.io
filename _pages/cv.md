@@ -50,7 +50,7 @@ See the [full publication list](/publications/) or my [Google Scholar profile](h
 * **Workshop Organizer**, ICMR 2027 (details will be announced soon)
 * **Registration Chair**, [SSNLP 2026](https://ssnlp2026.github.io/#organizers)
 * **Judge**, Singapore Science and Engineering Fair (SSEF) 2025
-* Programme Committee member & reviewer, AAAI 2027-2026, ACMMM 2026, ICANN 2019, IEEE Transactions on Artificial Intelligence
+* Programme Committee member & reviewer: AAAI 2026 and 2027, ACM MM 2026, ICANN 2019, IEEE Transactions on Artificial Intelligence
 * Volunteer: ACM Web Conference 2024, NeurIPS 2021
 * Founder, [Turquoise Dot](https://www.linkedin.com/company/turquoisedot) — a meetup community for Turkish and Turkic researchers and tech professionals in Singapore (2025)
 * Summer schools: CIFAR DLRL 2022; PAISS 2021 (poster presentation)

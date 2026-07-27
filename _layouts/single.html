@@ -4,6 +4,16 @@ layout: default
 
 {% include base_path %}
 
+{% if page.collection == 'posts' %}
+  {% comment %}
+    Reading progress, on long-form posts only. Driven entirely by CSS
+    scroll-timeline; see .reading-progress in _sass/_custom.scss. Decorative, so
+    aria-hidden, and it is not emitted at all on short pages where it would be
+    noise.
+  {% endcomment %}
+  <div class="reading-progress" aria-hidden="true"></div>
+{% endif %}
+
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% endif %}

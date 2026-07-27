@@ -22,7 +22,7 @@ links:
   - label: "Talk"
     url: "https://youtu.be/XnUMScoOPvM"
 bibtex: |
-  @article{DBLP:journals/corr/abs-2306-04345,
+  @article{satar-etal-2023-egocentric,
     author       = {Burak Satar and
                     Hongyuan Zhu and
                     Hanwang Zhang and
@@ -47,6 +47,6 @@ bibtex: |
 
 {% include pub-links.html %}
 
-<img src="/images/fig-egocentric-challenges.webp" alt="An Overview of Challenges in Egocentric Text-Video Retrieval figure" width="800" loading="lazy"/>
+<img src="/images/fig-egocentric-challenges.webp" alt="Diagram of open challenges in egocentric text-video retrieval, grouped by where each one arises in the pipeline." width="800" loading="lazy"/>
 
 {% include bibtex.html %}

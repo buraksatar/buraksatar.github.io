@@ -27,7 +27,7 @@ links:
   - label: "Video"
     url: "https://youtu.be/aMhNvTCkT8Y"
 bibtex: |
-  @inproceedings{DBLP:conf/bmvc/SatarZZL23,
+  @inproceedings{satar-etal-2023-frame-length,
     author       = {Burak Satar and
                     Hongyuan Zhu and
                     Hanwang Zhang and
@@ -53,7 +53,7 @@ bibtex: |
 
 {% include pub-links.html %}
 
-<img src="/images/fig-frame-length-bias.webp" alt="Structural causal model for frame length bias in text-video retrieval" width="800" loading="lazy"/>
+<img src="/images/fig-frame-length-bias.webp" alt="Structural causal model showing how clip length confounds the match between a text query and a video." width="800" loading="lazy"/>
 
 ## Abstract
 

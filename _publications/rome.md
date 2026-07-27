@@ -21,7 +21,7 @@ links:
   - label: "Code"
     url: "https://github.com/buraksatar/RoME_video_retrieval"
 bibtex: |
-  @article{DBLP:journals/corr/abs-2206-12845,
+  @article{satar-etal-2022-rome,
     author       = {Burak Satar and
                     Hongyuan Zhu and
                     Hanwang Zhang and
@@ -46,6 +46,6 @@ bibtex: |
 
 {% include pub-links.html %}
 
-<img src="/images/fig-rome.webp" alt="RoME: Role-aware Mixture-of-Expert Transformer for Text-to-Video Retrieval figure" width="800" loading="lazy"/>
+<img src="/images/fig-rome.webp" alt="Architecture of RoME: separate mixture-of-expert branches for verbs, objects and context, fused for retrieval." width="800" loading="lazy"/>
 
 {% include bibtex.html %}

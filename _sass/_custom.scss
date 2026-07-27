@@ -865,10 +865,54 @@ html[data-theme="dark"] .pub__venue { color: var(--accent-strong); }
 }
 
 .footer__signature {
-  margin: 0.6em 0 0;
-  font-size: 0.75rem;
-  letter-spacing: 0.02em;
+  margin: 0.9em 0 0;
+  font-family: $newsreader;
+  font-size: 0.9375rem;
+  letter-spacing: 0.01em;
   color: var(--global-text-color-light);
+  text-align: center;
+}
+
+.footer__clock {
+  font-family: $inter;
+  font-size: 0.8125rem;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.85;
+}
+
+
+/* ==========================================================================
+   READING PROGRESS  (blog posts only, see _layouts/single.html)
+   ========================================================================== */
+
+/* Guarded by @supports on purpose. `animation: … linear` with no duration
+   resolves to 0s, so in a browser without scroll-timeline the bar would jump
+   straight to its end state and sit there permanently full. Inside @supports it
+   simply never appears. */
+@supports (animation-timeline: scroll()) {
+  .reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    z-index: 30;
+    background: var(--accent);
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    animation: reading-progress linear both;
+    animation-timeline: scroll(root block);
+  }
+
+  @keyframes reading-progress {
+    to { transform: scaleX(1); }
+  }
+
+  /* The global reduced-motion block clamps animation-duration, which would pin
+     this at its end state. Hide it instead. */
+  @media (prefers-reduced-motion: reduce) {
+    .reading-progress { display: none; }
+  }
 }
 
 

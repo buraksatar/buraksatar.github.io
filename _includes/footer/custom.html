@@ -1,7 +1,9 @@
-<!-- start custom footer snippets -->
+{% comment %} start custom footer snippets {% endcomment %}
 
-<!-- No MathJax: the site has no maths. Re-add here if a post ever needs it,
-     ideally gated on a `mathjax: true` front-matter flag rather than sitewide. -->
+{% comment %}
+  No MathJax: the site has no maths. Re-add here if a post ever needs it, ideally
+  gated on a `mathjax: true` front-matter flag rather than sitewide.
+{% endcomment %}
 
 {% if site.mapmyvisitors.d %}
 {% comment %}
@@ -23,4 +25,16 @@
 </div>
 {% endif %}
 
-<!-- end custom footer snippets -->
+{% comment %}
+  Signature line. The time is filled in by assets/js/site.js; with JavaScript off
+  the static text still reads correctly, which is why the clock is a separate
+  span rather than part of the sentence.
+
+  The dotted underline on "İstanbul" is not decoration: the latin-ext subset of
+  Inter exists largely for that dotted capital İ.
+{% endcomment %}
+<p class="footer__signature">
+  <span lang="tr">İstanbul</span> &rarr; Singapore<span id="sg-clock" class="footer__clock" hidden></span>
+</p>
+
+{% comment %} end custom footer snippets {% endcomment %}

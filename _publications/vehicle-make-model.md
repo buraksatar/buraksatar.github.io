@@ -22,7 +22,7 @@ links:
   - label: "Code"
     url: "https://github.com/buraksatar/car-detection-model-prediction"
 bibtex: |
-  @inproceedings{DBLP:conf/icann/SatarD18,
+  @inproceedings{satar-dirik-2018-vehicle,
     author       = {Burak Satar and
                     Ahmet Emir Dirik},
     editor       = {Vera Kurkov{\'{a}} and
@@ -53,6 +53,6 @@ bibtex: |
 
 {% include pub-links.html %}
 
-<img src="/images/fig-vehicle-make-model.webp" alt="Deep Learning Based Vehicle Make-Model Classification figure" width="800" loading="lazy"/>
+<img src="/images/fig-vehicle-make-model.webp" alt="Two-stage pipeline: detect the vehicle in the frame, then classify its make and model." width="800" loading="lazy"/>
 
 {% include bibtex.html %}
