@@ -4,8 +4,8 @@
 #   date: short human date, "Mon YYYY" (unambiguous internationally)
 #   text: markdown, one sentence, past tense
 
-- date: "Jul 2026"
-  text: "New essay: [Why Vision-Language Models Fail Outside the West](/blog/why-vlms-fail-outside-the-west/), alongside a maintained [list of cultural VLM resources](/resources/)."
+#- date: "Jul 2026"
+#  text: "New essay: [Why Vision-Language Models Fail Outside the West](/blog/why-vlms-fail-outside-the-west/), alongside a maintained [list of cultural VLM resources](/resources/)."
 
 - date: "May 2026"
   text: "Submitted a paper on video cultural reasoning to EMNLP 2026."
