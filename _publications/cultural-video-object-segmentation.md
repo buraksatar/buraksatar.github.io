@@ -8,7 +8,6 @@ venue: "In preparation"
 citation_venue: "In preparation"
 theme: cultural-multimodal
 status: under-development
-# TODO: add the co-authors. Listing only Burak Satar for now rather than guessing.
 authors:
   - "Zhixin Ma"
   - "Burak Satar"

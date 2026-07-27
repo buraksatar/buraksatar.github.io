@@ -702,6 +702,10 @@ html[data-theme="dark"] .pub__venue { color: var(--accent-strong); }
 .author__bio {
   font-size: 0.875rem;
   line-height: 1.5;
+  /* Honour newlines written in author.bio in _config.yml. YAML turns "\a" into a
+     real newline, but HTML would otherwise collapse it to a space, so the
+     intended line break never appeared. Runs of spaces still collapse. */
+  white-space: pre-line;
 }
 
 .author__avatar img {

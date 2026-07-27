@@ -4,8 +4,8 @@ collection: publications
 permalink: /publications/rarseg/
 excerpt: "Retrieval-augmented reasoning segmentation for culturally grounded scenes, so a model must retrieve the right cultural knowledge before it segments. Under review for ACM TOMM."
 date: 2026-04-01
-venue: "Under review"
-citation_venue: "Under review"
+venue: "ACM TOMM (under review)"
+citation_venue: "ACM TOMM (under review)"
 theme: cultural-multimodal
 status: under-review
 authors:
