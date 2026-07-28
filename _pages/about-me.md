@@ -76,7 +76,7 @@ This is the checklist that I would argue for:
 
 ## Elsewhere
 
-I run [Turquoise Dot](https://www.linkedin.com/company/turquoisedot), a meetup for
+I run [Turquoise Dot](https://theturquoisedot.github.io/), a meetup for
 Turkish and Turkic researchers and tech professionals in Singapore, and I keep a
 [list of cultural VLM resources](/resources/) current as the field moves.
 

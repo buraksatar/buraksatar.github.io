@@ -57,7 +57,6 @@ WANT = [
     ("building",   "building-columns",  "solid"),
     ("envelope",   "envelope",          "solid"),
     ("file-pdf",   "file-pdf",          "solid"),
-    ("calendar",   "calendar-check",    "solid"),
     ("link",       "link",              "solid"),
     ("clock",      "clock",             "solid"),
     ("calendar",   "calendar",          "solid"),   # plain: for dates
@@ -72,6 +71,14 @@ WANT = [
     ("scholar",    "google-scholar",    "academicons"),
     ("orcid",      "orcid",             "academicons"),
 ]
+
+# Duplicate keys would emit two `if n == "key"` branches and render both SVGs,
+# which is exactly what happened with "calendar".
+_seen = {}
+for _k, _fa, _fam in WANT:
+    if _k in _seen:
+        sys.exit("duplicate icon key %r (maps to both %r and %r)" % (_k, _seen[_k], _fa))
+    _seen[_k] = _fa
 
 src = io.open(VARS, encoding="utf-8").read()
 codepoints = {}
@@ -132,6 +139,30 @@ for key, faname, d, width, height, asc in icons:
         '<path transform="translate(0 %d) scale(1 -1)" d="%s"/></svg>{%%- endif -%%}'
         % (key, key, width, height, asc, d)
     )
+
+# ---------------------------------------------------------------- hand-authored
+# Icons that are not glyphs in any of the fonts above. Kept here so that
+# regenerating does not silently drop them.
+#
+# The nazar boncuğu is deliberately in colour: it is a set of concentric rings
+# (deep blue, white, turquoise, dark pupil) and rendering it in one flat colour
+# would leave an anonymous dot. The Turquoise Dot community is named after it.
+# The 🤗 already in the sidebar sets the precedent for a coloured item there.
+CUSTOM = [(
+    "nazar",
+    '<svg class="icon icon--nazar" viewBox="0 0 24 24" width="1em" height="1em" '
+    'focusable="false" {% if include.label %}role="img" aria-label="{{ include.label }}"'
+    '{% else %}aria-hidden="true"{% endif %}>'
+    '<circle cx="12" cy="12" r="11" fill="#1b4f9c"/>'
+    '<circle cx="12" cy="12" r="7.8" fill="#ffffff"/>'
+    '<circle cx="12" cy="12" r="4.8" fill="#35b8ce"/>'
+    '<circle cx="12" cy="12" r="2.1" fill="#0b1a30"/>'
+    '</svg>'
+)]
+
+for key, markup in CUSTOM:
+    lines.append('{%%- if n == "%s" -%%}%s{%%- endif -%%}' % (key, markup))
+    print("  %-11s %-18s %-7s hand-authored" % (key, "nazar boncugu", "custom"))
 
 dest = os.path.join(ROOT, "_includes/icon.html")
 io.open(dest, "w", encoding="utf-8").write("\n".join(lines) + "\n")

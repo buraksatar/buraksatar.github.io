@@ -96,6 +96,14 @@
       {% if author.instagram %}
         <li><a href="https://instagram.com/{{ author.instagram }}">{% include icon.html name="instagram" %}<span class="icon-pad-left">Instagram</span></a></li>
       {% endif %}
+      {% if author.turquoisedot %}
+        {% comment %}
+          Community Burak founded. The nazar boncuğu is in colour on purpose:
+          the concentric rings are the whole point, and the community is named
+          after them.
+        {% endcomment %}
+        <li><a href="{{ author.turquoisedot }}">{% include icon.html name="nazar" %}<span class="icon-pad-left">Turquoise Dot</span></a></li>
+      {% endif %}
     </ul>
   </div>
 </div>
