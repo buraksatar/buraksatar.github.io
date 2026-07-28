@@ -61,11 +61,11 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}">{% include icon.html name="link" %}<span class="icon-pad-left">{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</span></a></li>
       {% endif %}
-      {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}">{% include icon.html name="scholar" %}<span class="icon-pad-left">Google Scholar</span></a></li>
-      {% endif %}
       {% if author.linkedin %}
         <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}">{% include icon.html name="linkedin" %}<span class="icon-pad-left">LinkedIn</span></a></li>
+      {% endif %}
+      {% if author.googlescholar %}
+        <li><a href="{{ author.googlescholar }}">{% include icon.html name="scholar" %}<span class="icon-pad-left">Google Scholar</span></a></li>
       {% endif %}
       {% if author.turquoisedot %}
         {% comment %}
