@@ -61,18 +61,23 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}">{% include icon.html name="link" %}<span class="icon-pad-left">{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</span></a></li>
       {% endif %}
-      {% if author.email %}
-        <li><a href="mailto:{{ author.email }}">{% include icon.html name="envelope" %}<span class="icon-pad-left">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span></a></li>
-      {% endif %}
-      {% if author.cv %}
-        <li><a href="{{ author.cv | prepend: base_path }}">{% include icon.html name="file-pdf" %}<span class="icon-pad-left">Download CV</span></a></li>
-      {% endif %}
-      {% if author.calendly %}
-        <li><a href="{{ '/meeting/' | prepend: base_path }}">{% include icon.html name="calendar-check" %}<span class="icon-pad-left">Book a meeting</span></a></li>
-      {% endif %}
-
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}">{% include icon.html name="scholar" %}<span class="icon-pad-left">Google Scholar</span></a></li>
+      {% endif %}
+      {% if author.linkedin %}
+        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}">{% include icon.html name="linkedin" %}<span class="icon-pad-left">LinkedIn</span></a></li>
+      {% endif %}
+      {% if author.turquoisedot %}
+        {% comment %}
+          Community Burak founded. The nazar boncuğu is in colour on purpose:
+          the concentric rings are the whole point, and the community is named
+          after them.
+        {% endcomment %}
+        <li><a href="{{ author.turquoisedot }}">{% include icon.html name="nazar" %}<span class="icon-pad-left">Turquoise Dot</span></a></li>
+      {% endif %}
+      
+      {% if author.cv %}
+        <li><a href="{{ author.cv | prepend: base_path }}">{% include icon.html name="file-pdf" %}<span class="icon-pad-left">Download CV</span></a></li>
       {% endif %}
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}">{% include icon.html name="orcid" %}<span class="icon-pad-left">ORCID</span></a></li>
@@ -87,23 +92,20 @@
       {% if author.github %}
         <li><a href="https://github.com/{{ author.github }}">{% include icon.html name="github" %}<span class="icon-pad-left">GitHub</span></a></li>
       {% endif %}
-      {% if author.linkedin %}
-        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}">{% include icon.html name="linkedin" %}<span class="icon-pad-left">LinkedIn</span></a></li>
-      {% endif %}
+      
       {% if author.twitter %}
         <li><a href="https://twitter.com/{{ author.twitter }}">{% include icon.html name="x-twitter" %}<span class="icon-pad-left">X (formerly Twitter)</span></a></li>
       {% endif %}
       {% if author.instagram %}
         <li><a href="https://instagram.com/{{ author.instagram }}">{% include icon.html name="instagram" %}<span class="icon-pad-left">Instagram</span></a></li>
       {% endif %}
-      {% if author.turquoisedot %}
-        {% comment %}
-          Community Burak founded. The nazar boncuğu is in colour on purpose:
-          the concentric rings are the whole point, and the community is named
-          after them.
-        {% endcomment %}
-        <li><a href="{{ author.turquoisedot }}">{% include icon.html name="nazar" %}<span class="icon-pad-left">Turquoise Dot</span></a></li>
+      {% if author.email %}
+        <li><a href="mailto:{{ author.email }}">{% include icon.html name="envelope" %}<span class="icon-pad-left">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span></a></li>
       {% endif %}
+      {% if author.calendly %}
+        <li><a href="{{ '/meeting/' | prepend: base_path }}">{% include icon.html name="calendar-check" %}<span class="icon-pad-left">Book a meeting</span></a></li>
+      {% endif %}
+
     </ul>
   </div>
 </div>
