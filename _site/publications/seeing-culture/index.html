@@ -1,0 +1,646 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+
+<title>Seeing Culture: A Benchmark for Visual Reasoning and Grounding - Burak Satar</title>
+
+
+
+<meta name="description" content="A two-stage benchmark where models must first reason about a cultural artifact, then visually ground it, built across Southeast Asia.">
+
+
+
+
+
+  <meta property="article:published_time" content="2025-11-05T00:00:00+08:00">
+
+
+
+  <link rel="canonical" href="http://localhost:4173/publications/seeing-culture/">
+
+
+
+  <meta name="twitter:site" content="@hadibakalim">
+  <meta name="twitter:title" content="Seeing Culture: A Benchmark for Visual Reasoning and Grounding">
+  <meta name="twitter:description" content="A two-stage benchmark where models must first reason about a cultural artifact, then visually ground it, built across Southeast Asia.">
+  <meta name="twitter:url" content="http://localhost:4173/publications/seeing-culture/">
+
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://localhost:4173/images/teasers/seeing-culture.webp">
+  
+
+  
+    <meta name="twitter:creator" content="@hadibakalim">
+  
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "http://localhost:4173/#website",
+      "url": "http://localhost:4173/",
+      "name": "Burak Satar",
+      "description": "Burak Satar is a Research Scientist at Singapore Management University working on culturally-aware vision-language models, with a focus on Southeast Asia.",
+      "inLanguage": "en",
+      "publisher": { "@id": "http://localhost:4173/#person" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "http://localhost:4173/publications/seeing-culture/#webpage",
+      "url": "http://localhost:4173/publications/seeing-culture/",
+      "name": "Seeing Culture: A Benchmark for Visual Reasoning and Grounding - Burak Satar",
+      "description": "A two-stage benchmark where models must first reason about a cultural artifact, then visually ground it, built across Southeast Asia.",
+      "inLanguage": "en",
+      "isPartOf": { "@id": "http://localhost:4173/#website" },
+      "about": { "@id": "http://localhost:4173/#person" }
+    },
+    {
+      "@type": "Person",
+      "@id": "http://localhost:4173/#person",
+      "url": "http://localhost:4173/",
+      "name": "Burak Satar",
+      "givenName": "Burak",
+      "familyName": "Satar",
+      "jobTitle": "Research Scientist",
+      "description": "Research Scientist at Singapore Management University working on culturally-aware vision-language models, with a focus on Southeast Asia.",
+      "email": "mailto:buraks@smu.edu.sg",
+      "image": "http://localhost:4173/images/burak-satar-400.webp",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Singapore",
+        "addressCountry": "SG"
+      },
+      "worksFor": [
+        {
+          "@type": "Organization",
+          "name": "Singapore Management University",
+          "url": "https://www.smu.edu.sg/",
+          "department": { "@type": "Organization", "name": "School of Computing and Information Systems" }
+        }
+      ],
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "Nanyang Technological University, Singapore",
+          "url": "https://www.ntu.edu.sg/"
+        },{
+          "@type": "EducationalOrganization",
+          "name": "Uludağ University, Türkiye",
+          "url": "https://www.uludag.edu.tr/"
+        },{
+          "@type": "EducationalOrganization",
+          "name": "Uludağ University, Türkiye",
+          "url": "https://www.uludag.edu.tr/"
+        }
+      ],
+      "knowsAbout": ["Vision-language models","Culturally-aware artificial intelligence","Cultural reasoning and visual grounding","Multimodal benchmarks and dataset construction","Southeast Asian AI evaluation","Text-to-video retrieval","Video corpus moment retrieval","Causal intervention and debiasing","Multimodal large language models","Seeing Culture benchmark","EPIC-Kitchens multi-instance retrieval","Computer vision","Natural language processing"],
+      "award": ["Joint 3rd Place, EPIC-Kitchens-100 Multi-Instance Retrieval Challenge, CVPR 2022","Finalist, Three Minute Thesis (3MT), Nanyang Technological University, 2022","SINGA Ph.D. Scholarship, A*STAR, 2020-2024","Student Travel Award, European Neural Network Society (ICANN), 2018"],
+      "knowsLanguage": ["tr", "en"],
+      "sameAs": ["https://scholar.google.com/citations?user=qSgpP04AAAAJ","https://www.linkedin.com/in/buraksatar/","https://github.com/buraksatar","https://twitter.com/hadibakalim","https://orcid.org/0000-0003-2850-7367","https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark"]
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "http://localhost:4173/publications/seeing-culture/#article",
+      "headline": "Seeing Culture: A Benchmark for Visual Reasoning and Grounding",
+      "name": "Seeing Culture: A Benchmark for Visual Reasoning and Grounding",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Burak Satar",
+          "@id": "http://localhost:4173/#person"
+        },{
+          "@type": "Person",
+          "name": "Zhixin Ma"
+        },{
+          "@type": "Person",
+          "name": "Patrick Amadeus Irawan"
+        },{
+          "@type": "Person",
+          "name": "Wilfried Ariel Mulyawan"
+        },{
+          "@type": "Person",
+          "name": "Jing Jiang"
+        },{
+          "@type": "Person",
+          "name": "Ee-Peng Lim"
+        },{
+          "@type": "Person",
+          "name": "Chong-Wah Ngo"
+        }
+      ],
+      "datePublished": "2025-11-05",
+      "publication": "EMNLP 2025",
+      "isPartOf": {
+        "@type": "PublicationEvent",
+        "name": "EMNLP 2025 (Main Conference)"
+      },
+      "inLanguage": "en",
+      "url": "http://localhost:4173/publications/seeing-culture/",
+      "sameAs": "https://aclanthology.org/2025.emnlp-main.1131.pdf",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": "10.18653/v1/2025.emnlp-main.1131"
+      },
+      "abstract": "A two-stage benchmark where models must first reason about a cultural artifact, then visually ground it, built across Southeast Asia."
+    }
+  ]
+}
+</script>
+
+
+  <meta name="google-site-verification" content="j6ETNwmLw95wZL6kD0cOQ2lzq360hDQl-DJuDlweSJY" />
+
+
+
+
+<!-- end SEO -->
+
+<!-- Open Graph protocol data (https://ogp.me/), used by social media -->
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Burak Satar"> 
+<meta property="og:title" content="Seeing Culture: A Benchmark for Visual Reasoning and Grounding">
+
+  <meta property="og:type" content="article">
+
+
+  <meta property="og:description" name="description" content="A two-stage benchmark where models must first reason about a cultural artifact, then visually ground it, built across Southeast Asia.">
+
+
+  <meta property="og:url" content="http://localhost:4173/publications/seeing-culture/">
+
+
+
+
+
+
+  <meta property="og:image" content="http://localhost:4173/images/teasers/seeing-culture.webp">
+  <meta property="og:image:width" content="800">
+  <meta property="og:image:height" content="500">
+
+<!-- end Open Graph protocol -->
+
+<link href="http://localhost:4173/feed.xml" type="application/atom+xml" rel="alternate" title="Burak Satar Feed">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4173/assets/css/main.css">
+
+    
+
+
+
+
+<script>(function(){var t=null;try{t=localStorage.getItem("theme")}catch(e){}
+var d=(t==="dark")||(t!=="light"&&window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches);
+var r=document.documentElement;
+if(d){r.setAttribute("data-theme","dark")}else{r.removeAttribute("data-theme")}})();</script>
+
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151922" media="(prefers-color-scheme: dark)">
+
+
+
+<meta name="citation_title" content="Seeing Culture: A Benchmark for Visual Reasoning and Grounding">
+
+<meta name="citation_author" content="Burak Satar">
+
+<meta name="citation_author" content="Zhixin Ma">
+
+<meta name="citation_author" content="Patrick Amadeus Irawan">
+
+<meta name="citation_author" content="Wilfried Ariel Mulyawan">
+
+<meta name="citation_author" content="Jing Jiang">
+
+<meta name="citation_author" content="Ee-Peng Lim">
+
+<meta name="citation_author" content="Chong-Wah Ngo">
+
+<meta name="citation_publication_date" content="2025/11/05">
+
+<meta name="citation_conference_title" content="EMNLP 2025">
+
+
+<meta name="citation_pdf_url" content="https://aclanthology.org/2025.emnlp-main.1131.pdf">
+
+
+
+
+
+<link rel="preload" href="http://localhost:4173/assets/fonts/site/newsreader-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="http://localhost:4173/assets/fonts/site/inter-var.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4173/images/apple-touch-icon-180x180.png?v=bs2026"/>
+<link rel="icon" type="image/png" href="http://localhost:4173/images/favicon-32x32.png?v=bs2026" sizes="32x32"/>
+<link rel="icon" type="image/png" href="http://localhost:4173/images/android-chrome-192x192.png?v=bs2026" sizes="192x192"/>
+<link rel="icon" type="image/png" href="http://localhost:4173/images/favicon-16x16.png?v=bs2026" sizes="16x16"/>
+<link rel="manifest" href="http://localhost:4173/images/manifest.json?v=bs2026"/>
+<link rel="icon" href="http://localhost:4173/images/favicon.ico?v=bs2026"/>
+<meta name="msapplication-TileColor" content="#1d4ed8"/>
+<meta name="msapplication-config" content="http://localhost:4173/images/browserconfig.xml?v=bs2026"/>
+
+
+
+  </head>
+
+  <body>
+
+    
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Main">
+        
+        <button type="button" class="greedy-nav__toggle" aria-label="Menu" aria-expanded="false">
+          <span class="navicon" aria-hidden="true"></span>
+        </button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg persist ">
+            <a href="http://localhost:4173/" class="site-title">Burak Satar</a>
+          </li>
+          
+            
+            <li class="masthead__menu-item selected">
+              <a href="http://localhost:4173/publications/">Publications</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item ">
+              <a href="http://localhost:4173/news/">News</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item ">
+              <a href="http://localhost:4173/about/">About</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item ">
+              <a href="http://localhost:4173/cv/">CV</a>
+            </li>
+          
+          <li class="masthead__menu-item persist tail">
+            
+            <button type="button" id="theme-toggle"
+                    aria-label="Switch colour theme" aria-pressed="false">
+              <span id="theme-icon-sun"><svg class="icon icon--sun" viewBox="0 0 512 534" width="1em" height="1em" fill="currentColor" focusable="false" aria-hidden="true"><path transform="translate(0 459) scale(1 -1)" d="M362 447Q369 443 371 435L391 327L499 307Q507 305 511 298Q514 290 509 282L447 192L509 102Q514 94 511 86Q507 79 499 77L391 57L371 -51Q369 -59 362 -63Q354 -66 346 -61L256 1L166 -61Q158 -66 151 -63Q143 -59 141 -51L121 57L13 77Q5 79 1 86Q-2 94 3 102L65 192L3 282Q-2 290 1 297Q5 305 13 307L121 327L141 435Q143 443 151 447Q158 450 166 445L256 383L346 445Q354 450 362 447ZM160 192Q160 218 173 240Q186 262 208 275Q231 288 256 288Q281 288 304 275Q326 262 339 240Q352 218 352 192Q352 166 339 144Q326 122 304 109Q281 96 256 96Q231 96 208 109Q186 122 173 144Q160 166 160 192ZM384 192Q384 227 367 256Q350 285 320 303Q290 320 256 320Q222 320 192 303Q162 285 145 256Q128 227 128 192Q128 157 145 128Q162 99 192 81Q222 64 256 64Q290 64 320 81Q350 99 367 128Q384 157 384 192Z"/></svg></span>
+              <span id="theme-icon-moon" hidden><svg class="icon icon--moon" viewBox="0 0 384 534" width="1em" height="1em" fill="currentColor" focusable="false" aria-hidden="true"><path transform="translate(0 459) scale(1 -1)" d="M224 416Q161 415 111 385Q60 356 30 305Q1 255 0 192Q1 129 31 79Q60 28 111 -1Q161 -31 224 -32Q317 -30 379 31Q387 40 382 50Q377 60 365 59Q351 56 335 56Q261 58 211 108Q162 157 160 232Q160 282 184 322Q209 362 249 385Q259 391 257 403Q254 413 242 415Q233 416 223 416Z"/></svg></span>
+            </button>
+          </li>
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    
+      <img src="http://localhost:4173/images/burak-satar-200.webp"
+           srcset="http://localhost:4173/images/burak-satar-200.webp 1x,
+                   http://localhost:4173/images/burak-satar-400.webp 2x"
+           class="author__avatar" alt="Burak Satar"
+           width="200" height="200" fetchpriority="high" />
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">Burak Satar</h3>
+    
+    <p class="author__bio" itemprop="description">Making vision-language models culturally aware at SMU, 
+PhD graduate from NTU.</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    
+    <button type="button" class="btn btn--inverse" id="author-links-toggle"
+            aria-expanded="false" aria-controls="author-links">Links</button>
+
+    <ul class="author__urls social-icons" id="author-links">
+      
+      
+        <li class="author__desktop"><svg class="icon icon--building" viewBox="0 0 512 534" width="1em" height="1em" fill="currentColor" focusable="false" aria-hidden="true"><path transform="translate(0 459) scale(1 -1)" d="M243 445 19 349 243 445 19 349Q-3 338 1 314Q7 290 32 288V280Q34 258 56 256H456Q478 258 480 280V288Q505 290 511 314Q515 338 493 349L269 445Q256 451 243 445ZM128 224H64H128H64V28Q63 27 62 27L14 -5Q-4 -19 1 -41Q9 -63 32 -64H480Q503 -63 511 -41Q516 -19 498 -5L450 27Q449 27 449 27Q448 27 448 28V224H384V32H344V224H280V32H232V224H168V32H128V224ZM256 384Q270 384 279 375Q288 366 288 352Q288 338 279 329Q270 320 256 320Q242 320 233 329Q224 338 224 352Q224 366 233 375Q242 384 256 384Z"/></svg><span class="icon-pad-left" itemprop="worksFor">Singapore Management University</span></li>
+      
+      
+      
+        <li><a href="https://www.linkedin.com/in/buraksatar"><svg class="icon icon--linkedin" viewBox="0 0 448 534" width="1em" height="1em" fill="currentColor" focusable="false" aria-hidden="true"><path transform="translate(0 460) scale(1 -1)" d="M416 416H32H416H32Q18 416 9 407Q0 397 0 384V0Q0 -13 9 -23Q18 -32 32 -32H416Q430 -32 439 -23Q448 -13 448 0V384Q448 397 439 407Q430 416 416 416ZM135 32H69H135H69V246H136V32ZM102 275Q86 275 75 286Q64 297 64 313Q64 330 75 341Q86 352 102 352Q119 352 129 341Q140 330 141 313Q140 297 129 286Q119 275 102 275ZM384 32H318H384H318V136Q319 156 313 174Q308 191 283 193Q258 192 250 176Q243 160 244 138V32H177V246H241V217H242Q248 230 264 240Q280 251 305 251Q354 250 370 222Q386 193 384 149V32Z"/></svg><span class="icon-pad-left">LinkedIn</span></a></li>
+      
+      
+        <li><a href="https://scholar.google.com/citations?user=qSgpP04AAAAJ"><svg class="icon icon--scholar" viewBox="0 0 384 508" width="1em" height="1em" fill="currentColor" focusable="false" aria-hidden="true"><path transform="translate(0 444) scale(1 -1)" d="M344 341Q350 340 350 331V202Q350 199 348.5 196.5Q347 194 344.5 192.5Q342 191 339 191H335Q333 191 330.5 192.5Q328 194 326.5 196.5Q325 199 325 202V331Q325 341 331 341V358L274 312Q275 311 275 310Q276 309 276 309Q284 295 284 275Q284 260 278.5 247.5Q273 235 266.0 227.5Q259 220 251.5 213.5Q244 207 238.5 200.0Q233 193 233.0 186.0Q233 179 240.0 171.5Q247 164 257 156Q266 149 276 140Q286 132 292.5 118.0Q299 104 299 88Q299 66 288.0 48.5Q277 31 259.0 20.5Q241 10 221.0 5.0Q201 0 181 0Q168 0 155.0 2.0Q142 4 129.0 9.0Q116 14 106.0 21.5Q96 29 89.5 40.5Q83 52 83 67Q83 84 92.5 98.5Q102 113 118 123Q146 140 204 144Q191 161 191 176Q191 184 195 194Q188 193 181 193Q149 193 127.5 213.5Q106 234 106 266Q106 269 106 272H20L150 384H364L344 369ZM220 131Q216 132 210 132Q195 132 181.0 129.0Q167 126 153.5 120.5Q140 115 131.5 103.5Q123 92 123 76Q123 62 130.5 50.5Q138 39 150.0 32.5Q162 26 175 23Q189 19 202 19Q230 19 249.5 31.5Q269 44 269 70Q269 75 267.5 80.0Q266 85 264.5 89.0Q263 93 259 98Q255 102 252 105Q250 108 244.0 113.0Q238 118 236.5 119.0Q235 120 228.0 125.0Q221 130 220 131ZM244 253Q244 270 238.0 289.0Q232 308 218.5 323.0Q205 338 187 338Q167 338 156.5 323.5Q146 309 146 289Q146 271 151.5 253.0Q157 235 170.5 220.5Q184 206 202 206Q222 206 233.0 219.5Q244 233 244 253Z"/></svg><span class="icon-pad-left">Google Scholar</span></a></li>
+      
+      
+        
+        <li><a href="https://theturquoisedot.github.io/"><svg class="icon icon--nazar" viewBox="0 0 24 24" width="1em" height="1em" focusable="false" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#1b4f9c"/><circle cx="12" cy="12" r="7.8" fill="#ffffff"/><circle cx="12" cy="12" r="4.8" fill="#35b8ce"/><circle cx="12" cy="12" r="2.1" fill="#0b1a30"/></svg><span class="icon-pad-left">Turquoise Dot</span></a></li>
+      
+      
+      
+      
+      
+      
+        <li><a href="https://huggingface.co/Multimedia-SMU"><span class="icon-emoji" aria-hidden="true">&#129303;</span><span class="icon-pad-left">Hugging Face</span></a></li>
+      
+
+      
+        <li><a href="https://github.com/buraksatar"><svg class="icon icon--github" viewBox="0 0 496 534" width="1em" height="1em" fill="currentColor" focusable="false" aria-hidden="true"><path transform="translate(0 460) scale(1 -1)" d="M166 51Q165 47 161 47Q155 47 155 51Q156 54 160 54Q165 54 166 51ZM135 55Q134 52 139 50Q144 49 145 52Q146 56 141 57Q136 58 135 55ZM179 57Q174 56 174 52Q175 49 180 49Q185 51 185 54Q184 57 179 57ZM245 440Q138 438 70 370Q2 302 0 196Q1 111 47 47Q93 -17 170 -43Q188 -44 187 -31Q187 -27 187 -16Q187 7 187 30Q185 30 168 28Q150 27 130 32Q110 38 102 60Q102 62 94 76Q86 89 74 97Q72 98 66 105Q59 111 76 112Q77 113 90 108Q103 104 114 86Q132 59 153 59Q175 59 187 65Q191 89 203 99Q159 101 126 121Q93 140 91 210Q91 230 97 243Q102 256 114 268Q112 274 110 292Q108 310 117 336Q135 339 159 325Q184 312 186 309Q186 309 186 309Q216 318 249 318Q281 318 312 309Q312 310 325 318Q337 326 353 332Q369 339 381 336Q390 310 388 292Q386 274 383 268Q395 256 402 243Q409 230 409 210Q408 162 392 139Q375 117 349 109Q323 101 294 99Q310 88 311 53Q311 16 311 -13Q311 -26 311 -31Q310 -44 328 -43Q404 -17 450 47Q495 111 496 196Q495 266 462 321Q428 376 372 408Q315 439 245 440ZM97 95Q95 93 98 90Q101 87 103 89Q105 91 102 94Q100 97 97 95ZM86 103Q86 101 89 99Q92 98 93 100Q94 102 91 104Q88 105 86 103ZM119 68Q117 65 120 61Q124 58 127 60Q128 63 125 67Q121 70 119 68ZM107 82Q105 80 107 76Q110 73 113 74Q115 76 113 80Q110 84 107 82Z"/></svg><span class="icon-pad-left">GitHub</span></a></li>
+      
+      
+      
+        <li><a href="https://twitter.com/hadibakalim"><svg class="icon icon--x-twitter" viewBox="0 0 512 534" width="1em" height="1em" fill="currentColor" focusable="false" aria-hidden="true"><path transform="translate(0 460) scale(1 -1)" d="M389 400H460H389H460L306 224L487 -16H345L234 129L107 -16H36L201 172L27 400H172L273 267L389 400ZM364 26H404H364H404L151 360H109L364 26Z"/></svg><span class="icon-pad-left">X (formerly Twitter)</span></a></li>
+      
+      
+        <li><a href="https://instagram.com/ehadibakalim"><svg class="icon icon--instagram" viewBox="0 0 448 534" width="1em" height="1em" fill="currentColor" focusable="false" aria-hidden="true"><path transform="translate(0 460) scale(1 -1)" d="M224 307Q175 306 143 273Q110 241 109 192Q110 143 143 111Q175 78 224 77Q273 78 305 111Q338 143 339 192Q338 241 305 273Q273 306 224 307ZM224 117Q192 118 171 139Q150 160 149 192Q150 224 171 245Q192 266 224 267Q256 266 277 245Q298 224 299 192Q298 160 277 139Q256 118 224 117ZM371 312Q368 287 344 285Q319 287 317 312Q317 323 325 331Q332 338 344 338Q355 338 363 331Q370 323 371 312ZM447 284Q447 339 410 378Q371 415 317 415Q297 416 260 416Q224 416 188 416Q151 416 132 415Q78 415 38 378Q1 339 2 285Q0 265 0 228Q0 192 0 156Q0 120 2 100Q1 45 38 6Q77 -31 132 -30Q151 -31 188 -32Q224 -32 260 -32Q297 -31 317 -30Q371 -31 410 6Q447 45 447 100Q448 120 448 156Q448 192 448 228Q448 265 447 285ZM399 60Q386 30 356 17Q336 10 302 9Q268 8 240 8Q231 8 224 8Q217 8 208 8Q180 8 146 9Q113 10 92 17Q62 30 49 60Q42 81 41 114Q40 148 40 176Q40 185 40 192Q40 199 40 208Q40 236 41 270Q42 304 49 324Q62 354 92 367Q113 374 146 375Q180 377 208 376Q217 376 224 376Q231 376 240 376Q268 376 302 375Q336 374 356 367Q386 354 399 324Q406 304 407 270Q409 236 408 208Q408 199 408 192Q408 185 408 176Q409 148 407 114Q406 80 399 60Z"/></svg><span class="icon-pad-left">Instagram</span></a></li>
+      
+      
+        <li><a href="mailto:buraks@smu.edu.sg"><svg class="icon icon--envelope" viewBox="0 0 512 534" width="1em" height="1em" fill="currentColor" focusable="false" aria-hidden="true"><path transform="translate(0 459) scale(1 -1)" d="M48 384Q28 383 14 370Q1 356 0 336Q1 312 19 298L237 134Q256 122 275 134L493 298Q511 312 512 336Q511 356 498 370Q484 383 464 384H48ZM0 272V64V272V64Q1 37 19 19Q37 1 64 0H448Q475 1 493 19Q511 37 512 64V272L294 109Q277 96 256 96Q235 96 218 109L0 272Z"/></svg><span class="icon-pad-left">Email</span></a></li>
+      
+      
+        <li><a href="http://localhost:4173/meeting/"><svg class="icon icon--calendar-check" viewBox="0 0 448 534" width="1em" height="1em" fill="currentColor" focusable="false" aria-hidden="true"><path transform="translate(0 459) scale(1 -1)" d="M128 448Q142 448 151 439Q160 430 160 416V384H288V416Q288 430 297 439Q306 448 320 448Q334 448 343 439Q352 430 352 416V384H400Q420 383 434 370Q447 356 448 336V288H0V336Q1 356 14 370Q28 383 48 384H96V416Q96 430 105 439Q114 448 128 448ZM0 256H448H0H448V-16Q447 -36 434 -50Q420 -63 400 -64H48Q28 -63 14 -50Q1 -36 0 -16V256ZM329 143Q343 160 329 177Q312 191 295 177L200 82L153 129Q136 143 119 129Q105 112 119 95L183 31Q200 17 217 31L329 143Z"/></svg><span class="icon-pad-left">Book a meeting</span></a></li>
+      
+
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Seeing Culture: A Benchmark for Visual Reasoning and Grounding">
+    <meta itemprop="description" content="A two-stage benchmark where models must first reason about a cultural artifact, then visually ground it, built across Southeast Asia.">
+    <meta itemprop="datePublished" content="November 05, 2025">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Seeing Culture: A Benchmark for Visual Reasoning and Grounding
+</h1>
+          
+        
+        
+        
+          <p>Published in <i>EMNLP 2025 (Main Conference)</i>, 2025 </p>
+            
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <p><strong>Burak Satar</strong>, Zhixin Ma, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo</p>
+
+<p><em>A two-stage benchmark where models must first reason about a cultural artifact, then visually ground it, built across Southeast Asia.</em></p>
+
+<p class="pub__links"><a class="chip" href="https://aclanthology.org/2025.emnlp-main.1131/">Paper (ACL)</a><a class="chip" href="https://arxiv.org/abs/2509.16517">arXiv</a><a class="chip" href="https://seeingculture-benchmark.github.io/">Project site</a><a class="chip" href="https://github.com/buraksatar/seeingculture">Code</a><a class="chip" href="https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark">Dataset</a></p>
+
+<p><img src="/images/seeing-culture-teaser.webp" alt="Seeing Culture's two-stage task: a culturally grounded question with four image options, then a segmentation mask marking the artifact the model reasoned about." width="800" loading="lazy" /></p>
+
+<h2 id="what-it-covers">What it covers</h2>
+
+<figure class="seamap">
+  <svg class="seamap__svg" viewBox="0 0 620 480" role="img" aria-labelledby="seamap-title seamap-desc">
+    <title id="seamap-title">Seeing Culture benchmark coverage across Southeast Asia</title>
+    <desc id="seamap-desc">Indonesia 1377 questions across 35 artifacts; Myanmar 717 questions across 45 artifacts; Thailand 344 questions across 26 artifacts; Vietnam 324 questions across 11 artifacts; Philippines 212 questions across 10 artifacts; Malaysia 182 questions across 5 artifacts; Cambodia 22 questions across 2 artifacts</desc>
+    <path class="seamap__c is-covered" style="--w:1.00" d="M601.9 374.5 602.3 451.8 591.6 442.0 579.4 439.7 576.4 443.0 561.2 443.4 566.3 433.8 573.9 430.5 570.7 417.6 565.0 407.6 541.6 397.6 531.7 396.6 513.6 385.6 510.1 391.4 505.4 392.5 502.7 388.1 502.7 383.0 493.5 377.1 506.4 372.9 515.0 373.1 514.0 370.0 496.4 369.9 491.6 362.9 480.9 360.7 475.8 354.8 492.0 351.9 498.2 348.1 517.5 353.0 522.8 376.5 535.2 383.6 545.3 371.0 559.1 363.9 569.8 363.9 589.0 372.3 601.9 374.5Z M408.9 449.1 410.4 455.0 402.5 463.9 392.2 466.5 390.8 465.1 391.9 461.0 397.0 453.8 408.9 449.1Z M520.2 425.4 519.0 416.5 523.7 408.2 526.4 411.7 526.4 417.4 520.2 425.4Z M323.6 294.7 316.8 305.4 325.6 316.6 323.6 322.0 337.0 333.0 322.8 334.4 318.8 342.5 319.3 353.2 307.7 361.3 307.4 373.1 302.8 391.3 301.0 387.0 287.3 392.4 282.5 385.1 274.0 384.5 267.9 380.7 253.6 384.9 249.2 379.2 241.4 379.8 231.4 378.5 229.6 362.6 223.6 359.3 217.8 349.1 216.1 338.8 217.5 327.8 224.7 319.9 226.7 327.8 234.9 334.5 242.7 332.1 250.4 333.0 257.4 327.0 263.2 326.0 274.6 329.3 284.4 326.7 290.5 310.3 295.2 306.1 299.4 292.7 313.2 292.7 323.6 294.7Z M461.9 376.9 475.2 380.4 479.6 389.4 469.4 384.5 444.2 383.9 447.1 377.4 461.9 376.9Z M431.9 388.6 423.6 386.5 421.2 381.4 433.4 380.8 436.4 384.7 431.9 388.6Z M444.6 317.9 445.5 324.4 452.6 325.4 453.7 330.3 453.1 340.6 446.9 339.5 445.1 346.7 450.0 352.9 446.6 354.4 441.8 346.9 438.2 331.7 440.6 322.2 444.6 317.9Z M384.4 333.3 398.2 332.8 410.1 324.2 412.2 326.9 402.5 338.6 393.5 340.9 381.9 338.6 361.8 339.2 351.3 340.9 349.6 349.9 360.4 360.4 366.9 355.0 389.3 351.0 388.4 356.5 383.1 354.7 377.9 361.7 367.3 366.3 378.7 381.5 376.5 385.5 387.3 399.2 387.2 407.0 380.8 410.5 376.0 406.3 381.9 396.6 370.1 401.2 367.1 397.9 368.6 393.3 359.9 386.4 360.8 374.8 352.8 378.4 354.3 409.2 346.7 410.9 341.5 407.5 345.0 396.6 343.1 385.1 338.0 385.0 334.3 376.9 339.3 369.2 341.0 359.7 347.0 341.9 349.6 337.0 359.8 328.2 369.2 331.7 384.4 333.3Z M352.7 465.3 336.7 457.0 347.9 454.7 358.5 461.9 357.7 465.1 352.7 465.3Z M365.3 444.9 373.3 444.0 384.1 439.6 382.3 446.2 364.2 449.6 348.2 448.1 348.2 443.8 357.7 441.3 365.3 444.9Z M328.2 442.8 335.6 441.8 338.6 446.9 316.4 450.9 309.9 450.8 314.0 443.9 320.6 443.8 323.8 439.7 328.2 442.8Z M210.5 419.8 212.2 424.0 235.2 425.2 237.9 420.3 260.2 426.0 264.6 433.7 282.7 435.9 297.4 442.9 283.7 447.4 270.4 442.7 247.1 442.1 221.8 435.4 213.0 434.3 208.0 435.8 186.0 430.9 184.0 425.8 172.9 424.9 181.2 413.6 195.8 414.3 205.5 418.9 210.5 419.8Z M161.0 356.6 163.0 364.8 167.2 371.4 176.0 372.5 181.9 380.0 178.9 394.7 178.4 413.1 165.1 413.3 154.9 403.4 139.5 393.7 125.2 376.9 110.1 351.4 99.5 341.5 91.5 322.1 80.7 314.6 74.4 304.5 65.3 297.9 52.7 284.8 51.7 278.8 78.1 281.5 88.7 293.1 104.7 306.1 116.1 318.8 128.3 319.0 138.4 327.1 145.4 337.1 154.6 342.5 149.7 352.1 156.6 356.3 161.0 356.6Z"><title>Indonesia: 1377 questions, 35 artifacts</title></path>
+    <path class="seamap__c is-covered" style="--w:0.79" d="M109.7 101.7 102.9 104.5 95.8 109.6 87.3 110.1 81.8 122.9 76.8 125.1 82.6 135.5 95.1 152.0 90.7 162.3 86.6 164.5 89.5 170.4 97.5 179.8 98.7 191.9 103.4 202.8 90.9 226.0 89.8 217.2 93.5 208.1 89.4 201.1 90.4 188.2 85.5 182.0 81.6 167.9 79.4 152.9 74.2 143.1 52.6 157.5 38.4 153.6 42.5 138.9 40.0 127.8 30.6 114.2 32.1 109.9 25.0 108.4 16.5 98.7 15.7 89.2 19.9 91.0 20.1 82.5 26.1 79.7 24.8 74.6 27.5 70.6 28.0 58.3 37.4 61.0 42.8 51.3 43.4 45.5 50.0 35.5 49.7 28.8 65.2 20.6 73.8 22.7 72.9 15.4 77.1 13.2 76.2 8.8 83.2 7.9 87.2 14.8 92.5 17.7 92.4 36.5 81.0 46.4 79.5 60.5 92.2 58.5 95.1 69.4 102.7 71.7 99.2 81.6 113.4 88.2 122.2 84.7 122.6 89.6 112.3 97.3 109.7 101.7Z"><title>Myanmar: 717 questions, 45 artifacts</title></path>
+    <path class="seamap__c is-covered" style="--w:0.63" d="M171.2 174.5 159.9 172.8 144.3 175.1 136.6 185.0 139.5 199.3 128.7 193.8 118.4 194.0 120.1 184.7 109.5 184.8 108.6 197.8 98.2 225.6 99.0 234.2 106.8 234.6 111.7 245.4 113.9 255.6 120.6 262.4 127.9 263.8 134.1 270.0 130.2 274.8 122.2 276.3 121.3 270.2 111.5 265.0 109.4 267.1 104.6 262.5 102.6 256.7 90.3 244.4 88.4 251.3 86.1 244.7 87.4 237.3 90.9 226.0 103.4 202.8 98.7 191.9 97.5 179.8 89.5 170.4 86.6 164.5 90.7 162.3 95.1 152.0 82.6 135.5 76.8 125.1 81.8 122.9 87.3 110.1 95.8 109.6 102.9 104.5 109.7 101.7 115.0 105.4 115.6 112.5 123.8 113.0 120.8 125.5 121.1 136.1 133.8 129.1 137.4 131.2 144.5 130.8 146.9 126.7 156.0 127.5 165.1 137.1 165.9 148.8 175.6 159.2 175.1 169.2 171.2 174.5Z"><title>Thailand: 344 questions, 26 artifacts</title></path>
+    <path class="seamap__c is-covered" style="--w:0.62" d="M160.5 219.4 171.0 214.6 183.6 213.8 178.3 206.6 198.5 197.5 200.0 183.3 197.2 175.4 199.4 163.5 196.4 155.2 187.3 146.9 169.7 122.5 155.3 115.4 158.7 111.1 166.4 108.0 161.7 97.7 146.9 97.6 141.5 86.8 134.5 77.5 140.9 74.6 162.2 73.3 172.5 66.9 178.3 71.4 189.3 73.5 187.4 80.4 193.1 85.2 205.3 88.3 189.2 98.4 179.2 109.6 176.5 117.8 197.0 145.8 207.9 153.1 215.2 162.6 220.7 184.6 219.1 205.4 209.1 213.2 195.3 220.9 185.5 230.7 170.4 241.8 166.1 234.2 169.5 226.2 160.5 219.4Z"><title>Vietnam: 324 questions, 11 artifacts</title></path>
+    <path class="seamap__c is-covered" style="--w:0.55" d="M359.2 193.1 353.0 184.1 363.3 184.5 367.5 188.8 364.3 199.0 359.2 193.1Z M380.3 225.4 383.3 222.1 384.6 214.7 391.2 214.0 389.3 222.0 398.2 210.6 397.1 221.9 392.7 225.8 389.0 233.3 385.2 236.8 377.8 228.6 380.3 225.4Z M425.9 244.0 427.8 258.5 423.7 269.3 419.3 257.3 413.7 263.3 417.5 272.0 414.1 277.6 399.9 270.7 396.5 262.1 400.2 256.5 392.6 250.9 388.8 255.8 383.1 255.3 374.2 261.9 372.2 258.5 377.0 248.5 391.1 240.7 395.4 246.0 404.5 242.8 406.5 237.5 415.0 237.2 414.3 228.0 424.0 233.6 425.9 244.0Z M331.1 233.3 315.1 244.5 321.0 236.2 336.9 220.7 343.2 209.0 345.4 218.6 337.4 225.1 331.1 233.3Z M377.3 127.7 375.3 132.6 379.4 141.1 376.2 151.0 369.1 154.9 367.2 164.4 369.9 173.9 376.3 175.2 381.6 173.8 396.7 180.4 395.5 186.8 399.5 189.7 398.2 195.1 388.8 189.3 384.4 183.1 381.3 187.4 373.6 180.3 362.7 182.1 356.7 179.5 357.3 174.6 361.1 171.6 357.5 168.8 355.9 173.1 350.0 166.3 348.2 161.1 347.7 149.8 352.6 153.7 353.8 135.1 357.7 124.4 365.0 124.4 372.5 127.8 376.2 124.7 377.3 127.7Z M373.7 208.4 371.8 202.8 379.0 206.4 386.7 206.4 386.5 211.4 380.9 216.4 373.2 220.0 373.7 208.4Z M415.4 199.6 418.8 212.8 409.5 209.6 412.7 220.9 406.9 223.6 406.4 215.3 402.8 214.6 400.9 207.5 408.0 208.4 407.9 203.9 400.5 194.9 412.1 195.1 415.4 199.6Z"><title>Philippines: 212 questions, 10 artifacts</title></path>
+    <path class="seamap__c is-covered" style="--w:0.53" d="M109.4 267.1 111.5 265.0 121.3 270.2 122.2 276.3 130.2 274.8 134.1 270.0 136.9 271.1 144.0 278.2 149.1 286.2 149.7 294.1 148.5 299.5 150.5 310.6 154.8 313.9 159.5 324.4 159.3 328.4 150.7 329.2 125.1 311.0 123.7 304.9 116.7 297.0 115.1 287.2 110.7 280.7 112.0 272.1 109.4 267.1Z M323.6 294.7 313.2 292.7 299.4 292.7 295.2 306.1 290.5 310.3 284.4 326.7 274.6 329.3 263.2 326.0 257.4 327.0 250.4 333.0 242.7 332.1 234.9 334.5 226.7 327.8 224.7 319.9 233.5 324.0 242.8 321.8 245.2 311.7 250.4 309.5 264.8 306.9 279.3 290.1 284.8 296.2 287.4 292.2 293.1 292.5 294.4 279.1 303.6 270.9 309.7 261.6 314.6 261.6 320.8 267.6 321.3 272.7 339.3 279.6 338.4 284.3 330.3 284.8 332.5 290.6 323.6 294.7Z"><title>Malaysia: 182 questions, 5 artifacts</title></path>
+    <path class="seamap__c is-covered" style="--w:0.37" d="M139.5 199.3 136.6 185.0 144.3 175.1 159.9 172.8 171.2 174.5 181.1 179.2 186.6 171.0 197.2 175.4 200.0 183.3 198.5 197.5 178.3 206.6 183.6 213.8 171.0 214.6 160.5 219.4 150.5 217.7 145.6 211.5 139.5 199.3Z"><title>Cambodia: 22 questions, 2 artifacts</title></path>
+    <path class="seamap__c" d="M197.2 175.4 186.6 171.0 181.1 179.2 171.2 174.5 175.1 169.2 175.6 159.2 165.9 148.8 165.1 137.1 156.0 127.5 146.9 126.7 144.5 130.8 137.4 131.2 133.8 129.1 121.1 136.1 120.8 125.5 123.8 113.0 115.6 112.5 115.0 105.4 109.7 101.7 112.3 97.3 122.6 89.6 123.6 92.4 130.1 92.7 128.2 79.2 134.5 77.5 141.5 86.8 146.9 97.6 161.7 97.7 166.4 108.0 158.7 111.1 155.3 115.4 169.7 122.5 187.3 146.9 196.4 155.2 199.4 163.5 197.2 175.4Z"><title>Laos: not in the benchmark</title></path>
+    <path class="seamap__c" d="M294.4 279.1 293.1 292.5 287.4 292.2 284.8 296.2 279.3 290.1 294.4 279.1Z"><title>Brunei: not in the benchmark</title></path>
+    <path class="seamap__c" d="M408.9 449.1 410.4 446.3 420.7 443.6 432.9 441.8 437.4 443.2 433.0 446.4 410.4 455.0 408.9 449.1Z"><title>Timor-Leste: not in the benchmark</title></path>
+    <circle class="seamap__pin" cx="154.3" cy="327.7" r="4"><title>Singapore: where the benchmark was built</title></circle>
+  </svg>
+  <figcaption class="seamap__cap">
+    <p class="seamap__lede"><strong>3,178 questions</strong> on <strong>134 cultural artifacts</strong> across <strong>7 countries</strong>, counted from the public question set of the <a href="/publications/seeing-culture/">Seeing Culture</a> benchmark. The paper reports 138 artifacts in total; a few do not appear in the released questions.</p>
+    <ul class="seamap__list">
+      <li><span class="seamap__country">Indonesia</span><span class="seamap__n">1,377 questions &middot; 35 artifacts</span></li>
+      <li><span class="seamap__country">Myanmar</span><span class="seamap__n">717 questions &middot; 45 artifacts</span></li>
+      <li><span class="seamap__country">Thailand</span><span class="seamap__n">344 questions &middot; 26 artifacts</span></li>
+      <li><span class="seamap__country">Vietnam</span><span class="seamap__n">324 questions &middot; 11 artifacts</span></li>
+      <li><span class="seamap__country">Philippines</span><span class="seamap__n">212 questions &middot; 10 artifacts</span></li>
+      <li><span class="seamap__country">Malaysia</span><span class="seamap__n">182 questions &middot; 5 artifacts</span></li>
+      <li><span class="seamap__country">Cambodia</span><span class="seamap__n">22 questions &middot; 2 artifacts</span></li>
+    </ul>
+  </figcaption>
+</figure>
+
+<p>Browse the 1,065 images and 3,178 questions in the
+<a href="https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark">dataset viewer on Hugging Face</a>.</p>
+
+<details class="bibtex-block">
+    <summary><strong>BibTeX</strong></summary>
+    <pre class="pub__bibtex" id="bib-publications-seeing-culture"><code>@inproceedings{satar-etal-2025-seeing,
+    title = "Seeing Culture: A Benchmark for Visual Reasoning and Grounding",
+    author = "Satar, Burak  and
+      Ma, Zhixin  and
+      Irawan, Patrick Amadeus  and
+      Mulyawan, Wilfried Ariel  and
+      Jiang, Jing  and
+      Lim, Ee-Peng  and
+      Ngo, Chong-Wah",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.1131/",
+    doi = "10.18653/v1/2025.emnlp-main.1131",
+    pages = "22227--22243",
+    ISBN = "979-8-89176-332-6"
+}</code></pre>
+    <p class="bibtex-block__actions">
+      <button type="button" class="chip" data-copy-target="bib-publications-seeing-culture" data-label="Copy BibTeX">Copy BibTeX</button>
+      <span class="sr-only" role="status" aria-live="polite" data-copy-status=""></span>
+    </p>
+  </details>
+
+
+
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+      </footer>
+
+      
+
+      
+
+
+  <nav class="pagination">
+    
+      <a href="http://localhost:4173/publications/vg-tvp/" class="pagination--pager" title="VG-TVP: Multimodal Procedural Planning via Visually Grounded Text-Video Prompting
+">Previous</a>
+    
+    
+      <a href="http://localhost:4173/publications/rarseg/" class="pagination--pager" title="Retrieval-Augmented Reasoning Segmentation in Cultural Context
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        
+
+
+
+
+
+<div class="visitor-map">
+  <a href="https://mapmyvisitors.com/web/1c6jj" title="Where visitors to this site come from">
+    <img src="https://mapmyvisitors.com/map.png?d=U9EdoERBMjWbx0dtCcwdYMtW9DemMiY6dQDklIgdvu4&amp;cl=ffffff"
+         alt="Map of recent visitor locations"
+         width="180" height="112" loading="lazy" decoding="async" />
+  </a>
+</div>
+
+
+
+<p class="footer__signature">
+  <span lang="tr">İstanbul</span> &rarr; Singapore<span id="sg-clock" class="footer__clock" hidden></span>
+</p>
+
+
+
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://github.com/buraksatar"><svg class="icon icon--github" viewBox="0 0 496 534" width="1em" height="1em" fill="currentColor" focusable="false" aria-hidden="true"><path transform="translate(0 460) scale(1 -1)" d="M166 51Q165 47 161 47Q155 47 155 51Q156 54 160 54Q165 54 166 51ZM135 55Q134 52 139 50Q144 49 145 52Q146 56 141 57Q136 58 135 55ZM179 57Q174 56 174 52Q175 49 180 49Q185 51 185 54Q184 57 179 57ZM245 440Q138 438 70 370Q2 302 0 196Q1 111 47 47Q93 -17 170 -43Q188 -44 187 -31Q187 -27 187 -16Q187 7 187 30Q185 30 168 28Q150 27 130 32Q110 38 102 60Q102 62 94 76Q86 89 74 97Q72 98 66 105Q59 111 76 112Q77 113 90 108Q103 104 114 86Q132 59 153 59Q175 59 187 65Q191 89 203 99Q159 101 126 121Q93 140 91 210Q91 230 97 243Q102 256 114 268Q112 274 110 292Q108 310 117 336Q135 339 159 325Q184 312 186 309Q186 309 186 309Q216 318 249 318Q281 318 312 309Q312 310 325 318Q337 326 353 332Q369 339 381 336Q390 310 388 292Q386 274 383 268Q395 256 402 243Q409 230 409 210Q408 162 392 139Q375 117 349 109Q323 101 294 99Q310 88 311 53Q311 16 311 -13Q311 -26 311 -31Q310 -44 328 -43Q404 -17 450 47Q495 111 496 196Q495 266 462 321Q428 376 372 408Q315 439 245 440ZM97 95Q95 93 98 90Q101 87 103 89Q105 91 102 94Q100 97 97 95ZM86 103Q86 101 89 99Q92 98 93 100Q94 102 91 104Q88 105 86 103ZM119 68Q117 65 120 61Q124 58 127 60Q128 63 125 67Q121 70 119 68ZM107 82Q105 80 107 76Q110 73 113 74Q115 76 113 80Q110 84 107 82Z"/></svg> GitHub</a></li>
+    
+    
+    
+    <li><a href="http://localhost:4173/feed.xml"><svg class="icon icon--rss" viewBox="0 0 448 534" width="1em" height="1em" fill="currentColor" focusable="false" aria-hidden="true"><path transform="translate(0 459) scale(1 -1)" d="M0 384Q0 398 9 407Q18 416 32 416Q148 415 242 359Q336 304 391 210Q447 116 448 0Q448 -14 439 -23Q430 -32 416 -32Q402 -32 393 -23Q384 -14 384 0Q383 98 336 178Q289 257 210 304Q130 351 32 352Q18 352 9 361Q0 370 0 384ZM0 32Q1 68 32 87Q64 105 96 87Q127 68 128 32Q127 -4 96 -23Q64 -41 32 -23Q1 -4 0 32ZM32 288Q112 287 177 249Q242 210 281 145Q319 80 320 0Q320 -14 311 -23Q302 -32 288 -32Q274 -32 265 -23Q256 -14 256 0Q255 63 225 113Q196 164 145 193Q95 223 32 224Q18 224 9 233Q0 242 0 256Q0 270 9 279Q18 288 32 288Z"/></svg> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">
+  &copy; 2026 Burak Satar, Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
+  Site last updated 2026-07-28, <a href="/sitemap/" style="text-transform: uppercase;">Sitemap</a>
+</div>
+
+      </footer>
+    </div>
+
+    
+
+<script src="http://localhost:4173/assets/js/site.js" defer></script>
+
+
+
+
+  
+
+<script data-goatcounter="https://buraksatar.goatcounter.com/count"
+        async src="https://gc.zgo.at/count.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
+

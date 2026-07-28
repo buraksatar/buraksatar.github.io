@@ -1,0 +1,63 @@
+# Burak Satar
+
+> Research Scientist at Singapore Management University working on culturally-aware vision-language models, with a focus on Southeast Asia. PhD in Computer Science from Nanyang Technological University (2024), supported by the A*STAR SINGA scholarship. Works on multimodal reasoning across image, video, audio and text; text-video retrieval; benchmark and dataset construction.
+
+Key facts:
+- Current role: Research Scientist, School of Computing and Information Systems, Singapore Management University (since March 2025), working with Prof Chong-Wah Ngo.
+- Flagship work: "Seeing Culture: A Benchmark for Visual Reasoning and Grounding" (EMNLP 2025 Main Conference), doi:10.18653/v1/2025.emnlp-main.1131, with a public dataset on Hugging Face.
+- Based in Singapore. Turkish; grew up in Bursa.
+- Awards: Joint 3rd Place, EPIC-Kitchens-100 Multi-Instance Retrieval Challenge, CVPR 2022; Finalist, Three Minute Thesis (3MT), Nanyang Technological University, 2022; SINGA Ph.D. Scholarship, A*STAR, 2020-2024; Student Travel Award, European Neural Network Society (ICANN), 2018.
+- Open to: research collaborations on culturally-aware multimodal ai and southeast asia benchmarks; student internships and research mentorship at smu; invited talks and industry projects on cultural ai evaluation and model development and reasoning.
+- Contact: buraks@smu.edu.sg, or book a meeting at http://localhost:4173/meeting/
+
+## Research themes
+
+- **Cultural multimodal reasoning and grounding**: Benchmarks and methods that test whether a vision-language model understands a cultural scene or has only learned to sound confident about it. Southeast Asia first, because it is the hardest available test case.
+- **Debiased and semantic text-video retrieval**: Video retrieval models take shortcuts: clip length, object co-occurrence, verb priors. My doctoral work identified these shortcuts and removed them with semantic role structure and causal intervention.
+- **Long-video retrieval and multimodal planning**: Grounding language-model plans in video, and finding the right moment inside hours of egocentric footage.
+
+## Pages
+
+- [Home](http://localhost:4173/): positioning, research themes, selected publications, awards, recent news
+- [Publications](http://localhost:4173/publications/): full list grouped by research theme, each with BibTeX
+- [Writing](http://localhost:4173/blog/): essays on culturally-aware multimodal AI
+- [Cultural VLM resources](http://localhost:4173/resources/): maintained list of benchmarks and datasets for cultural and geographic robustness in vision-language models
+- [CV](http://localhost:4173/cv/): education, roles, awards, service ([PDF](http://localhost:4173/files/cv.pdf))
+- [Talks](http://localhost:4173/talks/): conference talks, several with recordings
+- [Teaching and mentoring](http://localhost:4173/teaching/)
+- [News](http://localhost:4173/news/): dated timeline since 2018
+- [Book a meeting](http://localhost:4173/meeting/): 30-minute slots via Calendly
+- [Sitemap](http://localhost:4173/sitemap/)
+
+## Publications
+
+- Video Object Segmentation in Cultural Context. Zhixin Ma, Burak Satar, Chong-Wah Ngo. In preparation, 2026. http://localhost:4173/publications/cultural-video-object-segmentation/
+- Enhancing Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion. Burak Satar, Joo-Hwee Lim, Hanwang Zhang, Muhammet Furkan Ilaslan, Hongyuan Zhu, Michael Wray. In preparation, 2026. http://localhost:4173/publications/vcmr-long-egocentric/
+- Cultural Moment Benchmark: Evaluating Video Cultural Reasoning and Grounding in Southeast Asia. Burak Satar, Zhixin Ma, Cheng Yu-Tong, Huy Hoang Tran, Phuong Anh Nguyen, Chong-Wah Ngo. EMNLP 2026 (under review), 2026. http://localhost:4173/publications/cultural-moment/
+- Retrieval-Augmented Reasoning Segmentation in Cultural Context. Zhixin Ma, Burak Satar, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Phuong Anh Nguyen, Chong-Wah Ngo. ACM TOMM (under review), 2026. http://localhost:4173/publications/rarseg/
+- Seeing Culture: A Benchmark for Visual Reasoning and Grounding. Burak Satar, Zhixin Ma, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo. EMNLP 2025, 2025. doi:10.18653/v1/2025.emnlp-main.1131. http://localhost:4173/publications/seeing-culture/
+- VG-TVP: Multimodal Procedural Planning via Visually Grounded Text-Video Prompting. Muhammet Furkan Ilaslan, Ali Köksal, Kevin Qinghong Lin, Burak Satar, Mike Zheng Shou, Qianli Xu. AAAI 2025, 2025. doi:10.1609/aaai.v39i4.32406. http://localhost:4173/publications/vg-tvp/
+- Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention. Burak Satar, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim. BMVC 2023, 2023. http://localhost:4173/publications/frame-length-bias/
+- An Overview of Challenges in Egocentric Text-Video Retrieval. Burak Satar, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim. CVPR 2023 Joint Ego4D/EPIC Workshop, 2023. doi:10.48550/arXiv.2306.04345. http://localhost:4173/publications/egocentric-challenges/
+- RoME: Role-aware Mixture-of-Expert Transformer for Text-to-Video Retrieval. Burak Satar, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim. arXiv preprint, 2022. doi:10.48550/arXiv.2206.12845. http://localhost:4173/publications/rome/
+- Exploiting Semantic Role Contextualized Video Features for Multi-Instance Text-Video Retrieval (EPIC-KITCHENS-100 Challenge 2022). Burak Satar, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim. CVPR 2022 Joint Ego4D/EPIC Workshop, 2022. doi:10.48550/arXiv.2206.14381. http://localhost:4173/publications/semantic-role-epic-challenge/
+- Semantic Role Aware Correlation Transformer for Text to Video Retrieval. Burak Satar, Hongyuan Zhu, Xavier Bresson, Joo-Hwee Lim. IEEE ICIP 2021, 2021. doi:10.1109/ICIP42928.2021.9506267. http://localhost:4173/publications/semantic-role-correlation/
+- Deep Learning Based Vehicle Make-Model Classification. Burak Satar, Ahmet Emir Dirik. ICANN 2018, 2018. doi:10.1007/978-3-030-01424-7_53. http://localhost:4173/publications/vehicle-make-model/
+
+Entries marked "Under review" or "In preparation" above are not yet published; there is no preprint for them. Drafts are available on request.
+
+## Profiles
+
+- [Google Scholar](https://scholar.google.com/citations?user=qSgpP04AAAAJ)
+- [ORCID]()
+- [GitHub](https://github.com/buraksatar)
+- [LinkedIn](https://www.linkedin.com/in/buraksatar/)
+- [Hugging Face](https://huggingface.co/Multimedia-SMU)
+- [Seeing Culture dataset](https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark)
+- [Seeing Culture project site](https://seeingculture-benchmark.github.io/)
+
+## Machine-readable
+
+- [Plain-text profile](http://localhost:4173/profile.txt): factual summary and keywords for ATS and AI agents
+- [sitemap.xml](http://localhost:4173/sitemap.xml), [feed.xml](http://localhost:4173/feed.xml)
+- Every page embeds schema.org JSON-LD (WebSite / WebPage / ProfilePage / Person); publication pages add ScholarlyArticle. Generated from the same data as the visible pages.
