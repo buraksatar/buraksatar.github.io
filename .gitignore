@@ -21,3 +21,6 @@ package-lock.json
 
 # Ignore files created by MacOS
 .DS_Store
+
+# Ignore machine-local Claude Code settings (launch.json is intentionally tracked)
+.claude/settings.local.json
