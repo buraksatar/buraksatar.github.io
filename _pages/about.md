@@ -32,7 +32,7 @@ I am a Research Scientist at Singapore Management University (SMU), working with
 [Book a 30-minute chat](/meeting/) or [email me](mailto:buraks@smu.edu.sg).
 {: .notice--info}
 
-Watch this space: our newest benchmark, [Cultural Moment](/publications/cultural-moment/), is under review at EMNLP 2026.
+Our newest benchmark, [Cultural Moment](/publications/cultural-moment/), is accepted to **EMNLP 2026** (Main Conference): it extends the test to video, asking models to name a Southeast Asian cultural concept, recognize it among unlabeled video moments, and locate its sub-events in time. Explore it on the [project page](https://culturalmoment-benchmark.github.io/).
 
 I build tests that vision-language models fail. When a model describes a festival, a dish or a ritual from Southeast Asia, does it understand what it is looking at, or has it only learned what confidence sounds like? Our EMNLP 2025 benchmark, [Seeing Culture](/publications/seeing-culture/), makes models show their work: answer a culturally grounded question, then point to the evidence in the image. A model that names the right artifact while highlighting the wrong one did not know the answer; it guessed well. The gaps we measure are systematic, not noise.
 
