@@ -4,10 +4,10 @@
    main.css from head/custom.html. Dose is chosen by a class on <body>:
 
      (no class)        theme off, site renders exactly as before
-     culture-dose-1    accents only: turquoise links, nazar dot on page titles,
-                       marbled hairline under the masthead
-     culture-dose-2    adds the ebru edge strip, the nazar ring on the portrait,
-                       and the kawung batik divider above the footer  (DEFAULT)
+     culture-dose-1    Turquoise Thread: turquoise links, nazar dot on page
+                       titles, calm teal-to-cobalt hairline under the masthead
+     culture-dose-2    adds the nazar ring on the portrait and the kawung
+                       batik strip above the footer  (DEFAULT)
      culture-dose-3    adds the statement masthead: cobalt night with ebru
 
    Colors override the site's own custom-property system, so the existing
@@ -58,7 +58,9 @@ body[class*="culture-dose"] .page__title::before {
   background-repeat: no-repeat;
 }
 
-/* Marbled hairline under the masthead. */
+/* Hairline under the masthead: one calm teal-to-cobalt sweep, anchored to
+   the masthead itself. (An earlier cut marbled this with red flecks and ran
+   a second strip along the viewport top; both read as glitches, removed.) */
 body[class*="culture-dose"] .masthead {
   position: relative;
 }
@@ -67,26 +69,16 @@ body[class*="culture-dose"] .masthead::after {
   position: absolute;
   left: 0; right: 0; bottom: -2px;
   height: 2px;
-  background: linear-gradient(90deg, #0b6a78, #7fb6e8 28%, #24427c 55%, #bf4342 82%, #0b6a78);
-  opacity: 0.85;
+  background: linear-gradient(90deg, #0b6a78, #2456a4 50%, #0b6a78);
+  opacity: 0.8;
   pointer-events: none;
 }
-
-/* --- Dose 2+: ebru edge, nazar ring, kawung divider ---------------------- */
-
-/* Ebru strip along the very top of the viewport: the marbled paper edge. */
-body.culture-dose-2::before,
-body.culture-dose-3::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  height: 6px;
-  z-index: 1000;
-  pointer-events: none;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 12" preserveAspectRatio="none"><rect width="400" height="12" fill="%23F1EDE2"/><filter id="m"><feTurbulence type="fractalNoise" baseFrequency="0.012 0.18" numOctaves="3" seed="7"/><feDisplacementMap in="SourceGraphic" scale="16"/></filter><g filter="url(%23m)"><path d="M0,2 C80,0 160,5 240,2 C300,0 360,4 400,2 L400,6 C330,8 260,4 190,6 C120,8 60,5 0,7 Z" fill="%23159FAE"/><path d="M0,7 C90,5 170,9 260,7 C320,5 370,8 400,7 L400,10 C320,12 240,8 160,10 C100,11 50,9 0,11 Z" fill="%2324427C"/><path d="M0,10 C100,9 200,12 300,10 C340,9 380,11 400,10 L400,12 L0,12 Z" fill="%23BF4342"/></g></svg>');
-  background-size: 400px 6px;
-  background-repeat: repeat-x;
+html[data-theme="dark"] body[class*="culture-dose"] .masthead::after {
+  background: linear-gradient(90deg, #63cbd8, #7fb6e8 50%, #63cbd8);
+  opacity: 0.7;
 }
+
+/* --- Dose 2+: nazar ring, kawung divider --------------------------------- */
 
 /* Nazar ring around the sidebar portrait. Rounds the avatar to a full circle,
    which is what makes the ring read as a nazar rather than a border. */
@@ -163,7 +155,6 @@ body.culture-dose-3 .masthead .masthead__menu-item.selected a:hover {
 
 /* Print: strip every decorative layer. */
 @media print {
-  body[class*="culture-dose"]::before,
   body[class*="culture-dose"] .masthead::after,
   body[class*="culture-dose"] .page__footer::before,
   body[class*="culture-dose"] .page__title::before {
