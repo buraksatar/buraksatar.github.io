@@ -47,7 +47,8 @@ See the [full publication list](/publications/) or my [Google Scholar profile](h
 
 ## Academic service & activities
 
-* **Workshop Organizer**, ICMR 2027 (details will be announced soon)
+* **Workshop Organizer**, workshop on cultural understanding at ICMR 2027 (details will be announced soon)
+* **Workshop Bid**, preparing a second cultural understanding workshop for ACL 2027, with AI Singapore
 * **Registration Chair**, [SSNLP 2026](https://ssnlp2026.github.io/#organizers)
 * **Judge**, Singapore Science and Engineering Fair (SSEF) 2025
 * Programme Committee member & reviewer: AAAI 2026 and 2027, ACM MM 2026, ICANN 2019, IEEE Transactions on Artificial Intelligence
