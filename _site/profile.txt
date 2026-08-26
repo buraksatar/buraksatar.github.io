@@ -1,0 +1,93 @@
+MACHINE-READABLE PROFESSIONAL PROFILE
+Generated from https://buraksatar.github.io/ — plain text, no markup.
+
+Name: Burak Satar
+Location: Singapore
+Email: buraks@smu.edu.sg
+Website: http://localhost:4173/
+Google Scholar: https://scholar.google.com/citations?user=qSgpP04AAAAJ
+ORCID: 
+GitHub: https://github.com/buraksatar
+LinkedIn: https://www.linkedin.com/in/buraksatar/
+Hugging Face: https://huggingface.co/Multimedia-SMU
+
+SUMMARY
+Research Scientist at Singapore Management University working on culturally-aware vision-language models, with a focus on Southeast Asia.
+
+CURRENT ROLE
+- Research Scientist, School of Computing and Information Systems, Singapore Management University, Singapore (since March 2025). Works with Prof Chong-Wah Ngo on multimodal reasoning across image, video, audio and text.
+
+RESEARCH THEMES
+- Cultural multimodal reasoning and grounding: Benchmarks and methods that test whether a vision-language model understands a cultural scene or has only learned to sound confident about it. Southeast Asia first, because it is the hardest available test case.
+- Debiased and semantic text-video retrieval: Video retrieval models take shortcuts: clip length, object co-occurrence, verb priors. My doctoral work identified these shortcuts and removed them with semantic role structure and causal intervention.
+- Long-video retrieval and multimodal planning: Grounding language-model plans in video, and finding the right moment inside hours of egocentric footage.
+- Earlier work: Vehicle detection and recognition, from my master's.
+
+RESEARCH DOMAINS AND KEYWORDS
+Vision-language models; Culturally-aware artificial intelligence; Cultural reasoning and visual grounding; Multimodal benchmarks and dataset construction; Southeast Asian AI evaluation; Text-to-video retrieval; Video corpus moment retrieval; Causal intervention and debiasing; Multimodal large language models; Seeing Culture benchmark; EPIC-Kitchens multi-instance retrieval; Computer vision; Natural language processing.
+
+EDUCATION
+- Ph.D. in Computer Science, Nanyang Technological University, Singapore (2020-2024).
+- M.Sc. in Electronics Engineering, Uludağ University, Türkiye (2018).
+- B.Sc. in Electronics Engineering, Uludağ University, Türkiye (2014).
+
+PUBLICATIONS
+- Cultural Moment Benchmark: Evaluating Video Cultural Reasoning and Grounding in Southeast Asia. Burak Satar, Zhixin Ma, Cheng Yu-Tong, Huy Hoang Tran, Phuong Anh Nguyen, Chong-Wah Ngo. EMNLP 2026, 2026. http://localhost:4173/publications/cultural-moment/
+- Video Object Segmentation in Cultural Context. Zhixin Ma, Burak Satar, Chong-Wah Ngo. In preparation, 2026. http://localhost:4173/publications/cultural-video-object-segmentation/
+- Enhancing Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion. Burak Satar, Joo-Hwee Lim, Hanwang Zhang, Muhammet Furkan Ilaslan, Hongyuan Zhu, Michael Wray. In preparation, 2026. http://localhost:4173/publications/vcmr-long-egocentric/
+- Retrieval-Augmented Reasoning Segmentation in Cultural Context. Zhixin Ma, Burak Satar, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Phuong Anh Nguyen, Chong-Wah Ngo. ACM TOMM (under review), 2026. http://localhost:4173/publications/rarseg/
+- Seeing Culture: A Benchmark for Visual Reasoning and Grounding. Burak Satar, Zhixin Ma, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo. EMNLP 2025, 2025. DOI: 10.18653/v1/2025.emnlp-main.1131. http://localhost:4173/publications/seeing-culture/
+- VG-TVP: Multimodal Procedural Planning via Visually Grounded Text-Video Prompting. Muhammet Furkan Ilaslan, Ali Köksal, Kevin Qinghong Lin, Burak Satar, Mike Zheng Shou, Qianli Xu. AAAI 2025, 2025. DOI: 10.1609/aaai.v39i4.32406. http://localhost:4173/publications/vg-tvp/
+- Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention. Burak Satar, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim. BMVC 2023, 2023. http://localhost:4173/publications/frame-length-bias/
+- An Overview of Challenges in Egocentric Text-Video Retrieval. Burak Satar, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim. CVPR 2023 Joint Ego4D/EPIC Workshop, 2023. DOI: 10.48550/arXiv.2306.04345. http://localhost:4173/publications/egocentric-challenges/
+- RoME: Role-aware Mixture-of-Expert Transformer for Text-to-Video Retrieval. Burak Satar, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim. arXiv preprint, 2022. DOI: 10.48550/arXiv.2206.12845. http://localhost:4173/publications/rome/
+- Exploiting Semantic Role Contextualized Video Features for Multi-Instance Text-Video Retrieval (EPIC-KITCHENS-100 Challenge 2022). Burak Satar, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim. CVPR 2022 Joint Ego4D/EPIC Workshop, 2022. DOI: 10.48550/arXiv.2206.14381. http://localhost:4173/publications/semantic-role-epic-challenge/
+- Semantic Role Aware Correlation Transformer for Text to Video Retrieval. Burak Satar, Hongyuan Zhu, Xavier Bresson, Joo-Hwee Lim. IEEE ICIP 2021, 2021. DOI: 10.1109/ICIP42928.2021.9506267. http://localhost:4173/publications/semantic-role-correlation/
+- Deep Learning Based Vehicle Make-Model Classification. Burak Satar, Ahmet Emir Dirik. ICANN 2018, 2018. DOI: 10.1007/978-3-030-01424-7_53. http://localhost:4173/publications/vehicle-make-model/
+
+Under review: a video benchmark for cultural reasoning and grounding in Southeast Asia; retrieval-augmented reasoning segmentation in a cultural context. Drafts on request.
+
+AWARDS AND HONOURS
+- Joint 3rd Place, EPIC-Kitchens-100 Multi-Instance Retrieval Challenge, CVPR 2022.
+- Finalist, Three Minute Thesis (3MT), Nanyang Technological University, 2022.
+- SINGA Ph.D. Scholarship, A*STAR, 2020-2024.
+- Student Travel Award, European Neural Network Society (ICANN), 2018.
+
+TEACHING AND MENTORING
+- CE3004/CZ3004 Multidisciplinary Design Project, NTU, SCSE (now CCDS), 2021.
+- Machine Learning Codelab Mentor, GDG DevFest London, King's College London, 2019.
+- Deep Learning Study Group, Uludağ University, 2018.
+- Supervises student interns and research projects at SMU.
+
+ACADEMIC SERVICE
+- Workshop Organizer, ICMR 2027.
+- Registration Chair, SSNLP 2026.
+- Judge, Singapore Science and Engineering Fair (SSEF) 2025.
+- Programme Committee member and reviewer: AAAI 2026 and 2027, ACM MM 2026, ICANN 2019, IEEE Transactions on Artificial Intelligence.
+- Volunteer: ACM Web Conference 2024, NeurIPS 2021.
+- Founder, Turquoise Dot, a meetup community for Turkish and Turkic researchers and tech professionals in Singapore (2025).
+- Summer schools: CIFAR DLRL 2022; PAISS 2021 (poster).
+
+INVITED TALKS
+- Developing Research Skills: From Process to Paper. CCDS Graduate Students' Club, NTU, March 2026.
+- Seeing Culture. ResearchTrend.AI, December 2025.
+
+CONFERENCE TALKS AND PRESENTATIONS
+- Towards Debiasing Frame Length Bias in Text-Video Retrieval (poster) — BMVC 2023, Aberdeen, UK, Nov 2023.
+- An Overview of Challenges in Egocentric Text-Video Retrieval (oral) — CVPR 2023, Joint Ego4D/EPIC Workshop, Vancouver, Canada, Jun 2023.
+- Poster presentation at Singapore Vision Day — Singapore Vision Day, NUS, Singapore, May 2023.
+- EPIC-Kitchens-100 Multi-Instance Retrieval Challenge (joint 3rd place) — CVPR 2022, Joint Ego4D/EPIC Workshop, New Orleans, Louisiana, USA, Jun 2022.
+- Three Minute Thesis (3MT) Final, NTU (finalist) — Nanyang Technological University, Singapore, Jun 2022.
+- Semantic Role Aware Correlation Transformer for Text to Video Retrieval (workshop oral) — ICCV 2021, SRVU Workshop, Virtual, Oct 2021.
+- Semantic Role Aware Correlation Transformer for Text to Video Retrieval (oral) — IEEE ICIP 2021, Virtual, Sep 2021.
+- Deep Learning Based Vehicle Make-Model Classification (oral) — ICANN 2018, Rhodes, Greece, Oct 2018.
+
+LANGUAGES
+Turkish (native); English (professional working proficiency); Italian (elementary); Spanish (elementary); Bahasa Indonesia (elementary).
+
+OPEN TO
+- Research collaborations on culturally-aware multimodal AI and Southeast Asia benchmarks.
+- Student internships and research mentorship at SMU.
+- Invited talks and industry projects on cultural AI evaluation and model development and reasoning.
+
+END OF PROFILE
