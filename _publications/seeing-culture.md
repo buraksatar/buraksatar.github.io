@@ -72,4 +72,13 @@ bibtex: |
 Browse the 1,065 images and 3,178 questions in the
 [dataset viewer on Hugging Face](https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark).
 
+## Related
+
+The video sequel, [Cultural Moment](/publications/cultural-moment/) (EMNLP 2026),
+carries the visual-option design into video and adds free-form temporal
+localization: name the concept, recognize it among unlabeled video moments, then
+locate its sub-events in time. Its
+[project page](https://culturalmoment-benchmark.github.io/) has a playable sample
+of all three stages.
+
 {% include bibtex.html %}

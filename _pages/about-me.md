@@ -28,8 +28,8 @@ the internet is not the world. Roughly speaking, the machine has seen a million
 Ohio weddings and a handful of Barong dances.
 
 My work is to prove that precisely enough that it can be fixed. We build tests.
-The one I care most about, [Seeing Culture](/publications/seeing-culture/), does
-something most tests do not: it makes the model show its work. First answer the
+Our first benchmark, [Seeing Culture](/publications/seeing-culture/) (EMNLP 2025),
+does something most tests do not: it makes the model show its work. First answer the
 question about the artifact; then point to that artifact in the picture. A model
 that names the right thing while circling the wrong part of the image did not
 know the answer; it guessed well. Ordinary accuracy scores cannot tell those two
@@ -38,6 +38,17 @@ apart. Ours can.
 The result is not subtle. On our benchmark GPT-o3 answers **91%** of
 across-culture questions correctly, and yet its grounding never rises above
 **32.5 mean IoU**. It says the right word and points at the wrong thing.
+
+[Cultural Moment](/publications/cultural-moment/) (EMNLP 2026) carries the same
+principle into video, where culture lives in time as well as in pixels. A model
+must name a Southeast Asian concept from its symbolic description, recognize it
+among unlabeled video moments, and then locate its sub-events inside a different
+video of the same concept. We score the three abilities separately, and they do
+not compose: even the strongest closed-source models clear all three stages for
+fewer than **30%** of concepts, and a 14-rater human study shows the knowledge
+required is country-specific, not regional. You can
+[try all three stages yourself](https://culturalmoment-benchmark.github.io/) on
+the project page.
 
 ## How I got here
 
@@ -55,9 +66,10 @@ SMU.
 Bursa → Siena and Naples → Valencia → Bursa → İstanbul → London → Singapore → Bristol → Singapore.
 
 I am Turkish, I live in Singapore, and I work on Southeast Asia. I am an outsider
-to every culture in the Seeing Culture benchmark, which is why it was built with
-people who are not: the co-authors, students and annotators from the countries in
-it. Cultural AI built only by people who visited is the problem, not the fix.
+to every culture in the Seeing Culture and Cultural Moment benchmarks, which is
+why they were built with people who are not: the co-authors, students and
+annotators from the countries in them. Cultural AI built only by people who
+visited is the problem, not the fix.
 
 ## What I think the field should do
 
