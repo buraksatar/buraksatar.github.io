@@ -5,7 +5,7 @@ author_profile: true
 excerpt: "Every page on buraksatar.github.io, plus the machine-readable versions."
 ---
 
-Machine-readable: [sitemap.xml](/sitemap.xml) · [feed.xml](/feed.xml) · [llms.txt](/llms.txt) · [profile.txt](/profile.txt)
+Machine-readable: [sitemap.xml](/sitemap.xml) · [feed.xml](/feed.xml) · [robots.txt](/robots.txt) · [llms.txt](/llms.txt) · [llms-full.txt](/llms-full.txt) · [profile.txt](/profile.txt)
 
 ## Pages
 

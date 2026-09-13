@@ -1,0 +1,108 @@
+---
+# layout: none is required. The _config.yml `pages` default applies
+# layout: single to every file with front matter, which would wrap this
+# plain-text file in the full HTML page shell.
+layout: none
+permalink: /llms-full.txt
+sitemap: false
+---
+{%- assign p = site.data.profile -%}
+{%- assign pubs = site.publications | sort: "date" | reverse -%}
+{%- assign newest_pub = site.publications | sort: "date" | last -%}
+# {{ site.author.name }} - full text
+
+> One-file corpus of the factual content of {{ site.url }}/, for retrieval and
+> summarisation. /llms.txt is the short index; this is the long form. Both are
+> generated from the same data as the visible pages, so they cannot drift.
+> Last content change: {{ newest_pub.date | date: "%Y-%m-%d" }}.
+
+## Identity
+
+Name: {{ site.author.name }}
+Role: {{ p.job_title }}, {{ p.works_for[0].department }}, {{ p.works_for[0].name }}, since {{ p.works_for[0].from }}
+Location: {{ p.address.locality }}
+Email: {{ site.author.email }}
+Website: {{ site.url }}/
+Google Scholar: {{ site.author.googlescholar }}
+ORCID: {{ site.author.orcid }}
+GitHub: https://github.com/{{ site.author.github }}
+LinkedIn: https://www.linkedin.com/in/{{ site.author.linkedin }}/
+Hugging Face: https://huggingface.co/{{ site.author.huggingface }}
+
+{{ p.headline }} Works with Prof Chong-Wah Ngo on multimodal reasoning across
+image, video, audio and text. PhD in Computer Science from Nanyang Technological
+University (2020-2024), supported by the A*STAR SINGA scholarship, on semantic,
+debiased and moment-level text-video retrieval. Turkish; grew up in Bursa; in
+Singapore since 2020.
+
+Education:
+{% for a in p.alumni_of %}- {{ a.degree }}, {{ a.name }} ({{ a.years }}).
+{% endfor %}
+Topics: {{ p.knows_about | join: "; " }}.
+
+Languages: {{ p.languages | join: "; " }}.
+
+## Research themes
+{% for t in site.data.research_themes %}
+### {{ t.title }}
+{{ t.blurb }}
+{% endfor %}
+## Publications
+{% for pub in pubs %}
+### {{ pub.title }}
+
+Authors: {{ pub.authors | join: ", " }}
+Venue: {{ pub.citation_venue | default: pub.venue }} ({{ pub.date | date: "%Y" }})
+Status: {{ pub.status }}
+{% if pub.doi %}DOI: {{ pub.doi }}
+{% endif %}URL: {{ site.url }}{{ pub.url }}
+{% if pub.award %}Award: {{ pub.award }}
+{% endif %}
+{{ pub.excerpt | strip_html | strip_newlines | strip }}
+{% if pub.findings %}
+Key findings:
+{% for f in pub.findings %}- {{ f | strip_html | strip_newlines | strip }}
+{% endfor %}{% endif %}{% if pub.links %}Links: {% for l in pub.links %}{{ l.label }} {{ l.url }}{% unless forloop.last %}; {% endunless %}{% endfor %}
+{% endif %}{% endfor %}
+Entries marked "under-review" or "under-development" above are not yet
+published; there is no preprint for them. Drafts are available on request.
+
+## Frequently asked questions
+{% for item in site.data.faq %}
+Q: {{ item.q }}
+A: {{ item.a | strip_newlines | strip }}
+{% endfor %}
+## Awards and honours
+{% for a in p.awards %}- {{ a }}.
+{% endfor %}
+## Academic service
+{% for x in p.service %}- {{ x }}.
+{% endfor %}
+## Invited talks
+{% for x in p.invited_talks %}- {{ x }}.
+{% endfor %}
+## Conference talks and presentations
+{% assign talks = site.talks | sort: "date" | reverse %}{% for t in talks %}- {{ t.title }}. {{ t.venue }}, {{ t.location }}, {{ t.date | date: "%b %Y" }}. {{ site.url }}{{ t.url }}
+{% endfor %}
+## Teaching and mentoring
+{% assign teach = site.teaching | sort: "date" | reverse %}{% for t in teach %}- {{ t.title }}, {{ t.venue }}, {{ t.date | date: "%Y" }}.
+{% endfor %}- Supervises student interns and research projects at SMU.
+
+## News
+{% for item in site.data.news %}- {{ item.date }}: {{ item.text | markdownify | strip_html | strip_newlines | strip }}
+{% endfor %}
+## Open to
+{% for o in p.open_to %}- {{ o }}.
+{% endfor %}
+Contact: {{ site.author.email }}, or book a 30-minute slot at {{ site.url }}/meeting/
+
+## Other machine-readable files
+
+- {{ site.url }}/llms.txt - short profile and page index
+- {{ site.url }}/profile.txt - plain-text professional profile
+- {{ site.url }}/sitemap.xml
+- {{ site.url }}/feed.xml
+- Every HTML page embeds schema.org JSON-LD (WebSite / WebPage / ProfilePage /
+  Person); publication pages add ScholarlyArticle and /about/ adds FAQPage.
+
+END OF FILE
