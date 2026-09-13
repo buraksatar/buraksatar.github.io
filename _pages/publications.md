@@ -2,6 +2,7 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
+last_modified: 2026-09-13
 author_profile: true
 excerpt: "Peer-reviewed publications by Burak Satar on culturally-aware vision-language models, text-video retrieval and multimodal reasoning."
 ---

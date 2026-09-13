@@ -104,6 +104,22 @@
 {% endcomment %}
 {% assign p = site.data.profile %}
 {% assign person_id = seo_url | append: "/#person" %}
+{% comment %}
+  dateModified, but only where the page can state one honestly. Undated pages
+  are discounted by search engines and by AI crawlers, and a value taken from
+  site.time would instead claim every page changed on every unrelated rebuild.
+
+  Order: an explicit `last_modified` (or `last_updated`) in front matter wins;
+  the homepage falls back to the newest publication, since its selected work
+  and news blocks are generated from that collection; everything else falls
+  back to its own date, which is what a paper, post or talk page actually is.
+{% endcomment %}
+{% assign page_modified = page.last_modified | default: page.last_updated %}
+{% if page.url == "/" and page_modified == nil %}
+  {% assign newest_pub = site.publications | sort: "date" | last %}
+  {% assign page_modified = newest_pub.date %}
+{% endif %}
+{% assign page_modified = page_modified | default: page.date %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -125,7 +141,9 @@
       "description": {{ seo_description | jsonify }},
       "inLanguage": "en",
       "isPartOf": { "@id": {{ seo_url | append: "/#website" | jsonify }} },
-      "about": { "@id": {{ person_id | jsonify }} }{% if page.url == "/" %},
+      "about": { "@id": {{ person_id | jsonify }} }{% if page.date %},
+      "datePublished": {{ page.date | date_to_xmlschema | jsonify }}{% endif %}{% if page_modified %},
+      "dateModified": {{ page_modified | date_to_xmlschema | jsonify }}{% endif %}{% if page.url == "/" %},
       "mainEntity": { "@id": {{ person_id | jsonify }} }{% endif %}
     },
     {
