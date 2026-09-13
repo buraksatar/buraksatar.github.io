@@ -23,7 +23,7 @@ authors:
 
 ## Status
 
-This work is **under development** — no preprint and no results to report yet.
+This work is **under development**. There is no preprint and no results to report yet.
 
 If it overlaps something you are working on, [get in touch](mailto:buraks@smu.edu.sg);
 I would rather compare notes early than collide at submission.

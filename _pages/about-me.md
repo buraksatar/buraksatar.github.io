@@ -1,8 +1,9 @@
 ---
 layout: single
 title: "About"
-seo_title: "About Burak Satar — how I got here, and what I actually work on"
+seo_title: "About Burak Satar: how I got here, and what I actually work on"
 permalink: /about/
+last_modified: 2026-09-13
 author_profile: true
 excerpt: "Burak Satar: the route from Bursa to Singapore, and a plain-language explanation of research on culturally-aware vision-language models."
 ---
@@ -85,6 +86,10 @@ This is the checklist that I would argue for:
    disparity that matters.
 5. **Treat cultural knowledge and cultural perception as different problems.**
    Fixing one does not fix the other.
+
+## Common questions
+
+{% include faq.html %}
 
 ## Elsewhere
 

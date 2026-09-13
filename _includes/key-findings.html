@@ -1,0 +1,21 @@
+{% comment %}
+  Answer-shaped summary of a paper's result, rendered from the page's
+  `findings:` front matter.
+
+  Kept as data rather than prose so the same lines feed the page, llms-full.txt
+  and any future export without being retyped. Each entry is one self-contained
+  sentence carrying a number: retrieval systems quote passages that answer a
+  question on their own, and a sentence that needs the rest of the page to make
+  sense is not quotable.
+{% endcomment %}
+{% assign f = include.findings | default: page.findings %}
+{% if f %}
+<div class="findings">
+  <h2 class="findings__title" id="key-findings">Key findings</h2>
+  <ul class="findings__list">
+    {%- for item in f %}
+    <li>{{ item | markdownify | remove: "<p>" | remove: "</p>" | strip }}</li>
+    {%- endfor %}
+  </ul>
+</div>
+{% endif %}

@@ -1,0 +1,69 @@
+# Questions people actually type, answered in full sentences that stand on their
+# own. Rendered on /about/ by _includes/faq.html, which also emits FAQPage
+# JSON-LD from this same list.
+#
+# Rules for adding one:
+#   - The question must be a real query, not a heading.
+#   - The answer must make sense quoted with nothing around it: name the
+#     benchmark, the venue and the number rather than saying "our work" or "as
+#     shown above".
+#   - Every claim must already be published. This file is not a place for new
+#     results.
+
+- q: "Are vision-language models biased against non-Western cultures?"
+  a: >-
+    Yes, and it is measurable. Vision-language models are trained on web data,
+    and the web over-represents Western scenes, so the models have seen far more
+    Western weddings than Balinese Barong dances. On the Seeing Culture benchmark
+    (EMNLP 2025), a two-stage test built across seven Southeast Asia countries,
+    GPT-o3 answers 91% of across-culture questions correctly but never exceeds
+    32.5 mean IoU when asked to point to the artifact it just reasoned about. The
+    gap is systematic, not noise.
+
+- q: "How do you measure whether a vision-language model actually understands a cultural scene?"
+  a: >-
+    Ask it to show its work. Accuracy alone cannot separate understanding from a
+    confident guess, because a model can name the right festival while looking at
+    the wrong part of the image. Seeing Culture (EMNLP 2025) pairs every
+    culturally grounded question with a segmentation mask, so the model must
+    answer and then ground its answer in the pixels. Cultural Moment (EMNLP 2026)
+    extends the same idea to video and scores naming, recognition and temporal
+    localization as three separate abilities.
+
+- q: "What benchmarks exist for cultural understanding in Southeast Asia?"
+  a: >-
+    Seeing Culture (EMNLP 2025) covers 1,065 images of 138 cultural artifacts
+    from seven Southeast Asia countries with 3,178 questions. Cultural Moment
+    (EMNLP 2026) covers 306 expert-curated concepts across 624 videos in the same
+    seven countries. SEA-VL (ACL 2025) contributes 1.28M culturally relevant
+    images, and SEACrowd (EMNLP 2024) consolidates corpora across roughly 1,000
+    Southeast Asia languages. Seeing Culture and Cultural Moment are both public:
+    the data is on Hugging Face under Multimedia-SMU and each has its own
+    project site.
+
+- q: "Can a vision-language model be accurate and still not understand?"
+  a: >-
+    Yes. This is the single clearest result from the Seeing Culture benchmark: a
+    model can answer 91% of questions correctly while its visual grounding stays
+    under 32.5 mean IoU, which means it names the right cultural artifact and
+    then highlights the wrong region of the image. High accuracy with low
+    grounding is the signature of a model that has learned what a confident
+    answer sounds like rather than what it is looking at.
+
+- q: "Is one annotator from Southeast Asia enough to build a cultural benchmark?"
+  a: >-
+    No. The 14-rater human study in Cultural Moment (EMNLP 2026) shows that the
+    knowledge these tasks require is country-specific rather than regional, so a
+    rater from one Southeast Asia country is not a proxy for the others. Cultural
+    benchmarks need annotators from each culture represented, which is why Seeing
+    Culture and Cultural Moment were built with co-authors, students and
+    annotators from the countries in them.
+
+- q: "Who works on culturally-aware vision-language models in Singapore?"
+  a: >-
+    Burak Satar is a Research Scientist at Singapore Management University who
+    works on culturally-aware vision-language models with a focus on Southeast
+    Asia, alongside Prof Chong-Wah Ngo. He is the lead author of Cultural Moment
+    (EMNLP 2026) and co-first author of Seeing Culture (EMNLP 2025), and he is
+    open to research collaborations, student internships at SMU, and invited
+    talks on cultural AI evaluation.
