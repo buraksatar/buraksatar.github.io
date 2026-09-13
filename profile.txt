@@ -9,7 +9,7 @@ sitemap: false
 {%- assign p = site.data.profile -%}
 {%- assign pubs = site.publications | sort: "date" | reverse -%}
 MACHINE-READABLE PROFESSIONAL PROFILE
-Generated from https://buraksatar.github.io/ — plain text, no markup.
+Generated from https://buraksatar.github.io/ (plain text, no markup).
 
 Name: {{ site.author.name }}
 Location: {{ p.address.locality }}
@@ -55,7 +55,7 @@ INVITED TALKS
 {% for x in p.invited_talks %}- {{ x }}.
 {% endfor %}
 CONFERENCE TALKS AND PRESENTATIONS
-{% assign talks = site.talks | sort: "date" | reverse %}{% for t in talks %}- {{ t.title }} — {{ t.venue }}, {{ t.location }}, {{ t.date | date: "%b %Y" }}.
+{% assign talks = site.talks | sort: "date" | reverse %}{% for t in talks %}- {{ t.title }}. {{ t.venue }}, {{ t.location }}, {{ t.date | date: "%b %Y" }}.
 {% endfor %}
 LANGUAGES
 {{ p.languages | join: "; " }}.

@@ -57,6 +57,7 @@ Entries marked "Under review" or "In preparation" above are not yet published; t
 
 ## Machine-readable
 
+- [Full text]({{ site.url }}/llms-full.txt): the factual content of the whole site in one file
 - [Plain-text profile]({{ site.url }}/profile.txt): factual summary and keywords for ATS and AI agents
 - [sitemap.xml]({{ site.url }}/sitemap.xml), [feed.xml]({{ site.url }}/feed.xml)
-- Every page embeds schema.org JSON-LD (WebSite / WebPage / ProfilePage / Person); publication pages add ScholarlyArticle. Generated from the same data as the visible pages.
+- Every page embeds schema.org JSON-LD (WebSite / WebPage / ProfilePage / Person); publication pages add ScholarlyArticle and /about/ adds FAQPage. Generated from the same data as the visible pages.
