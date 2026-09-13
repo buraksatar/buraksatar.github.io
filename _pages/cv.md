@@ -2,6 +2,7 @@
 layout: archive
 title: "CV"
 permalink: /cv/
+last_modified: 2026-09-13
 author_profile: true
 excerpt: "CV of Burak Satar, Research Scientist at Singapore Management University; PhD in Computer Science from NTU; culturally-aware vision-language models."
 redirect_from:
@@ -47,20 +48,19 @@ See the [full publication list](/publications/) or my [Google Scholar profile](h
 
 ## Academic service & activities
 
-* **Workshop Organizer**, workshop on cultural understanding at ICMR 2027 (details will be announced soon)
-* **Workshop Bid**, preparing a second cultural understanding workshop for ACL 2027, with AI Singapore
+* **Workshop Bid**, a workshop on cultural understanding at ACL 2027, applied for with AI Singapore, MBZUAI and Oracle
 * **Registration Chair**, [SSNLP 2026](https://ssnlp2026.github.io/#organizers)
 * **Judge**, Singapore Science and Engineering Fair (SSEF) 2025
 * Programme Committee member & reviewer: AAAI 2026 and 2027, ACM MM 2026, ICANN 2019, IEEE Transactions on Artificial Intelligence
 * Volunteer: ACM Web Conference 2024, NeurIPS 2021
-* Founder, [Turquoise Dot](https://theturquoisedot.github.io/) — a meetup community for Turkish and Turkic researchers and tech professionals in Singapore (2025)
+* Founder, [Turquoise Dot](https://theturquoisedot.github.io/), a meetup community for Turkish and Turkic researchers and tech professionals in Singapore (2025)
 * Summer schools: CIFAR DLRL 2022; PAISS 2021 (poster presentation)
 * Teaching and mentoring: see [Teaching](/teaching/)
 
 ## Invited talks
 
-* **Developing Research Skills: From Process to Paper** — CCDS Graduate Students' Club, NTU, Mar 2026
-* **Seeing Culture** — [ResearchTrend.AI](https://www.linkedin.com/company/researchtrend-ai/), Dec 2025
+* **Developing Research Skills: From Process to Paper**, CCDS Graduate Students' Club, NTU, Mar 2026
+* **Seeing Culture**, [ResearchTrend.AI](https://www.linkedin.com/company/researchtrend-ai/), Dec 2025
 
 Conference presentations are listed under [Talks](/talks/).
 
