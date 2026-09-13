@@ -17,6 +17,11 @@ authors:
 pdfurl: "https://aclanthology.org/2025.emnlp-main.1131.pdf"
 theme: cultural-multimodal
 status: published
+findings:
+  - "1,065 images of 138 cultural artifacts from seven Southeast Asia countries, with 3,178 questions."
+  - "Answering and grounding come apart. GPT-o3 answers 91% of across-culture questions correctly, yet its grounding never rises above 32.5 mean IoU: it names the right artifact while pointing at the wrong part of the image."
+  - "Because every question is paired with a segmentation mask, a model that answers correctly for the wrong visual reason is caught. A single accuracy number cannot separate understanding from a lucky guess."
+  - "The gaps are systematic rather than noise, and they are largest on questions that cross from one Southeast Asia culture to another."
 selected: 2
 teaser: "teasers/seeing-culture.webp"
 doi: "10.18653/v1/2025.emnlp-main.1131"
@@ -62,6 +67,8 @@ bibtex: |
 *A two-stage benchmark where models must first reason about a cultural artifact, then visually ground it, built across Southeast Asia.*
 
 {% include pub-links.html %}
+
+{% include key-findings.html %}
 
 <img src="/images/seeing-culture-teaser.webp" alt="Seeing Culture's two-stage task: a culturally grounded question with four image options, then a segmentation mask marking the artifact the model reasoned about." width="800" loading="lazy"/>
 

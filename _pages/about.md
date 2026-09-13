@@ -1,11 +1,11 @@
 ---
 permalink: /
 title: "Burak Satar"
-seo_title: "Burak Satar — Research Scientist, culturally-aware vision-language models"
+seo_title: "Burak Satar - Research Scientist, culturally-aware vision-language models"
 excerpt: "Burak Satar is a Research Scientist at Singapore Management University making vision-language models culturally aware, starting with Southeast Asia."
 author_profile: true
 # /about/ is a real page now (_pages/about-me.md), so the homepage must not
-# also claim that URL — two documents targeting /about/index.html breaks the build.
+# also claim that URL: two documents targeting /about/index.html breaks the build.
 redirect_from:
   - /about.html
 ---
@@ -100,6 +100,6 @@ My PhD thesis, *Towards Semantic, Debiased and Moment Video Retrieval with Multi
 
 ## Work with me
 
-* **Research collaborators** — cultural reasoning and grounding benchmarks, culturally-aware VLMs, Southeast Asia datasets. [Book a 30-minute chat](/meeting/).
-* **Students** — internships and research mentorship at SMU on multimodal AI. [Email me](mailto:buraks@smu.edu.sg) with your CV and a short note on what you would like to work on.
-* **Industry and talks** — invited talks, media, and projects on cultural AI evaluation and model design. [Email me](mailto:buraks@smu.edu.sg) or [book a slot](/meeting/).
+* **Research collaborators**: cultural reasoning and grounding benchmarks, culturally-aware VLMs, Southeast Asia datasets. [Book a 30-minute chat](/meeting/).
+* **Students**: internships and research mentorship at SMU on multimodal AI. [Email me](mailto:buraks@smu.edu.sg) with your CV and a short note on what you would like to work on.
+* **Industry and talks**: invited talks, media, and projects on cultural AI evaluation and model design. [Email me](mailto:buraks@smu.edu.sg) or [book a slot](/meeting/).

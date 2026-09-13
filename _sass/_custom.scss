@@ -990,3 +990,116 @@ code, pre { font-family: $monospace; }
   h1, h2, h3 { page-break-after: avoid; }
   .pub, .news-list__item { page-break-inside: avoid; }
 }
+
+
+/* --- Key findings ------------------------------------------------------- */
+/* Quiet callout on publication pages. Its job is to put the paper's numbers in
+   one self-contained block near the top, where both a skimming reader and a
+   retrieval system will find them. Rendered by _includes/key-findings.html. */
+.findings {
+  max-width: var(--measure);
+  margin: var(--s5) 0;
+  padding: var(--s4);
+  border: 1px solid var(--global-border-color);
+  border-left: 3px solid var(--warm);
+  border-radius: $border-radius;
+  background: var(--surface);
+}
+.findings__title {
+  /* Suppress the global h2 rule: a second horizontal line inside a bordered
+     card is one divider too many. */
+  margin: 0 0 var(--s3);
+  padding-bottom: 0;
+  border-bottom: 0;
+  font-family: $inter;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
+.findings__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.6em;
+}
+.findings__list li {
+  position: relative;
+  padding-left: 1.1em;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.62em;
+    width: 0.4em;
+    height: 0.4em;
+    border-radius: 50%;
+    background: var(--warm);
+  }
+}
+
+
+/* --- FAQ ---------------------------------------------------------------- */
+/* Native <details>, so it is keyboard accessible, printable, and the answer is
+   in the DOM whether or not it is open. Rendered by _includes/faq.html. */
+.faq {
+  max-width: var(--measure);
+  margin: 0 0 var(--s5);
+  border-top: 1px solid var(--global-border-color);
+}
+.faq__item {
+  border-bottom: 1px solid var(--global-border-color);
+}
+.faq__q {
+  display: list-item;
+  list-style: none;
+  position: relative;
+  padding: var(--s3) 2em var(--s3) 0;
+  font-family: $inter;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.5;
+  cursor: pointer;
+
+  &::-webkit-details-marker { display: none; }
+
+  /* Chevron drawn in CSS so no icon font or SVG is needed for six rows. */
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0.35em;
+    top: 50%;
+    width: 0.45em;
+    height: 0.45em;
+    margin-top: -0.35em;
+    border-right: 2px solid var(--global-text-color-light);
+    border-bottom: 2px solid var(--global-text-color-light);
+    transform: rotate(45deg);
+    transition: transform 0.15s ease;
+  }
+
+  &:hover { color: var(--global-link-color); }
+
+  &:focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+  }
+}
+.faq__item[open] > .faq__q::after {
+  transform: rotate(-135deg);
+}
+.faq__a {
+  padding: 0 2em var(--s4) 0;
+
+  p {
+    margin: 0;
+    font-size: 0.9375rem;
+    line-height: 1.65;
+    color: var(--global-text-color-light);
+  }
+}

@@ -8,6 +8,11 @@ venue: "EMNLP 2026 (Main Conference)"
 citation_venue: "EMNLP 2026"
 theme: cultural-multimodal
 status: published
+findings:
+  - "306 expert-curated cultural concepts from seven Southeast Asia countries across five categories, evaluated over 624 videos in a 3-stage by 3-mode framework."
+  - "Cultural understanding is scored as three separate abilities, naming, recognition and temporal localization, and they do not compose: even the strongest closed-source models clear all three stages for fewer than 30% of concepts."
+  - "A 14-rater human study shows the knowledge required is country-specific, not regional. A rater from one Southeast Asia country is not a proxy for the region."
+  - "Accepted at the EMNLP 2026 Main Conference, which had a 15.4% acceptance rate."
 selected: 1
 teaser: "teasers/cultural-moment.webp"
 pdfurl: "https://arxiv.org/pdf/2608.23065"
@@ -40,6 +45,8 @@ bibtex: |
 
 {% include pub-links.html %}
 
+{% include key-findings.html %}
+
 <img src="/images/cultural-moment-teaser.webp" alt="The CMB three-stage probe of one cultural concept: Stage 1 naming among four candidates, Stage 2 recognition among four video moments, Stage 3 free-form temporal localization on a different video." width="600" loading="lazy"/>
 
 ## What it covers
@@ -51,8 +58,8 @@ Try the interactive walkthrough on the [project page](https://culturalmoment-ben
 ## Related
 
 It builds on [Seeing Culture](/publications/seeing-culture/) (EMNLP 2025), which
-asks the same two-stage question — reason about a cultural artifact, then ground
-it in the image — of still images rather than video. Cultural Moment carries the
+asks the same two-stage question, reason about a cultural artifact then ground
+it in the image, of still images rather than video. Cultural Moment carries the
 visual-option design into video and adds free-form temporal localization.
 
 {% include bibtex.html %}

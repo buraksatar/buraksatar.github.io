@@ -18,7 +18,7 @@ authors:
 
 ## Status
 
-This work is **under development** — earlier stage than the papers under review,
+This work is **under development**, earlier stage than the papers under review,
 with no preprint and no results to report yet.
 
 If it overlaps something you are working on, [get in touch](mailto:buraks@smu.edu.sg);
