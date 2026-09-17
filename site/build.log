@@ -1,0 +1,8 @@
+Configuration file: _config.yml
+Configuration file: _config_preview.yml
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+            Source: /home/runner/work/buraksatar.github.io/buraksatar.github.io
+       Destination: /home/runner/work/buraksatar.github.io/buraksatar.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts

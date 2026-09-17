@@ -1,0 +1,287 @@
+# Burak Satar - full text
+
+> One-file corpus of the factual content of http://localhost:4173/, for retrieval and
+> summarisation. /llms.txt is the short index; this is the long form. Both are
+> generated from the same data as the visible pages, so they cannot drift.
+> Last content change: 2026-08-25.
+
+## Identity
+
+Name: Burak Satar
+Role: Research Scientist, School of Computing and Information Systems, Singapore Management University, since March 2025
+Location: Singapore
+Email: buraks@smu.edu.sg
+Website: http://localhost:4173/
+Google Scholar: https://scholar.google.com/citations?user=qSgpP04AAAAJ
+ORCID: https://orcid.org/0000-0003-2850-7367
+GitHub: https://github.com/buraksatar
+LinkedIn: https://www.linkedin.com/in/buraksatar/
+Hugging Face: https://huggingface.co/Multimedia-SMU
+
+Research Scientist at Singapore Management University working on culturally-aware vision-language models, with a focus on Southeast Asia. Works with Prof Chong-Wah Ngo on multimodal reasoning across
+image, video, audio and text. PhD in Computer Science from Nanyang Technological
+University (2020-2024), supported by the A*STAR SINGA scholarship, on semantic,
+debiased and moment-level text-video retrieval. Turkish; grew up in Bursa; in
+Singapore since 2020.
+
+Education:
+- Ph.D. in Computer Science, Nanyang Technological University, Singapore (2020-2024).
+- M.Sc. in Electronics Engineering, Uludağ University, Türkiye (2018).
+- B.Sc. in Electronics Engineering, Uludağ University, Türkiye (2014).
+
+Topics: Vision-language models; Culturally-aware artificial intelligence; Cultural reasoning and visual grounding; Multimodal benchmarks and dataset construction; Southeast Asian AI evaluation; Text-to-video retrieval; Video corpus moment retrieval; Causal intervention and debiasing; Multimodal large language models; Seeing Culture benchmark; EPIC-Kitchens multi-instance retrieval; Computer vision; Natural language processing.
+
+Languages: Turkish (native); English (professional working proficiency); Italian (elementary); Spanish (elementary); Bahasa Indonesia (elementary).
+
+## Research themes
+
+### Cultural multimodal reasoning and grounding
+Benchmarks and methods that test whether a vision-language model understands a cultural scene or has only learned to sound confident about it. Southeast Asia first, because it is the hardest available test case.
+
+### Debiased and semantic text-video retrieval
+Video retrieval models take shortcuts: clip length, object co-occurrence, verb priors. My doctoral work identified these shortcuts and removed them with semantic role structure and causal intervention.
+
+### Long-video retrieval and multimodal planning
+Grounding language-model plans in video, and finding the right moment inside hours of egocentric footage.
+
+### Earlier work
+Vehicle detection and recognition, from my master's.
+
+## Publications
+
+### Cultural Moment Benchmark: Evaluating Video Cultural Reasoning and Grounding in Southeast Asia
+
+Authors: Burak Satar, Zhixin Ma, Cheng Yu-Tong, Huy Hoang Tran, Phuong Anh Nguyen, Chong-Wah Ngo
+Venue: EMNLP 2026 (2026)
+Status: published
+URL: http://localhost:4173/publications/cultural-moment/
+
+Three-stage video probes of cultural understanding across Southeast Asia: naming a concept, recognizing it among unlabeled video moments, and locating its sub-events in time. EMNLP 2026.
+
+Key findings:
+- 306 expert-curated cultural concepts from seven Southeast Asia countries across five categories, evaluated over 624 videos in a 3-stage by 3-mode framework.
+- Cultural understanding is scored as three separate abilities, naming, recognition and temporal localization, and they do not compose: even the strongest closed-source models clear all three stages for fewer than 30% of concepts.
+- A 14-rater human study shows the knowledge required is country-specific, not regional. A rater from one Southeast Asia country is not a proxy for the region.
+- Accepted at the EMNLP 2026 Main Conference, which had a 15.4% acceptance rate.
+Links: arXiv https://arxiv.org/abs/2608.23065; Project site https://culturalmoment-benchmark.github.io/
+
+### Video Object Segmentation in Cultural Context
+
+Authors: Zhixin Ma, Burak Satar, Chong-Wah Ngo
+Venue: In preparation (2026)
+Status: under-development
+URL: http://localhost:4173/publications/cultural-video-object-segmentation/
+
+Tracking and segmenting culturally significant objects through video, where the object's identity depends on cultural knowledge rather than appearance alone.
+
+### Enhancing Video Corpus Moment Retrieval in Long Ego-centric Videos with LLM and Audio Fusion
+
+Authors: Burak Satar, Joo-Hwee Lim, Hanwang Zhang, Muhammet Furkan Ilaslan, Hongyuan Zhu, Michael Wray
+Venue: In preparation (2026)
+Status: under-development
+URL: http://localhost:4173/publications/vcmr-long-egocentric/
+
+Finding the right moment inside hours of egocentric video by fusing audio with language-model reasoning over the visual stream.
+
+### Retrieval-Augmented Reasoning Segmentation in Cultural Context
+
+Authors: Zhixin Ma, Burak Satar, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Phuong Anh Nguyen, Chong-Wah Ngo
+Venue: ACM TOMM (under review) (2026)
+Status: under-review
+URL: http://localhost:4173/publications/rarseg/
+
+Retrieval-augmented reasoning segmentation for culturally grounded scenes, so a model must retrieve the right cultural knowledge before it segments. Under review for ACM TOMM.
+
+### Seeing Culture: A Benchmark for Visual Reasoning and Grounding
+
+Authors: Burak Satar, Zhixin Ma, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Jing Jiang, Ee-Peng Lim, Chong-Wah Ngo
+Venue: EMNLP 2025 (2025)
+Status: published
+DOI: 10.18653/v1/2025.emnlp-main.1131
+URL: http://localhost:4173/publications/seeing-culture/
+
+A two-stage benchmark where models must first reason about a cultural artifact, then visually ground it, built across Southeast Asia.
+
+Key findings:
+- 1,065 images of 138 cultural artifacts from seven Southeast Asia countries, with 3,178 questions.
+- Answering and grounding come apart. GPT-o3 answers 91% of across-culture questions correctly, yet its grounding never rises above 32.5 mean IoU: it names the right artifact while pointing at the wrong part of the image.
+- Because every question is paired with a segmentation mask, a model that answers correctly for the wrong visual reason is caught. A single accuracy number cannot separate understanding from a lucky guess.
+- The gaps are systematic rather than noise, and they are largest on questions that cross from one Southeast Asia culture to another.
+Links: Paper (ACL) https://aclanthology.org/2025.emnlp-main.1131/; arXiv https://arxiv.org/abs/2509.16517; Project site https://seeingculture-benchmark.github.io/; Code https://github.com/buraksatar/seeingculture; Dataset https://huggingface.co/datasets/Multimedia-SMU/seeingculture-benchmark
+
+### VG-TVP: Multimodal Procedural Planning via Visually Grounded Text-Video Prompting
+
+Authors: Muhammet Furkan Ilaslan, Ali Köksal, Kevin Qinghong Lin, Burak Satar, Mike Zheng Shou, Qianli Xu
+Venue: AAAI 2025 (2025)
+Status: published
+DOI: 10.1609/aaai.v39i4.32406
+URL: http://localhost:4173/publications/vg-tvp/
+
+Procedural planning with LLMs improves when text and video prompts are visually grounded together.
+Links: Paper (AAAI) https://ojs.aaai.org/index.php/AAAI/article/view/32406; arXiv https://arxiv.org/abs/2412.11621; Code https://github.com/mfurkanilaslan/VG-TVP
+
+### Towards Debiasing Frame Length Bias in Text-Video Retrieval via Causal Intervention
+
+Authors: Burak Satar, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim
+Venue: BMVC 2023 (2023)
+Status: published
+URL: http://localhost:4173/publications/frame-length-bias/
+
+Shows that text-video retrieval models exploit clip length as a shortcut, and mitigates the bias with causal intervention.
+Links: PDF (BMVC) https://papers.bmvc2023.org/0650.pdf; arXiv https://arxiv.org/abs/2309.09311; Video https://youtu.be/aMhNvTCkT8Y
+
+### An Overview of Challenges in Egocentric Text-Video Retrieval
+
+Authors: Burak Satar, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim
+Venue: CVPR 2023 Joint Ego4D/EPIC Workshop (2023)
+Status: published
+DOI: 10.48550/arXiv.2306.04345
+URL: http://localhost:4173/publications/egocentric-challenges/
+
+An extended abstract mapping open challenges in egocentric text-video retrieval.
+Links: arXiv https://arxiv.org/abs/2306.04345; Talk https://youtu.be/XnUMScoOPvM
+
+### RoME: Role-aware Mixture-of-Expert Transformer for Text-to-Video Retrieval
+
+Authors: Burak Satar, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim
+Venue: arXiv preprint (2022)
+Status: published
+DOI: 10.48550/arXiv.2206.12845
+URL: http://localhost:4173/publications/rome/
+
+A role-aware mixture-of-experts transformer that separates verbs, objects and context for text-to-video retrieval.
+Links: arXiv https://arxiv.org/abs/2206.12845; Code https://github.com/buraksatar/RoME_video_retrieval
+
+### Exploiting Semantic Role Contextualized Video Features for Multi-Instance Text-Video Retrieval (EPIC-KITCHENS-100 Challenge 2022)
+
+Authors: Burak Satar, Hongyuan Zhu, Hanwang Zhang, Joo-Hwee Lim
+Venue: CVPR 2022 Joint Ego4D/EPIC Workshop (2022)
+Status: published
+DOI: 10.48550/arXiv.2206.14381
+URL: http://localhost:4173/publications/semantic-role-epic-challenge/
+Award: Joint 3rd place
+
+Joint 3rd place in the EPIC-Kitchens-100 Multi-Instance Retrieval Challenge at CVPR 2022.
+Links: Technical report https://arxiv.org/abs/2206.14381; Code https://github.com/buraksatar/RoME_video_retrieval
+
+### Semantic Role Aware Correlation Transformer for Text to Video Retrieval
+
+Authors: Burak Satar, Hongyuan Zhu, Xavier Bresson, Joo-Hwee Lim
+Venue: IEEE ICIP 2021 (2021)
+Status: published
+DOI: 10.1109/ICIP42928.2021.9506267
+URL: http://localhost:4173/publications/semantic-role-correlation/
+
+Aligns semantic roles between text and video with a correlation transformer for retrieval.
+Links: Paper (IEEE) https://doi.org/10.1109/ICIP42928.2021.9506267; arXiv https://arxiv.org/abs/2206.12849; Code https://github.com/buraksatar/RoME_video_retrieval; Talk https://www.youtube.com/watch?v=M7dHgv8fIkU
+
+### Deep Learning Based Vehicle Make-Model Classification
+
+Authors: Burak Satar, Ahmet Emir Dirik
+Venue: ICANN 2018 (2018)
+Status: published
+DOI: 10.1007/978-3-030-01424-7_53
+URL: http://localhost:4173/publications/vehicle-make-model/
+
+CNN-based vehicle make and model classification from my MSc research.
+Links: Paper (Springer) https://doi.org/10.1007/978-3-030-01424-7_53; arXiv https://arxiv.org/abs/1809.00953; Code https://github.com/buraksatar/car-detection-model-prediction
+
+Entries marked "under-review" or "under-development" above are not yet
+published; there is no preprint for them. Drafts are available on request.
+
+## Frequently asked questions
+
+Q: Are vision-language models biased against non-Western cultures?
+A: Yes, and it is measurable. Vision-language models are trained on web data, and the web over-represents Western scenes, so the models have seen far more Western weddings than Balinese Barong dances. On the Seeing Culture benchmark (EMNLP 2025), a two-stage test built across seven Southeast Asia countries, GPT-o3 answers 91% of across-culture questions correctly but never exceeds 32.5 mean IoU when asked to point to the artifact it just reasoned about. The gap is systematic, not noise.
+
+Q: How do you measure whether a vision-language model actually understands a cultural scene?
+A: Ask it to show its work. Accuracy alone cannot separate understanding from a confident guess, because a model can name the right festival while looking at the wrong part of the image. Seeing Culture (EMNLP 2025) pairs every culturally grounded question with a segmentation mask, so the model must answer and then ground its answer in the pixels. Cultural Moment (EMNLP 2026) extends the same idea to video and scores naming, recognition and temporal localization as three separate abilities.
+
+Q: What benchmarks exist for cultural understanding in Southeast Asia?
+A: Seeing Culture (EMNLP 2025) covers 1,065 images of 138 cultural artifacts from seven Southeast Asia countries with 3,178 questions. Cultural Moment (EMNLP 2026) covers 306 expert-curated concepts across 624 videos in the same seven countries. SEA-VL (ACL 2025) contributes 1.28M culturally relevant images, and SEACrowd (EMNLP 2024) consolidates corpora across roughly 1,000 Southeast Asia languages. Seeing Culture and Cultural Moment are both public: the data is on Hugging Face under Multimedia-SMU and each has its own project site.
+
+Q: Can a vision-language model be accurate and still not understand?
+A: Yes. This is the single clearest result from the Seeing Culture benchmark: a model can answer 91% of questions correctly while its visual grounding stays under 32.5 mean IoU, which means it names the right cultural artifact and then highlights the wrong region of the image. High accuracy with low grounding is the signature of a model that has learned what a confident answer sounds like rather than what it is looking at.
+
+Q: Is one annotator from Southeast Asia enough to build a cultural benchmark?
+A: No. The 14-rater human study in Cultural Moment (EMNLP 2026) shows that the knowledge these tasks require is country-specific rather than regional, so a rater from one Southeast Asia country is not a proxy for the others. Cultural benchmarks need annotators from each culture represented, which is why Seeing Culture and Cultural Moment were built with co-authors, students and annotators from the countries in them.
+
+Q: Who works on culturally-aware vision-language models in Singapore?
+A: Burak Satar is a Research Scientist at Singapore Management University who works on culturally-aware vision-language models with a focus on Southeast Asia, alongside Prof Chong-Wah Ngo. He is the lead author of Cultural Moment (EMNLP 2026) and co-first author of Seeing Culture (EMNLP 2025), and he is open to research collaborations, student internships at SMU, and invited talks on cultural AI evaluation.
+
+## Awards and honours
+- Joint 3rd Place, EPIC-Kitchens-100 Multi-Instance Retrieval Challenge, CVPR 2022.
+- Finalist, Three Minute Thesis (3MT), Nanyang Technological University, 2022.
+- SINGA Ph.D. Scholarship, A*STAR, 2020-2024.
+- Student Travel Award, European Neural Network Society (ICANN), 2018.
+
+## Academic service
+- Workshop bid for a cultural understanding workshop at ACL 2027, with AI Singapore, MBZUAI and Oracle.
+- Registration Chair, SSNLP 2026.
+- Judge, Singapore Science and Engineering Fair (SSEF) 2025.
+- Programme Committee member and reviewer: AAAI 2026 and 2027, ACM MM 2026, ICANN 2019, IEEE Transactions on Artificial Intelligence.
+- Volunteer: ACM Web Conference 2024, NeurIPS 2021.
+- Founder, Turquoise Dot, a meetup community for Turkish and Turkic researchers and tech professionals in Singapore (2025).
+- Summer schools: CIFAR DLRL 2022; PAISS 2021 (poster).
+
+## Invited talks
+- Developing Research Skills: From Process to Paper. CCDS Graduate Students' Club, NTU, March 2026.
+- Seeing Culture. ResearchTrend.AI, December 2025.
+
+## Conference talks and presentations
+- Towards Debiasing Frame Length Bias in Text-Video Retrieval (poster). BMVC 2023, Aberdeen, UK, Nov 2023. http://localhost:4173/talks/2023-11-20-bmvc-frame-length-bias/
+- An Overview of Challenges in Egocentric Text-Video Retrieval (oral). CVPR 2023, Joint Ego4D/EPIC Workshop, Vancouver, Canada, Jun 2023. http://localhost:4173/talks/2023-06-19-cvpr-egocentric-overview/
+- Poster presentation at Singapore Vision Day. Singapore Vision Day, NUS, Singapore, May 2023. http://localhost:4173/talks/2023-05-01-singapore-vision-day/
+- EPIC-Kitchens-100 Multi-Instance Retrieval Challenge (joint 3rd place). CVPR 2022, Joint Ego4D/EPIC Workshop, New Orleans, Louisiana, USA, Jun 2022. http://localhost:4173/talks/2022-06-20-cvpr-epic-kitchens-challenge/
+- Three Minute Thesis (3MT) Final, NTU (finalist). Nanyang Technological University, Singapore, Jun 2022. http://localhost:4173/talks/2022-06-01-three-minute-thesis-ntu/
+- Semantic Role Aware Correlation Transformer for Text to Video Retrieval (workshop oral). ICCV 2021, SRVU Workshop, Virtual, Oct 2021. http://localhost:4173/talks/2021-10-16-iccv-srvu-semantic-role/
+- Semantic Role Aware Correlation Transformer for Text to Video Retrieval (oral). IEEE ICIP 2021, Virtual, Sep 2021. http://localhost:4173/talks/2021-09-19-icip-semantic-role/
+- Deep Learning Based Vehicle Make-Model Classification (oral). ICANN 2018, Rhodes, Greece, Oct 2018. http://localhost:4173/talks/2018-10-04-icann-vehicle-make-model/
+
+## Teaching and mentoring
+- CE3004/CZ3004 Multidisciplinary Design Project, NTU, SCSE (now CCDS), 2021.
+- Machine Learning Codelab Mentor, GDG DevFest London, King's College London, 2019.
+- Deep Learning Study Group, Uludağ University, 2018.
+- Supervises student interns and research projects at SMU.
+
+## News
+- Aug 2026: Cultural Moment Benchmark accepted to EMNLP 2026 (Main Conference); now on arXiv with a live project page.
+- May 2026: Submitted a paper on video cultural reasoning to EMNLP 2026.
+- Mar 2026: Invited talk at the CCDS Graduate Students’ Club on Developing Research Skills: From Process to Paper.
+- Jan 2026: Served as a Registration Chair for SSNLP 2026.
+- Dec 2025: Created a meetup community, Turquoise Dot, for Turkish/Turkic researchers and tech professionals in Singapore.
+- Dec 2025: Invited talk at ResearchTrend.AI on Seeing Culture.
+- Aug 2025: Seeing Culture accepted to EMNLP 2025 (Main Conference).
+- Mar 2025: Volunteered at Singapore Science and Engineering Fair (SSEF) 2025 as a judge.
+- Mar 2025: Joined Singapore Management University as a Research Scientist.
+- Dec 2024: Defended my PhD thesis at NTU.
+- May 2024: Volunteered at the ACM Web Conference.
+- Oct 2023: Visited the MaVi Research Group at the University of Bristol for three months, working with Dr Michael Wray on video corpus moment retrieval.
+- May 2023: Presented a poster at Singapore Vision Day, NUS.
+- Jul 2022: Attended the CIFAR DLRL Summer School.
+- Jun 2022: Took joint 3rd place in the EPIC-Kitchens Multi-Instance Retrieval Challenge at CVPR.
+- Jun 2022: Reached the final of the Three Minute Thesis (3MT) competition at NTU, representing CCDS.
+- Jan 2022: Passed my PhD Qualification Exam.
+- Dec 2021: Volunteered at NeurIPS.
+- Jul 2021: Attended the PAISS AI Summer School and presented a poster.
+- Jan 2020: Started my PhD at the College of Computing and Data Science (CCDS), NTU.
+- Aug 2018: Defended my MSc thesis at Uludağ University.
+- Jun 2018: Received a student travel award from the European Neural Network Society to attend ICANN.
+
+## Open to
+- Research collaborations on culturally-aware multimodal AI and Southeast Asia benchmarks.
+- Student internships and research mentorship at SMU.
+- Invited talks and industry projects on cultural AI evaluation and model development and reasoning.
+
+Contact: buraks@smu.edu.sg, or book a 30-minute slot at http://localhost:4173/meeting/
+
+## Other machine-readable files
+
+- http://localhost:4173/llms.txt - short profile and page index
+- http://localhost:4173/profile.txt - plain-text professional profile
+- http://localhost:4173/sitemap.xml
+- http://localhost:4173/feed.xml
+- Every HTML page embeds schema.org JSON-LD (WebSite / WebPage / ProfilePage /
+  Person); publication pages add ScholarlyArticle and /about/ adds FAQPage.
+
+END OF FILE
