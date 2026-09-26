@@ -1,0 +1,82 @@
+# https://buraksatar.github.io/
+#
+# Everything here is public and intended to be read, indexed and summarised,
+# by search engines and by AI systems alike. The named blocks below are
+# redundant with the wildcard, and deliberately so: several AI crawlers only
+# apply the most specific matching user-agent block, so naming them is the only
+# way to be explicitly allowed rather than merely not forbidden.
+#
+# Structured entry points for machine readers:
+#   /llms.txt       short profile and page index
+#   /llms-full.txt  full text of the site in one file
+#   /profile.txt    plain-text professional profile
+#   /sitemap.xml    every page
+#   /feed.xml       posts
+
+User-agent: *
+Allow: /
+
+# Search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# AI answer engines and assistants
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Academic and citation indexes
+User-agent: SemanticScholarBot
+Allow: /
+
+Sitemap: http://localhost:4173/sitemap.xml
