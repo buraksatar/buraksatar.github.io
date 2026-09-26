@@ -4,6 +4,9 @@
 #   date: short human date, "Mon YYYY" (unambiguous internationally)
 #   text: markdown, one sentence, past tense
 
+- date: "Sep 2026"
+  text: "**Cultural Moment Benchmark** selected for an **oral** presentation at **EMNLP 2026** (2.7% acceptance rate), to be presented in Budapest on 25 Oct."
+
 - date: "Aug 2026"
   text: "**Cultural Moment Benchmark** accepted to **EMNLP 2026** (Main Conference); now on [arXiv](https://arxiv.org/abs/2608.23065) with a live [project page](https://culturalmoment-benchmark.github.io/)."
 

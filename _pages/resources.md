@@ -5,7 +5,7 @@ author_profile: true
 excerpt: "A curated, maintained list of benchmarks, datasets and studies for culturally aware and geographically robust vision-language models, with a focus on Southeast Asia."
 # Bump this when you actually add or change an entry. Deliberately NOT site.time,
 # which would claim the page was updated on every unrelated rebuild.
-last_updated: 2026-09-17
+last_updated: 2026-09-26
 ---
 
 A curated list of 89 benchmarks, datasets and studies for measuring how well vision-language models (and multimodal AI generally) handle cultural and geographic diversity: image, video, text-to-image and text-to-video. I maintain this page as the field moves; it accompanies my post [Why Vision-Language Models Fail Outside the West](/blog/why-vlms-fail-outside-the-west/).
@@ -20,7 +20,7 @@ The same list is on GitHub as [awesome-cultural-vlm](https://github.com/buraksat
 
 Everything on this list that is built from Southeast Asian images, videos or prompts, whatever the task. Neighboring traditions here share surface features (rice, water, gold, drums), so fine-grained discrimination is the test.
 
-* **[Cultural Moment Benchmark](https://arxiv.org/abs/2608.23065)** (EMNLP 2026 Main): Three-stage video benchmark of 306 expert-curated cultural concepts from seven Southeast Asian countries: naming, recognizing among video moments, and temporal localization. Public sample; hidden test set held back. Disclosure: this is our work. [Dataset](https://huggingface.co/datasets/Multimedia-SMU/culturalmoment-benchmark), [Code](https://github.com/culturalmoment-benchmark/culturalmoment-benchmark.github.io), [Project page](https://culturalmoment-benchmark.github.io/).
+* **[Cultural Moment Benchmark](https://arxiv.org/abs/2608.23065)** (EMNLP 2026 Main, oral): Three-stage video benchmark of 306 expert-curated cultural concepts from seven Southeast Asian countries: naming, recognizing among video moments, and temporal localization. Public sample; hidden test set held back. Disclosure: this is our work. [Dataset](https://huggingface.co/datasets/Multimedia-SMU/culturalmoment-benchmark), [Code](https://github.com/culturalmoment-benchmark/culturalmoment-benchmark.github.io), [Project page](https://culturalmoment-benchmark.github.io/).
 * **[GG-EZ](https://arxiv.org/abs/2604.11490)** (arXiv, 2026): Regional data filtering plus model merging to adapt LVLMs, SDXL and SigLIP-2 to Southeast Asia, gaining 5 to 15 percent in cultural relevance. [Dataset](https://huggingface.co/collections/SEACrowd/sea-vl-phase-2-multimodal-vision-language-models-for-sea).
 * **[Rice-VL](https://arxiv.org/abs/2512.01419)** (arXiv, 2025): ASEAN cultural VQA benchmark: over 28,000 human-curated questions on 7,000 images and 1,000 grounding boxes across 11 countries and 14 categories. No public data found.
 * **[SEA-VL](https://arxiv.org/abs/2503.07920)** (ACL 2025 Main): Compares crowdsourcing, crawling and image generation for collecting culturally relevant data, yielding 1.28M Southeast Asian images across 11 countries. [Dataset](https://huggingface.co/collections/SEACrowd/sea-vl-multicultural-vl-dataset-for-southeast-asia-67cf223d0c341d4ba2b236e7), [Code](https://github.com/SEACrowd/sea-vl-experiments).

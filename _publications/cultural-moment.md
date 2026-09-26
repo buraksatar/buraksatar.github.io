@@ -2,9 +2,9 @@
 title: "Cultural Moment Benchmark: Evaluating Video Cultural Reasoning and Grounding in Southeast Asia"
 collection: publications
 permalink: /publications/cultural-moment/
-excerpt: "Three-stage video probes of cultural understanding across Southeast Asia: naming a concept, recognizing it among unlabeled video moments, and locating its sub-events in time. EMNLP 2026."
+excerpt: "Three-stage video probes of cultural understanding across Southeast Asia: naming a concept, recognizing it among unlabeled video moments, and locating its sub-events in time. EMNLP 2026 (oral)."
 date: 2026-08-25
-venue: "EMNLP 2026 (Main Conference)"
+venue: "EMNLP 2026 (Main Conference, oral)"
 citation_venue: "EMNLP 2026"
 theme: cultural-multimodal
 status: published
@@ -12,7 +12,7 @@ findings:
   - "306 expert-curated cultural concepts from seven Southeast Asia countries across five categories, evaluated over 624 videos in a 3-stage by 3-mode framework."
   - "Cultural understanding is scored as three separate abilities, naming, recognition and temporal localization, and they do not compose: even the strongest closed-source models clear all three stages for fewer than 30% of concepts."
   - "A 14-rater human study shows the knowledge required is country-specific, not regional. A rater from one Southeast Asia country is not a proxy for the region."
-  - "Accepted at the EMNLP 2026 Main Conference, which had a 15.4% acceptance rate."
+  - "Accepted at the EMNLP 2026 Main Conference (15.4% acceptance rate) and selected for an oral presentation (2.7% acceptance rate)."
 selected: 1
 teaser: "teasers/cultural-moment.webp"
 pdfurl: "https://arxiv.org/pdf/2608.23065"
@@ -53,7 +53,7 @@ bibtex: |
 
 306 expert-curated concepts from seven Southeast Asian countries across five categories, evaluated over 624 videos in a 3-stage &times; 3-mode framework. Cultural understanding is scored as three separate abilities rather than one number, and the abilities do not compose: even the strongest closed-source models clear all three stages for fewer than 30% of concepts, and a 14-rater human study shows the knowledge required is country-specific, not regional.
 
-Try the interactive walkthrough on the [project page](https://culturalmoment-benchmark.github.io/), where the leaderboard and challenge details also live. The paper appears at the EMNLP 2026 Main Conference (15.4% acceptance rate); the ACL Anthology version will be linked here once published.
+Try the interactive walkthrough on the [project page](https://culturalmoment-benchmark.github.io/), where the leaderboard and challenge details also live. The paper is an oral at the EMNLP 2026 Main Conference (2.7% acceptance rate); the ACL Anthology version will be linked here once published.
 
 ## Related
 
