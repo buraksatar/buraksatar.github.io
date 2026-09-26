@@ -39,7 +39,7 @@ EDUCATION
 PUBLICATIONS
 {% for pub in pubs %}- {{ pub.title }}. {{ pub.authors | join: ", " }}. {{ pub.citation_venue | default: pub.venue }}, {{ pub.date | date: "%Y" }}.{% if pub.doi %} DOI: {{ pub.doi }}.{% endif %} {{ site.url }}{{ pub.url }}
 {% endfor %}
-Under review: a video benchmark for cultural reasoning and grounding in Southeast Asia; retrieval-augmented reasoning segmentation in a cultural context. Drafts on request.
+Under review: retrieval-augmented reasoning segmentation in a cultural context. Drafts on request.
 
 AWARDS AND HONOURS
 {% for a in p.awards %}- {{ a }}.

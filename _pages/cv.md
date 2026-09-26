@@ -2,7 +2,7 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-last_modified: 2026-09-13
+last_modified: 2026-09-26
 author_profile: true
 excerpt: "CV of Burak Satar, Research Scientist at Singapore Management University; PhD in Computer Science from NTU; culturally-aware vision-language models."
 redirect_from:
@@ -40,7 +40,7 @@ redirect_from:
 * **Finalist**, Three Minute Thesis (3MT) @ NTU, representing CCDS, 2022
 * **SINGA Ph.D. Scholarship**, A\*STAR, 2020–2024
 * **Student Travel Award**, European Neural Network Society (ICANN), 2018
-* Oral presentations at ICIP 2021, ICCV Workshop 2021, CVPR Workshop 2023 and ICANN 2018
+* Oral presentations at EMNLP 2026, ICIP 2021, ICCV Workshop 2021, CVPR Workshop 2023 and ICANN 2018
 
 ## Publications
 

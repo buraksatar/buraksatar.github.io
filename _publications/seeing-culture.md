@@ -81,7 +81,7 @@ Browse the 1,065 images and 3,178 questions in the
 
 ## Related
 
-The video sequel, [Cultural Moment](/publications/cultural-moment/) (EMNLP 2026),
+The video sequel, [Cultural Moment](/publications/cultural-moment/) (EMNLP 2026, oral),
 carries the visual-option design into video and adds free-form temporal
 localization: name the concept, recognize it among unlabeled video moments, then
 locate its sub-events in time. Its
