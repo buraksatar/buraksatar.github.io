@@ -6,6 +6,7 @@ permalink: /talks/2021-10-16-iccv-srvu-semantic-role/
 venue: "ICCV 2021, SRVU Workshop"
 date: 2021-10-16
 location: "Virtual"
+paper: /publications/semantic-role-correlation/
 ---
 
 Oral presentation at the Structured Representations for Video Understanding (SRVU) workshop at ICCV 2021, held online in October 2021.

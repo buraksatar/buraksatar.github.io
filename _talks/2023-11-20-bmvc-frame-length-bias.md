@@ -6,6 +6,8 @@ permalink: /talks/2023-11-20-bmvc-frame-length-bias/
 venue: "BMVC 2023"
 date: 2023-11-20
 location: "Aberdeen, UK"
+recording: "https://www.youtube.com/watch?v=aMhNvTCkT8Y"
+paper: /publications/frame-length-bias/
 ---
 
 Poster presentation at the 34th British Machine Vision Conference, November 2023.

@@ -1,14 +1,34 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks"
 permalink: /talks/
 author_profile: true
-excerpt: "Conference talks and presentations by Burak Satar, with recordings where available."
+excerpt: "Conference talks, posters and invited talks by Burak Satar, with recordings where available."
 ---
 
 {% include base_path %}
-
 {% assign talks_sorted = site.talks | sort: 'date' | reverse %}
-{% for post in talks_sorted %}
-  {% include archive-single-talk.html %}
+{% assign now = site.time | date: '%s' | plus: 0 %}
+
+<p class="archive__lede">Conference talks, posters and invited talks. Recordings are linked where one exists.</p>
+
+<ul class="talk-list">
+{% for t in talks_sorted %}
+  {% assign when = t.date | date: '%s' | plus: 0 %}
+  <li class="talk-list__item">
+    <span class="talk-list__date">{{ t.date | date: '%b %Y' }}</span>
+    <div class="talk-list__body">
+      <a class="talk-list__title" href="{{ base_path }}{{ t.url }}">{{ t.title }}</a>
+      <span class="talk-list__meta">{{ t.type }} &middot; {{ t.venue }} &middot; {{ t.location }}</span>
+      {% if when > now or t.recording or t.paper or t.link_url %}
+      <span class="talk-list__links">
+        {%- if when > now %}<span class="chip chip--award">Upcoming</span>{% endif -%}
+        {%- if t.recording %}<a class="chip" href="{{ t.recording }}">Recording</a>{% endif -%}
+        {%- if t.paper %}<a class="chip" href="{{ base_path }}{{ t.paper }}">Paper</a>{% endif -%}
+        {%- if t.link_url %}<a class="chip" href="{{ t.link_url }}">{{ t.link_label | default: "Link" }}</a>{% endif -%}
+      </span>
+      {% endif %}
+    </div>
+  </li>
 {% endfor %}
+</ul>

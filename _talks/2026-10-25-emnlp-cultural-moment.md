@@ -6,6 +6,7 @@ permalink: /talks/2026-10-25-emnlp-cultural-moment/
 venue: "EMNLP 2026"
 date: 2026-10-25
 location: "Budapest, Hungary"
+paper: /publications/cultural-moment/
 ---
 
 Oral presentation at the 2026 Conference on Empirical Methods in Natural Language Processing, Session 2 (Resources and Evaluation 1), 25 October 2026, 11:00 to 12:30.

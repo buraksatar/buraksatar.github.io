@@ -4,17 +4,17 @@
 #   date: short human date, "Mon YYYY" (unambiguous internationally)
 #   text: markdown, one sentence, past tense
 
+- date: "Oct 2026"
+  text: "One paper under review at **ACM TOMM**: [Visually Grounded Augmentation for Reasoning Segmentation of Cultural Artifacts](/publications/rarseg/)."
+
 - date: "Sep 2026"
   text: "**Cultural Moment Benchmark** selected for an **oral** presentation at **EMNLP 2026** (2.7% acceptance rate), to be presented in Budapest on 25 Oct."
 
 - date: "Aug 2026"
   text: "**Cultural Moment Benchmark** accepted to **EMNLP 2026** (Main Conference); now on [arXiv](https://arxiv.org/abs/2608.23065) with a live [project page](https://culturalmoment-benchmark.github.io/)."
 
-#- date: "Jul 2026"
-#  text: "New essay: [Why Vision-Language Models Fail Outside the West](/blog/why-vlms-fail-outside-the-west/), alongside a maintained [list of cultural VLM resources](/resources/)."
-
-- date: "May 2026"
-  text: "Submitted a paper on video cultural reasoning to EMNLP 2026."
+- date: "Jul 2026"
+  text: "New essay: [Why Vision-Language Models Fail Outside the West](/blog/why-vlms-fail-outside-the-west/), alongside a maintained [list of cultural VLM resources](/resources/)."
 
 - date: "Mar 2026"
   text: "Invited talk at the CCDS Graduate Students' Club on [Developing Research Skills: From Process to Paper](https://www.linkedin.com/posts/buraksatar_ntu-ccds-phdlife-ugcPost-7437939467430121472-nfKp/)."
@@ -23,7 +23,7 @@
   text: "Served as a Registration Chair for [SSNLP 2026](https://ssnlp2026.github.io/#organizers)."
 
 - date: "Dec 2025"
-  text: "Created a meetup community, [Turquoise Dot](https://theturquoisedot.github.io/), for Turkish/Turkic researchers and tech professionals in Singapore."
+  text: "Co-founded a meetup community, [Turquoise Dot](https://theturquoisedot.github.io/), for Turkish/Turkic researchers and tech professionals in Singapore."
 
 - date: "Dec 2025"
   text: "Invited talk at [ResearchTrend.AI](https://www.linkedin.com/company/researchtrend-ai/) on **Seeing Culture**."
@@ -43,7 +43,7 @@
 - date: "May 2024"
   text: "Volunteered at the ACM Web Conference."
 
-- date: "Oct 2023"
+- date: "Jul 2023"
   text: "Visited the [MaVi Research Group](https://uob-mavi.github.io/) at the University of Bristol for three months, working with [Dr Michael Wray](https://mwray.github.io/) on video corpus moment retrieval."
 
 - date: "May 2023"

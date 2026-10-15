@@ -27,7 +27,7 @@ redirect_from:
   * Making vision-language models culturally aware, with reasoning across image, video, audio and text, starting with Southeast Asia; working with Prof Chong-Wah Ngo
 * **Jan 2020 – Dec 2024: Doctoral Researcher (SINGA Scholar)**, Institute for Infocomm Research (I<sup>2</sup>R), A\*STAR, Singapore
   * Semantic, debiased and moment-level text-to-video retrieval with multi-modal features
-* **Oct 2023 – Dec 2023: Visiting Researcher**, MaVi Research Group, University of Bristol, UK
+* **Jul 2023 – Oct 2023: Visiting Researcher**, MaVi Research Group, University of Bristol, UK
   * Video corpus moment retrieval, with [Dr Michael Wray](https://mwray.github.io/) in Dima Damen's group
 * **Feb 2019 – Sep 2019: Machine Learning Engineer**, Turkish Technic (Turkish Airlines), İstanbul, Türkiye
 * **Sep 2016 – Mar 2017: Software Engineer** (Erasmus+ traineeship), University of Valencia, Spain
@@ -48,12 +48,12 @@ See the [full publication list](/publications/) or my [Google Scholar profile](h
 
 ## Academic service & activities
 
-* **Workshop Bid**, a workshop on cultural understanding at ACL 2027, applied for with AI Singapore, MBZUAI and Oracle
+* **Workshop Bid**, a workshop on cultural understanding at CVPR 2027 and ICMR 2027, applied for with AI Singapore, MBZUAI and Oracle
 * **Registration Chair**, [SSNLP 2026](https://ssnlp2026.github.io/#organizers)
 * **Judge**, Singapore Science and Engineering Fair (SSEF) 2025
-* Programme Committee member & reviewer: AAAI 2026 and 2027, ACM MM 2026, ICANN 2019, IEEE Transactions on Artificial Intelligence
+* Programme Committee member & reviewer: AAAI 2026 and 2027, ACM MM 2026, IEEE Transactions on Artificial Intelligence
 * Volunteer: ACM Web Conference 2024, NeurIPS 2021
-* Founder, [Turquoise Dot](https://theturquoisedot.github.io/), a meetup community for Turkish and Turkic researchers and tech professionals in Singapore (2025)
+* Co-founder, [Turquoise Dot](https://theturquoisedot.github.io/), a meetup community for Turkish and Turkic researchers and tech professionals in Singapore (2025)
 * Summer schools: CIFAR DLRL 2022; PAISS 2021 (poster presentation)
 * Teaching and mentoring: see [Teaching](/teaching/)
 

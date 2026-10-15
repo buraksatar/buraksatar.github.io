@@ -4,10 +4,9 @@ title: "Burak Satar"
 seo_title: "Burak Satar - Research Scientist, culturally-aware vision-language models"
 excerpt: "Burak Satar is a Research Scientist at Singapore Management University making vision-language models culturally aware, starting with Southeast Asia."
 author_profile: true
-# /about/ is a real page now (_pages/about-me.md), so the homepage must not
-# also claim that URL: two documents targeting /about/index.html breaks the build.
-redirect_from:
-  - /about.html
+# /about/ is a real page (_pages/about-me.md). /about.html redirects there, not
+# here: GitHub Pages serves /about.html for a bare /about, so a homepage redirect
+# on that path sent anyone typing /about to the homepage.
 ---
 
 {% comment %}

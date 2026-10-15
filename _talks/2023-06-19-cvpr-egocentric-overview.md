@@ -6,6 +6,8 @@ permalink: /talks/2023-06-19-cvpr-egocentric-overview/
 venue: "CVPR 2023, Joint Ego4D/EPIC Workshop"
 date: 2023-06-19
 location: "Vancouver, Canada"
+recording: "https://www.youtube.com/watch?v=XnUMScoOPvM"
+paper: /publications/egocentric-challenges/
 ---
 
 Oral presentation of our extended abstract at the Joint Ego4D/EPIC workshop at CVPR 2023.

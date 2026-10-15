@@ -6,6 +6,8 @@ permalink: /talks/2021-09-19-icip-semantic-role/
 venue: "IEEE ICIP 2021"
 date: 2021-09-19
 location: "Virtual"
+recording: "https://www.youtube.com/watch?v=M7dHgv8fIkU"
+paper: /publications/semantic-role-correlation/
 ---
 
 Oral presentation at the IEEE International Conference on Image Processing, held online in September 2021.

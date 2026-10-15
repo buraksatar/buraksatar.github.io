@@ -1,34 +1,25 @@
 # main links
 #
 # The masthead already renders the site title as a persistent link home, so
-# there is no "Home" entry.
-#
-# "Publications" points at the real /publications/ page rather than the old
-# /#publications anchor, which could never match masthead.html's selected-state
-# check (`page.url contains link.url`).
-#
-# "Writing" rather than "Blog": there is one long essay plus a maintained
-# resource list, and "Writing" does not promise a posting cadence.
-#
-# Teaching, News and Meeting are deliberately absent. Meeting is already in the
-# sidebar on every page, and adding it here would make the site read as a sales
-# page. Teaching is linked from the CV and the "Work with me" block.
+# there is no "Home" entry. Teaching and Meeting stay out of the bar: Meeting is
+# in the sidebar on every page, and Teaching is linked from the CV and the
+# "Work with me" block.
 
 main:
   - title: "Publications"
     url: /publications/
 
-  # - title: "Writing" # publish after awsome-cultural-vlms blog post
-  #   url: /blog/
+  - title: "Talks"
+    url: /talks/
 
-  # - title: "Resources" # publish after awsome-cultural-vlms blog post
-  #   url: /resources/
+  - title: "Writing"
+    url: /blog/
+
+  - title: "Resources"
+    url: /resources/
 
   - title: "News"
     url: /news/
-
-  #- title: "Talks"
-  #  url: /talks/
 
   - title: "About"
     url: /about/

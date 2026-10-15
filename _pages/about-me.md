@@ -3,7 +3,9 @@ layout: single
 title: "About"
 seo_title: "About Burak Satar: how I got here, and what I actually work on"
 permalink: /about/
-last_modified: 2026-09-26
+redirect_from:
+  - /about.html
+last_modified: 2026-10-15
 author_profile: true
 excerpt: "Burak Satar: the route from Bursa to Singapore, and a plain-language explanation of research on culturally-aware vision-language models."
 ---
@@ -16,74 +18,57 @@ excerpt: "Burak Satar: the route from Bursa to Singapore, and a plain-language e
   to write rather than invented on your behalf.
 {% endcomment %}
 
-## The three-minute version
+## The short version
 
-Show a computer a photo of a wedding in Ohio and it will tell you about the
-dress, the cake, the first dance. Show it a Barong dance in Bali and ask which
-figure represents good, and it will still answer; fluently, immediately, and
-often wrongly. It has learned what confident text looks like, not what it is
-looking at.
+Show a vision-language model a wedding in Ohio and it will describe the dress,
+the cake, the first dance. Show it a Barong dance in Bali and ask which figure
+represents good, and it will still answer: fluently, immediately, and often
+wrongly. It has learned what a confident answer sounds like, not what it is
+looking at. The models learn from the internet, and the internet is not the world.
 
-This happens because the models are trained on whatever was on the internet, and
-the internet is not the world. Roughly speaking, the machine has seen a million
-Ohio weddings and a handful of Barong dances.
+My work is to measure that gap precisely enough to fix it.
+[Seeing Culture](/publications/seeing-culture/) (EMNLP 2025) makes a model show
+its work: answer a question about a cultural artifact, then point to it in the
+image. GPT-o3 answers **91%** of across-culture questions correctly, yet its
+grounding never rises above **32.5 mean IoU**. It says the right word and points
+at the wrong thing.
 
-My work is to prove that precisely enough that it can be fixed. We build tests.
-Our first benchmark, [Seeing Culture](/publications/seeing-culture/) (EMNLP 2025),
-does something most tests do not: it makes the model show its work. First answer the
-question about the artifact; then point to that artifact in the picture. A model
-that names the right thing while circling the wrong part of the image did not
-know the answer; it guessed well. Ordinary accuracy scores cannot tell those two
-apart. Ours can.
-
-The result is not subtle. On our benchmark GPT-o3 answers **91%** of
-across-culture questions correctly, and yet its grounding never rises above
-**32.5 mean IoU**. It says the right word and points at the wrong thing.
-
-[Cultural Moment](/publications/cultural-moment/) (EMNLP 2026, oral) carries the same
-principle into video, where culture lives in time as well as in pixels. A model
-must name a Southeast Asian concept from its symbolic description, recognize it
-among unlabeled video moments, and then locate its sub-events inside a different
-video of the same concept. We score the three abilities separately, and they do
-not compose: even the strongest closed-source models clear all three stages for
-fewer than **30%** of concepts, and a 14-rater human study shows the knowledge
-required is country-specific, not regional. You can
-[try all three stages yourself](https://culturalmoment-benchmark.github.io/) on
-the project page.
+[Cultural Moment](/publications/cultural-moment/) (EMNLP 2026, oral) carries the
+test into video, where culture unfolds in time. A model must name a Southeast
+Asian concept, recognize it among unlabeled video moments, and locate its
+sub-events. Even the strongest models clear all three stages for fewer than
+**30%** of concepts. You can
+[try the three stages yourself](https://culturalmoment-benchmark.github.io/).
 
 ## How I got here
 
-I grew up in **Bursa**, in northwest Türkiye, and studied electronics engineering
-at **Uludağ University**, with exchange semesters in **Siena** and **Naples**.
-After that a software engineering traineeship in **Valencia**, a master's back in
-Bursa on vehicle detection, a year as a machine learning engineer at Turkish
-Technic in **İstanbul**, and mentoring at a developer festival in **London**.
+Bursa → Siena and Naples → Valencia → Bursa → İstanbul → London → Singapore → Bristol → Singapore
+{: .about__route}
 
-Since 2020 I have been in **Singapore**: five years at NTU and A\*STAR's Institute
-for Infocomm Research on a SINGA scholarship, with three months at the University
-of **Bristol** in Dima Damen's group, and since March 2025 a Research Scientist at
-SMU.
+I grew up in **Bursa**, Türkiye, and studied electronics engineering at Uludağ
+University, with exchange semesters in Siena and Naples. Then came a software
+traineeship in Valencia, a master's on vehicle detection back in Bursa, machine
+learning engineering at Turkish Technic in İstanbul, and mentoring at a
+developer festival in London.
 
-Bursa → Siena and Naples → Valencia → Bursa → İstanbul → London → Singapore → Bristol → Singapore.
+Since 2020 I have been in **Singapore**: a PhD at NTU and A\*STAR's Institute
+for Infocomm Research on a SINGA scholarship, three months in Dima Damen's group
+at the University of Bristol, and, since March 2025, a Research Scientist at SMU.
 
-I am Turkish, I live in Singapore, and I work on Southeast Asia. I am an outsider
-to every culture in the Seeing Culture and Cultural Moment benchmarks, which is
-why they were built with people who are not: the co-authors, students and
-annotators from the countries in them. Cultural AI built only by people who
-visited is the problem, not the fix.
+I am an outsider to every culture in these benchmarks, which is why they were
+built with people who are not: co-authors, students and annotators from each
+country. Cultural AI built only by people who visited is the problem, not the fix.
 
 ## What I think the field should do
-
-This is the checklist that I would argue for:
 
 1. **Source data from the region, with the people of the region.** Representation
    is a data collection decision, not a fine-tuning trick.
 2. **Test concepts, not translations.** If the concept inventory is Western,
    translating the language changes nothing about what is measured.
 3. **Demand evidence, not just answers.** Grounding or segmentation separates
-   understanding from lucky guessing.
-4. **Report the gap, not the average.** A single accuracy number hides exactly the
-   disparity that matters.
+   understanding from a lucky guess.
+4. **Report the gap, not the average.** A single accuracy number hides exactly
+   the disparity that matters.
 5. **Treat cultural knowledge and cultural perception as different problems.**
    Fixing one does not fix the other.
 
@@ -93,7 +78,7 @@ This is the checklist that I would argue for:
 
 ## Elsewhere
 
-I run [Turquoise Dot](https://theturquoisedot.github.io/), a meetup for
+I co-run [Turquoise Dot](https://theturquoisedot.github.io/), a meetup for
 Turkish and Turkic researchers and tech professionals in Singapore, and I keep a
 [list of cultural VLM resources](/resources/) current as the field moves.
 
