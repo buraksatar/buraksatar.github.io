@@ -1,8 +1,8 @@
 ---
-title: "Retrieval-Augmented Reasoning Segmentation in Cultural Context"
+title: "Visually Grounded Augmentation for Reasoning Segmentation of Cultural Artifacts"
 collection: publications
 permalink: /publications/rarseg/
-excerpt: "Retrieval-augmented reasoning segmentation for culturally grounded scenes, so a model must retrieve the right cultural knowledge before it segments. Under review for ACM TOMM."
+excerpt: "Visually grounded augmentation for reasoning segmentation, so a model segments cultural artifacts from what it sees rather than from surface cues. Under review for ACM TOMM."
 date: 2026-04-01
 venue: "ACM TOMM (under review)"
 citation_venue: "ACM TOMM (under review)"
@@ -11,8 +11,6 @@ status: under-review
 authors:
   - "Zhixin Ma"
   - "Burak Satar"
-  - "Patrick Amadeus Irawan"
-  - "Wilfried Ariel Mulyawan"
   - "Phuong Anh Nguyen"
   - "Chong-Wah Ngo"
 equal_contrib:
@@ -20,9 +18,9 @@ equal_contrib:
   - "Burak Satar"
 ---
 
-**Zhixin Ma\***, **Burak Satar\***, Patrick Amadeus Irawan, Wilfried Ariel Mulyawan, Phuong Anh Nguyen, Chong-Wah Ngo (\* equal contribution)
+**Zhixin Ma\***, **Burak Satar\***, Phuong Anh Nguyen, Chong-Wah Ngo (\* equal contribution)
 
-*Retrieval-augmented reasoning segmentation for culturally grounded scenes, so a model must retrieve the right cultural knowledge before it segments.*
+*Visually grounded augmentation for reasoning segmentation, so a model segments cultural artifacts from what it sees rather than from surface cues.*
 
 ## Status
 
